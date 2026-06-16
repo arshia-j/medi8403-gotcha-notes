@@ -563,15 +563,9 @@ window.GOTCHA.modules.push(
      "credit": "Gzzz, Wikimedia Commons, CC BY-SA 4.0"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Infant_with_skin_lesions_from_congenital_rubella.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Blueberry_muffin_baby.jpg",
      "caption": "Congenital CMV - blueberry muffin rash (purpuric petechiae in neonate)",
-     "alt": "Widespread petechiae and purpuric macules ('blueberry muffin' rash) on a neonate — associated with congenital CMV and other TORCH infections causing extramedullary haematopoiesis",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Newborn_infant_with_severe_hemolytic_disease_%28erythroblastosis_foetalis%29_resulting_in_hydrops_foetalis.png",
-     "caption": "Fetal hydrops - ultrasound showing ascites, skin oedema and pleural effusion",
-     "alt": "Fetal hydrops on ultrasound — skin oedema, ascites and pleural effusion caused by severe fetal anaemia from parvovirus B19 infection",
+     "alt": "Congenital CMV - blueberry muffin rash (purpuric petechiae in neonate)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1579,15 +1573,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Situation</th><th>Intervention</th></tr><tr><td>Strong painless-loss history</td><td>History-indicated cerclage ~12-14 wk</td></tr><tr><td>Cervix &lt;=25 mm + prior PTB</td><td>USS-indicated cerclage</td></tr><tr><td>Cervix &lt;=25 mm, no PTB history</td><td>Vaginal progesterone</td></tr></table>",
    "id": "obs-59",
    "title": "Cervical Insufficiency",
-   "subtitle": "Painless mid-trimester loss; history- vs ultrasound-indicated cerclage",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cervix_length_measurement.jpg",
-     "caption": "Transvaginal ultrasound — short cervix with funnelling (cervical insufficiency)",
-     "alt": "Short endocervical canal length with funnelling of the internal os — classic ultrasound appearance of cervical insufficiency in the mid-trimester",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Painless mid-trimester loss; history- vs ultrasound-indicated cerclage"
   },
   {
    "topic": "Chorioamnionitis in a preterm woman: DELIVER, do not continue expectant management",
@@ -1664,15 +1650,7 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Routine vaginal delivery / routine CS with manual removal**' — high accreta risk demands MDT + hysterectomy readiness\n- Also: **11%** is the **2-prior-CS** figure, NOT 1",
    "id": "obs-50",
    "title": "Placenta Accreta Spectrum",
-   "subtitle": "Praevia plus prior caesarean; anticipate massive haemorrhage",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Placenta_accreta.png",
-     "caption": "Placenta accreta spectrum - MRI showing myometrial invasion",
-     "alt": "MRI sagittal view showing placenta with loss of normal myometrial signal / 'dark intraplacental bands' indicating accreta spectrum disorder",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Praevia plus prior caesarean; anticipate massive haemorrhage"
   },
   {
    "topic": "Placenta praevia vs placental abruption: the no-digital-VE rule",
@@ -1697,15 +1675,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Feature</th><th>Praevia</th><th>Abruption</th></tr></thead><tbody><tr><td>Pain</td><td>Painless</td><td>Painful</td></tr><tr><td>Uterus</td><td>Soft, non-tender</td><td>Tense, woody, tender</td></tr><tr><td>Bleeding</td><td>Fresh, visible</td><td>Dark, may be concealed</td></tr><tr><td>Fetus</td><td>Usually well</td><td>Distress / demise</td></tr><tr><td>DIC risk</td><td>Low</td><td>High</td></tr><tr><td>Digital VE</td><td>FORBIDDEN until USS</td><td>Avoid until praevia excluded</td></tr></tbody></table>",
    "id": "obs-48",
    "title": "Placenta Praevia",
-   "subtitle": "No digital VE in unexcluded APH",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2906_Placenta_Previa-02.jpg/960px-2906_Placenta_Previa-02.jpg",
-     "caption": "Placenta praevia - transvaginal ultrasound",
-     "alt": "Transvaginal ultrasound showing the placenta overlying or abutting the internal cervical os (major/complete praevia)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "No digital VE in unexcluded APH"
   },
   {
    "topic": "PPROM timing of delivery & no-tocolysis-if-infection",
@@ -1805,15 +1775,7 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Manually replace the cord** into the uterus' or 'handle/check the cord pulsation repeatedly'\n  - Minimise handling; relieve pressure and deliver",
    "id": "obs-57",
    "title": "Umbilical Cord Prolapse",
-   "subtitle": "Relieve cord pressure first, then immediate delivery",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cord.prolaps.jpg/960px-Cord.prolaps.jpg",
-     "caption": "Umbilical cord prolapse - clinical photograph",
-     "alt": "Prolapsed umbilical cord visibly presenting through or beyond the cervical os / vaginal introitus",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Relieve cord pressure first, then immediate delivery"
   },
   {
    "topic": "Vasa praevia: painless bleed at ROM + acute fetal compromise = FETAL blood",
@@ -1838,15 +1800,7 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Transfuse the mother** and continue labour' — the blood is fetal; immediate CS is the only answer",
    "id": "obs-49",
    "title": "Vasa Praevia",
-   "subtitle": "Bleed at ROM is fetal; immediate category-1 caesarean",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Vasaprevia.jpg",
-     "caption": "Vasa praevia - colour Doppler ultrasound showing fetal vessels over os",
-     "alt": "Colour Doppler transvaginal ultrasound demonstrating fetal blood vessels running across the internal cervical os (vasa praevia)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Bleed at ROM is fetal; immediate category-1 caesarean"
   },
   {
    "topic": "Active management of the third stage - prophylactic oxytocin (the biggest PPH preventer)",
@@ -1951,15 +1905,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">DR - Define Risk</span><span class=\"gv-pill\">C - Contractions/10min</span><span class=\"gv-pill\">BRa - Baseline Rate</span><span class=\"gv-pill\">V - Variability</span><span class=\"gv-pill\">A - Accelerations</span><span class=\"gv-pill\">D - Decelerations</span><span class=\"gv-pill\">O - Overall</span></div>",
    "id": "obs-65",
    "title": "CTG Framework",
-   "subtitle": "Time decelerations against contractions to separate early from late",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cardiotocography_diagram.jpg/960px-Cardiotocography_diagram.jpg",
-     "caption": "CTG - annotated trace with contractions (DR C BRAVADO features)",
-     "alt": "Cardiotocograph paper showing fetal heart rate channel and toco (contraction) channel with labelled features: baseline, variability, accelerations, decelerations timed against contractions",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Time decelerations against contractions to separate early from late"
   },
   {
    "topic": "CTG overall classification - feature-based, not the old three-tier grid",
@@ -2051,15 +1997,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Type</th><th>Timing vs contraction</th><th>Cause</th><th>Significance</th></tr></thead><tbody><tr><td>Early</td><td>Nadir = contraction peak (mirrors it)</td><td>Head compression (vagal)</td><td>Benign</td></tr><tr><td>Variable</td><td>Abrupt, V-shaped, variable/independent</td><td>Cord compression</td><td>OK if uncomplicated; bad if complicated</td></tr><tr><td>Late</td><td>Onset/nadir/recovery AFTER contraction</td><td>Uteroplacental insufficiency</td><td>Ominous (esp. with reduced variability)</td></tr></tbody></table>",
    "id": "obs-67",
    "title": "Decelerations: Early vs Variable vs Late",
-   "subtitle": "Timing is everything: late decels lag the contraction",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cardiotocography_diagram.jpg/960px-Cardiotocography_diagram.jpg",
-     "caption": "Early decelerations - CTG",
-     "alt": "CTG trace showing early decelerations: uniform, gradual onset deceleration that mirrors the contraction shape, nadir coinciding with contraction peak (head compression, benign)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Timing is everything: late decels lag the contraction"
   },
   {
    "topic": "Failure to progress in the active first stage - the number",
@@ -2079,15 +2017,7 @@ window.GOTCHA.modules.push(
    ],
    "id": "obs-63",
    "title": "Failure to Progress, First Stage",
-   "subtitle": "Arrest = no cervical change over ~4 h at >=6 cm",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Partogramm_Modell_NSIONI_2005.JPG/960px-Partogramm_Modell_NSIONI_2005.JPG",
-     "caption": "Partogram - showing prolonged/arrested labour",
-     "alt": "WHO/standard partogram with cervical dilatation plotted against time, showing a plot crossing the alert line and approaching the action line, illustrating slow/arrested progress",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Arrest = no cervical change over ~4 h at >=6 cm"
   },
   {
    "topic": "Fetal blood sampling (scalp lactate/pH) - the what-next numbers",
@@ -2180,9 +2110,9 @@ window.GOTCHA.modules.push(
      "credit": "Wikimedia Commons"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cardiotocography_diagram.jpg/960px-Cardiotocography_diagram.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Fetal_heart_rate_monitoring.jpg",
      "caption": "Fetal bradycardia on CTG - sustained deceleration >5 minutes",
-     "alt": "CTG strip showing fetal heart rate falling below 100 bpm and remaining there for more than 5 minutes (bradycardia / likely fetal compromise)",
+     "alt": "Fetal bradycardia on CTG - sustained deceleration >5 minutes",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2282,7 +2212,7 @@ window.GOTCHA.modules.push(
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Positive_Fern_Test.jpg/960px-Positive_Fern_Test.jpg",
      "caption": "Pooling of amniotic fluid on speculum exam - term PROM",
-     "alt": "Speculum examination showing pooling of clear amniotic fluid in the posterior vaginal fornix, confirming rupture of membranes at term",
+     "alt": "Pooling of amniotic fluid on speculum exam - term PROM",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2304,15 +2234,7 @@ window.GOTCHA.modules.push(
    ],
    "id": "obs-64",
    "title": "The 3 Ps of Poor Progress",
-   "subtitle": "Oxytocin only fixes Power, not Passenger or Passage",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Breech_presentation%2C_from_Ramsbotham%2C_Principals...1841_Wellcome_L0004298.jpg/960px-Breech_presentation%2C_from_Ramsbotham%2C_Principals...1841_Wellcome_L0004298.jpg",
-     "caption": "Occiput posterior malposition - fetal head CT or diagram",
-     "alt": "Diagram or ultrasound showing occiput posterior position of the fetal head as a classic Passenger cause of poor progress",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Oxytocin only fixes Power, not Passenger or Passage"
   },
   {
    "topic": "Operative vaginal delivery: when to abandon & no sequential instruments",
@@ -2341,15 +2263,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Apply instrument correctly</div><div class=\"gv-step\">No descent / cup off x3 / no birth in 3 pulls</div><div class=\"gv-step\">ABANDON -> caesarean</div><div class=\"gv-step\">(NOT a second instrument)</div></div>",
    "id": "obs-92",
    "title": "Abandoning Operative Vaginal Delivery",
-   "subtitle": "No descent after three pulls: stop, no sequential instruments",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/%22Burton%22_obstetical_forceps_Wellcome_L0008317.jpg/960px-%22Burton%22_obstetical_forceps_Wellcome_L0008317.jpg",
-     "caption": "Forceps applied to fetal head - operative vaginal delivery",
-     "alt": "Diagram or photo showing obstetric forceps correctly applied to the fetal head in the left and right occiput anterior position",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "No descent after three pulls: stop, no sequential instruments"
   },
   {
    "topic": "Uterine inversion: STOP uterotonics, replace FAST (the counter-intuitive step)",
@@ -2436,9 +2350,9 @@ window.GOTCHA.modules.push(
    "subtitle": "ECV from 37 weeks; planned CS the default",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Breechpre.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Frank_breech.jpg/960px-Frank_breech.jpg",
      "caption": "Breech presentation on ultrasound - frank breech",
-     "alt": "Ultrasound scan showing frank breech presentation with fetal buttocks presenting, legs extended, head in fundus",
+     "alt": "Breech presentation on ultrasound - frank breech",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2579,15 +2493,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">CPR + manual LEFT uterine displacement</div><div class=\"gv-step\">No ROSC?</div><div class=\"gv-step\">Resuscitative hysterotomy by ~4 min, at scene</div><div class=\"gv-step\">(to restore maternal circulation)</div></div>",
    "id": "obs-93",
    "title": "Perimortem Caesarean Section",
-   "subtitle": "Left uterine displacement; deliver within 4 minutes of arrest",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_baby_being_removed_from_its_dying_mother%27s_womb_via_Caesar_Wellcome_V0014915.jpg/960px-A_baby_being_removed_from_its_dying_mother%27s_womb_via_Caesar_Wellcome_V0014915.jpg",
-     "caption": "Perimortem caesarean section - left uterine displacement during CPR",
-     "alt": "Clinical photograph or diagram showing manual left uterine displacement applied during CPR in a pregnant cardiac arrest patient to relieve aortocaval compression",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Left uterine displacement; deliver within 4 minutes of arrest"
   },
   {
    "topic": "Post-term pregnancy: when to offer induction",
@@ -2673,12 +2579,6 @@ window.GOTCHA.modules.push(
      "caption": "Suprapubic pressure technique for shoulder dystocia",
      "alt": "Diagram or photograph showing suprapubic pressure applied downward and laterally above the pubic symphysis to dislodge the anterior shoulder in shoulder dystocia",
      "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/ShoulderDystociaFig1.jpg",
-     "caption": "Turtle sign - shoulder dystocia at delivery",
-     "alt": "Clinical photograph showing the turtle sign - fetal head retracting against the perineum after delivery, indicating impacted shoulder dystocia",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -2726,21 +2626,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">ROM + sudden fetal bradycardia -> feel for cord</div><div class=\"gv-step\">Manually elevate presenting part off cord</div><div class=\"gv-step\">Knee-chest / Trendelenburg + fill bladder (~500 mL)</div><div class=\"gv-step\">Category 1 caesarean (or instrumental if fully dilated)</div></div>",
    "id": "obs-88",
    "title": "Umbilical Cord Prolapse",
-   "subtitle": "Relieve compression with knee-chest; do not reduce cord",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cord.prolaps.jpg/960px-Cord.prolaps.jpg",
-     "caption": "Umbilical cord prolapse - cord visible at vulva",
-     "alt": "Umbilical cord prolapsed through the cervix and visible at the vaginal introitus",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/CTG_Output.jpg",
-     "caption": "CTG - variable decelerations with cord compression",
-     "alt": "Cardiotocograph showing variable decelerations characteristic of cord compression",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Relieve compression with knee-chest; do not reduce cord"
   },
   {
    "topic": "Uterine atony: the drug + intervention ladder (doses)",
@@ -2791,15 +2677,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Remove PGE2 / stop oxytocin</div><div class=\"gv-step\">Left lateral, IV fluids, O2</div><div class=\"gv-step\">Persists -> terbutaline 250 mcg SC</div><div class=\"gv-step\">No response -> deliver</div></div>",
    "id": "obs-90",
    "title": "Uterine Tachysystole",
-   "subtitle": "Over 5 contractions per 10 minutes; stop oxytocin",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cardiotocography_diagram.jpg/960px-Cardiotocography_diagram.jpg",
-     "caption": "CTG - uterine tachysystole with fetal decelerations",
-     "alt": "Cardiotocograph demonstrating more than 5 contractions in 10 minutes (tachysystole) with associated fetal heart rate decelerations",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Over 5 contractions per 10 minutes; stop oxytocin"
   },
   {
    "topic": "VBAC: the cardinal risk is uterine rupture - what raises it and what's the sign?",
@@ -2827,12 +2705,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cesarean_section.jpg/960px-Cesarean_section.jpg",
      "caption": "Uterine rupture - intraoperative finding",
      "alt": "Intraoperative photograph showing complete uterine wall rupture with fetal parts visible in the abdominal cavity",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kardiotokogramm.jpg/960px-Kardiotokogramm.jpg",
-     "caption": "CTG - sudden severe bradycardia (uterine rupture)",
-     "alt": "Cardiotocograph showing abrupt onset of prolonged fetal bradycardia preceding uterine rupture",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2920,15 +2792,15 @@ window.GOTCHA.modules.push(
    "subtitle": "Keep breastfeeding; stopping promotes abscess",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Atlas_of_clinical_surgery%3B_with_special_reference_to_diagnosis_and_treatment_for_practitioners_and_students_%281908%29_%2814768289625%29.jpg/960px-Atlas_of_clinical_surgery%3B_with_special_reference_to_diagnosis_and_treatment_for_practitioners_and_students_%281908%29_%2814768289625%29.jpg",
-     "caption": "Mastitis - unilateral breast erythema and swelling",
-     "alt": "Unilateral segmental erythema, warmth and swelling of the breast consistent with infective mastitis in a breastfeeding woman",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Ultrasound_image_of_breast_110323101432_1023480.jpg",
      "caption": "Breast abscess - ultrasound with hypoechoic collection",
      "alt": "Breast ultrasound showing a well-defined hypoechoic/anechoic collection with thick walls representing a lactational breast abscess",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pecho_enrojecido.jpg/960px-Pecho_enrojecido.jpg",
+     "caption": "Mastitis - unilateral breast erythema and swelling",
+     "alt": "Mastitis - unilateral breast erythema and swelling",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2960,21 +2832,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Degree</th><th>Structures involved</th><th>Repair</th></tr></thead><tbody><tr><td>1st</td><td>Skin / vaginal mucosa only</td><td>May not need suturing</td></tr><tr><td>2nd</td><td>Perineal muscles (sphincter intact)</td><td>Delivery room</td></tr><tr><td>3a / 3b / 3c</td><td>External AS &lt;50% / &gt;50% / + internal AS</td><td>Theatre (OASIS)</td></tr><tr><td>4th</td><td>+ Anal/rectal epithelium</td><td>Theatre (OASIS)</td></tr></tbody></table>",
    "id": "obs-105",
    "title": "Perineal Tears and OASIS",
-   "subtitle": "3c is still 3rd-degree; 4th reaches anorectal mucosa",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Hirst-1898-Obstetrics-fig428-Perforations-and-lacerations-of-the-nymphce-Bar.jpg",
-     "caption": "Perineal tear grading diagram (1st through 4th degree / OASIS)",
-     "alt": "Anatomical diagram illustrating the four grades of perineal tears with particular emphasis on 3a, 3b, 3c and 4th-degree OASIS involvement of the anal sphincter complex and anorectal mucosa",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hirst-1898-Obstetrics-fig427-Perforations-and-lacerations-of-the-nymphce-Bar.jpg",
-     "caption": "4th-degree perineal tear - anorectal mucosa visible",
-     "alt": "Clinical photograph of a 4th-degree perineal tear showing complete disruption of the anal sphincter complex with exposure of anorectal mucosa",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "3c is still 3rd-degree; 4th reaches anorectal mucosa"
   },
   {
    "topic": "Postnatal mental health — baby blues vs PND vs postpartum PSYCHOSIS (the emergency)",
@@ -3205,9 +3063,9 @@ window.GOTCHA.modules.push(
    "subtitle": "Failure to lactate after massive PPH",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pituitary_apoplexy.jpg/960px-Pituitary_apoplexy.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Empty_Sella_MRT_T1KM_cor_001.jpg",
      "caption": "Sheehan syndrome - empty sella on MRI pituitary",
-     "alt": "MRI of the pituitary fossa demonstrating an empty or partially empty sella turcica consistent with pituitary infarction following postpartum haemorrhage (Sheehan syndrome)",
+     "alt": "Sheehan syndrome - empty sella on MRI pituitary",
      "credit": "Wikimedia Commons"
     }
    ]

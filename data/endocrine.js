@@ -295,12 +295,6 @@ window.GOTCHA.modules.push(
      "caption": "Amiodarone thyrotoxicosis Type 1 - toxic nodular goitre on isotope scan (hot nodule)",
      "alt": "Radionuclide thyroid uptake scan showing a hot autonomous nodule (Type 1 amiodarone thyrotoxicosis substrate)",
      "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ultrasound_of_thyroid_showing_right_lower_pole_cyst_and_a_calcified_nodule.jpg/960px-Ultrasound_of_thyroid_showing_right_lower_pole_cyst_and_a_calcified_nodule.jpg",
-     "caption": "Amiodarone thyrotoxicosis Type 2 - destructive thyroiditis (thyroid ultrasound with Doppler)",
-     "alt": "Colour-flow Doppler ultrasound of thyroid showing reduced vascularity (Type 2 destructive thyroiditis pattern)",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -953,15 +947,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Feature</th><th>SIADH</th><th>Diabetes insipidus (AVP-D/AVP-R)</th></tr></thead><tbody><tr><td>ADH effect</td><td>Excess</td><td>Deficient/ineffective</td></tr><tr><td>Serum Na</td><td>Low</td><td>High / high-normal</td></tr><tr><td>Plasma osm</td><td>Low (&lt;275)</td><td>High</td></tr><tr><td>Urine osm</td><td>High (&gt;100, conc.)</td><td>Low (dilute)</td></tr><tr><td>Volume</td><td>Euvolaemic</td><td>Volume-depleted if no water</td></tr><tr><td>Treat</td><td>Fluid restrict (3% saline if severe)</td><td>dDAVP (cranial); treat cause (nephrogenic)</td></tr></tbody></table>",
    "title": "SIADH vs Diabetes Insipidus (AVP-D/AVP-R)",
    "subtitle": "opposite ends of the ADH axis",
-   "id": "endocrine-25",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Hyponatraemia_Causes.svg/960px-Hyponatraemia_Causes.svg.png",
-     "caption": "SIADH - hyponatraemia with concentrated urine (biochemistry comparison chart)",
-     "alt": "Comparison table of SIADH vs diabetes insipidus: plasma osmolality, urine osmolality, urine sodium, serum sodium, and volume status to aid differentiation",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "endocrine-25"
   },
   {
    "topic": "Hypercalcaemia — malignancy vs primary hyperparathyroidism (the PTH discriminator) + crisis fluids-first sequence",
@@ -996,12 +982,6 @@ window.GOTCHA.modules.push(
    "subtitle": "malignancy vs primary hyperparathyroidism (the PTH discriminator) + crisis fluids-first sequence",
    "id": "endocrine-26",
    "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/E281_%28CardioNetworks_ECGpedia%29.jpg/960px-E281_%28CardioNetworks_ECGpedia%29.jpg",
-     "caption": "Hypercalcaemia - ECG changes (short QT interval)",
-     "alt": "Short QT interval and J-point changes characteristic of hypercalcaemia",
-     "credit": "Wikimedia Commons"
-    },
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Hyperparathyroidism_Brown_Tumors_of_Hands.jpg/960px-Hyperparathyroidism_Brown_Tumors_of_Hands.jpg",
      "caption": "Primary hyperparathyroidism - subperiosteal bone resorption on X-ray",

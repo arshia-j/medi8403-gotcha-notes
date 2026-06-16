@@ -776,9 +776,9 @@ window.GOTCHA.modules.push(
    "id": "surg-perioperative-23",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/ECG_Pattern_Of_Hypokalemia.png",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/ECG_long-QT_bionerd.jpg/960px-ECG_long-QT_bionerd.jpg",
      "caption": "Hypophosphataemia on ECG — prolonged QT, U waves (refeeding syndrome hallmark)",
-     "alt": "ECG changes of severe hypophosphataemia / hypokalaemia seen in refeeding syndrome",
+     "alt": "Hypophosphataemia on ECG — prolonged QT, U waves (refeeding syndrome hallmark)",
      "credit": "Wikimedia Commons"
     }
    ]

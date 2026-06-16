@@ -598,9 +598,9 @@ window.GOTCHA.modules.push(
      "credit": "Ashashyou, Wikimedia Commons, CC BY-SA 4.0 (gauze edge cropped)"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Varicose_veins_affecting_the_lower_leg_Wellcome_L0061800.jpg/960px-Varicose_veins_affecting_the_lower_leg_Wellcome_L0061800.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Chronicvenousinsufficiency.jpg/960px-Chronicvenousinsufficiency.jpg",
      "caption": "Varicose veins with venous skin changes - lipodermatosclerosis and haemosiderin deposition",
-     "alt": "Tortuous varicose veins with chronic venous insufficiency changes — lipodermatosclerosis, haemosiderin staining and early skin breakdown",
+     "alt": "Varicose veins with venous skin changes - lipodermatosclerosis and haemosiderin deposition",
      "credit": "Wikimedia Commons"
     }
    ]

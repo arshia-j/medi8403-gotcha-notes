@@ -355,12 +355,6 @@ window.GOTCHA.modules.push(
      "caption": "Urine microscopy — muddy brown granular casts (ATN)",
      "alt": "Muddy brown granular casts on urine microscopy, pathognomonic of acute tubular necrosis",
      "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Formed_elements_of_urine.png/960px-Formed_elements_of_urine.png",
-     "caption": "Urine microscopy — red cell casts (glomerulonephritis)",
-     "alt": "Red cell casts in urine sediment indicating glomerulonephritis as the cause of haematuria and AKI",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -757,21 +751,7 @@ window.GOTCHA.modules.push(
    ],
    "title": "BPH & acute urinary retention",
    "subtitle": "catheterise first, alpha-blocker before TWOC, watch the residual volume",
-   "id": "renal-22",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ultrasonography_of_keyhole_sign_of_lower_urinary_tract_obstruction.jpg",
-     "caption": "Acute urinary retention — ultrasound showing grossly distended bladder",
-     "alt": "Transabdominal ultrasound showing a markedly distended urinary bladder with large post-void residual volume consistent with acute urinary retention",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Prostatahyperplasie_Koprostase_Sono.jpg",
-     "caption": "BPH — transrectal ultrasound showing enlarged prostate",
-     "alt": "Transrectal ultrasound demonstrating benign prostatic hyperplasia with enlarged prostate gland causing bladder outlet obstruction",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "renal-22"
   },
   {
    "topic": "Obstructed + infected kidney — the true urological emergency (decompress, don't just give antibiotics)",
@@ -1067,15 +1047,7 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Lupus nephritis",
    "subtitle": "BIOPSY decides class & treatment; HCQ for everyone",
-   "id": "renal-32",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Diffuse_proliferative_lupus_nephritis_-_high_mag.jpg/960px-Diffuse_proliferative_lupus_nephritis_-_high_mag.jpg",
-     "caption": "Lupus nephritis — renal biopsy immunofluorescence showing full-house pattern",
-     "alt": "Immunofluorescence of renal biopsy in lupus nephritis showing full-house staining (IgG, IgA, IgM, C3, C1q) with mesangial and subendothelial deposits — determines ISN/RPS class and drives treatment",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "renal-32"
   },
   {
    "topic": "Nephritic vs nephrotic syndrome — the discriminator that decides everything",
@@ -1138,12 +1110,6 @@ window.GOTCHA.modules.push(
      "caption": "Post-streptococcal GN — urine microscopy showing red cell casts",
      "alt": "Phase-contrast urine microscopy showing red cell casts in the setting of post-streptococcal glomerulonephritis — the classic nephritic sediment following streptococcal infection",
      "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/A_woman%E2%80%99s_face%2C_badly_affected_with_lesions_of_impetigo_Wellcome_L0074831.jpg/960px-A_woman%E2%80%99s_face%2C_badly_affected_with_lesions_of_impetigo_Wellcome_L0074831.jpg",
-     "caption": "Impetigo (streptococcal skin infection) — crusted lesions as trigger for PSGN",
-     "alt": "Clinical photograph of impetigo — honey-coloured crusted lesions caused by group A streptococcus — the skin infection trigger for PSGN with a 3-6 week latency (vs 1-3 weeks for pharyngitis)",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1172,9 +1138,9 @@ window.GOTCHA.modules.push(
    "id": "renal-35",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Formed_elements_of_urine.png/960px-Formed_elements_of_urine.png",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/RTE_cast%2C_muddy_granular_cast%2C_WBC_cast_and_RBC_cast_in_urine.jpg",
      "caption": "Phase-contrast urine microscopy — dysmorphic red cells and casts",
-     "alt": "Phase-contrast microscopy of urine sediment showing dysmorphic acanthocytes (glomerular red cells) and a granular cast — used to differentiate glomerular from non-glomerular haematuria",
+     "alt": "Phase-contrast urine microscopy — dysmorphic red cells and casts",
      "credit": "Wikimedia Commons"
     }
    ]

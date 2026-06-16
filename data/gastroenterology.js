@@ -28,15 +28,7 @@ window.GOTCHA.modules.push(
    ],
    "visualHtml": "<table class=\"gv-table\"><tr><th>Drug / indication</th><th>After haemostasis</th></tr><tr><td>Aspirin — secondary prevention</td><td>Resume early (~<span class=\"gv-num\">3-5 days</span>) + PPI</td></tr><tr><td>Aspirin — primary prevention</td><td>Usually cease</td></tr><tr><td>DAPT post recent stent</td><td>Continue — cardiology input (stent thrombosis risk)</td></tr><tr><td>Anticoagulant</td><td>Reverse/hold acutely; restart per thrombotic risk</td></tr></table>",
    "title": "Antiplatelet/anticoagulant management around an upper GI bleed…",
-   "id": "gastroenterology-1",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gastric_ulcer_3.jpg/640px-Gastric_ulcer_3.jpg",
-     "caption": "Peptic ulcer - endoscopic appearance (Forrest Ia/Ib active bleeding)",
-     "alt": "Upper GI endoscopy showing an actively bleeding gastric or duodenal ulcer, providing clinical context for the antiplatelet/anticoagulant management decision after haemostasis",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "gastroenterology-1"
   },
   {
    "topic": "Dyspepsia red flags (ALARMS) & who skips test-and-treat for endoscopy",
@@ -218,21 +210,9 @@ window.GOTCHA.modules.push(
    "id": "gastroenterology-7",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gastric_ulcer_3.jpg/640px-Gastric_ulcer_3.jpg",
-     "caption": "Forrest Ia - actively spurting peptic ulcer (endoscopy)",
-     "alt": "Endoscopic image of Forrest Ia classification: a peptic ulcer with active arterial spurting haemorrhage - highest risk, mandates endoscopic haemostasis",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/GU_with_clip.jpg/640px-GU_with_clip.jpg",
      "caption": "Forrest IIa - non-bleeding visible vessel in peptic ulcer (endoscopy)",
      "alt": "Endoscopic image of Forrest IIa classification: a non-bleeding visible vessel (pigmented protuberance) in a peptic ulcer base - high re-bleed risk requiring endoscopic therapy",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Benign_gastric_ulcer_1.jpg/640px-Benign_gastric_ulcer_1.jpg",
-     "caption": "Forrest III - clean-base peptic ulcer (endoscopy)",
-     "alt": "Endoscopic image of Forrest III classification: a clean-based peptic ulcer with no stigmata of recent haemorrhage - low re-bleed risk, oral PPI sufficient, no endoscopic therapy needed",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -260,15 +240,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Age >65</span><span class=\"gv-pill\">Prior ulcer/GI bleed</span><span class=\"gv-pill\">High-dose/2+ NSAIDs</span><span class=\"gv-pill\">+ anticoagulant</span><span class=\"gv-pill\">+ aspirin/antiplatelet</span><span class=\"gv-pill\">+ corticosteroid</span><span class=\"gv-pill\">+ SSRI</span></div>",
    "title": "NSAID ulcer",
    "subtitle": "who needs gastroprotection and the aspirin/SSRI multiplier",
-   "id": "gastroenterology-8",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Erosive_gastric_ulcer.jpg/640px-Erosive_gastric_ulcer.jpg",
-     "caption": "NSAID/peptic ulcer - endoscopic appearance",
-     "alt": "Upper GI endoscopy showing a gastric ulcer in the antrum or lesser curvature, typical site for NSAID-induced peptic ulceration",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "gastroenterology-8"
   },
   {
    "topic": "Restrictive transfusion threshold in upper GI bleeding (70 g/L)",
@@ -393,12 +365,6 @@ window.GOTCHA.modules.push(
      "caption": "Toxic megacolon on AXR — grossly dilated transverse colon with mucosal islands",
      "alt": "Toxic megacolon complicating acute severe UC — transverse colon >6 cm with thumbprinting/mucosal islands on plain abdominal radiograph",
      "credit": "Hellerhoff, Wikimedia Commons, CC BY-SA 3.0"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ulcerative_colitis.jpg/640px-Ulcerative_colitis.jpg",
-     "caption": "Acute severe UC — colonoscopy showing continuous confluent mucosal inflammation",
-     "alt": "Colonoscopy appearance of acute severe ulcerative colitis: continuous erythema, ulceration, contact bleeding, no intervening normal mucosa",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -524,21 +490,15 @@ window.GOTCHA.modules.push(
    "id": "gastroenterology-16",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Ulcerative_colitis.jpg",
-     "caption": "Ulcerative colitis — colonoscopy with continuous mucosal inflammation from rectum",
-     "alt": "Colonoscopy in ulcerative colitis showing continuous, confluent mucosal erythema, ulceration and contact bleeding starting from the rectum without skip lesions",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fistula_%26_Abscss_diag_01.png/960px-Fistula_%26_Abscss_diag_01.png",
+     "caption": "Crohn's disease — perianal fistula/skin tags",
+     "alt": "Perianal Crohn's disease with skin tags and external fistula openings — a classic exam-discriminating clinical sign not seen in UC",
      "credit": "Wikimedia Commons"
     },
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/CD_colitis_2.jpg",
      "caption": "Crohn's disease — colonoscopy with skip lesions and cobblestoning",
-     "alt": "Colonoscopy in Crohn's disease showing discontinuous deep ulcers, cobblestone mucosa, and areas of normal intervening mucosa (skip lesions)",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fistula_%26_Abscss_diag_01.png/960px-Fistula_%26_Abscss_diag_01.png",
-     "caption": "Crohn's disease — perianal fistula/skin tags",
-     "alt": "Perianal Crohn's disease with skin tags and external fistula openings — a classic exam-discriminating clinical sign not seen in UC",
+     "alt": "Crohn's disease — colonoscopy with skip lesions and cobblestoning",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -762,12 +722,6 @@ window.GOTCHA.modules.push(
      "caption": "Pancreatic pseudocyst — CT showing peripancreatic walled-off fluid collection",
      "alt": "CT abdomen showing a large rounded peripancreatic fluid collection with a defined wall (pseudocyst) — a late complication of acute pancreatitis relevant to severity assessment",
      "credit": "Hellerhoff, Wikimedia Commons, CC BY-SA 4.0"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pankreatitis_exsudativ_CT_axial.jpg/960px-Pankreatitis_exsudativ_CT_axial.jpg",
-     "caption": "Necrotising pancreatitis — CT showing pancreatic necrosis (non-enhancing areas)",
-     "alt": "CECT abdomen demonstrating areas of pancreatic non-enhancement representing necrosis — the CT finding driving severe pancreatitis classification and CTSI scoring",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -971,12 +925,6 @@ window.GOTCHA.modules.push(
      "caption": "Alcoholic hepatitis — jaundice and scleral icterus",
      "alt": "Scleral icterus in alcoholic hepatitis reflecting conjugated hyperbilirubinaemia — used in Maddrey's discriminant function (bilirubin component)",
      "credit": "Bobjgalindo, Wikimedia Commons, CC BY-SA 4.0 (cropped)"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Comparison_of_Cutaneous_Jaundice_and_Scleral_Icterus.jpg/960px-Comparison_of_Cutaneous_Jaundice_and_Scleral_Icterus.jpg",
-     "caption": "Alcoholic hepatitis — ascites and jaundice with peripheral stigmata of chronic liver disease",
-     "alt": "Distended abdomen from ascites with jaundiced skin in decompensated alcoholic hepatitis, often accompanied by spider naevi and palmar erythema",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1020,12 +968,6 @@ window.GOTCHA.modules.push(
      "caption": "Decompensated cirrhosis — massive ascites on clinical examination",
      "alt": "Grossly distended abdomen from tense ascites in decompensated cirrhosis, with visible flanks bulging and umbilical eversion — a cardinal sign of hepatic decompensation",
      "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mallorys_Hyalin_in_Alcoholic_Liver_Disease_%282632109950%29.jpg/960px-Mallorys_Hyalin_in_Alcoholic_Liver_Disease_%282632109950%29.jpg",
-     "caption": "CT abdomen — cirrhotic liver with nodular surface, splenomegaly and ascites",
-     "alt": "CT abdomen showing shrunken nodular liver with irregular surface (cirrhosis), splenomegaly, and free peritoneal fluid (ascites) — radiological hallmarks of portal hypertension",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1064,12 +1006,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/HemochromatosisSkin.jpg",
      "caption": "Haemochromatosis — bronze skin discolouration (bronzed diabetes)",
      "alt": "Characteristic bronze-grey hyperpigmentation of the skin in hereditary haemochromatosis due to iron and melanin deposition — the 'bronzed diabetes' classic clinical finding",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Jcm-12-02679-g004-550.jpg",
-     "caption": "Haemochromatosis — MRI liver showing iron overload (dark liver on T2)",
-     "alt": "T2-weighted MRI liver demonstrating diffuse decreased signal intensity (dark liver) due to paramagnetic iron deposition — the non-invasive gold standard for quantifying hepatic iron overload",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1317,9 +1253,9 @@ window.GOTCHA.modules.push(
      "credit": "Mark F. Brady; Prashanth Rawla, CC BY-SA 4.0"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Non-alcoholic_fatty_liver_disease1.jpg/960px-Non-alcoholic_fatty_liver_disease1.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Steatosis_hepatis_mit_Zirrhosezeichen_39M_-_CT_axial_und_coronar_KM_pv_-_001.jpg/960px-Steatosis_hepatis_mit_Zirrhosezeichen_39M_-_CT_axial_und_coronar_KM_pv_-_001.jpg",
      "caption": "CT abdomen — hepatic steatosis (fatty liver)",
-     "alt": "Axial CT showing diffuse low-attenuation liver parenchyma (liver density less than spleen) consistent with significant hepatic steatosis in NAFLD/MASLD",
+     "alt": "CT abdomen — hepatic steatosis (fatty liver)",
      "credit": "Wikimedia Commons"
     }
    ]

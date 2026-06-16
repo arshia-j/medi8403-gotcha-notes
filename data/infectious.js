@@ -281,7 +281,7 @@ window.GOTCHA.modules.push(
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Tuberculous-meningitis-scan.jpg",
      "caption": "Bacterial meningitis - CT head (pre-LP)",
-     "alt": "CT head showing cerebral oedema/herniation risk justifying pre-LP imaging in meningitis",
+     "alt": "Bacterial meningitis - CT head (pre-LP)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1037,15 +1037,9 @@ window.GOTCHA.modules.push(
    "id": "infectious-32",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/O._tsutsugamushi_infection.tif/lossy-page1-960px-O._tsutsugamushi_infection.tif.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Scalp_Eschar.jpg",
      "caption": "Rickettsial eschar - tache noire at site of mite bite (scrub typhus/spotted fever)",
-     "alt": "Black eschar with surrounding erythema at the site of rickettsial mite bite",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Rocky_Mountain_spotted_fever_PHIL_1962_lores.jpg",
-     "caption": "Rickettsial maculopapular rash - trunk involvement",
-     "alt": "Maculopapular rash over trunk in rickettsial spotted fever",
+     "alt": "Rickettsial eschar - tache noire at site of mite bite (scrub typhus/spotted fever)",
      "credit": "Wikimedia Commons"
     }
    ]

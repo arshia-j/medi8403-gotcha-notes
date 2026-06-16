@@ -119,15 +119,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Clinical suspicion</div><div class=\"gv-step\">Dexamethasone <span class=\"gv-num\">16 mg</span>/day NOW (+PPI)</div><div class=\"gv-step\">MRI WHOLE spine &lt;24 h</div><div class=\"gv-step\">RadOnc + Neurosurg -> RT or decompression</div></div>",
    "title": "Malignant spinal cord compression",
    "subtitle": "dexamethasone FIRST, then MRI whole spine, then definitive Rx",
-   "id": "oncology-4",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Compressive_myeolopathy_C6C7.png",
-     "caption": "Malignant spinal cord compression - MRI showing epidural metastasis with cord compression",
-     "alt": "Sagittal MRI spine with enhancing vertebral metastasis compressing the thoracic spinal cord",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "oncology-4"
   },
   {
    "topic": "Neutropenic sepsis source control & antifungal escalation (the 48-72 h rule)",
@@ -185,15 +177,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Dexamethasone for vasogenic oedema</span><span class=\"gv-pill\">NO seizure prophylaxis unless seized</span><span class=\"gv-pill\">Mannitol/hypertonic saline = herniation only</span></div>",
    "title": "Raised intracranial pressure from brain metastases",
    "subtitle": "dexamethasone + the seizure-prophylaxis trap",
-   "id": "oncology-6",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Cancers-13-00732-g003-550.webp",
-     "caption": "Brain metastases - CT showing multiple enhancing lesions with surrounding vasogenic oedema",
-     "alt": "Contrast CT brain with multiple ring-enhancing metastatic deposits and extensive surrounding white-matter oedema (vasogenic)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "oncology-6"
   },
   {
    "topic": "SVC obstruction — usually NOT a true emergency; get tissue before treating",
@@ -218,15 +202,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Scenario</th><th>Action</th></tr><tr><td>Airway/cerebral oedema, stridor</td><td>TRUE emergency -> stent +/- steroids, secure airway, do NOT wait for biopsy</td></tr><tr><td>Stable, new mediastinal mass</td><td>CT contrast -> BIOPSY first -> treat tumour</td></tr><tr><td>Lymphoma / SCLC / germ cell</td><td>chemosensitive -> chemotherapy</td></tr><tr><td>NSCLC</td><td>stent / radiotherapy</td></tr></table>",
    "title": "SVC obstruction",
    "subtitle": "usually NOT a true emergency; get tissue before treating",
-   "id": "oncology-7",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Superior.vena.cava.syndrome.aak.jpg",
-     "caption": "Superior vena cava obstruction - facial plethora, arm oedema and dilated collateral chest veins",
-     "alt": "Patient with SVC syndrome showing facial swelling/plethora, bilateral arm oedema and prominent dilated superficial veins over the anterior chest and neck",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "oncology-7"
   },
   {
    "topic": "Tumour lysis syndrome — Cairo-Bishop numbers and the rasburicase/allopurinol trap",
@@ -437,15 +413,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Criterion</th><th>Cut-off</th></tr><tr><td>Neutropenia (ANC)</td><td>&lt; <span class=\"gv-num\">0.5</span> x10^9/L</td></tr><tr><td>Fever</td><td>>= <span class=\"gv-num\">38.3C</span> once, or >= <span class=\"gv-num\">38.0C</span> sustained 1 h</td></tr><tr><td>Antibiotics</td><td><span class=\"gv-num\">30 min</span> if unstable, <span class=\"gv-num\">60 min</span> if stable; empirical IV</td></tr><tr><td>First-line</td><td>Piperacillin-tazobactam <span class=\"gv-num\">4.5 g</span> IV q6h</td></tr></table>",
    "title": "Febrile neutropenia",
    "subtitle": "the definition cut-offs and the 'antibiotics within 60 minutes' rule (oncological emergency)",
-   "id": "oncology-13",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/WBC_%28neutrophil%29_at_centre%2C_numerous_erythrocytes_and_platelets_%28dot_like_bodies%29_in_Wright%27s_stained_peripheral_blood_smear_%28PBS%29_microscopy.jpg/960px-WBC_%28neutrophil%29_at_centre%2C_numerous_erythrocytes_and_platelets_%28dot_like_bodies%29_in_Wright%27s_stained_peripheral_blood_smear_%28PBS%29_microscopy.jpg",
-     "caption": "Peripheral blood film - severe neutropenia (markedly reduced neutrophils)",
-     "alt": "Blood film showing markedly reduced or absent neutrophils with preserved red cells and platelets (neutropenia from chemotherapy)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "oncology-13"
   },
   {
    "topic": "Immunotherapy (immune checkpoint inhibitor) immune-related adverse events - grade-based hold/steroid/discontinue thresholds",
@@ -515,15 +483,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Emergency</th><th>Step 1</th><th>Step 2</th></tr><tr><td>Spinal cord compression</td><td>Dexamethasone <span class=\"gv-num\">16 mg</span> now</td><td>MRI whole spine &lt;<span class=\"gv-num\">24 h</span> + RT/surgery</td></tr><tr><td>Malignant hypercalcaemia</td><td>IV 0.9% saline (rehydrate)</td><td>Zoledronic acid <span class=\"gv-num\">4 mg</span> over 15 min</td></tr></table>",
    "title": "Malignant spinal cord compression & malignant hypercalcaemia",
    "subtitle": "the emergency numbers (oncology principles)",
-   "id": "oncology-16",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Compressive_myeolopathy_C6C7.png",
-     "caption": "Malignant spinal cord compression - MRI sagittal showing epidural metastasis",
-     "alt": "Sagittal T1/T2 MRI spine demonstrating vertebral body metastasis with epidural extension compressing the thoracic spinal cord",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "oncology-16"
   },
   {
    "topic": "Palliative symptom-control prescribing - opioid conversions, the breakthrough rule, and opioid-induced toxicity (high-yield numbers)",
@@ -571,15 +531,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Paraneoplastic</th><th>Tumour</th><th>Catch</th></tr><tr><td>SIADH (euvolaemic hypoNa)</td><td>Small cell lung</td><td>Urine osmol &gt;<span class=\"gv-num\">100</span>, urine Na &gt;<span class=\"gv-num\">30</span></td></tr><tr><td>Ectopic ACTH (Cushing)</td><td>Small cell lung</td><td>Hypokalaemic alkalosis, hyperpigment</td></tr><tr><td>Hypercalcaemia (PTHrP)</td><td>Squamous (lung, H&amp;N)</td><td>PTH SUPPRESSED</td></tr><tr><td>LEMS</td><td>Small cell lung</td><td>Improves with effort (anti-VGCC)</td></tr></table>",
    "title": "Paraneoplastic syndromes",
    "subtitle": "SIADH vs hypercalcaemia (the two most-tested) and the cancers behind them",
-   "id": "oncology-18",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Small_cell_carcinoma_of_the_lung.jpg",
-     "caption": "Small cell lung cancer - CXR with large central hilar mass (SIADH)",
-     "alt": "Chest X-ray showing a large central/hilar mass with mediastinal widening - classic appearance of SCLC, the leading cause of paraneoplastic SIADH",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "oncology-18"
   },
   {
    "topic": "PSA testing in Australia - no NHMRC-approved population program, shared decision-making, and the draft 2025 shift",

@@ -39,12 +39,6 @@ window.GOTCHA.modules.push(
      "caption": "Iron deficiency anaemia - blood film (microcytic hypochromic with pencil cells)",
      "alt": "Peripheral blood film showing microcytic hypochromic red cells with central pallor >1/3 diameter and pencil cells (iron deficiency)",
      "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/AnemiaFrote.jpg/960px-AnemiaFrote.jpg",
-     "caption": "Anaemia of chronic disease - blood film (normocytic-normochromic, or mild microcytic)",
-     "alt": "Peripheral blood film in anaemia of chronic disease showing normocytic normochromic or mildly microcytic red cells - contrasts with the more severe hypochromia of true IDA",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1119,12 +1113,6 @@ window.GOTCHA.modules.push(
      "caption": "Schistocytes / red-cell fragments — intravascular haemolysis",
      "alt": "Fragmented red cells (schistocytes/helmet cells) indicating intravascular haemolysis as seen in severe AHTR",
      "credit": "Ed Uthman, MD, Wikimedia Commons, CC BY 2.0"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Paroxysmalnocturnalhemoglobinuria.png",
-     "caption": "Haemoglobinuria — pink/red urine after AHTR",
-     "alt": "Dark red or pink urine due to free haemoglobin from intravascular haemolysis, a key bedside sign of acute haemolytic transfusion reaction",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1247,15 +1235,7 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Irradiated cellular components",
    "subtitle": "TA-GvHD prevention (who MUST get irradiated blood)",
-   "id": "haematology-33",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Micrographs_of_grades_of_skin_graft-versus-host-disease.jpg/960px-Micrographs_of_grades_of_skin_graft-versus-host-disease.jpg",
-     "caption": "Transfusion-associated GvHD skin rash",
-     "alt": "Diffuse erythematous maculopapular rash of graft-versus-host disease — the feared near-universally fatal complication that irradiation prevents",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "haematology-33"
   },
   {
    "topic": "Product & threshold selection — platelets, FFP, cryoprecipitate (when, not just what)",

@@ -27,15 +27,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Early attack: low PaCO2 (hyperventilating) = expected</div><div class=\"gv-step\">Tiring: PaCO2 climbs to 'normal' = WARNING</div><div class=\"gv-step\">Failing: PaCO2 high + pH falling = peri-arrest → intubate</div></div>",
    "title": "ABG in acute asthma",
    "subtitle": "why a 'normal' CO2 is the scariest result",
-   "id": "respiratory-1",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Davenport_fig_1_Important_acid-base_reactions_involving_carbon_dioxide.jpg",
-     "caption": "ABG pH-PaCO2 nomogram — acute asthma respiratory alkalosis progressing to normalisation (danger zone)",
-     "alt": "Acid-base nomogram illustrating that a 'normal' PaCO2 in a still-symptomatic asthmatic indicates fatigue and impending respiratory failure rather than improvement",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "respiratory-1"
   },
   {
    "topic": "Acute asthma drug escalation — exact Australian doses and the order",
@@ -226,15 +218,7 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Reversibility",
    "subtitle": "does it cleanly separate asthma from COPD? (No)",
-   "id": "respiratory-8",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/COPD.png",
-     "caption": "Spirometry flow-volume loops — asthma (reversible) vs COPD (fixed obstruction)",
-     "alt": "Flow-volume loop comparison: asthma showing obstruction that fully reverses post-bronchodilator versus COPD with persistent obstruction — illustrating that reversibility alone does not distinguish the two",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "respiratory-8"
   },
   {
    "topic": "Spirometry — the FEV1/FVC <0.7 obstruction cut-off and what comes before it",
@@ -476,15 +460,7 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Parapneumonic effusion / empyema",
    "subtitle": "when to DRAIN (pH 7.2 / glucose / pus thresholds)",
-   "id": "respiratory-15",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Pleural_effusion.jpg",
-     "caption": "Empyema CXR — unilateral pleural effusion with loculation",
-     "alt": "Chest X-ray showing a large unilateral pleural effusion with loculation — the typical radiographic appearance of parapneumonic effusion or empyema requiring drainage assessment",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "respiratory-15"
   },
   {
    "topic": "TB — notification, airborne isolation, and the diagnostic sequence (GeneXpert vs culture)",
@@ -559,21 +535,7 @@ window.GOTCHA.modules.push(
    ],
    "verified": true,
    "title": "TB treatment basics and the directly observed…",
-   "id": "respiratory-17",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059155.jpg/960px-Eight_Ishihara_charts_for_testing_colour_blindness%2C_Europe_Wellcome_L0059155.jpg",
-     "caption": "Ethambutol optic neuritis — loss of red-green colour discrimination",
-     "alt": "Ishihara colour vision test plate illustrating red-green colour discrimination loss — the hallmark early symptom of ethambutol-induced optic neuritis that must be monitored during TB treatment",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Papilledema.jpg",
-     "caption": "Fundus — optic neuritis (pale optic disc / disc swelling)",
-     "alt": "Fundus photograph showing optic neuritis with disc oedema or pallor — the ocular end-organ damage caused by ethambutol toxicity, distinct from isoniazid's hepatotoxicity",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "respiratory-17"
   },
   {
    "topic": "Tropical / northern Australia CAP — the melioidosis (Burkholderia pseudomallei) override on empirical cover",
@@ -600,15 +562,7 @@ window.GOTCHA.modules.push(
    "verified": false,
    "title": "Tropical / northern Australia CAP",
    "subtitle": "the melioidosis (Burkholderia pseudomallei) override on empirical cover",
-   "id": "respiratory-18",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Tuberculosis_-_Tuberculoma_with_cavitation_%286596009867%29.jpg/960px-Tuberculosis_-_Tuberculoma_with_cavitation_%286596009867%29.jpg",
-     "caption": "Melioidosis CXR - upper lobe consolidation with cavitation",
-     "alt": "Upper-lobe consolidation with early cavitation typical of pulmonary melioidosis (Burkholderia pseudomallei)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "respiratory-18"
   },
   {
    "topic": "Age-adjusted D-dimer: the formula, who it applies to, and the Australian caveat",
@@ -819,9 +773,9 @@ window.GOTCHA.modules.push(
      "credit": "Chloe Kupelian, Wikimedia Commons, CC BY 4.0 (frontal panel cropped)"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Pleural_effusion_editted.jpg/960px-Pleural_effusion_editted.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Pleural_effusion_2.jpg/960px-Pleural_effusion_2.jpg",
      "caption": "Pleural effusion ultrasound - anechoic collection",
-     "alt": "Ultrasound of pleural space showing an anechoic pleural effusion above the diaphragm, used to guide diagnostic thoracentesis",
+     "alt": "Pleural effusion ultrasound - anechoic collection",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1038,13 +992,7 @@ window.GOTCHA.modules.push(
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Lung_Cancer_on_Chest_X-Ray.jpg/960px-Lung_Cancer_on_Chest_X-Ray.jpg",
      "caption": "Squamous cell carcinoma of lung - CXR cavitating mass",
-     "alt": "Chest X-ray showing a large cavitating mass in the lung (squamous cell carcinoma NSCLC - the primary tumour type causing PTHrP-mediated hypercalcaemia)",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Basaloid_squamous_cell_carcinoma_CT_scan_Case_275_%289571653129%29.jpg",
-     "caption": "Lung mass CT - squamous cell carcinoma with central necrosis",
-     "alt": "CT chest demonstrating a large central squamous cell carcinoma with central necrosis/cavitation and associated mediastinal involvement",
+     "alt": "Squamous cell carcinoma of lung - CXR cavitating mass",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1217,12 +1165,6 @@ window.GOTCHA.modules.push(
    "id": "respiratory-37",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Lung_Cancer_on_Chest_X-Ray.jpg/960px-Lung_Cancer_on_Chest_X-Ray.jpg",
-     "caption": "Small cell lung cancer — central hilar mass on CXR",
-     "alt": "Large central/hilar mass with mediastinal widening typical of SCLC causing paraneoplastic SIADH",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Chest_CT_limited_stage_small_cell_lung_carcinoma.jpg",
      "caption": "SCLC — CT chest showing central mass",
      "alt": "Central perihilar mass with mediastinal involvement characteristic of SCLC",
@@ -1301,12 +1243,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/SVCcombo.JPG/960px-SVCcombo.JPG",
      "caption": "SVC obstruction — facial oedema and distended neck veins",
      "alt": "Facial plethora, oedema of face and neck, and distended neck/chest veins from superior vena cava obstruction",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Anterior_mediastinal_mass_thymoma.jpg",
-     "caption": "SVC syndrome — CXR with widened mediastinum",
-     "alt": "Widened superior mediastinum indicating mediastinal mass causing SVC obstruction",
      "credit": "Wikimedia Commons"
     }
    ]
