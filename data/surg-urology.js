@@ -32,7 +32,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Bilateral orchidopexy",
    "subtitle": "always fix BOTH testes",
-   "id": "surg-urology-1"
+   "id": "surg-urology-1",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Scrotal_ultrasonography_of_testicular_torsion.jpg",
+     "caption": "Testicular torsion — Doppler ultrasound showing absent intratesticular blood flow",
+     "alt": "Colour Doppler scrotal ultrasound demonstrating absent or markedly reduced blood flow to the affected testis compared with the normal contralateral side, the hallmark of testicular torsion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Epididymo-orchitis — Australian antibiotic choice by age/risk (when it is NOT torsion)",
@@ -97,7 +105,15 @@ window.GOTCHA.modules.push(
    "mnemonic": "'Open the book medial-to-lateral — then still pin it in theatre.'",
    "verified": true,
    "title": "Manual detorsion + theatre logistics (transfer /…",
-   "id": "surg-urology-3"
+   "id": "surg-urology-3",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Torsion_teste_aguda.jpg/960px-Torsion_teste_aguda.jpg",
+     "caption": "Testicular torsion - swollen, high-riding testis with horizontal lie",
+     "alt": "Acutely swollen, erythematous hemiscrotum with high-riding testis and horizontal (transverse) lie in testicular torsion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Suspected testicular torsion = STRAIGHT TO THEATRE — do NOT wait for ultrasound",
@@ -125,7 +141,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>Sudden severe scrotal pain (peri-pubertal boy)</div><div class='gv-step'>Clinical exam: cremasteric reflex / lie / nausea</div><div class='gv-step'>Torsion suspected or cannot exclude</div><div class='gv-step'>NBM + IV + analgesia + consent — NO USS, NO transfer</div><div class='gv-step'>THEATRE: scrotal exploration within ~2 h</div></div>",
    "title": "Suspected testicular torsion = STRAIGHT TO THEATRE",
    "subtitle": "do NOT wait for ultrasound",
-   "id": "surg-urology-4"
+   "id": "surg-urology-4",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Torsion_teste_aguda.jpg/960px-Torsion_teste_aguda.jpg",
+     "caption": "Testicular torsion - acute scrotum clinical presentation",
+     "alt": "Unilateral acutely swollen, red hemiscrotum with high-riding testis and absent cremasteric reflex in a teenage male — the classic torsion presentation",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "The 6-hour salvage window (and why you still explore at 24-48 h)",
@@ -152,7 +176,15 @@ window.GOTCHA.modules.push(
    "mnemonic": "'6 hours = best, 48 hours = still go, the clock started at the pain.'",
    "verified": true,
    "title": "The 6-hour salvage window (and why you…",
-   "id": "surg-urology-5"
+   "id": "surg-urology-5",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Torsion_teste_aguda_%28cropped%29.jpg/960px-Torsion_teste_aguda_%28cropped%29.jpg",
+     "caption": "Testicular infarction - infarcted vs viable testis at surgical exploration",
+     "alt": "Intraoperative photograph comparing an infarcted (black/necrotic) testis with a viable testis after detorsion, illustrating the salvage window concept",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Torsion vs epididymo-orchitis vs torsion of appendix testis — the discriminator table",
@@ -181,7 +213,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class='gv-table'><thead><tr><th>Feature</th><th>Testicular torsion</th><th>Epididymo-orchitis</th><th>Appendix testis torsion</th></tr></thead><tbody><tr><td>Typical age</td><td>Peri-pubertal (also neonate)</td><td>&lt;35 STI / &gt;35 enteric; infants</td><td>Pre-pubertal 7-12 y</td></tr><tr><td>Onset</td><td>Sudden, severe</td><td>Gradual / subacute</td><td>Sub-acute, mild</td></tr><tr><td>Cremasteric reflex</td><td>Absent</td><td>Present</td><td>Present</td></tr><tr><td>Testis lie</td><td>High-riding / horizontal</td><td>Normal</td><td>Normal</td></tr><tr><td>Special sign</td><td>N&amp;V; tender whole testis</td><td>Tender posterolateral epididymis; fever; pyuria</td><td>Blue dot at upper pole</td></tr><tr><td>Action</td><td>THEATRE</td><td>Antibiotics</td><td>Analgesia / conservative</td></tr></tbody></table>",
    "title": "Torsion vs epididymo-orchitis vs torsion of appendix testis",
    "subtitle": "the discriminator table",
-   "id": "surg-urology-6"
+   "id": "surg-urology-6",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Torsion_teste_aguda.jpg/960px-Torsion_teste_aguda.jpg",
+     "caption": "Testicular torsion - swollen tender high-riding testis",
+     "alt": "Unilateral acute scrotal swelling, erythema and high-riding testis with transverse lie seen in testicular torsion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Definitive stone treatment modalities — ESWL vs URS vs PCNL (which size/site picks which)",

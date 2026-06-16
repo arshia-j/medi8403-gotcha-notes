@@ -1127,7 +1127,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Sign / Type</th><th>Meaning</th><th>Delivery</th></tr><tr><td>Lambda / twin-peak</td><td>DCDA</td><td>~37-38 wk</td></tr><tr><td>T-sign</td><td>MCDA (TTTS risk, 2-wkly USS from 16wk)</td><td>~36-37 wk</td></tr><tr><td>Single sac</td><td>MCMA</td><td>~32-34 wk CS</td></tr></table>",
    "id": "obs-33",
    "title": "Twin Pregnancy & Chorionicity",
-   "subtitle": "Lambda sign = DCDA; T-sign = monochorionic; date it early"
+   "subtitle": "Lambda sign = DCDA; T-sign = monochorionic; date it early",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ultrasound_Scan_ND_034.jpg",
+     "caption": "Lambda (twin-peak) sign — dichorionic diamniotic twins",
+     "alt": "Triangular wedge of placental tissue projecting into the base of the inter-twin membrane — lambda/twin-peak sign indicating DCDA chorionicity",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "VTE in pregnancy — LMWH, never warfarin/DOAC; D-dimer is useless",
@@ -1571,7 +1579,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Situation</th><th>Intervention</th></tr><tr><td>Strong painless-loss history</td><td>History-indicated cerclage ~12-14 wk</td></tr><tr><td>Cervix &lt;=25 mm + prior PTB</td><td>USS-indicated cerclage</td></tr><tr><td>Cervix &lt;=25 mm, no PTB history</td><td>Vaginal progesterone</td></tr></table>",
    "id": "obs-59",
    "title": "Cervical Insufficiency",
-   "subtitle": "Painless mid-trimester loss; history- vs ultrasound-indicated cerclage"
+   "subtitle": "Painless mid-trimester loss; history- vs ultrasound-indicated cerclage",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Cervix_length_measurement.jpg",
+     "caption": "Transvaginal ultrasound — short cervix with funnelling (cervical insufficiency)",
+     "alt": "Short endocervical canal length with funnelling of the internal os — classic ultrasound appearance of cervical insufficiency in the mid-trimester",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Chorioamnionitis in a preterm woman: DELIVER, do not continue expectant management",
@@ -1648,7 +1664,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Routine vaginal delivery / routine CS with manual removal**' — high accreta risk demands MDT + hysterectomy readiness\n- Also: **11%** is the **2-prior-CS** figure, NOT 1",
    "id": "obs-50",
    "title": "Placenta Accreta Spectrum",
-   "subtitle": "Praevia plus prior caesarean; anticipate massive haemorrhage"
+   "subtitle": "Praevia plus prior caesarean; anticipate massive haemorrhage",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Placenta_accreta.png",
+     "caption": "Placenta accreta spectrum - MRI showing myometrial invasion",
+     "alt": "MRI sagittal view showing placenta with loss of normal myometrial signal / 'dark intraplacental bands' indicating accreta spectrum disorder",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Placenta praevia vs placental abruption: the no-digital-VE rule",
@@ -1673,7 +1697,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Feature</th><th>Praevia</th><th>Abruption</th></tr></thead><tbody><tr><td>Pain</td><td>Painless</td><td>Painful</td></tr><tr><td>Uterus</td><td>Soft, non-tender</td><td>Tense, woody, tender</td></tr><tr><td>Bleeding</td><td>Fresh, visible</td><td>Dark, may be concealed</td></tr><tr><td>Fetus</td><td>Usually well</td><td>Distress / demise</td></tr><tr><td>DIC risk</td><td>Low</td><td>High</td></tr><tr><td>Digital VE</td><td>FORBIDDEN until USS</td><td>Avoid until praevia excluded</td></tr></tbody></table>",
    "id": "obs-48",
    "title": "Placenta Praevia",
-   "subtitle": "No digital VE in unexcluded APH"
+   "subtitle": "No digital VE in unexcluded APH",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/2906_Placenta_Previa-02.jpg/960px-2906_Placenta_Previa-02.jpg",
+     "caption": "Placenta praevia - transvaginal ultrasound",
+     "alt": "Transvaginal ultrasound showing the placenta overlying or abutting the internal cervical os (major/complete praevia)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PPROM timing of delivery & no-tocolysis-if-infection",
@@ -2019,7 +2051,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Type</th><th>Timing vs contraction</th><th>Cause</th><th>Significance</th></tr></thead><tbody><tr><td>Early</td><td>Nadir = contraction peak (mirrors it)</td><td>Head compression (vagal)</td><td>Benign</td></tr><tr><td>Variable</td><td>Abrupt, V-shaped, variable/independent</td><td>Cord compression</td><td>OK if uncomplicated; bad if complicated</td></tr><tr><td>Late</td><td>Onset/nadir/recovery AFTER contraction</td><td>Uteroplacental insufficiency</td><td>Ominous (esp. with reduced variability)</td></tr></tbody></table>",
    "id": "obs-67",
    "title": "Decelerations: Early vs Variable vs Late",
-   "subtitle": "Timing is everything: late decels lag the contraction"
+   "subtitle": "Timing is everything: late decels lag the contraction",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cardiotocography_diagram.jpg/960px-Cardiotocography_diagram.jpg",
+     "caption": "Early decelerations - CTG",
+     "alt": "CTG trace showing early decelerations: uniform, gradual onset deceleration that mirrors the contraction shape, nadir coinciding with contraction peak (head compression, benign)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Failure to progress in the active first stage - the number",
@@ -2237,7 +2277,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Term PROM >=37 wk, no labour</div><div class=\"gv-step\">Offer IOL vs expectant (~24 h)</div><div class=\"gv-step\">GBS+ -> prompt IOL + penicillin</div><div class=\"gv-step\">Fever/offensive liquor -> chorioamnionitis -> deliver + ABx</div></div>",
    "id": "obs-76",
    "title": "Term Prelabour Rupture of Membranes",
-   "subtitle": "Term, not PPROM; offer induction or up to ~24 h expectant"
+   "subtitle": "Term, not PPROM; offer induction or up to ~24 h expectant",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Positive_Fern_Test.jpg/960px-Positive_Fern_Test.jpg",
+     "caption": "Pooling of amniotic fluid on speculum exam - term PROM",
+     "alt": "Speculum examination showing pooling of clear amniotic fluid in the posterior vaginal fornix, confirming rupture of membranes at term",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "The 3 Ps of poor progress",
@@ -2324,7 +2372,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Diagnose inversion (shock > blood loss, bradycardia)</div><div class=\"gv-step\">STOP uterotonics + give tocolytic (GTN)</div><div class=\"gv-step\">Replace uterus (Johnson, placenta attached)</div><div class=\"gv-step\">THEN restart uterotonics + resuscitate</div></div>",
    "id": "obs-87",
    "title": "Acute Uterine Inversion",
-   "subtitle": "Stop uterotonics and replace fundus immediately"
+   "subtitle": "Stop uterotonics and replace fundus immediately",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/InvertedUterus.jpg",
+     "caption": "Acute uterine inversion - fundus through cervix, diagram",
+     "alt": "Diagram or clinical photograph showing the inverted uterine fundus visible or palpable through the cervix/vagina, often with placenta still attached",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Amniotic fluid embolism: sudden collapse + DIC (recognise, don't over-investigate)",
@@ -2523,7 +2579,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">CPR + manual LEFT uterine displacement</div><div class=\"gv-step\">No ROSC?</div><div class=\"gv-step\">Resuscitative hysterotomy by ~4 min, at scene</div><div class=\"gv-step\">(to restore maternal circulation)</div></div>",
    "id": "obs-93",
    "title": "Perimortem Caesarean Section",
-   "subtitle": "Left uterine displacement; deliver within 4 minutes of arrest"
+   "subtitle": "Left uterine displacement; deliver within 4 minutes of arrest",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/A_baby_being_removed_from_its_dying_mother%27s_womb_via_Caesar_Wellcome_V0014915.jpg/960px-A_baby_being_removed_from_its_dying_mother%27s_womb_via_Caesar_Wellcome_V0014915.jpg",
+     "caption": "Perimortem caesarean section - left uterine displacement during CPR",
+     "alt": "Clinical photograph or diagram showing manual left uterine displacement applied during CPR in a pregnant cardiac arrest patient to relieve aortocaval compression",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Post-term pregnancy: when to offer induction",

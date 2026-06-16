@@ -381,7 +381,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Recheck TSH 2 weeks** after a thyroxine dose change' — WRONG\n- TSH takes ≥4 weeks to stabilise; recheck **~6 weeks** (at least 4–6)",
    "title": "Hypothyroidism",
    "subtitle": "levothyroxine dosing, the recheck-at-6-weeks rule, start LOW in the elderly/cardiac, and absorption traps",
-   "id": "endocrine-11"
+   "id": "endocrine-11",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Woman_with_myxoedema_Wellcome_L0061725.jpg/960px-Woman_with_myxoedema_Wellcome_L0061725.jpg",
+     "caption": "Hypothyroidism - myxoedema facies (periorbital oedema, coarse dry skin, loss of outer eyebrow)",
+     "alt": "Classic myxoedematous facies with periorbital puffiness, dry coarse skin, macroglossia and loss of the outer third of the eyebrows",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Myxoedema coma — hydrocortisone BEFORE thyroid hormone; it is hypothermia + hyponatraemia + hypoventilation, not 'coma'",
@@ -414,7 +422,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Step</th><th>Action</th><th>Why</th></tr><tr><td>1</td><td>ABC, passive rewarming, glucose</td><td>Stabilise; avoid active rewarming collapse</td></tr><tr><td>2</td><td>Hydrocortisone 100 mg IV q8h</td><td>BEFORE thyroid hormone — prevents adrenal crisis</td></tr><tr><td>3</td><td>IV levothyroxine 200–400 mcg load ± T3</td><td>Replace hormone (after steroid given)</td></tr><tr><td>4</td><td>Treat precipitant (sepsis/MI), correct Na</td><td>Address trigger; avoid rapid Na shift</td></tr></table>",
    "title": "Myxoedema coma",
    "subtitle": "hydrocortisone BEFORE thyroid hormone; it is hypothermia + hyponatraemia + hypoventilation, not 'coma'",
-   "id": "endocrine-12"
+   "id": "endocrine-12",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Woman_with_myxoedema_Wellcome_L0061725.jpg/960px-Woman_with_myxoedema_Wellcome_L0061725.jpg",
+     "caption": "Myxoedema coma - severe myxoedematous facies with periorbital oedema",
+     "alt": "Markedly myxoedematous facies with severe periorbital and facial non-pitting oedema characteristic of decompensated hypothyroidism",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "TFT pattern interpretation — TSH is the screening test; match the pattern, and know the 4 'traps' (sick euthyroid, central, subclinical, assay interference)",
@@ -937,7 +953,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Feature</th><th>SIADH</th><th>Diabetes insipidus (AVP-D/AVP-R)</th></tr></thead><tbody><tr><td>ADH effect</td><td>Excess</td><td>Deficient/ineffective</td></tr><tr><td>Serum Na</td><td>Low</td><td>High / high-normal</td></tr><tr><td>Plasma osm</td><td>Low (&lt;275)</td><td>High</td></tr><tr><td>Urine osm</td><td>High (&gt;100, conc.)</td><td>Low (dilute)</td></tr><tr><td>Volume</td><td>Euvolaemic</td><td>Volume-depleted if no water</td></tr><tr><td>Treat</td><td>Fluid restrict (3% saline if severe)</td><td>dDAVP (cranial); treat cause (nephrogenic)</td></tr></tbody></table>",
    "title": "SIADH vs Diabetes Insipidus (AVP-D/AVP-R)",
    "subtitle": "opposite ends of the ADH axis",
-   "id": "endocrine-25"
+   "id": "endocrine-25",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Hyponatraemia_Causes.svg/960px-Hyponatraemia_Causes.svg.png",
+     "caption": "SIADH - hyponatraemia with concentrated urine (biochemistry comparison chart)",
+     "alt": "Comparison table of SIADH vs diabetes insipidus: plasma osmolality, urine osmolality, urine sodium, serum sodium, and volume status to aid differentiation",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Hypercalcaemia — malignancy vs primary hyperparathyroidism (the PTH discriminator) + crisis fluids-first sequence",

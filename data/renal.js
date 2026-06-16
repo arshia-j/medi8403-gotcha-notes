@@ -1067,7 +1067,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Lupus nephritis",
    "subtitle": "BIOPSY decides class & treatment; HCQ for everyone",
-   "id": "renal-32"
+   "id": "renal-32",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Diffuse_proliferative_lupus_nephritis_-_high_mag.jpg/960px-Diffuse_proliferative_lupus_nephritis_-_high_mag.jpg",
+     "caption": "Lupus nephritis — renal biopsy immunofluorescence showing full-house pattern",
+     "alt": "Immunofluorescence of renal biopsy in lupus nephritis showing full-house staining (IgG, IgA, IgM, C3, C1q) with mesangial and subendothelial deposits — determines ISN/RPS class and drives treatment",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Nephritic vs nephrotic syndrome — the discriminator that decides everything",

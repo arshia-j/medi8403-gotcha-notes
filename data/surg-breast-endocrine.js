@@ -558,7 +558,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">+SLN + BCS + WBRT + 1–2 nodes → omit ALND (Z0011)</span><span class=\"gv-pill\">Need axillary Rx, want less morbidity → axillary RT (AMAROS)</span><span class=\"gv-pill\">≥3 nodes / matted / no RT → ALND</span></div>",
    "title": "Positive sentinel node",
    "subtitle": "when you can STOP (Z0011/AMAROS) vs proceed to ALND (the de-escalation trap)",
-   "id": "surg-breast-endocrine-15"
+   "id": "surg-breast-endocrine-15",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sentinel_lymph_node_%28axilla%29.jpg/960px-Sentinel_lymph_node_%28axilla%29.jpg",
+     "caption": "Sentinel lymph node biopsy - blue dye and isotope mapping of axillary sentinel node",
+     "alt": "Blue-stained sentinel lymph node identified at axillary dissection using blue dye mapping - illustrating the procedure whose positive result triggers the Z0011/AMAROS de-escalation decision",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Principles of oncological resection — R-status, en-bloc excision, and the 'debulk it' trap",
@@ -628,7 +636,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">cN0 early invasive → SLNB (dual tracer)</span><span class=\"gv-pill\">Biopsy-proven node+ → ALND / neoadjuvant pathway</span><span class=\"gv-pill\">DCIS → SLNB only if mastectomy planned or suspected invasion</span></div>",
    "title": "Sentinel lymph node biopsy (SLNB)",
    "subtitle": "who gets it, who does NOT, and the 'palpable node' trap",
-   "id": "surg-breast-endocrine-17"
+   "id": "surg-breast-endocrine-17",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lymphoscintigraphy_images_of_lympledema.png",
+     "caption": "Sentinel lymph node biopsy - lymphoscintigraphy hot spot",
+     "alt": "Lymphoscintigraphy image showing radiolabelled tracer uptake in the axillary sentinel node - preoperative mapping for SLNB in clinically node-negative early breast cancer",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "SLNB after neoadjuvant chemotherapy — timing and the false-negative-rate trap",

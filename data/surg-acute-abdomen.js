@@ -741,7 +741,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Feature</th><th>Colon cancer</th><th>Rectal cancer</th></tr><tr><td>Staging imaging</td><td>CT C/A/P</td><td>CT C/A/P + pelvic MRI</td></tr><tr><td>Sequence</td><td>Surgery first</td><td>Neoadjuvant chemoRT if T3/T4 or N+, then TME</td></tr><tr><td>Chemo trigger</td><td>Node+ (Stage III)</td><td>Node+ / locally advanced</td></tr></table>",
    "title": "Colorectal cancer",
    "subtitle": "TNM staging traps & treatment-deciding thresholds",
-   "id": "surg-acute-abdomen-17"
+   "id": "surg-acute-abdomen-17",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/CT_scan_-_Metastatic_colonic_adenocarcinoma_Case_245_%288193435371%29.jpg",
+     "caption": "Colorectal cancer — CT colonography/staging showing colonic mass",
+     "alt": "CT showing an apple-core / annular constricting mass in the sigmoid or left colon causing luminal narrowing — colorectal cancer; CT also stages T, N, M",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Diverticulitis: Hinchey classification & operate-or-not thresholds",
@@ -995,7 +1003,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Timing</th><th>Complication</th><th>Action</th></tr><tr><td>Early</td><td>Ischaemia / necrosis</td><td>Assess depth; below fascia -> theatre</td></tr><tr><td>Early</td><td>Retraction / mucocutaneous separation</td><td>Wound care; revise if severe</td></tr><tr><td>Early</td><td>High output (ileostomy)</td><td>ORS, loperamide, replace Mg/K, restrict hypotonic fluids</td></tr><tr><td>Late</td><td>Parastomal hernia (commonest)</td><td>Support/elective repair; urgent if obstructed</td></tr><tr><td>Late</td><td>Prolapse / stenosis</td><td>Conservative vs surgical revision</td></tr></table>",
    "title": "Stoma complications",
    "subtitle": "ischaemia, retraction, prolapse, parastomal hernia & the high-output gotcha",
-   "id": "surg-acute-abdomen-25"
+   "id": "surg-acute-abdomen-25",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bowel_Ostomies.jpg",
+     "caption": "Ischaemic/necrotic stoma — dusky or black coloration",
+     "alt": "Dusky or frankly black stoma mucosa indicating ischaemia or necrosis — the early emergency complication requiring urgent surgical review",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Femoral & Richter's hernia traps — the ones that strangulate silently",
@@ -1131,7 +1147,15 @@ window.GOTCHA.modules.push(
    ],
    "title": "Hernia danger spectrum",
    "subtitle": "reducible vs incarcerated vs strangulated (when it becomes an emergency)",
-   "id": "surg-acute-abdomen-29"
+   "id": "surg-acute-abdomen-29",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Inguinal_hernia_prior_to_repair.jpg/960px-Inguinal_hernia_prior_to_repair.jpg",
+     "caption": "Strangulated hernia — skin erythema/discoloration over irreducible hernia",
+     "alt": "Irreducible hernia with overlying skin erythema, discolouration and oedema indicating strangulation and underlying bowel ischaemia",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "High-dose IV PPI infusion — only after the scope, dose & duration",

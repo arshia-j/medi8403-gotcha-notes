@@ -2867,7 +2867,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-71",
    "title": "Bilirubin Treatment Nomogram",
-   "subtitle": "Thresholds read off age-in-hours chart and lowered for risk"
+   "subtitle": "Thresholds read off age-in-hours chart and lowered for risk",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Jaundice_phototherapy.jpg",
+     "caption": "Neonatal bilirubin treatment nomogram - age-in-hours vs bilirubin threshold chart",
+     "alt": "The Bhutani/AAP-style nomogram plotting total serum bilirubin against age in hours with phototherapy and exchange-transfusion threshold curves stratified by risk",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Breastmilk jaundice vs breastfeeding (suboptimal-intake) jaundice",
@@ -3138,7 +3146,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-83",
    "title": "Infant of a Diabetic Mother",
-   "subtitle": "Macrosomic baby is paradoxically at high risk of hypoglycaemia"
+   "subtitle": "Macrosomic baby is paradoxically at high risk of hypoglycaemia",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/New-baby-boy-weight-11-pounds.jpg/960px-New-baby-boy-weight-11-pounds.jpg",
+     "caption": "Macrosomic infant of a diabetic mother - large for gestational age neonate",
+     "alt": "A visibly macrosomic newborn with plethoric appearance and excess adiposity, born to a diabetic mother",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Jaundice <24 hours = ALWAYS pathological (haemolysis until proven otherwise)",
@@ -3483,7 +3499,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-78",
    "title": "SGA versus IUGR",
-   "subtitle": "Static size centile versus dynamic failure to reach growth potential"
+   "subtitle": "Static size centile versus dynamic failure to reach growth potential",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Weight_vs_gestational_Age.jpg",
+     "caption": "SGA — birthweight on 9th centile (static, constitutionally small)",
+     "alt": "Fetal growth chart with a single weight measurement sitting on the 10th centile, illustrating a constitutionally small but appropriately grown fetus (SGA, not IUGR)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-127",

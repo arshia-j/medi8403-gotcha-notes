@@ -306,7 +306,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Intention</th><th>Wound management</th><th>Typical use</th></tr></thead><tbody><tr><td>Primary</td><td>Edges apposed immediately</td><td>Clean surgical/incised</td></tr><tr><td>Secondary</td><td>Left open, granulates &amp; contracts; never re-sutured</td><td>Infected/contaminated, tissue loss, abscess</td></tr><tr><td>Tertiary (delayed primary)</td><td>Open ~3-5 days then sutured</td><td>Contaminated wound, control infection first</td></tr></tbody></table>",
    "title": "Primary vs secondary vs tertiary (delayed primary) wound closure",
    "subtitle": "which heals when, and the MCQ trap",
-   "id": "surg-safety-10"
+   "id": "surg-safety-10",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Wound_Healing.jpg/960px-Wound_Healing.jpg",
+     "caption": "Primary wound closure — sutured incision with apposed edges",
+     "alt": "Clean surgical incision closed with sutures immediately after surgery, demonstrating primary intention healing with well-apposed skin edges",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "SSI prevention bundle — the numbers examiners love (antibiotic timing, redosing, glucose, normothermia, hair removal)",
@@ -367,7 +375,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Superficial incisional<br>skin/subcut · 30 days</div><div class=\"gv-step\">Deep incisional<br>fascia/muscle · 30 or 90 days (by procedure)</div><div class=\"gv-step\">Organ/space<br>operated cavity · 30 or 90 days (by procedure)</div></div>",
    "title": "Surgical site infection",
    "subtitle": "definition timing (30 vs 90 days, procedure-specific) and superficial/deep/organ-space classification",
-   "id": "surg-safety-12"
+   "id": "surg-safety-12",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fungal_Generated_Wound_Drainage.jpg/960px-Fungal_Generated_Wound_Drainage.jpg",
+     "caption": "Superficial incisional SSI — erythema, warmth and purulent discharge at wound",
+     "alt": "Surgical site infection involving skin and subcutaneous tissue above fascia — erythema, swelling, warmth and purulent discharge from a post-operative incision",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Wound classification (clean / clean-contaminated / contaminated / dirty) and expected SSI rates",
