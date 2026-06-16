@@ -580,3 +580,21 @@ button.subarea-head:focus-visible { outline: 2px solid var(--accent); outline-of
 .sub-group.collapsed .sub-cards { display: none; }
 .subarea-head .sa-name { flex: 0 1 auto; }
 .subarea-head .n { margin-left: 2px; }
+
+/* uniform small image thumbnails — click any to expand (lightbox) */
+.card-gallery { display: flex; flex-wrap: wrap; gap: 9px; align-items: flex-start; margin: 6px 0 13px; }
+.card-gallery .card-img,
+.card-gallery.multi .card-img { flex: 0 0 auto; width: 152px; max-width: 152px; margin: 0; }
+.card-gallery .card-img img {
+  width: 152px; height: 114px; object-fit: contain; background: var(--surface);
+  border: 1px solid var(--rule); border-radius: 8px; cursor: zoom-in; display: block;
+}
+.card-gallery .card-img figcaption {
+  max-width: 152px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  font-size: .6rem; margin-top: 3px; color: var(--ink-faint);
+}
+@media (max-width: 600px) {
+  .card-gallery .card-img,
+  .card-gallery.multi .card-img { width: 47%; max-width: 47%; }
+  .card-gallery .card-img img { width: 100%; height: 100px; }
+}
