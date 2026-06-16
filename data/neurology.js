@@ -108,7 +108,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- Wrong: '**Thrombectomy window closes at 6 hours**' — FALSE; selected patients with perfusion mismatch treated up to **24 h**",
    "title": "Endovascular thrombectomy",
    "subtitle": "selected patients out to 24 h with perfusion imaging",
-   "id": "neurology-3"
+   "id": "neurology-3",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Tmax_by_MRI_perfusion_in_cerebral_artery_occlusion.jpg",
+     "caption": "CT perfusion - ischaemic core vs penumbra mismatch",
+     "alt": "CT perfusion maps showing small infarct core (CBF/CBV deficit) with large penumbra (Tmax prolongation) in late-window stroke",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "First imaging in suspected stroke: non-contrast CT to exclude haemorrhage BEFORE any antithrombotic",
@@ -892,7 +900,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Step / time</th><th>Action</th><th>Agent &amp; dose</th></tr></thead><tbody><tr><td>0 min</td><td>ABC, glucose, IV, thiamine if at risk; 1st benzo</td><td>IV midazolam / IV diazepam / IM midazolam 10 mg if no IV</td></tr><tr><td>~5 min</td><td>Repeat benzo ONCE (max 2 total)</td><td>Same benzo, 2nd dose</td></tr><tr><td>~10-15 min</td><td>Second-line IV load</td><td>Levetiracetam 60 mg/kg (max 4.5 g) OR phenytoin 20 mg/kg (cardiac monitor) OR valproate 40 mg/kg</td></tr><tr><td>~20-30 min (refractory)</td><td>RSI + ICU + continuous EEG</td><td>Propofol / midazolam / thiopentone infusion</td></tr></tbody></table>",
    "title": "Status epilepticus ladder (adult)",
    "subtitle": "exact timings, doses, escalation",
-   "id": "neurology-23"
+   "id": "neurology-23",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spike-waves.png",
+     "caption": "EEG — status epilepticus (continuous ictal activity / seizure pattern on EEG)",
+     "alt": "EEG during generalised convulsive status epilepticus showing continuous high-amplitude rhythmic spike-and-wave discharge — confirms non-convulsive SE when clinically uncertain",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Bell's palsy (idiopathic LMN facial palsy)",

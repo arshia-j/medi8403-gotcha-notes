@@ -1036,7 +1036,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Suspect dissection: tearing pain, pulse deficit, widened mediastinum</div><div class=\"gv-step\">IV beta-blocker FIRST &rarr; HR &lt;60 bpm</div><div class=\"gv-step\">THEN vasodilator &rarr; SBP 100-120 mmHg</div><div class=\"gv-step\">CT aortogram</div><div class=\"gv-step\">Type A (ascending) = surgery | Type B = medical unless complicated</div></div>",
    "title": "Aortic dissection",
    "subtitle": "control HR before BP, NEVER thrombolyse, and the missed-MI trap",
-   "id": "cardiovascular-31"
+   "id": "cardiovascular-31",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/AoDiss_CT_A-Diss.jpg/960px-AoDiss_CT_A-Diss.jpg",
+     "caption": "Aortic dissection — CT showing intimal flap with true and false lumen",
+     "alt": "CT aortogram demonstrating an intimal flap separating true and false lumens in acute aortic dissection",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Aortic stenosis: symptom onset is the trigger for AVR (the moment, not the number)",

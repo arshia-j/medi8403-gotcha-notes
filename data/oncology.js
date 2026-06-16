@@ -119,7 +119,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Clinical suspicion</div><div class=\"gv-step\">Dexamethasone <span class=\"gv-num\">16 mg</span>/day NOW (+PPI)</div><div class=\"gv-step\">MRI WHOLE spine &lt;24 h</div><div class=\"gv-step\">RadOnc + Neurosurg -> RT or decompression</div></div>",
    "title": "Malignant spinal cord compression",
    "subtitle": "dexamethasone FIRST, then MRI whole spine, then definitive Rx",
-   "id": "oncology-4"
+   "id": "oncology-4",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Compressive_myeolopathy_C6C7.png",
+     "caption": "Malignant spinal cord compression - MRI showing epidural metastasis with cord compression",
+     "alt": "Sagittal MRI spine with enhancing vertebral metastasis compressing the thoracic spinal cord",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Neutropenic sepsis source control & antifungal escalation (the 48-72 h rule)",
@@ -507,7 +515,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Emergency</th><th>Step 1</th><th>Step 2</th></tr><tr><td>Spinal cord compression</td><td>Dexamethasone <span class=\"gv-num\">16 mg</span> now</td><td>MRI whole spine &lt;<span class=\"gv-num\">24 h</span> + RT/surgery</td></tr><tr><td>Malignant hypercalcaemia</td><td>IV 0.9% saline (rehydrate)</td><td>Zoledronic acid <span class=\"gv-num\">4 mg</span> over 15 min</td></tr></table>",
    "title": "Malignant spinal cord compression & malignant hypercalcaemia",
    "subtitle": "the emergency numbers (oncology principles)",
-   "id": "oncology-16"
+   "id": "oncology-16",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Compressive_myeolopathy_C6C7.png",
+     "caption": "Malignant spinal cord compression - MRI sagittal showing epidural metastasis",
+     "alt": "Sagittal T1/T2 MRI spine demonstrating vertebral body metastasis with epidural extension compressing the thoracic spinal cord",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Palliative symptom-control prescribing - opioid conversions, the breakthrough rule, and opioid-induced toxicity (high-yield numbers)",

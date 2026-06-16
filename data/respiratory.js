@@ -27,7 +27,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Early attack: low PaCO2 (hyperventilating) = expected</div><div class=\"gv-step\">Tiring: PaCO2 climbs to 'normal' = WARNING</div><div class=\"gv-step\">Failing: PaCO2 high + pH falling = peri-arrest → intubate</div></div>",
    "title": "ABG in acute asthma",
    "subtitle": "why a 'normal' CO2 is the scariest result",
-   "id": "respiratory-1"
+   "id": "respiratory-1",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Davenport_fig_1_Important_acid-base_reactions_involving_carbon_dioxide.jpg",
+     "caption": "ABG pH-PaCO2 nomogram — acute asthma respiratory alkalosis progressing to normalisation (danger zone)",
+     "alt": "Acid-base nomogram illustrating that a 'normal' PaCO2 in a still-symptomatic asthmatic indicates fatigue and impending respiratory failure rather than improvement",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Acute asthma drug escalation — exact Australian doses and the order",
@@ -468,7 +476,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Parapneumonic effusion / empyema",
    "subtitle": "when to DRAIN (pH 7.2 / glucose / pus thresholds)",
-   "id": "respiratory-15"
+   "id": "respiratory-15",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Pleural_effusion.jpg",
+     "caption": "Empyema CXR — unilateral pleural effusion with loculation",
+     "alt": "Chest X-ray showing a large unilateral pleural effusion with loculation — the typical radiographic appearance of parapneumonic effusion or empyema requiring drainage assessment",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "TB — notification, airborne isolation, and the diagnostic sequence (GeneXpert vs culture)",

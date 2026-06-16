@@ -264,7 +264,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class='gv-table'><tr><th>Parameter</th><th>CLTI threshold</th></tr><tr><td>Ankle pressure</td><td>&lt;50 mmHg</td></tr><tr><td>Toe pressure</td><td>&lt;30 mmHg</td></tr><tr><td>TcPO2</td><td>&lt;30 mmHg</td></tr><tr><td>Symptoms</td><td>Rest pain &gt;2 wks OR ulcer/gangrene</td></tr></table>",
    "title": "Chronic limb-threatening ischaemia (CLTI)",
    "subtitle": "the rest-pain/tissue-loss tipping point",
-   "id": "surg-vascular-7"
+   "id": "surg-vascular-7",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Infected_diabetic_foot_1.jpg/960px-Infected_diabetic_foot_1.jpg",
+     "caption": "CLTI - rest pain with dependent rubor and tissue loss",
+     "alt": "Chronic limb-threatening ischaemia showing dependent rubor, tissue necrosis and non-healing ulcer at the forefoot",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Embolic vs thrombotic ALI — the discriminator that picks embolectomy vs angiogram/bypass",

@@ -699,7 +699,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Synovial fluid</th><th>Normal</th><th>Non-inflammatory (OA)</th><th>Inflammatory (gout/RA)</th><th>Septic</th></tr></thead><tbody><tr><td>WCC /mm3</td><td>&lt;200</td><td>200–2,000</td><td>2,000–50,000</td><td><span class=\"gv-num\">&gt;50,000</span> (&gt;90% PMN)</td></tr><tr><td>Appearance</td><td>Clear</td><td>Clear/straw</td><td>Cloudy</td><td>Turbid/purulent</td></tr><tr><td>Crystals</td><td>Nil</td><td>Nil</td><td>Often present</td><td>Crystals don't exclude sepsis</td></tr></tbody></table><div class=\"gv-flow\"><div class=\"gv-step\">Hot joint</div><div class=\"gv-step\">Aspirate + blood cultures (don't delay if septic)</div><div class=\"gv-step\">Empirical IV antibiotics</div><div class=\"gv-step\">Refer ortho for washout</div></div>",
    "title": "Septic arthritis",
    "subtitle": "ASPIRATE and culture BEFORE antibiotics (the sequencing gotcha)",
-   "id": "rheumatology-17"
+   "id": "rheumatology-17",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/SepticArth2011_%28cropped%29.jpg",
+     "caption": "Septic arthritis — acutely swollen hot knee joint",
+     "alt": "Grossly swollen, erythematous knee with joint effusion requiring urgent aspiration — classic appearance of septic arthritis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "The acute monoarthritis approach — ASPIRATE every undiagnosed hot joint",
@@ -730,7 +738,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Acute single hot joint</div><div class=\"gv-step\">ASPIRATE + blood cultures</div><div class=\"gv-step\">3 tests: Gram/culture · WCC+diff · crystals</div><div class=\"gv-step\">WCC &gt;50k or organisms → septic → ortho</div><div class=\"gv-step\">Crystals + WCC 2k–50k → gout/CPPD (still exclude sepsis)</div></div><div class=\"gv-pills\"><span class=\"gv-pill\">Won't move = think SEPTIC</span><span class=\"gv-pill\">Normal urate ≠ not gout</span><span class=\"gv-pill\">Crystals ≠ no infection</span></div>",
    "title": "The acute monoarthritis approach",
    "subtitle": "ASPIRATE every undiagnosed hot joint",
-   "id": "rheumatology-18"
+   "id": "rheumatology-18",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/SepticArth2011.jpg",
+     "caption": "Hot swollen monoarthritis — knee requiring aspiration",
+     "alt": "Acutely swollen, erythematous monoarthritis of the knee — illustrating that every undiagnosed hot joint must be aspirated regardless of prior gout history",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Urate-lowering therapy (allopurinol) — start after flare, titrate-to-target, HLA-B*5801 risk",

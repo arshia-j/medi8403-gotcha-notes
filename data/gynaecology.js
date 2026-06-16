@@ -640,7 +640,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>CIN1 → observe</span><span class='gv-pill'>CIN2/3 (HSIL) → LLETZ</span><span class='gv-pill'>excision → preterm birth risk</span></div>",
    "id": "gyn-29",
    "title": "Colposcopy and CIN Management",
-   "subtitle": "CIN1 often observed; treat CIN2/3; LLETZ raises preterm-birth risk"
+   "subtitle": "CIN1 often observed; treat CIN2/3; LLETZ raises preterm-birth risk",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Colposcopy.png/960px-Colposcopy.png",
+     "caption": "Colposcopy - CIN 2/3 (HSIL) - acetowhite change at transformation zone",
+     "alt": "Colposcopic view of high-grade CIN (CIN2/3/HSIL) showing dense acetowhite epithelium with coarse punctation and mosaic pattern at the transformation zone — the finding that mandates LLETZ treatment",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "HPV 16/18 positive -> DIRECT colposcopy (skip the wait)",
@@ -2679,7 +2687,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>+hCG + empty uterus = PUL</div><div class='gv-step'>Serial hCG 48h + safety-net</div><div class='gv-step'>Trend declares: IUP / failing PUL / ectopic</div></div>",
    "id": "gyn-81",
    "title": "Pregnancy of Unknown Location",
-   "subtitle": "A location not yet known, not an ectopic to treat"
+   "subtitle": "A location not yet known, not an ectopic to treat",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Blob_sign_of_ectopic_pregnancy.png/960px-Blob_sign_of_ectopic_pregnancy.png",
+     "caption": "Pregnancy of unknown location - empty uterus on transvaginal ultrasound",
+     "alt": "Transvaginal ultrasound showing an empty uterine cavity (no gestational sac, no RPOC) with positive serum hCG — pregnancy of unknown location",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Pregnancy test FIRST in any reproductive-age woman with pain or bleeding",
