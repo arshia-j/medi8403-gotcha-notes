@@ -1,0 +1,5 @@
+# working/build artefacts — not part of the published site
+build/
+.playwright-mcp/
+.DS_Store
+*.log

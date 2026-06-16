@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MEDI8403 Gotcha Notes</title>
+  <meta name="description" content="High-yield gotcha revision notes for MEDI8403 / MEDI8401 — cut-offs, discriminators and traps, verified against current Australian guidelines." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="brand">
+      <span class="b1">Gotcha<em>Notes</em></span>
+      <span class="b2">MEDI8403 · the traps, not the textbook</span>
+    </div>
+
+    <div class="search-wrap">
+      <input id="search" type="search" placeholder="Search every card — cut-offs, discriminators, traps…" autocomplete="off" aria-label="Search all cards" />
+      <button class="search-clear" id="search-clear" type="button" aria-label="Clear search" hidden>×</button>
+    </div>
+
+    <button class="expand-all" id="expand-all" type="button" aria-pressed="false">Expand all</button>
+
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme" title="Toggle theme">
+      <span class="theme-icon" aria-hidden="true">◐</span>
+    </button>
+  </header>
+
+  <div class="layout">
+    <nav class="side" id="nav" aria-label="Modules"></nav>
+    <div class="scrim" id="scrim" hidden></div>
+    <main class="content" id="content"></main>
+  </div>
+
+  <!-- module data (each file self-registers into window.GOTCHA.modules) -->
+  <script src="data/paediatrics.js"></script>
+  <script src="data/gynaecology.js"></script>
+  <script src="data/obstetrics.js"></script>
+  <script src="data/cardiovascular.js"></script>
+  <script src="data/respiratory.js"></script>
+  <script src="data/gastroenterology.js"></script>
+  <script src="data/renal.js"></script>
+  <script src="data/endocrine.js"></script>
+  <script src="data/neurology.js"></script>
+  <script src="data/oncology.js"></script>
+  <script src="data/infectious.js"></script>
+  <script src="data/rheumatology.js"></script>
+  <script src="data/dermatology.js"></script>
+  <script src="data/eyesent.js"></script>
+  <script src="data/immunology.js"></script>
+  <script src="data/haematology.js"></script>
+  <script src="data/surg-perioperative.js"></script>
+  <script src="data/surg-acute-abdomen.js"></script>
+  <script src="data/surg-vascular.js"></script>
+  <script src="data/surg-urology.js"></script>
+  <script src="data/surg-breast-endocrine.js"></script>
+  <script src="data/surg-safety.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
