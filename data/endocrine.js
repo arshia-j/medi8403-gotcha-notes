@@ -288,7 +288,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th></th><th>Type 1 AIT</th><th>Type 2 AIT</th></tr><tr><td>Mechanism</td><td>Iodine-induced excess synthesis</td><td>Destructive thyroiditis (leak)</td></tr><tr><td>Gland</td><td>Pre-existing abnormal/nodular</td><td>Normal</td></tr><tr><td>Colour Doppler</td><td>Increased vascularity</td><td>Low/absent vascularity</td></tr><tr><td>Treatment</td><td>Carbimazole (± perchlorate)</td><td>Prednisolone</td></tr><tr><td>Aftermath</td><td>Stays hyper</td><td>Often transient → hypothyroid</td></tr></table>",
    "title": "Amiodarone & the thyroid",
    "subtitle": "distinguish Type 1 vs Type 2 thyrotoxicosis (carbimazole vs prednisolone) and remember hypothyroidism is far commoner in Australia",
-   "id": "endocrine-9"
+   "id": "endocrine-9",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Thyroid_scintigraphy.jpg/960px-Thyroid_scintigraphy.jpg",
+     "caption": "Amiodarone thyrotoxicosis Type 1 - toxic nodular goitre on isotope scan (hot nodule)",
+     "alt": "Radionuclide thyroid uptake scan showing a hot autonomous nodule (Type 1 amiodarone thyrotoxicosis substrate)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Ultrasound_of_thyroid_showing_right_lower_pole_cyst_and_a_calcified_nodule.jpg/960px-Ultrasound_of_thyroid_showing_right_lower_pole_cyst_and_a_calcified_nodule.jpg",
+     "caption": "Amiodarone thyrotoxicosis Type 2 - destructive thyroiditis (thyroid ultrasound with Doppler)",
+     "alt": "Colour-flow Doppler ultrasound of thyroid showing reduced vascularity (Type 2 destructive thyroiditis pattern)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Hyperthyroidism — diagnose the CAUSE before treating (uptake scan distinguishes Graves from thyroiditis), carbimazole first-line, agranulocytosis rule",
@@ -329,6 +343,12 @@ window.GOTCHA.modules.push(
      "caption": "Graves disease - exophthalmos and lid retraction",
      "alt": "Bilateral proptosis (exophthalmos) and lid retraction in Graves hyperthyroidism",
      "credit": "CDC/Dr. Sellers/Emory University, Wikimedia Commons, public domain · Public domain"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Thyroid_scintigraphy.jpg/960px-Thyroid_scintigraphy.jpg",
+     "caption": "Thyroid radionuclide scan - diffuse uptake (Graves) vs hot nodule vs suppressed (thyroiditis)",
+     "alt": "Three-pattern thyroid scintigraphy: diffuse homogeneous uptake (Graves), single hot nodule (toxic adenoma), and suppressed/absent uptake (destructive thyroiditis)",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -460,7 +480,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Continue carbimazole through the first trimester.**' WRONG\n  - Risk of **carbimazole embryopathy**; use **PTU in T1**, switch to **carbimazole in T2**",
    "visualHtml": "<table class=\"gv-table\"><tr><th>Trimester</th><th>Hyperthyroid (Graves) drug</th><th>Hypothyroid</th></tr><tr><td>1st</td><td>PTU (avoid carbimazole embryopathy)</td><td>↑Levothyroxine ~25–30% at confirmation</td></tr><tr><td>2nd</td><td>Switch to carbimazole (PTU hepatotoxicity)</td><td>TSH q4 weeks, target &lt;2.5</td></tr><tr><td>3rd</td><td>Carbimazole, lowest dose; watch neonatal TRAb effect</td><td>Reassess; needs often drop postpartum</td></tr></table>",
    "title": "Thyroid disease in pregnancy",
-   "id": "endocrine-14"
+   "id": "endocrine-14",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Aplasia_cutis_congenita.jpg/960px-Aplasia_cutis_congenita.jpg",
+     "caption": "Aplasia cutis congenita - carbimazole embryopathy (scalp defect in neonate)",
+     "alt": "Aplasia cutis congenita - focal absence of skin on the neonatal scalp, a recognised teratogenic effect of carbimazole/methimazole in the first trimester",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Thyroid nodule & cancer work-up — TSH FIRST (suppressed → scan, not FNA), then ultrasound/TIRADS to decide FNA; calcitonin/medullary clue",
@@ -496,7 +524,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">1. Solitary nodule → TSH (FIRST)</div><div class=\"gv-step\">2a. TSH suppressed → uptake scan: HOT = benign, treat hyper, NO FNA</div><div class=\"gv-step\">2b. TSH normal/high → ultrasound + ACR TI-RADS</div><div class=\"gv-step\">3. FNA per TI-RADS + size (TR5≥1cm, TR4≥1.5cm, TR3≥2.5cm)</div><div class=\"gv-step\">4. Bethesda cytology → indeterminate = surgery/molecular; red flags → urgent ENT/surgery</div></div>",
    "title": "Thyroid nodule & cancer work-up",
    "subtitle": "TSH FIRST (suppressed → scan, not FNA), then ultrasound/TIRADS to decide FNA; calcitonin/medullary clue",
-   "id": "endocrine-15"
+   "id": "endocrine-15",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Bojunga_et_al._2012_ARFI_papillary_thyroid_carcinoma.png/960px-Bojunga_et_al._2012_ARFI_papillary_thyroid_carcinoma.png",
+     "caption": "Thyroid ultrasound - hypoechoic nodule with irregular margins (suspicious/TIRADS 4-5)",
+     "alt": "Greyscale thyroid ultrasound showing a hypoechoic solid nodule with irregular margins and microcalcifications (high TIRADS score, FNA-worthy)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Thyroid_scintigraphy.jpg/960px-Thyroid_scintigraphy.jpg",
+     "caption": "Thyroid radionuclide scan - hot (autonomous) nodule with suppressed background",
+     "alt": "Tc-99m thyroid scan showing a single hot autonomous nodule with suppression of the remaining thyroid - indicates benign functioning nodule, FNA not required",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Thyroid storm — the drug SEQUENCE is the whole exam (β-blocker + thionamide FIRST, iodine ONLY ≥1 h later, steroid throughout)",
@@ -576,6 +618,18 @@ window.GOTCHA.modules.push(
      "caption": "Acromegaly - large spade-shaped hands with broad fingers",
      "alt": "Acromegaly - characteristically enlarged, spade-shaped hands with broad digits compared to a normal hand",
      "credit": "Philippe Chanson and Sylvie Salenave, CC BY 2.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Face_of_a_man_with_acromegaly_Wellcome_L0067013.jpg/960px-Face_of_a_man_with_acromegaly_Wellcome_L0067013.jpg",
+     "caption": "Acromegaly - coarse facial features (frontal bossing, prognathism, macroglossia)",
+     "alt": "Acromegaly facial features: frontal bossing, prominent supraorbital ridges, prognathism, broad nose and macroglossia",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Acromegaly_pituitary_macroadenoma.JPEG",
+     "caption": "Acromegaly - pituitary macroadenoma on MRI",
+     "alt": "Coronal T1-weighted MRI with gadolinium showing a pituitary macroadenoma (GH-secreting) with suprasellar extension compressing the optic chiasm",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -637,7 +691,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Aldosterone</th><th>Renin</th><th>ARR</th></tr></thead><tbody><tr><td>Primary (Conn's)</td><td>High</td><td>Suppressed</td><td>High</td></tr><tr><td>Secondary hyperaldo (RAS, diuretic)</td><td>High</td><td>High</td><td>Normal/low</td></tr><tr><td>Essential HTN</td><td>Normal</td><td>Normal</td><td>Normal</td></tr></tbody></table>",
    "title": "Conn's syndrome / primary aldosteronism",
    "subtitle": "screen with ARR; stop the interfering drugs",
-   "id": "endocrine-19"
+   "id": "endocrine-19",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/CT_of_adrenal_adenoma.jpg",
+     "caption": "Conn's syndrome - adrenal adenoma on CT (unilateral adrenal mass)",
+     "alt": "Axial CT abdomen showing a small low-density unilateral adrenal adenoma (aldosteronoma) in primary hyperaldosteronism",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Cushing's syndrome — screening test choice and the steroid-history trap",
@@ -704,7 +766,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">1. Assess/cover GLUCOCORTICOID first (hydrocortisone)</div><div class=\"gv-step\">2. THEN start levothyroxine</div><div class=\"gv-step\">3. Monitor central hypothyroid with FREE T4 (not TSH)</div><div class=\"gv-step\">4. Replace sex steroids/GH as indicated; sick-day rule on steroids</div></div>",
    "title": "Hypopituitarism",
    "subtitle": "replace CORTISOL before THYROXINE (sequence trap)",
-   "id": "endocrine-21"
+   "id": "endocrine-21",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Acromegaly_pituitary_macroadenoma.JPEG",
+     "caption": "Pituitary macroadenoma - MRI coronal showing suprasellar extension and optic chiasm compression",
+     "alt": "Coronal T1 MRI with gadolinium: large pituitary macroadenoma with suprasellar extension, compressing the optic chiasm (bitemporal hemianopia substrate)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Visual_field_bitemporal_hemianopia.png/960px-Visual_field_bitemporal_hemianopia.png",
+     "caption": "Bitemporal hemianopia - visual field defect diagram in hypopituitarism",
+     "alt": "Visual field chart showing bitemporal hemianopia from optic chiasm compression by a pituitary adenoma",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Phaeochromocytoma — ALPHA-blockade BEFORE beta (never beta first)",
@@ -734,7 +810,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">1. Confirm: plasma/urine metanephrines</div><div class=\"gv-step\">2. Localise: CT/MRI (+/- DOTATATE/MIBG)</div><div class=\"gv-step\">3. ALPHA-block ~10–14 days (phenoxybenzamine or doxazosin) + salt/fluid load</div><div class=\"gv-step\">4. THEN add beta-blocker (last 2–3 days)</div><div class=\"gv-step\">5. Surgery: laparoscopic adrenalectomy</div></div>",
    "title": "Phaeochromocytoma",
    "subtitle": "ALPHA-blockade BEFORE beta (never beta first)",
-   "id": "endocrine-22"
+   "id": "endocrine-22",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Pheochromocytoma.jpg",
+     "caption": "Phaeochromocytoma - CT adrenal showing large enhancing adrenal mass",
+     "alt": "Axial CT abdomen with contrast showing a large heterogeneous enhancing right adrenal mass (phaeochromocytoma) with central necrosis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/90/Pheochromocytoma_Scan.jpg",
+     "caption": "MIBG scan - phaeochromocytoma functional imaging",
+     "alt": "I-123 MIBG scintigraphy showing intense focal uptake in a right adrenal phaeochromocytoma confirming catecholamine-secreting tumour",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Pituitary apoplexy — hydrocortisone FIRST, then urgent MRI (endocrine + neurosurgical emergency)",
@@ -764,7 +854,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">1. IV HYDROCORTISONE 100 mg STAT (don't wait for cortisol)</div><div class=\"gv-step\">2. URGENT MRI pituitary (CT may miss it)</div><div class=\"gv-step\">3. Fluids/electrolytes — watch DI/SIADH</div><div class=\"gv-step\">4. Neurosurgery + ophthalmology</div><div class=\"gv-step\">5. Surgery if vision/GCS deteriorate; else conservative</div></div>",
    "title": "Pituitary apoplexy",
    "subtitle": "hydrocortisone FIRST, then urgent MRI (endocrine + neurosurgical emergency)",
-   "id": "endocrine-23"
+   "id": "endocrine-23",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pituitary_apoplexy.jpg/960px-Pituitary_apoplexy.jpg",
+     "caption": "Pituitary apoplexy - MRI showing haemorrhage into pituitary adenoma",
+     "alt": "Sagittal T1 MRI showing hyperintense signal (haemorrhage) within an enlarged pituitary gland (haemorrhagic infarction of a macroadenoma) with suprasellar extension",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Prolactinoma — exclude the mimics, then dopamine agonist FIRST (not surgery)",
@@ -794,7 +892,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Exclude: pregnancy</span><span class=\"gv-pill\">Exclude: hypothyroid (TSH)</span><span class=\"gv-pill\">Exclude: drugs (antipsychotics/metoclopramide)</span><span class=\"gv-pill\">Exclude: renal failure</span><span class=\"gv-pill\">1st-line: CABERGOLINE</span><span class=\"gv-pill\">Surgery only if resistant/apoplexy</span></div>",
    "title": "Prolactinoma",
    "subtitle": "exclude the mimics, then dopamine agonist FIRST (not surgery)",
-   "id": "endocrine-24"
+   "id": "endocrine-24",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Adenome_hypophyse_esp.jpg/960px-Adenome_hypophyse_esp.jpg",
+     "caption": "Prolactinoma - MRI pituitary microadenoma (hypointense focus on gadolinium-enhanced coronal)",
+     "alt": "Coronal T1 MRI with gadolinium showing a small hypointense focus in the pituitary gland (microadenoma, prolactinoma) with pituitary stalk deviation",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Acromegaly_pituitary_macroadenoma.JPEG",
+     "caption": "Prolactinoma - MRI pituitary macroadenoma with suprasellar extension",
+     "alt": "Coronal T1 gadolinium-enhanced MRI showing a large prolactinoma macroadenoma with suprasellar extension compressing the optic chiasm",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "SIADH vs Diabetes Insipidus (AVP-D/AVP-R) — opposite ends of the ADH axis",
@@ -858,7 +970,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Hypercalcaemia",
    "subtitle": "malignancy vs primary hyperparathyroidism (the PTH discriminator) + crisis fluids-first sequence",
-   "id": "endocrine-26"
+   "id": "endocrine-26",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/E281_%28CardioNetworks_ECGpedia%29.jpg/960px-E281_%28CardioNetworks_ECGpedia%29.jpg",
+     "caption": "Hypercalcaemia - ECG changes (short QT interval)",
+     "alt": "Short QT interval and J-point changes characteristic of hypercalcaemia",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Hyperparathyroidism_Brown_Tumors_of_Hands.jpg/960px-Hyperparathyroidism_Brown_Tumors_of_Hands.jpg",
+     "caption": "Primary hyperparathyroidism - subperiosteal bone resorption on X-ray",
+     "alt": "Radial aspect of middle phalanges showing classic subperiosteal bone resorption in hyperparathyroidism",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Hypocalcaemia — the post-thyroidectomy/parathyroidectomy crisis, Mg trap, and IV calcium gluconate",
@@ -890,7 +1016,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Hypocalcaemia",
    "subtitle": "the post-thyroidectomy/parathyroidectomy crisis, Mg trap, and IV calcium gluconate",
-   "id": "endocrine-27"
+   "id": "endocrine-27",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Trousseau%27s_Sign_of_Latent_Tetany.jpg/960px-Trousseau%27s_Sign_of_Latent_Tetany.jpg",
+     "caption": "Trousseau sign - carpal spasm during BP cuff inflation (hypocalcaemia)",
+     "alt": "Carpal spasm / main d'accoucheur position elicited by inflating blood pressure cuff above systolic (Trousseau sign of hypocalcaemia)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Segno_di_Chvostek_Punti.JPG",
+     "caption": "Chvostek sign - facial twitch on tapping (hypocalcaemia)",
+     "alt": "Facial muscle twitch elicited by tapping over the facial nerve anterior to the ear (Chvostek sign of hypocalcaemia)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Lipids & absolute CVD risk — treat the RISK not the number (2023 Australian calculator), statin-first trap",
@@ -992,7 +1132,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Osteoporosis",
    "subtitle": "DXA T-score definition, who to scan, PBS treatment triggers & first-line bisphosphonate",
-   "id": "endocrine-30"
+   "id": "endocrine-30",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DXA_femoral_neck_with_osteoporosis.jpg",
+     "caption": "DXA scan - osteoporosis T-score report",
+     "alt": "Dual-energy X-ray absorptiometry (DXA) scan printout showing lumbar spine or hip T-score in the osteoporotic range (≤ −2.5)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/L1_2_vertebral_fracture.jpg/960px-L1_2_vertebral_fracture.jpg",
+     "caption": "Vertebral compression fracture on lateral spine X-ray",
+     "alt": "Lateral thoracic or lumbar spine X-ray showing wedge compression fracture(s) — a complication of osteoporosis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Vitamin D deficiency & osteomalacia — Australian nmol/L bands, the secondary-hyperPTH biochemistry, and the missed diagnosis",
@@ -1023,7 +1177,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Vitamin D deficiency & osteomalacia",
    "subtitle": "Australian nmol/L bands, the secondary-hyperPTH biochemistry, and the missed diagnosis",
-   "id": "endocrine-31"
+   "id": "endocrine-31",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Severe_Osteomalacia_Related_to_Long-Term_Intravenous_Drug_Abuse_P01_radiograph_of_right_tibia_and_fibula.jpg",
+     "caption": "Osteomalacia - Looser zone (pseudofracture) on X-ray",
+     "alt": "Radiograph showing a Looser zone (pseudofracture / Milkman fracture) — a ribbon-like lucency perpendicular to the cortex, pathognomonic of osteomalacia / vitamin D deficiency",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/X-ray_of_Hands_Identifying_Rickets.jpg/960px-X-ray_of_Hands_Identifying_Rickets.jpg",
+     "caption": "Rickets - cupped/frayed metaphyses and bowed legs in child",
+     "alt": "Paediatric wrist X-ray showing widened, cupped and frayed metaphyses (rachitic changes) with bowing deformity from vitamin D deficiency rickets",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   }
  ]
 }

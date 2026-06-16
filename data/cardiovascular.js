@@ -104,7 +104,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Clue (standard 12-lead)</th><th>Confirm</th></tr><tr><td>ST DEPRESSION max in V1-V3</td><td>Record V7-V9</td></tr><tr><td>Tall/broad R in V1-V2</td><td>STE ≥0.5 mm in V7-V9 = STEMI</td></tr><tr><td>Upright T waves V1-V3</td><td>Often with inferior/lateral STEMI</td></tr></table>",
    "title": "Posterior STEMI",
    "subtitle": "the 'STE-negative' MI hiding behind anterior ST depression",
-   "id": "cardiovascular-4"
+   "id": "cardiovascular-4",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Flipped_Posterior_STEMI_ECG.png/960px-Flipped_Posterior_STEMI_ECG.png",
+     "caption": "Posterior STEMI — horizontal ST depression V1-V3 with tall broad R waves (mirror image of posterior STE)",
+     "alt": "Horizontal ST depression maximal in V1-V3 with tall R waves and upright T waves, representing the reciprocal pattern of posterior STEMI",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "RV infarction — the 'AVOID GTN' card and the V4R diagnosis",
@@ -135,6 +143,12 @@ window.GOTCHA.modules.push(
      "caption": "Inferior STEMI with RV infarction — ST elevation II, III, aVF",
      "alt": "Acute inferior STEMI (STE in II, III, aVF) which is the most common setting for RV infarction",
      "credit": "Glenlarson, Wikimedia Commons, public domain (top diagnosis banner cropped for exam use) · Public domain"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Inferior_and_RtV_MI_with_PVC_15_lead.jpg/960px-Inferior_and_RtV_MI_with_PVC_15_lead.jpg",
+     "caption": "Right-sided ECG V4R — ST elevation confirming RV infarction",
+     "alt": "ST elevation in lead V4R (right-sided precordial lead) — the diagnostic criterion for right ventricular infarction",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1089,6 +1103,12 @@ window.GOTCHA.modules.push(
      "caption": "Hypertensive emergency — acute pulmonary oedema on CXR",
      "alt": "Cardiogenic pulmonary oedema (bat-wing pattern) as an end-organ manifestation of hypertensive emergency",
      "credit": "Hellerhoff / Wikimedia Commons · CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Hypertensiveretinopathy.jpg/960px-Hypertensiveretinopathy.jpg",
+     "caption": "Hypertensive retinopathy — fundus in hypertensive emergency",
+     "alt": "Hypertensive retinopathy with flame haemorrhages, cotton-wool spots and papilloedema in hypertensive emergency",
+     "credit": "Wikimedia Commons"
     }
    ],
    "cutoffs": [
@@ -1126,6 +1146,12 @@ window.GOTCHA.modules.push(
      "caption": "Splinter haemorrhages — infective endocarditis peripheral sign",
      "alt": "Subungual splinter haemorrhages (longitudinal dark streaks under nails) — peripheral embolic sign of IE",
      "credit": "Splarka, Wikimedia Commons, public domain · Public domain"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Osler_Nodules_Hand.jpg/960px-Osler_Nodules_Hand.jpg",
+     "caption": "Osler nodes — tender nodules on fingertips (IE)",
+     "alt": "Osler nodes — painful erythematous nodules on the finger pulps in infective endocarditis",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1150,7 +1176,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Target SBP <span class=\"gv-num\">70-90 mmHg</span></span><span class=\"gv-pill\">Keep patient conscious + radial pulse</span><span class=\"gv-pill\">Avoid large fluid boluses</span><span class=\"gv-pill\">Theatre/EVAR first, CT only if stable</span></div>",
    "title": "Ruptured AAA",
    "subtitle": "permissive (hypotensive) resuscitation - do NOT over-fill",
-   "id": "cardiovascular-35"
+   "id": "cardiovascular-35",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/CTRupturedTA.PNG/960px-CTRupturedTA.PNG",
+     "caption": "Ruptured AAA — CT showing retroperitoneal haematoma and aneurysm",
+     "alt": "CT of ruptured abdominal aortic aneurysm with large retroperitoneal haematoma and irregular aortic wall",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ultrasonography_of_abdominal_aortic_aneurysm_in_axial_plane.jpg",
+     "caption": "AAA — ultrasound showing dilated aorta >3 cm",
+     "alt": "Abdominal ultrasound demonstrating an aneurysmal aorta (>3 cm diameter) — screening/first-line imaging",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   }
  ]
 }

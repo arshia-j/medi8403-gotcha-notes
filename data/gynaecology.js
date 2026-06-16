@@ -179,7 +179,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>EC method</th><th>Window</th><th>Effectiveness</th><th>BMI effect</th></tr></thead><tbody><tr><td>Copper IUD</td><td><span class=\"gv-num\">5 days</span></td><td>Most effective (&lt;1% fail)</td><td>None</td></tr><tr><td>Ulipristal 30mg</td><td><span class=\"gv-num\">120h</span></td><td>Better than LNG near ovulation</td><td>Less effective BMI&gt;30</td></tr><tr><td>Levonorgestrel 1.5mg</td><td><span class=\"gv-num\">72h</span> (ineffective &gt;96h)</td><td>Least effective</td><td>Less effective BMI&gt;26</td></tr></tbody></table>",
    "id": "gyn-6",
    "title": "Emergency Contraception",
-   "subtitle": "Copper IUD is most effective, up to 5 days"
+   "subtitle": "Copper IUD is most effective, up to 5 days",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Copper_IUD.jpg/960px-Copper_IUD.jpg",
+     "caption": "Copper IUD (Cu-IUD) — most effective emergency contraception",
+     "alt": "The T-shaped copper intrauterine device — the most effective emergency contraceptive (<1% failure) insertable up to 5 days post-unprotected intercourse and providing ongoing contraception",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "LARC is most effective + first-line (implant / LNG-IUD / Cu-IUD)",
@@ -209,7 +217,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Method</th><th>Typical-use failure / yr</th><th>Duration</th></tr></thead><tbody><tr><td>Etonogestrel implant</td><td><span class=\"gv-num\">&lt;0.1%</span></td><td>3 yrs</td></tr><tr><td>LNG-IUD 52mg (Mirena)</td><td><span class=\"gv-num\">&lt;0.2%</span></td><td>up to 8 yrs</td></tr><tr><td>Copper IUD</td><td><span class=\"gv-num\">&lt;0.8%</span></td><td>5-10 yrs</td></tr><tr><td>DMPA injection</td><td>~6%</td><td>12 wks</td></tr><tr><td>COC pill</td><td><span class=\"gv-num\">~7-9%</span></td><td>daily</td></tr><tr><td>Condoms</td><td>~13%</td><td>per act</td></tr></tbody></table>",
    "id": "gyn-1",
    "title": "LARC as First-Line Contraception",
-   "subtitle": "LARC beats the pill; no user error"
+   "subtitle": "LARC beats the pill; no user error",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Subdermal_implant.jpg",
+     "caption": "Etonogestrel subdermal implant (Implanon NXT) — LARC",
+     "alt": "The single-rod progestogen-only subdermal implant inserted in the upper inner arm — the most effective reversible contraceptive method with the lowest user-error rate",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/IUD_with_scale.jpg",
+     "caption": "LNG-IUD (Mirena) — LARC device",
+     "alt": "The levonorgestrel intrauterine device — a highly effective LARC option with additional non-contraceptive benefits (menorrhagia, dysmenorrhoea)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "MEC 4 vs MEC 3 thinking (and risk-factor stacking)",
@@ -440,7 +462,21 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-25",
    "title": "Breast Imaging by Age",
-   "subtitle": "Under 35 with a lump: ultrasound first, not mammogram"
+   "subtitle": "Under 35 with a lump: ultrasound first, not mammogram",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ultrasound_invasive_ductal_carcinoma_0517133654875.jpg",
+     "caption": "Breast ultrasound - well-defined hypoechoic solid nodule (fibroadenoma) in young dense breast",
+     "alt": "Breast ultrasound as first-line investigation in women under 35 with a palpable lump, showing a typical benign fibroadenoma — the rationale for preferring ultrasound over mammogram in dense young breast tissue",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Mammogram_showing_normal_dense_breasts.jpg/960px-Mammogram_showing_normal_dense_breasts.jpg",
+     "caption": "Mammogram - dense breast tissue limiting sensitivity",
+     "alt": "Mammogram in a young woman with dense breast tissue, illustrating why sensitivity is poor and ultrasound is preferred under 35",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "BreastScreen Australia: TARGET 50-74, eligible from 40",
@@ -518,7 +554,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>PCB → check HPV screening status</div><div class='gv-step'>Speculum ± colposcopy to exclude cancer/cervicitis</div><div class='gv-step'>Only then: benign ectropion</div></div>",
    "id": "gyn-28",
    "title": "Cervical Ectropion",
-   "subtitle": "Diagnosis of exclusion; check screening and speculum first"
+   "subtitle": "Diagnosis of exclusion; check screening and speculum first",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Nulliparous_cervix_with_ectropion.jpg/960px-Nulliparous_cervix_with_ectropion.jpg",
+     "caption": "Cervical ectropion - columnar epithelium visible on ectocervix at speculum examination",
+     "alt": "Cervical ectropion (cervical erosion) — the classic red velvety appearance of columnar epithelium on the ectocervix visible at speculum examination, the benign diagnosis of exclusion in post-coital bleeding",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Cervical screening after hysterectomy — the residual-cervix trap",
@@ -702,7 +746,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-27",
    "title": "Postmenopausal Bleeding",
-   "subtitle": "Endometrial cancer until proven otherwise; screen tests cervix only"
+   "subtitle": "Endometrial cancer until proven otherwise; screen tests cervix only",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Linear_striations_of_adenomyosis.jpg",
+     "caption": "Transvaginal ultrasound - thickened endometrium (>4 mm) in postmenopausal bleeding",
+     "alt": "Transvaginal ultrasound showing markedly thickened endometrium in a postmenopausal woman — the key investigation for postmenopausal bleeding to exclude endometrial cancer (threshold >4 mm warrants biopsy)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Renewed NCSP: primary HPV test, not Pap, age 25-74, 5-yearly",
@@ -814,6 +866,18 @@ window.GOTCHA.modules.push(
      "caption": "Paget disease of nipple - eczematous nipple change",
      "alt": "Unilateral eczematous eroded scaly change of the nipple-areola (important differential for breast lump workup)",
      "credit": "Lily Chu, National Naval Medical Center Bethesda, Wikimedia Commons, Public domain (PD US Navy)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Normal_mammogram.jpg/960px-Normal_mammogram.jpg",
+     "caption": "Breast lump - triple assessment: mammogram showing mass",
+     "alt": "Mammographic mass (spiculated/irregular) requiring triple assessment",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Ultrasound_invasive_ductal_carcinoma_0517133654875.jpg",
+     "caption": "Breast lump - USS showing irregular hypoechoic mass",
+     "alt": "Ultrasound of a suspicious breast lump (irregular margins, posterior shadowing)",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -865,7 +929,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>PALM (structural)</th><th>COEIN (non-structural)</th></tr></thead><tbody><tr><td>Polyp</td><td>Coagulopathy</td></tr><tr><td>Adenomyosis</td><td>Ovulatory dysfunction</td></tr><tr><td>Leiomyoma (fibroid)</td><td>Endometrial</td></tr><tr><td>Malignancy / hyperplasia</td><td>Iatrogenic</td></tr><tr><td></td><td>Not yet classified</td></tr></tbody></table>",
    "id": "gyn-31",
    "title": "Abnormal Uterine Bleeding (PALM-COEIN)",
-   "subtitle": "DUB is obsolete; you must sample the endometrium"
+   "subtitle": "DUB is obsolete; you must sample the endometrium",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Linear_striations_of_adenomyosis.jpg",
+     "caption": "TVUS - thickened endometrium (endometrial polyp or hyperplasia)",
+     "alt": "Transvaginal ultrasound showing thickened/irregular endometrium (structural cause of AUB)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Amenorrhoea - the answer is ALWAYS pregnancy test first (every time)",
@@ -912,7 +984,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>46,XY</span><span class='gv-pill'>normal breasts</span><span class='gv-pill'>absent uterus</span><span class='gv-pill'>scant pubic hair</span><span class='gv-pill'>gonadectomy after puberty</span></div>",
    "id": "gyn-49",
    "title": "Androgen Insensitivity Syndrome",
-   "subtitle": "46,XY with absent uterus; karyotype before MRKH"
+   "subtitle": "46,XY with absent uterus; karyotype before MRKH",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Quigley_scale_for_androgen_insensitivity_syndrome.jpg",
+     "caption": "Complete Androgen Insensitivity Syndrome (CAIS) - phenotypically female with sparse/absent pubic hair",
+     "alt": "Female external phenotype in 46,XY CAIS with absent/sparse pubic hair and primary amenorrhoea",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Mrkh_.jpg/960px-Mrkh_.jpg",
+     "caption": "Mayer-Rokitansky-Kuster-Hauser (MRKH) syndrome - absent vagina on MRI",
+     "alt": "MRI pelvis showing absent uterus and rudimentary structures in MRKH syndrome (46,XX)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Asherman syndrome — secondary amenorrhoea post-instrumentation",
@@ -938,7 +1024,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>Amenorrhoea after D&C/ERPC</div><div class='gv-step'>Normal hormones + NEGATIVE progestogen challenge</div><div class='gv-step'>Hysteroscopy = diagnose + treat adhesions</div></div>",
    "id": "gyn-44",
    "title": "Asherman Syndrome",
-   "subtitle": "Structural outflow cause; hormones normal, progestogen challenge negative"
+   "subtitle": "Structural outflow cause; hormones normal, progestogen challenge negative",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Hysteroscopy-adherences_FRENCH.jpg/960px-Hysteroscopy-adherences_FRENCH.jpg",
+     "caption": "Asherman syndrome - hysteroscopy showing intrauterine adhesions (synechiae)",
+     "alt": "Hysteroscopic view of dense fibrous intrauterine adhesions (synechiae) obliterating the uterine cavity",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/HSG_adherences_FRENCH.jpg/960px-HSG_adherences_FRENCH.jpg",
+     "caption": "Asherman syndrome - HSG showing filling defects",
+     "alt": "Hysterosalpingogram (HSG) with irregular filling defects indicating intrauterine adhesions",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Endometrial ablation — contraindications & contraception caveat",
@@ -965,7 +1065,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>Childbearing complete</span><span class='gv-pill'>pathology excluded</span><span class='gv-pill'>NOT sterilising → still contracept</span></div>",
    "id": "gyn-52",
    "title": "Endometrial Ablation",
-   "subtitle": "Not if future fertility wanted; still needs contraception"
+   "subtitle": "Not if future fertility wanted; still needs contraception",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Endometrial_ablation_1.jpg",
+     "caption": "Endometrial ablation - hysteroscopic procedure",
+     "alt": "Hysteroscopic endometrial ablation technique showing destruction of the endometrial lining",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Endometriosis - empirical treatment FIRST; laparoscopy is the diagnostic reference standard; a normal scan does NOT exclude it",
@@ -990,7 +1098,21 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-41",
    "title": "Endometriosis",
-   "subtitle": "Treat empirically first; normal scan does NOT exclude it"
+   "subtitle": "Treat empirically first; normal scan does NOT exclude it",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Endometriosis_types_laparoscopy.webp/960px-Endometriosis_types_laparoscopy.webp.png",
+     "caption": "Endometriosis - laparoscopy showing powder-burn lesions and adhesions",
+     "alt": "Laparoscopic view of peritoneal endometriotic deposits (powder-burn/gunshot lesions) and pelvic adhesions",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Endometrioma_ground_glass_appearance.jpg",
+     "caption": "Endometrioma - USS showing chocolate cyst (ground-glass appearance)",
+     "alt": "Transvaginal ultrasound of endometrioma: unilocular cyst with homogeneous low-level internal echoes (ground-glass appearance)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Fibroids vs adenomyosis - the discriminators that decide the MCQ",
@@ -1015,7 +1137,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Feature</th><th>Fibroid (leiomyoma)</th><th>Adenomyosis</th></tr></thead><tbody><tr><td>Uterus</td><td>Irregular, lumpy, firm</td><td>Globular, boggy, soft</td></tr><tr><td>Tenderness</td><td>Usually non-tender</td><td>Tender</td></tr><tr><td>Hallmark symptom</td><td>HMB + pressure/bulk</td><td>HMB + dysmenorrhoea</td></tr><tr><td>Imaging</td><td>Discrete mass</td><td>Diffuse myometrial thickening / wide junctional zone</td></tr></tbody></table>",
    "id": "gyn-42",
    "title": "Fibroids vs Adenomyosis",
-   "subtitle": "Irregular lumpy uterus vs globular tender uterus"
+   "subtitle": "Irregular lumpy uterus vs globular tender uterus",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/9cmFibroidUS.png",
+     "caption": "Uterine fibroid (leiomyoma) - USS showing discrete hypoechoic mass distorting uterine contour",
+     "alt": "Ultrasound of enlarged irregular uterus with discrete hypoechoic fibroid masses (leiomyomas)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Diffuse_adenomyosis.jpg",
+     "caption": "Adenomyosis - USS showing globular uterus with heterogeneous myometrium",
+     "alt": "Transvaginal ultrasound of adenomyosis: globally enlarged globular uterus with heterogeneous myometrium and asymmetric walls",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Heavy menstrual bleeding - first-line is the LNG-IUS (Mirena), NOT hysterectomy or COC",
@@ -1040,7 +1176,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Exclude pregnancy + structural cause + treat iron deficiency</div><div class=\"gv-step\">LNG-IUS first-line (no fertility wish)</div><div class=\"gv-step\">Tranexamic acid / NSAID / COC if declines IUS or wants fertility</div><div class=\"gv-step\">Surgery (ablation / hysterectomy) last-line</div></div>",
    "id": "gyn-32",
    "title": "Heavy Menstrual Bleeding",
-   "subtitle": "LNG-IUS is first-line, not COC or hysterectomy"
+   "subtitle": "LNG-IUS is first-line, not COC or hysterectomy",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mirena_IUD_2016.jpg/960px-Mirena_IUD_2016.jpg",
+     "caption": "Levonorgestrel intrauterine system (LNG-IUS / Mirena) - device appearance",
+     "alt": "LNG-IUS (Mirena) device showing the T-shaped frame with hormone reservoir",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Hyperprolactinaemia / prolactinoma in amenorrhoea-galactorrhoea",
@@ -1067,7 +1211,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>Check prolactin + TSH</span><span class='gv-pill'>Cabergoline first (not surgery)</span><span class='gv-pill'>bitemporal hemianopia = macroadenoma</span></div>",
    "id": "gyn-45",
    "title": "Hyperprolactinaemia and Prolactinoma",
-   "subtitle": "Check TSH and drugs; macroprolactinoma is medically treated"
+   "subtitle": "Check TSH and drugs; macroprolactinoma is medically treated",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/ProlactinomaMRI.jpg",
+     "caption": "Pituitary prolactinoma - MRI showing enhancing pituitary mass",
+     "alt": "Coronal MRI pituitary with contrast showing a hypointense prolactinoma (macroprolactinoma) compressing the optic chiasm",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Non-hormonal HMB options when fertility wanted (TXA / mefenamic acid)",
@@ -1121,7 +1273,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>Recent IVF/trigger</span><span class='gv-pill'>ascites + high Hct</span><span class='gv-pill'>VTE risk</span><span class='gv-pill'>no diuretics</span></div>",
    "id": "gyn-50",
    "title": "Ovarian Hyperstimulation Syndrome",
-   "subtitle": "Recent IVF with ascites; never give diuretics"
+   "subtitle": "Recent IVF with ascites; never give diuretics",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Vaginal_ultrasonography_in_OHSS_-_sagittal.png/960px-Vaginal_ultrasonography_in_OHSS_-_sagittal.png",
+     "caption": "Ovarian Hyperstimulation Syndrome (OHSS) - USS showing enlarged ovaries with multiple follicles",
+     "alt": "Transvaginal ultrasound of OHSS: markedly enlarged ovaries with numerous follicles (necklace sign) and free pelvic fluid",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PCOS - letrozole is FIRST-LINE ovulation induction (not clomiphene, not metformin)",
@@ -1146,7 +1306,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-39",
    "title": "Ovulation Induction in PCOS",
-   "subtitle": "Letrozole is first-line, not clomiphene or metformin"
+   "subtitle": "Letrozole is first-line, not clomiphene or metformin",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0c/PCO_polycystic_ovary.jpg",
+     "caption": "Polycystic ovary - USS showing necklace sign (multiple peripheral follicles)",
+     "alt": "Transvaginal ultrasound of polycystic ovarian morphology: enlarged ovary with >20 small peripheral follicles (necklace sign) and increased stromal echogenicity",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PCOS in ADOLESCENTS - ultrasound and AMH are NOT used (the big gotcha)",
@@ -1171,7 +1339,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-37",
    "title": "PCOS in Adolescents",
-   "subtitle": "Ultrasound and AMH are NOT used to diagnose"
+   "subtitle": "Ultrasound and AMH are NOT used to diagnose",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Polycystic_ovary.jpg",
+     "caption": "PCOS ultrasound - polycystic ovarian morphology (not used for diagnosis in adolescents)",
+     "alt": "Transvaginal ultrasound showing polycystic ovarian morphology - illustrating why USS appearance alone cannot diagnose PCOS in adolescents (normal in puberty)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PCOS - Rotterdam 2-of-3, what you must EXCLUDE first, and the AMH update",
@@ -1203,6 +1379,12 @@ window.GOTCHA.modules.push(
      "src": "assets/img/endocrine_acanthosis_nigricans_axilla_01.jpg",
      "alt": "Acanthosis nigricans in the axilla, a sign of insulin resistance in PCOS",
      "credit": "Mark F. Brady; Prashanth Rawla, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png/960px-Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png",
+     "caption": "Polycystic ovary - USS showing multiple peripheral follicles (Rotterdam PCOM criterion)",
+     "alt": "Transvaginal ultrasound of polycystic ovarian morphology: enlarged ovary with string-of-pearls/necklace sign peripheral follicles",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1230,7 +1412,21 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-43",
    "title": "Postmenopausal Bleeding",
-   "subtitle": "Endometrial cancer until proven otherwise; TVUS plus biopsy"
+   "subtitle": "Endometrial cancer until proven otherwise; TVUS plus biopsy",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uterus_of_88_year_old_female.jpg",
+     "caption": "Thickened endometrium - TVUS in postmenopausal bleeding",
+     "alt": "Transvaginal ultrasound showing thickened endometrium (>4 mm) in a postmenopausal woman, indicating need for biopsy",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Endometrial_Carcinoma_%28414636067%29.jpg/960px-Endometrial_Carcinoma_%28414636067%29.jpg",
+     "caption": "Endometrial carcinoma - hysteroscopy or histology",
+     "alt": "Hysteroscopic view of irregular polypoid endometrial carcinoma, or histology showing malignant endometrial glands",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Premenstrual dysphoric disorder (PMDD) diagnosis + first-line SSRI",
@@ -1257,7 +1453,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>Prospective symptom diary ≥2 cycles</div><div class='gv-step'>Luteal symptoms, symptom-free after menses</div><div class='gv-step'>SSRI (continuous or luteal) ± COC</div></div>",
    "id": "gyn-46",
    "title": "Premenstrual Dysphoric Disorder",
-   "subtitle": "Confirm cyclicity prospectively; SSRI is first-line"
+   "subtitle": "Confirm cyclicity prospectively; SSRI is first-line",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Illustration_of_Premenstrual_dysphoric_disorder.png/960px-Illustration_of_Premenstrual_dysphoric_disorder.png",
+     "caption": "PMDD vs major depression — symptom timing across menstrual cycle",
+     "alt": "Cyclic luteal-phase symptom pattern (PMDD) versus continuous symptoms (major depression) plotted across follicular and luteal phases",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Primary amenorrhoea - the two age cut-offs (15 vs 13) and don't forget anatomy",
@@ -1285,7 +1489,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Trigger to investigate primary amenorrhoea</th></tr></thead><tbody><tr><td>No menarche by 15 + normal secondary sexual characteristics</td></tr><tr><td>No breast development by 13 (no pubertal onset)</td></tr><tr><td>Cyclical pain + amenorrhoea at any age (outflow obstruction)</td></tr></tbody></table>",
    "id": "gyn-34",
    "title": "Primary Amenorrhoea",
-   "subtitle": "Investigate by 15, or 13 if no breast development"
+   "subtitle": "Investigate by 15, or 13 if no breast development",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Individuals_of_Asian_descent_with_Turner_syndrome.jpg/960px-Individuals_of_Asian_descent_with_Turner_syndrome.jpg",
+     "caption": "Turner syndrome — classic phenotype (webbed neck, shield chest, short stature)",
+     "alt": "Adolescent female with Turner syndrome showing webbed neck, low posterior hairline, widely spaced nipples and short stature",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Tanner_scale-female.svg/960px-Tanner_scale-female.svg.png",
+     "caption": "Tanner staging chart — breast and pubic hair development",
+     "alt": "Tanner stages 1-5 for breast development and pubic hair, used to assess pubertal progress and trigger investigation thresholds",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Primary vs secondary dysmenorrhoea - and the trap of treating before discriminating",
@@ -1309,7 +1527,21 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-40",
    "title": "Primary vs Secondary Dysmenorrhoea",
-   "subtitle": "Discriminate before treating; classic primary needs no imaging"
+   "subtitle": "Discriminate before treating; classic primary needs no imaging",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Superficial_peritoneal_endometriosis.png/960px-Superficial_peritoneal_endometriosis.png",
+     "caption": "Endometriosis — laparoscopic powder-burn lesions",
+     "alt": "Laparoscopic view of peritoneal endometriotic implants (powder-burn/blue-black deposits) causing secondary dysmenorrhoea",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Linear_striations_of_adenomyosis.jpg",
+     "caption": "Adenomyosis — ultrasound appearances (globular uterus, heterogeneous myometrium)",
+     "alt": "Transvaginal ultrasound showing globular uterus with heterogeneous myometrium and myometrial cysts (adenomyosis — secondary dysmenorrhoea cause)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Secondary amenorrhoea - the time definition and the 'four causes' workup",
@@ -1333,7 +1565,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-35",
    "title": "Secondary Amenorrhoea",
-   "subtitle": "Absent 3 months (or 6 if oligomenorrhoeic); hCG first"
+   "subtitle": "Absent 3 months (or 6 if oligomenorrhoeic); hCG first",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png/960px-Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png",
+     "caption": "Polycystic ovaries — transvaginal ultrasound (necklace sign)",
+     "alt": "Transvaginal ultrasound showing enlarged ovary with peripheral ring of small antral follicles (necklace sign) in PCOS — a common cause of secondary amenorrhoea",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Subfertility initial workup — semen analysis first-step",
@@ -1360,7 +1600,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>12 mo (6 mo if &gt;35)</span><span class='gv-pill'>Semen analysis</span><span class='gv-pill'>Day-21 progesterone</span><span class='gv-pill'>Tubal patency</span></div>",
    "id": "gyn-47",
    "title": "Subfertility Initial Workup",
-   "subtitle": "Semen analysis early; male factor is ~40%"
+   "subtitle": "Semen analysis early; male factor is ~40%",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Spermatozoa_in_Semen_Microscopy.jpg/960px-Spermatozoa_in_Semen_Microscopy.jpg",
+     "caption": "Semen analysis — oligozoospermia on microscopy",
+     "alt": "Microscopy of semen sample demonstrating reduced sperm count (oligozoospermia) and abnormal morphology — the first-line male factor investigation",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png/960px-Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png",
+     "caption": "Polycystic ovaries — transvaginal ultrasound",
+     "alt": "Transvaginal ultrasound showing enlarged ovary with multiple peripheral follicles (PCOS) — key female factor investigation in subfertility workup",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Turner syndrome / gonadal dysgenesis — primary amenorrhoea",
@@ -1387,7 +1641,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class='gv-table'><tr><th></th><th>Turner</th><th>AIS</th><th>Imperforate hymen</th></tr><tr><td>Karyotype</td><td>45,X</td><td>46,XY</td><td>46,XX</td></tr><tr><td>Breasts</td><td>poor</td><td>normal</td><td>normal</td></tr><tr><td>Uterus</td><td>present</td><td>absent</td><td>present</td></tr><tr><td>FSH</td><td>HIGH</td><td>high/normal</td><td>normal</td></tr><tr><td>Clue</td><td>short, webbed neck</td><td>blind vagina, testes</td><td>cyclical pain, haematocolpos</td></tr></table>",
    "id": "gyn-48",
    "title": "Turner Syndrome",
-   "subtitle": "Karyotype primary amenorrhoea with absent puberty"
+   "subtitle": "Karyotype primary amenorrhoea with absent puberty",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Individuals_of_Asian_descent_with_Turner_syndrome.jpg/960px-Individuals_of_Asian_descent_with_Turner_syndrome.jpg",
+     "caption": "Turner syndrome — webbed neck, low hairline, short stature",
+     "alt": "Classic Turner syndrome (45,X) phenotype: webbed neck (pterygium colli), low posterior hairline, shield chest and short stature in a young female",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1b/45%2CX.jpg",
+     "caption": "Turner syndrome karyotype — 45,X (monosomy X)",
+     "alt": "Karyotype demonstrating 45,X (monosomy X) — the chromosomal basis of Turner syndrome identified on investigation of primary amenorrhoea with absent puberty",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PCOS - unopposed oestrogen = endometrial cancer risk; avoid prolonged amenorrhoea",
@@ -1409,7 +1677,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-38",
    "title": "Unopposed Oestrogen in PCOS",
-   "subtitle": "Prolonged amenorrhoea risks endometrial cancer; never just reassure"
+   "subtitle": "Prolonged amenorrhoea risks endometrial cancer; never just reassure",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png/960px-Ultrasound_scans_and_3D_rendering_of_polycystic_ovaries.png",
+     "caption": "Polycystic ovaries — transvaginal ultrasound (string of pearls)",
+     "alt": "Transvaginal ultrasound showing polycystic ovary with multiple peripheral follicles — chronic anovulation leads to unopposed oestrogen and endometrial hyperplasia risk",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PID - the exact Australian empirical regimen (covers GC + chlamydia + anaerobes)",
@@ -1498,7 +1774,27 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Feature</th><th>Ectopic</th><th>Ruptured/haem. cyst</th><th>Torsion</th></tr></thead><tbody><tr><td>beta-hCG</td><td>Positive</td><td>Negative</td><td>Negative</td></tr><tr><td>Pain</td><td>Unilateral + bleeding/amenorrhoea</td><td>Sudden, often post-coital, settles</td><td>Severe colicky + vomiting</td></tr><tr><td>Mass</td><td>Adnexal +/- free fluid</td><td>Free fluid, collapsed cyst</td><td>Tender enlarged ovary/lead-point</td></tr><tr><td>USS</td><td>Empty uterus + adnexal mass</td><td>Haemorrhagic cyst, fluid</td><td>Whirlpool / normal Doppler possible</td></tr></tbody></table>",
    "id": "gyn-60",
    "title": "Ectopic vs Cyst vs Torsion",
-   "subtitle": "Positive hCG plus empty uterus equals ectopic until proven otherwise"
+   "subtitle": "Positive hCG plus empty uterus equals ectopic until proven otherwise",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Schematic_figure_of_vaginal_ultrasonography_in_ectopic_pregnancy.svg/960px-Schematic_figure_of_vaginal_ultrasonography_in_ectopic_pregnancy.svg.png",
+     "caption": "Ectopic pregnancy — TVUS showing adnexal ring sign with empty uterus",
+     "alt": "Transvaginal ultrasound demonstrating an adnexal tubal ring (ectopic gestational sac) with free fluid in pouch of Douglas and empty uterine cavity",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ultrasound_Scan_ND_0128132238_1325020.png",
+     "caption": "Simple ovarian cyst — TVUS (unilocular, anechoic)",
+     "alt": "Transvaginal ultrasound showing a simple unilocular anechoic ovarian cyst with thin walls — physiological/benign appearance",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Ovarian_torsion.jpg/960px-Ovarian_torsion.jpg",
+     "caption": "Ovarian torsion — TVUS with enlarged oedematous ovary and absent Doppler flow",
+     "alt": "Transvaginal ultrasound showing enlarged oedematous ovary with peripheral follicles and absent or reduced venous Doppler signal — ovarian torsion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PID - treat EMPIRICALLY on minimum clinical criteria (don't wait for swabs)",
@@ -1547,7 +1843,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-53",
    "title": "First Move in Acute Pelvic Pain",
-   "subtitle": "Beta-hCG before imaging, analgesia or disposition"
+   "subtitle": "Beta-hCG before imaging, analgesia or disposition",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Blob_sign_of_ectopic_pregnancy.svg/960px-Blob_sign_of_ectopic_pregnancy.svg.png",
+     "caption": "Ectopic pregnancy — TVUS showing adnexal mass with empty uterus",
+     "alt": "Transvaginal ultrasound with positive hCG showing empty uterine cavity and adnexal mass — the key finding that mandates ectopic exclusion before any other workup",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Genital herpes (HSV) first episode + painful vs painless ulcer",
@@ -1574,7 +1878,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>Painful = HSV</span><span class='gv-pill'>Painless = syphilis chancre</span></div>",
    "id": "gyn-66",
    "title": "First-Episode Genital Herpes",
-   "subtitle": "Painful HSV ulcer vs painless syphilitic chancre; don't withhold aciclovir"
+   "subtitle": "Painful HSV ulcer vs painless syphilitic chancre; don't withhold aciclovir",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg/960px-Chancres_on_the_penile_shaft_due_to_a_primary_syphilitic_infection_caused_by_Treponema_pallidum_6803_lores.jpg",
+     "caption": "Primary syphilis — painless indurated chancre on genitalia",
+     "alt": "Single well-defined indurated painless chancre on the genitalia — primary syphilis (Treponema pallidum), contrasting with the painful multiple lesions of HSV",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Fitz-Hugh-Curtis syndrome - RUQ pain in PID is perihepatitis, not gallbladder",
@@ -1598,7 +1910,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-59",
    "title": "Fitz-Hugh-Curtis Syndrome",
-   "subtitle": "RUQ pain in PID is perihepatitis, not cholecystitis"
+   "subtitle": "RUQ pain in PID is perihepatitis, not cholecystitis",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Perihepatic_adhesions.jpg/960px-Perihepatic_adhesions.jpg",
+     "caption": "Fitz-Hugh-Curtis syndrome — laparoscopic violin-string perihepatic adhesions",
+     "alt": "Laparoscopic view of the right upper quadrant showing characteristic violin-string adhesions between the liver capsule and parietal peritoneum — Fitz-Hugh-Curtis syndrome (perihepatitis complicating PID)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Mittelschmerz - the physiological mimic you must NOT over-investigate",
@@ -1624,7 +1944,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-61",
    "title": "Mittelschmerz",
-   "subtitle": "Mid-cycle physiological pain; don't over-investigate or over-treat"
+   "subtitle": "Mid-cycle physiological pain; don't over-investigate or over-treat",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Follicle_development_stages.jpg/960px-Follicle_development_stages.jpg",
+     "caption": "Dominant follicle at ovulation — TVUS (Day 14 follicle ~20mm)",
+     "alt": "Transvaginal ultrasound showing a dominant preovulatory follicle (~18-22mm) in the ovary at mid-cycle — the source of mittelschmerz pain on rupture",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Ovarian cyst characterisation — when to observe vs operate",
@@ -1652,7 +1980,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>Simple, unilocular, &lt;5cm, normal CA125 → OBSERVE</div><div class='gv-step'>Complex / solid / septated / large / high CA125 → REFER</div></div>",
    "id": "gyn-68",
    "title": "Ovarian Cyst Characterisation",
-   "subtitle": "Observe simple cysts; investigate complex or postmenopausal masses"
+   "subtitle": "Observe simple cysts; investigate complex or postmenopausal masses",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Haemorrhagic_ovarian_cyst_ultrasound.jpg",
+     "caption": "Simple ovarian cyst — TVUS (unilocular, anechoic, thin wall — reassuring)",
+     "alt": "Transvaginal ultrasound showing a simple unilocular anechoic ovarian cyst with a thin smooth wall — benign/physiological appearance warranting observation",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/24/Endometrioma.jpg",
+     "caption": "Complex ovarian mass — TVUS (septations, solid component, internal echoes)",
+     "alt": "Transvaginal ultrasound showing a multilocular ovarian mass with thick septations, solid papillary projections and internal echoes — complex/suspicious appearance requiring further investigation",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Ovarian torsion - normal Doppler flow does NOT exclude it",
@@ -1677,7 +2019,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-54",
    "title": "Ovarian Torsion",
-   "subtitle": "Normal Doppler flow does NOT exclude torsion"
+   "subtitle": "Normal Doppler flow does NOT exclude torsion",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Ultrasound_Scan_ND_0128132238_1325020.png",
+     "caption": "Ovarian torsion — TVUS with enlarged oedematous ovary and whirlpool sign",
+     "alt": "Transvaginal ultrasound showing markedly enlarged, oedematous ovary with peripheral displaced follicles and colour Doppler whirlpool sign at the pedicle — ovarian torsion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PID empirical treatment - threshold and Australian regimen",
@@ -1705,7 +2055,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Ceftriaxone 500 mg IM stat</span><span class=\"gv-pill\">Doxycycline 100 mg BD x14d</span><span class=\"gv-pill\">Metronidazole 400 mg BD x14d</span></div>",
    "id": "gyn-62",
    "title": "PID Treatment Threshold and Regimen",
-   "subtitle": "Empirical on clinical criteria; don't await swabs"
+   "subtitle": "Empirical on clinical criteria; don't await swabs",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Hydrosalpinx.png/960px-Hydrosalpinx.png",
+     "caption": "PID — TVUS showing pyosalpinx (fluid-filled tube with internal echoes)",
+     "alt": "Transvaginal ultrasound demonstrating a pyosalpinx — dilated fallopian tube with internal echoes and thick walls — a complication of PID requiring empirical antibiotic treatment",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PID with an IUD in situ - do NOT reflexively remove it",
@@ -1728,7 +2086,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-57",
    "title": "PID with IUD In Situ",
-   "subtitle": "Don't reflexively remove the IUD; treat first"
+   "subtitle": "Don't reflexively remove the IUD; treat first",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Ultrasonography_of_IUD_with_copper.jpg",
+     "caption": "IUD in situ on pelvic ultrasound",
+     "alt": "Intrauterine device visible within the uterine cavity on transvaginal ultrasound",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Toxic shock syndrome from retained tampon/foreign body",
@@ -1755,7 +2121,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>Remove tampon NOW</div><div class='gv-step'>IV fluids resuscitate</div><div class='gv-step'>Cultures + antibiotics + clindamycin</div></div>",
    "id": "gyn-67",
    "title": "Toxic Shock Syndrome",
-   "subtitle": "Find and remove the retained tampon; it's the source"
+   "subtitle": "Find and remove the retained tampon; it's the source",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/OSC_Microbio_21_02_SSSS.jpg",
+     "caption": "Toxic shock syndrome - diffuse sunburn-like erythroderma",
+     "alt": "Diffuse macular erythroderma resembling sunburn covering the trunk and limbs (staphylococcal toxic shock syndrome)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kawasaki.PNG/960px-Kawasaki.PNG",
+     "caption": "Toxic shock syndrome - desquamation of palms and soles",
+     "alt": "Late desquamation of the palms and soles (full-thickness skin peeling) following toxic shock syndrome",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Tubo-ovarian abscess - failed antibiotics + adnexal mass = drain/operate",
@@ -1780,7 +2160,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-58",
    "title": "Tubo-Ovarian Abscess",
-   "subtitle": "Failed antibiotics plus adnexal mass needs source control"
+   "subtitle": "Failed antibiotics plus adnexal mass needs source control",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Sites_of_tubo_ovarian_abscess.PNG",
+     "caption": "Tubo-ovarian abscess - transvaginal ultrasound",
+     "alt": "Complex heterogeneous adnexal mass with thick walls, internal septations and debris on transvaginal ultrasound (tubo-ovarian abscess)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Uncomplicated gonorrhoea: ceftriaxone + azithromycin dual therapy",
@@ -1836,7 +2224,27 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class='gv-table'><tr><th></th><th>BV</th><th>Candida</th><th>Trichomonas</th></tr><tr><td>pH</td><td>&gt;4.5</td><td>normal</td><td>&gt;4.5</td></tr><tr><td>Discharge</td><td>thin grey, fishy</td><td>thick white</td><td>frothy green</td></tr><tr><td>Micro</td><td>clue cells</td><td>hyphae</td><td>motile flagellates</td></tr><tr><td>STI?</td><td>No</td><td>No</td><td>YES</td></tr><tr><td>Rx</td><td>metronidazole</td><td>azole</td><td>metronidazole + partner</td></tr></table>",
    "id": "gyn-65",
    "title": "Vaginitis Discriminator",
-   "subtitle": "BV and candida aren't STIs; trichomonas is"
+   "subtitle": "BV and candida aren't STIs; trichomonas is",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Vaginal_wet_mount_with_clue_cell_-_annotated.png",
+     "caption": "Bacterial vaginosis - clue cells on wet mount",
+     "alt": "Vaginal epithelial cells heavily studded with coccobacilli (clue cells) on wet-mount microscopy (bacterial vaginosis)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Microscope_view_of_Candida_albicans_02.jpg/960px-Microscope_view_of_Candida_albicans_02.jpg",
+     "caption": "Candida vaginitis - hyphae and spores on wet mount",
+     "alt": "Pseudohyphae and budding yeast on KOH preparation or wet mount (vaginal candidiasis)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Trichomonas_vaginalis_phase_contrast_microscopy.jpg",
+     "caption": "Trichomonas vaginalis - motile flagellate on wet mount",
+     "alt": "Pear-shaped motile flagellated protozoa (Trichomonas vaginalis) on saline wet mount",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Anti-D dosing in early pregnancy & Kleihauer timing",
@@ -1944,7 +2352,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>beta-hCG vs discriminatory zone</th><th>Empty uterus on TVUS means</th><th>Action</th></tr></thead><tbody><tr><td>Above zone (<span class=\"gv-num\">~1500-2000 IU/L</span>)</td><td>Ectopic until proven otherwise</td><td>Escalate / treat as ectopic</td></tr><tr><td>Below zone</td><td>Pregnancy of unknown location</td><td>Repeat beta-hCG in 48h, rescan</td></tr></tbody></table>",
    "id": "gyn-70",
    "title": "Ectopic Discriminatory Zone",
-   "subtitle": "hCG above zone + empty uterus = ectopic, not 'too early'"
+   "subtitle": "hCG above zone + empty uterus = ectopic, not 'too early'",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ectopic_pregnancy.JPG",
+     "caption": "Ectopic pregnancy - empty uterus on transvaginal ultrasound above discriminatory zone",
+     "alt": "Transvaginal ultrasound showing empty uterine cavity with no gestational sac, with adnexal ring sign (ectopic pregnancy)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Heterotopic pregnancy — IUP does not exclude ectopic (post-IVF)",
@@ -1970,7 +2386,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>Recent IVF</span><span class='gv-pill'>IUP seen</span><span class='gv-pill'>ongoing pain → still rule out ectopic</span></div>",
    "id": "gyn-82",
    "title": "Heterotopic Pregnancy",
-   "subtitle": "Post-IVF: an IUP does not exclude a coexisting ectopic"
+   "subtitle": "Post-IVF: an IUP does not exclude a coexisting ectopic",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/UOTW_9_-_Ultrasound_of_the_Week_1.webm/500px--UOTW_9_-_Ultrasound_of_the_Week_1.webm.jpg",
+     "caption": "Heterotopic pregnancy - IUP and simultaneous ectopic on ultrasound",
+     "alt": "Transvaginal ultrasound demonstrating a gestational sac within the uterine cavity alongside a separate adnexal ectopic pregnancy (heterotopic pregnancy)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Hyperemesis gravidarum vs molar / multiple pregnancy + thiamine",
@@ -2033,7 +2457,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Stable</span><span class=\"gv-pill\">Unruptured</span><span class=\"gv-pill\">No fetal heart</span><span class=\"gv-pill\">Mass &lt;35 mm</span><span class=\"gv-pill\">hCG 1500-5000</span><span class=\"gv-pill\">Reliable follow-up</span></div>",
    "id": "gyn-72",
    "title": "Methotrexate Eligibility for Ectopic",
-   "subtitle": "Stable, unruptured, no FHR, mass <35mm, hCG <5000"
+   "subtitle": "Stable, unruptured, no FHR, mass <35mm, hCG <5000",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Blob_sign_of_ectopic_pregnancy.svg/960px-Blob_sign_of_ectopic_pregnancy.svg.png",
+     "caption": "Unruptured tubal ectopic pregnancy - adnexal ring sign on TVUS",
+     "alt": "Transvaginal ultrasound showing a small unruptured ectopic with adnexal ring sign and no free fluid, suitable for methotrexate management",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Miscarriage types + expectant vs medical vs surgical management",
@@ -2058,7 +2490,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Type</th><th>Cervical os</th><th>Key feature</th></tr></thead><tbody><tr><td>Threatened</td><td>Closed</td><td>Viable, bleeding</td></tr><tr><td>Inevitable</td><td>Open</td><td>Loss imminent</td></tr><tr><td>Incomplete</td><td>Open</td><td>Retained products</td></tr><tr><td>Complete</td><td>Closed</td><td>Empty uterus</td></tr><tr><td>Missed</td><td>Closed</td><td>Non-viable, asymptomatic</td></tr></tbody></table>",
    "id": "gyn-76",
    "title": "Miscarriage Types and Management",
-   "subtitle": "Match to the os; complete miscarriage needs no intervention"
+   "subtitle": "Match to the os; complete miscarriage needs no intervention",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/02/Abnormal_mass_and_normal_embryo.gif",
+     "caption": "Threatened miscarriage - viable embryo with closed cervical os on TVUS",
+     "alt": "Transvaginal ultrasound showing a live intrauterine embryo with cardiac activity and closed internal os (threatened miscarriage)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Incomplete_miscarriage.jpg",
+     "caption": "Incomplete miscarriage - retained products of conception on TVUS",
+     "alt": "Transvaginal ultrasound showing heterogeneous echogenic material within the uterine cavity (retained products of conception / incomplete miscarriage)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Miscarriage USS diagnostic criteria - when to diagnose vs rescan",
@@ -2084,7 +2530,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>TVUS finding</th><th>Interpretation</th></tr></thead><tbody><tr><td>CRL <span class=\"gv-num\">>=7 mm</span>, no heartbeat</td><td>Miscarriage confirmed</td></tr><tr><td>MSD <span class=\"gv-num\">>=25 mm</span>, no embryo</td><td>Anembryonic miscarriage</td></tr><tr><td>CRL &lt;7 mm OR MSD &lt;25 mm</td><td>Rescan in 7-14 days</td></tr></tbody></table>",
    "id": "gyn-75",
    "title": "Miscarriage Ultrasound Criteria",
-   "subtitle": "CRL >=7mm no heartbeat, or MSD >=25mm empty"
+   "subtitle": "CRL >=7mm no heartbeat, or MSD >=25mm empty",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Delayed_or_missed_miscarriage.gif",
+     "caption": "Missed miscarriage - embryo without cardiac activity (CRL ≥7mm) on TVUS",
+     "alt": "Transvaginal ultrasound demonstrating a crown-rump length of ≥7mm with absent cardiac activity (missed miscarriage / embryonic demise)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Anembryonic_gestation.jpg",
+     "caption": "Anembryonic pregnancy - large empty gestational sac (MSD ≥25mm) on TVUS",
+     "alt": "Transvaginal ultrasound showing a large gestational sac with mean sac diameter ≥25mm and no visible yolk sac or embryo (anembryonic pregnancy / blighted ovum)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Molar pregnancy / GTD - follow-up and avoiding pregnancy",
@@ -2178,7 +2638,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>Cervical</span><span class='gv-pill'>Caesarean-scar</span><span class='gv-pill'>Interstitial/cornual</span><span class='gv-pill'>= high-risk, specialist mgmt</span></div>",
    "id": "gyn-83",
    "title": "Non-Tubal Ectopic Pregnancy",
-   "subtitle": "Cervical, scar, interstitial ectopics bleed catastrophically; not routine"
+   "subtitle": "Cervical, scar, interstitial ectopics bleed catastrophically; not routine",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Cervical_ectopic_pregnancy.jpg",
+     "caption": "Cervical ectopic pregnancy on transvaginal ultrasound",
+     "alt": "Transvaginal ultrasound showing a gestational sac implanted in the cervical canal below the internal os (cervical ectopic pregnancy)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ruptured_cornual_ectopic_pregnancy.jpg",
+     "caption": "Interstitial (cornual) ectopic pregnancy on ultrasound",
+     "alt": "Transvaginal ultrasound showing a gestational sac eccentrically located in the cornual region of the uterus with thin surrounding myometrium (interstitial/cornual ectopic pregnancy)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Pregnancy of unknown location (PUL) — surveillance algorithm",
@@ -2251,7 +2725,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>≥3 (or ≥2) losses = recurrent</div><div class='gv-step'>Test APS + parental karyotype + uterine US</div><div class='gv-step'>APS → aspirin + LMWH</div></div>",
    "id": "gyn-85",
    "title": "Recurrent Miscarriage Workup",
-   "subtitle": "Don't investigate one loss; never miss antiphospholipid syndrome"
+   "subtitle": "Don't investigate one loss; never miss antiphospholipid syndrome",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Livedo_reticularis.jpg/960px-Livedo_reticularis.jpg",
+     "caption": "Livedo reticularis - antiphospholipid syndrome skin sign",
+     "alt": "Mottled, net-like violaceous discolouration of the skin (livedo reticularis) associated with antiphospholipid syndrome",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Uterus_septus_1.png",
+     "caption": "Septate uterus - HSG or 3D ultrasound",
+     "alt": "Uterine septum on hysterosalpingogram or 3D ultrasound - structural cause of recurrent miscarriage",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Ruptured / unstable ectopic - resuscitate and theatre, no delay",
@@ -2276,7 +2764,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "gyn-73",
    "title": "Ruptured Ectopic Pregnancy",
-   "subtitle": "Shock plus positive test: resuscitate and straight to theatre"
+   "subtitle": "Shock plus positive test: resuscitate and straight to theatre",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Ectopic_pregnancy.JPG",
+     "caption": "Ectopic pregnancy - transvaginal ultrasound adnexal ring sign",
+     "alt": "Adnexal ring sign (tubal ectopic pregnancy) with free fluid in the pouch of Douglas on transvaginal ultrasound",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Ruptured_ectopic_pregnancy.jpg",
+     "caption": "Ruptured ectopic pregnancy - haemoperitoneum on TVUS",
+     "alt": "Large volume free fluid (haemoperitoneum) surrounding the uterus and in the pouch of Douglas indicating ruptured ectopic pregnancy",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Septic miscarriage - antibiotics AND evacuation",
@@ -2351,7 +2853,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>Minimal-trauma hip/vertebral fracture → TREAT (any T-score)</div><div class='gv-step'>Else: T ≤ −2.5 = osteoporosis → bisphosphonate + Ca/vit D</div></div>",
    "id": "gyn-102",
    "title": "DEXA T-Scores And Treatment",
-   "subtitle": "Hip or vertebral fragility fracture: treat regardless of score"
+   "subtitle": "Hip or vertebral fragility fracture: treat regardless of score",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/L1_2_vertebral_fracture.jpg",
+     "caption": "Vertebral compression fractures - lateral thoracic spine X-ray",
+     "alt": "Multiple wedge-shaped vertebral compression fractures in the thoracic spine due to osteoporosis (fragility fractures)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DXA_femoral_neck_with_osteoporosis.jpg",
+     "caption": "DEXA scan - T-score printout osteoporosis",
+     "alt": "DXA bone mineral density scan result showing T-score below -2.5 (osteoporosis) at the lumbar spine and femoral neck",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Endometrial hyperplasia management (atypical vs non-atypical)",
@@ -2377,7 +2893,21 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Treat postmenopausal atypical hyperplasia with oral progestogen**' = WRONG\n- High concurrent cancer risk → **hysterectomy is preferred**",
    "id": "gyn-97",
    "title": "Endometrial Hyperplasia",
-   "subtitle": "Atypia changes everything; non-atypical gets Mirena"
+   "subtitle": "Atypia changes everything; non-atypical gets Mirena",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/Histopathology_of_complex_hyperplasia_without_atypia.jpg",
+     "caption": "Endometrial hyperplasia without atypia - histology",
+     "alt": "Crowded glands with no cytological atypia on endometrial biopsy (simple or complex hyperplasia without atypia)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Histopathology_of_complex_endometrial_hyperplasia_with_atypia.png",
+     "caption": "Endometrial hyperplasia with atypia - histology",
+     "alt": "Atypical endometrial hyperplasia with nuclear atypia and crowded glands on histology - precursor to endometrial carcinoma",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "TVUS endometrial thickness threshold in PMB (<=4 mm reassuring)",
@@ -2405,7 +2935,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Endometrial thickness</th><th>Action (single PMB episode, not on MHT)</th></tr></thead><tbody><tr><td><span class=\"gv-num\">&le;4 mm</span></td><td>Reassure (NPV &gt;99%)</td></tr><tr><td><span class=\"gv-num\">&gt;4 mm</span></td><td>Pipelle &plusmn; hysteroscopy</td></tr><tr><td>Recurrent bleed, any thickness</td><td>Hysteroscopy regardless</td></tr></tbody></table>",
    "id": "gyn-87",
    "title": "Endometrial Thickness Threshold In PMB",
-   "subtitle": "4 mm or less is reassuring; over 4 mm needs sampling"
+   "subtitle": "4 mm or less is reassuring; over 4 mm needs sampling",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Uterus_of_88_year_old_female.jpg",
+     "caption": "Endometrial thickness measurement - transvaginal ultrasound",
+     "alt": "Transvaginal ultrasound showing measurement of endometrial thickness (bilayer) in a postmenopausal woman with a thickened endometrium >4 mm",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Genitourinary syndrome of menopause (GSM) - vaginal oestrogen",
@@ -2484,7 +3022,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Route</th><th>VTE/stroke risk</th><th>Use when</th></tr></thead><tbody><tr><td>Oral oestrogen</td><td>Increased (~doubles VTE)</td><td>Low VTE risk</td></tr><tr><td>Transdermal (patch/gel)</td><td>Neutral</td><td>VTE risk factors, obesity, migraine, &gt;60</td></tr></tbody></table>",
    "id": "gyn-90",
    "title": "MHT Risks: Oral Versus Transdermal",
-   "subtitle": "Oral oestrogen raises VTE risk; transdermal does not"
+   "subtitle": "Oral oestrogen raises VTE risk; transdermal does not",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Estrogen_patch.jpg",
+     "caption": "Transdermal oestrogen patch - application site",
+     "alt": "Transdermal oestrogen patch applied to skin, illustrating the preferred route of MHT that avoids first-pass hepatic metabolism and does not increase VTE risk",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Vasomotor symptoms when MHT contraindicated - non-hormonal first-line",
@@ -2563,7 +3109,27 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Symptomatic prolapse (no red flags)</div><div class=\"gv-step\">Lifestyle + PFMT + pessary (&plusmn; vaginal oestrogen)</div><div class=\"gv-step\">Surgery only if conservative fails/declined</div></div>",
    "id": "gyn-92",
    "title": "Pelvic Organ Prolapse Management",
-   "subtitle": "Pessary and pelvic floor training before any surgery"
+   "subtitle": "Pessary and pelvic floor training before any surgery",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Uterine_prolapse_-_standing.jpg",
+     "caption": "Uterine prolapse - third-degree descensus at introitus",
+     "alt": "Third-degree (complete) uterine prolapse with the cervix and uterus visible at or beyond the vaginal introitus",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cystocele.jpg",
+     "caption": "Cystocele (anterior vaginal wall prolapse) - clinical appearance",
+     "alt": "Anterior vaginal wall prolapse (cystocele) bulging through the introitus on Valsalva",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pessaries.JPG",
+     "caption": "Ring pessary - in-situ and device appearance",
+     "alt": "Silicone ring pessary device used as first-line conservative management for pelvic organ prolapse",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Pelvic organ prolapse — pessary types & complications",
@@ -2590,7 +3156,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>Physio → pessary first</span><span class='gv-pill'>Ring (simple) vs Gellhorn (advanced)</span><span class='gv-pill'>regular review → avoid erosion/fistula</span></div>",
    "id": "gyn-99",
    "title": "Pelvic Organ Prolapse Pessaries",
-   "subtitle": "Neglected unreviewed pessaries cause erosion and fistula"
+   "subtitle": "Neglected unreviewed pessaries cause erosion and fistula",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Pessaries.JPG",
+     "caption": "Ring pessary - device types",
+     "alt": "Various types of vaginal pessaries including ring pessary (first-line) and shelf/Gellhorn pessary for more severe prolapse",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Postmenopausal bleeding (PMB) = endometrial cancer until excluded",
@@ -2617,7 +3191,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">PMB (any episode)</div><div class=\"gv-step\">TVUS endometrial thickness</div><div class=\"gv-step\">ET >4 mm OR recurrent &rarr; Pipelle &plusmn; hysteroscopy</div></div>",
    "id": "gyn-86",
    "title": "Postmenopausal Bleeding",
-   "subtitle": "Never reassure; always investigate for endometrial cancer"
+   "subtitle": "Never reassure; always investigate for endometrial cancer",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sonohysterography_14380514444700921.jpg",
+     "caption": "Thickened endometrium on TVUS - postmenopausal bleeding",
+     "alt": "Transvaginal ultrasound demonstrating a thickened, heterogeneous endometrium (>4 mm) in a postmenopausal woman - indication for endometrial sampling",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Hysteroscopy-adherences_FRENCH.jpg/960px-Hysteroscopy-adherences_FRENCH.jpg",
+     "caption": "Endometrial cancer - hysteroscopy appearance",
+     "alt": "Hysteroscopic view of irregular, friable, polypoid endometrial carcinoma within the uterine cavity",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Osteoporosis post-menopause: who to scan & when to treat",
@@ -2646,7 +3234,27 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Scenario</th><th>Action</th></tr></thead><tbody><tr><td>Minimal-trauma (hip/vertebral) fracture</td><td>Treat (any BMD)</td></tr><tr><td>Age &ge;70 + T-score <span class=\"gv-num\">&le;&minus;2.5</span></td><td>Treat</td></tr><tr><td>Osteopenia + high FRAX (MOF &ge;20% / hip &ge;3%)</td><td>Treat</td></tr><tr><td>Osteopenia, low FRAX</td><td>Lifestyle, Ca/vit D, monitor</td></tr></tbody></table>",
    "id": "gyn-93",
    "title": "Postmenopausal Osteoporosis",
-   "subtitle": "Any fragility fracture means treat regardless of T-score"
+   "subtitle": "Any fragility fracture means treat regardless of T-score",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/L1_2_vertebral_fracture.jpg/960px-L1_2_vertebral_fracture.jpg",
+     "caption": "Vertebral compression fractures - lateral spine X-ray (osteoporosis)",
+     "alt": "Multiple osteoporotic vertebral compression/crush fractures on lateral thoracolumbar spine radiograph",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/88/Neck_of_Femur_fracture_Right_side_in_a_80_years_old_female_patient.png",
+     "caption": "Hip fragility fracture - neck of femur fracture X-ray",
+     "alt": "Subcapital neck of femur fracture on AP pelvis X-ray - classic osteoporotic fragility fracture requiring treatment regardless of T-score",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/DXA_femoral_neck_with_osteoporosis.jpg",
+     "caption": "DEXA scan result showing osteoporosis T-score",
+     "alt": "DXA bone mineral density scan printout showing T-score at or below -2.5 (osteoporosis threshold) at hip and lumbar spine",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Premature ovarian insufficiency (POI) - treat, don't withhold MHT",
@@ -2672,7 +3280,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- 'Avoid MHT in a **35-year-old with POI** due to breast cancer risk' — wrong; she needs hormone replacement to **~age 51** for bone/CV protection",
    "id": "gyn-96",
    "title": "Premature Ovarian Insufficiency",
-   "subtitle": "Offer MHT until age 51; do not withhold it"
+   "subtitle": "Offer MHT until age 51; do not withhold it",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Premature_Ovarian_Failure.webm/960px--Premature_Ovarian_Failure.webm.jpg",
+     "caption": "Premature ovarian insufficiency - FSH and oestradiol hormone chart",
+     "alt": "Chart illustrating elevated FSH (>25 IU/L on two occasions) and low oestradiol in a woman under 40 years - biochemical diagnosis of POI",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Tamoxifen and the endometrium (PMB gotcha)",
@@ -2697,7 +3313,21 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- 'Reassure the tamoxifen user with PMB because **ET is 3 mm** on TVUS' — wrong; TVUS thickness is **unreliable on tamoxifen**, do **hysteroscopy**",
    "id": "gyn-94",
    "title": "Tamoxifen And The Endometrium",
-   "subtitle": "Tamoxifen PMB goes straight to hysteroscopy, ignore the 4 mm rule"
+   "subtitle": "Tamoxifen PMB goes straight to hysteroscopy, ignore the 4 mm rule",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Linear_striations_of_adenomyosis.jpg",
+     "caption": "TVUS - thickened endometrium in tamoxifen user (subendometrial cysts)",
+     "alt": "Transvaginal ultrasound showing falsely thickened endometrium with subendometrial cysts in a tamoxifen user",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Hysteroscopy-adherences_FRENCH.jpg/960px-Hysteroscopy-adherences_FRENCH.jpg",
+     "caption": "Hysteroscopy - direct visualisation of endometrial cavity",
+     "alt": "Hysteroscopy showing direct visualisation of the uterine cavity and endometrium",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Testosterone for menopausal HSDD — limits of MHT for libido",
@@ -2860,7 +3490,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>Asymptomatic cyst → observe</div><div class='gv-step'>Abscess → Word catheter / marsupialisation (not simple I&D)</div><div class='gv-step'>Age &gt;40 → biopsy to exclude carcinoma</div></div>",
    "id": "gyn-117",
    "title": "Bartholin Cyst and Abscess",
-   "subtitle": "Simple I&D recurs; use Word catheter or marsupialisation"
+   "subtitle": "Simple I&D recurs; use Word catheter or marsupialisation",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bartholin_gland_cyst.jpg",
+     "caption": "Bartholin abscess - unilateral labial swelling at 4-5 o'clock position",
+     "alt": "Bartholin gland abscess presenting as a tender fluctuant unilateral swelling at the posterior introitus",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "BRCA — risk-reducing bilateral salpingo-oophorectomy timing",
@@ -2939,7 +3577,21 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-108",
    "title": "Cervical Cancer",
-   "subtitle": "Symptoms or visible lesion override a normal screen"
+   "subtitle": "Symptoms or visible lesion override a normal screen",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Cervical_Carcinoma_with_Adnexa.jpg/960px-Cervical_Carcinoma_with_Adnexa.jpg",
+     "caption": "Cervical cancer - visible exophytic lesion on ectocervix",
+     "alt": "Visible exophytic or ulcerating squamous cell carcinoma on the cervix seen at speculum examination",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/VIANeg.gif",
+     "caption": "Colposcopy - cervical intraepithelial neoplasia / acetowhite change",
+     "alt": "Colposcopy image showing acetowhite epithelium and abnormal vascular pattern at the transformation zone",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Confidentiality of the under-16 — when you CANNOT keep it",
@@ -3051,6 +3703,12 @@ window.GOTCHA.modules.push(
      "caption": "Acanthosis nigricans - marker of insulin resistance in PCOS/obesity",
      "alt": "Acanthosis nigricans in the axilla as a visible sign of insulin resistance associated with PCOS and obesity (endometrial cancer risk)",
      "credit": "Mark F. Brady; Prashanth Rawla, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Normal_hysterosonography.png",
+     "caption": "TVUS - thickened endometrium (postmenopausal / endometrial cancer)",
+     "alt": "Transvaginal ultrasound demonstrating markedly thickened heterogeneous endometrium suspicious for endometrial carcinoma",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -3079,7 +3737,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>FGM illegal (incl. overseas)</span><span class='gv-pill'>child at risk → child protection</span><span class='gv-pill'>deinfibulation, NOT re-infibulation</span></div>",
    "id": "gyn-126",
    "title": "Female Genital Mutilation",
-   "subtitle": "Illegal in Australia, including taking a child overseas"
+   "subtitle": "Illegal in Australia, including taking a child overseas",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/FGC_Types.svg/960px-FGC_Types.svg.png",
+     "caption": "FGM classification diagram - WHO Types I-IV",
+     "alt": "Diagram illustrating WHO classification of female genital mutilation Types I through IV with anatomical illustrations",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Gestational trophoblastic neoplasia after molar pregnancy",
@@ -3167,7 +3833,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-pills'><span class='gv-pill'>Clobetasol (ultrapotent)</span><span class='gv-pill'>NOT emollient/surgery first</span><span class='gv-pill'>biopsy non-responders</span><span class='gv-pill'>~4–5% SCC risk</span></div>",
    "id": "gyn-118",
    "title": "Lichen Sclerosus",
-   "subtitle": "First-line is ultrapotent clobetasol, not emollient"
+   "subtitle": "First-line is ultrapotent clobetasol, not emollient",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Lichen_Sclerosus%2C_Vulva_%2820128642339%29.jpg/960px-Lichen_Sclerosus%2C_Vulva_%2820128642339%29.jpg",
+     "caption": "Lichen sclerosus vulva - white atrophic plaques with 'figure-of-eight' pattern",
+     "alt": "Lichen sclerosus of the vulva showing white atrophic crinkled epithelium in a figure-of-eight distribution around the vulva and perianal region",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Lynch syndrome — endometrial & ovarian cancer risk/prophylaxis",
@@ -3355,7 +4029,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>RMI component</th><th>Value</th></tr></thead><tbody><tr><td>Ultrasound (U)</td><td>0, 1, or 3</td></tr><tr><td>Menopause (M)</td><td>pre = 1, post = 3</td></tr><tr><td>CA125</td><td>actual U/mL</td></tr><tr><td>RMI = U x M x CA125</td><td>&gt;<span class=\"gv-num\">200</span> = refer</td></tr></tbody></table>",
    "id": "gyn-107",
    "title": "Ovarian Cancer",
-   "subtitle": "No screening at average risk; use CA125 plus RMI"
+   "subtitle": "No screening at average risk; use CA125 plus RMI",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bilateral_ovarian_serous_carcinomas%2C_gross_pathology.jpg",
+     "caption": "Ovarian mass - transvaginal ultrasound (complex cystic lesion, RMI assessment)",
+     "alt": "Complex adnexal/ovarian cystic mass with internal echoes and septations as used in RMI calculation",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Postmenopausal bleeding (PMB) - the cardinal red flag",
@@ -3382,7 +4064,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Postmenopausal bleeding</div><div class=\"gv-step\">TVUS endometrial thickness</div><div class=\"gv-step\">&gt;4 mm OR recurrent OR risk factors</div><div class=\"gv-step\">Pipelle &plusmn; hysteroscopy</div></div>",
    "id": "gyn-105",
    "title": "Postmenopausal Bleeding",
-   "subtitle": "Any PMB is endometrial cancer until excluded"
+   "subtitle": "Any PMB is endometrial cancer until excluded",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sonohysterography_14380514444700921.jpg",
+     "caption": "Endometrial thickening on transvaginal ultrasound (postmenopausal bleeding)",
+     "alt": "Thickened echogenic endometrium on TVUS - the key investigation in postmenopausal bleeding",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Surrogacy & donor law in NSW",
@@ -3434,7 +4124,21 @@ window.GOTCHA.modules.push(
    ],
    "id": "gyn-109",
    "title": "Vulval Cancer",
-   "subtitle": "Biopsy any non-healing vulval lesion, never treat blind"
+   "subtitle": "Biopsy any non-healing vulval lesion, never treat blind",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Verrucous_Carcinoma_1_%28145248439%29.jpg/960px-Verrucous_Carcinoma_1_%28145248439%29.jpg",
+     "caption": "Vulval cancer - squamous cell carcinoma (non-healing ulcerated plaque)",
+     "alt": "Non-healing ulcerated or hyperkeratotic vulval lesion requiring biopsy - classic appearance of vulval SCC",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Differentiated_vulvar_intraepithelial_neoplasia_-_intermed_mag.jpg/960px-Differentiated_vulvar_intraepithelial_neoplasia_-_intermed_mag.jpg",
+     "caption": "Vulval intraepithelial neoplasia (VIN) - white hyperkeratotic patch",
+     "alt": "Premalignant VIN as a white/erythematous vulval plaque that must not be treated empirically as lichen or candida",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   }
  ]
 }

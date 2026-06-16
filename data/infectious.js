@@ -232,7 +232,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Source control",
    "subtitle": "the step antibiotics cannot replace, and the timing trigger",
-   "id": "infectious-10"
+   "id": "infectious-10",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/LargeHepaticAbscess.png/960px-LargeHepaticAbscess.png",
+     "caption": "Undrained intra-abdominal abscess on CT",
+     "alt": "Hypodense rim-enhancing collection representing an intra-abdominal abscess requiring surgical/radiological source control",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Bacterial meningitis - empirical regimen, dexamethasone timing & 'don't delay'",
@@ -269,6 +277,12 @@ window.GOTCHA.modules.push(
      "caption": "Petechial rash - meningococcal meningitis",
      "alt": "Non-blanching petechial/purpuric rash of meningococcal septicaemia",
      "credit": "DrFO.Jr.Tn, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Tuberculous-meningitis-scan.jpg",
+     "caption": "Bacterial meningitis - CT head (pre-LP)",
+     "alt": "CT head showing cerebral oedema/herniation risk justifying pre-LP imaging in meningitis",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -300,6 +314,18 @@ window.GOTCHA.modules.push(
      "caption": "Cellulitis - erythema and swelling",
      "alt": "Spreading erythema, warmth and swelling of cellulitis — contrast with the necrotic appearance of NF",
      "credit": "Poupou l'quourouce, Wikimedia Commons, CC BY-SA 3.0 (cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Necrotizing_fasciitis_left_leg.JPEG/960px-Necrotizing_fasciitis_left_leg.JPEG",
+     "caption": "Necrotising fasciitis - clinical appearance",
+     "alt": "Dusky/grey skin discolouration with bullae and demarcated necrosis typical of necrotising fasciitis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Necrotising_fascitis_producing_gas_in_soft_tissues.jpg/960px-Necrotising_fascitis_producing_gas_in_soft_tissues.jpg",
+     "caption": "CT soft tissue gas - necrotising fasciitis",
+     "alt": "Gas tracking along fascial planes on CT — when present, confirms NF, but absence does NOT exclude it",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -331,6 +357,12 @@ window.GOTCHA.modules.push(
      "caption": "Cellulitis - unilateral lower leg",
      "alt": "Unilateral spreading erythema, warmth and oedema of true cellulitis — compare with bilateral stasis dermatitis",
      "credit": "Poupou l'quourouce, Wikimedia Commons, CC BY-SA 3.0 (cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Stasis_dermatitis_%28Gravitational_eczema%29.jpg",
+     "caption": "Venous stasis dermatitis - bilateral lower legs",
+     "alt": "Bilateral lower limb erythema with hyperpigmentation, haemosiderin staining and scaling — mimics bilateral cellulitis but is venous stasis dermatitis",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -363,6 +395,18 @@ window.GOTCHA.modules.push(
      "caption": "Splinter haemorrhages - infective endocarditis",
      "alt": "Linear splinter haemorrhages beneath the fingernails — peripheral stigmata of infective endocarditis",
      "credit": "Splarka, Wikimedia Commons, public domain · Public domain"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Endocarditis_ultrasound.JPG/960px-Endocarditis_ultrasound.JPG",
+     "caption": "Echocardiogram - vegetation on heart valve",
+     "alt": "Transoesophageal echo showing mobile echogenic vegetation on a cardiac valve (infective endocarditis)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Janeway_lesion.JPG/960px-Janeway_lesion.JPG",
+     "caption": "Osler nodes and Janeway lesions - endocarditis",
+     "alt": "Tender Osler nodes on fingertips and non-tender Janeway lesions on palms — immune complex embolic phenomena of IE",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -416,7 +460,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Suspect osteomyelitis</div><div class=\"gv-step\">Stable? -> bone biopsy/culture FIRST</div><div class=\"gv-step\">MRI for extent</div><div class=\"gv-step\">IV flucloxacillin (+/- vancomycin), then oral</div><div class=\"gv-step\">Total 4-6 weeks; septic/cord -> treat now</div></div>",
    "title": "Osteomyelitis",
    "subtitle": "sample/biopsy before antibiotics & the diabetic foot trap",
-   "id": "infectious-16"
+   "id": "infectious-16",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Neuropathic_heel_ulcer_diabetic.jpg",
+     "caption": "Diabetic foot ulcer - deep with probe-to-bone",
+     "alt": "Deep neuropathic plantar ulcer in diabetic foot — positive probe-to-bone test indicates high probability of osteomyelitis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Sepsis recognition & the 'golden hour' bundle (the timing every MCQ tests)",
@@ -463,7 +515,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Synovial WCC (/mm3)</th><th>Interpretation</th></tr><tr><td><span class=\"gv-num\">&lt;2,000</span></td><td>Non-inflammatory</td></tr><tr><td><span class=\"gv-num\">2,000-50,000</span></td><td>Inflammatory (e.g. crystal, RA)</td></tr><tr><td><span class=\"gv-num\">&gt;50,000</span></td><td>Septic until proven otherwise</td></tr></table>",
    "title": "Septic arthritis",
    "subtitle": "aspirate BEFORE antibiotics & the not-to-miss diagnosis",
-   "id": "infectious-18"
+   "id": "infectious-18",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Gout_-_Sodium_Urate_Crystals_-_Polarized_%2849274750631%29.jpg/960px-Gout_-_Sodium_Urate_Crystals_-_Polarized_%2849274750631%29.jpg",
+     "caption": "Urate crystals - gout (polarised light microscopy)",
+     "alt": "Negatively birefringent needle-shaped monosodium urate crystals under polarised light — distinguishes gout from septic arthritis (which can coexist)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "AIDS-defining illnesses & the CD4 thresholds that should trigger prophylaxis",
@@ -502,6 +562,18 @@ window.GOTCHA.modules.push(
      "caption": "PCP - bilateral ground-glass infiltrates on CXR",
      "alt": "Bilateral perihilar ground-glass / interstitial infiltrates in Pneumocystis jirovecii pneumonia (CD4 <200)",
      "credit": "Samir (User:Samir धर्म), Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Fundus_photograph-CMV_retinitis_EDA07.JPG/960px-Fundus_photograph-CMV_retinitis_EDA07.JPG",
+     "caption": "CMV retinitis - fundus (CD4 <50)",
+     "alt": "Pizza-pie/brushfire appearance of CMV retinitis with haemorrhages and exudates along vessel arcades — occurs at CD4 <50",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Human_tongue_infected_with_oral_candidiasis.jpg/960px-Human_tongue_infected_with_oral_candidiasis.jpg",
+     "caption": "Oral candidiasis (thrush) - HIV/AIDS",
+     "alt": "White plaques on tongue and buccal mucosa (oropharyngeal candidiasis) — AIDS-defining illness at CD4 <200 (oesophageal candidiasis)",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -533,7 +605,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Febrile phase (days 1-3): NS1/PCR</div><div class=\"gv-step\">Defervescence ~days 4-7 = CRITICAL phase / leak</div><div class=\"gv-step\">Watch warning signs -> admit + crystalloid</div><div class=\"gv-step\">Recovery phase</div></div><div class=\"gv-pills\"><span class=\"gv-pill\">No NSAIDs</span><span class=\"gv-pill\">No aspirin</span><span class=\"gv-pill\">Paracetamol OK</span></div>",
    "title": "Dengue in the returned traveller",
    "subtitle": "warning signs & the platelet/fluid gotcha",
-   "id": "infectious-20"
+   "id": "infectious-20",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Early_Dengue_Fever_Rash_2014.jpg/960px-Early_Dengue_Fever_Rash_2014.jpg",
+     "caption": "Dengue haemorrhagic fever - petechiae and rash",
+     "alt": "Petechial rash and positive tourniquet test (Rumpel-Leede sign) in dengue haemorrhagic fever indicating plasma leakage phase",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Dengue_recovery_rash_%28White_islands_in_red_sea%29.jpg/960px-Dengue_recovery_rash_%28White_islands_in_red_sea%29.jpg",
+     "caption": "Dengue - maculopapular rash with islands of white",
+     "alt": "Classic dengue maculopapular rash with white islands of normal skin — appears during febrile phase",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Fever in the returned traveller: malaria thick & thin films - what to order first and how often",
@@ -564,7 +650,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Film</th><th>Purpose</th><th>Reads</th></tr><tr><td>Thick</td><td>Screen / detect</td><td>Presence + parasite density (higher sensitivity)</td></tr><tr><td>Thin</td><td>Speciate + quantify</td><td>Species, parasitaemia %, RBC morphology</td></tr></table><div class=\"gv-flow\"><div class=\"gv-step\">Febrile traveller</div><div class=\"gv-step\">Thick+thin film + RDT TODAY</div><div class=\"gv-step\">If negative: repeat 12-24h x3</div><div class=\"gv-step\">Positive + severe criteria -> IV artesunate + ICU</div></div>",
    "title": "Fever in the returned traveller",
    "subtitle": "malaria thick & thin films - what to order first and how often",
-   "id": "infectious-21"
+   "id": "infectious-21",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Thick_blood_film_with_Plasmodium_falciparum_rings_and_schizonts.png",
+     "caption": "Thick blood film - malaria parasites",
+     "alt": "Thick blood film concentrating malaria parasites for screening/detection — more sensitive than thin film",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Plasmodium_falciparum_%28malaria%29_parasite_in_blood.jpg/960px-Plasmodium_falciparum_%28malaria%29_parasite_in_blood.jpg",
+     "caption": "Thin blood film - Plasmodium falciparum ring forms",
+     "alt": "Thin blood film showing P. falciparum ring-form trophozoites and parasitaemia percentage — used for speciation",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Hepatitis B serology interpretation - the window period & 'isolated anti-HBc' gotcha",
@@ -596,7 +696,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>HBsAg</th><th>anti-HBc</th><th>anti-HBs</th><th>Interpretation</th></tr><tr><td>+</td><td>+ (IgM)</td><td>-</td><td>Acute infection</td></tr><tr><td>+</td><td>+ (IgG)</td><td>-</td><td>Chronic (if &gt;6 mo)</td></tr><tr><td>-</td><td>+</td><td>+</td><td>Resolved past infection</td></tr><tr><td>-</td><td>-</td><td>+</td><td>Vaccinated</td></tr><tr><td>-</td><td>+</td><td>-</td><td>Window / isolated core / occult</td></tr></table>",
    "title": "Hepatitis B serology interpretation",
    "subtitle": "the window period & 'isolated anti-HBc' gotcha",
-   "id": "infectious-22"
+   "id": "infectious-22",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Hepatitis_B_virus_phases_of_chronic_infection.png/960px-Hepatitis_B_virus_phases_of_chronic_infection.png",
+     "caption": "Hepatitis B serology interpretation chart",
+     "alt": "Chart mapping HBsAg / anti-HBs / anti-HBc IgM/IgG combinations to clinical states: acute infection, window period, resolved, vaccinated, chronic",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Hepatitis C - antibody vs RNA, and the 'cure' definition gotcha",
@@ -783,7 +891,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><tr><th>Agent</th><th>Schedule</th><th>Stop after leaving</th></tr><tr><td>Atovaquone-proguanil</td><td>Daily, start 1-2 days before</td><td>7 days</td></tr><tr><td>Doxycycline</td><td>Daily</td><td>4 weeks</td></tr><tr><td>Mefloquine</td><td>Weekly, start ~1-2 wk before</td><td>4 weeks</td></tr></table><div class=\"gv-pills\"><span class=\"gv-pill\">No regimen 100%</span><span class=\"gv-pill\">Bite avoidance</span><span class=\"gv-pill\">Fever = films anyway</span></div>",
    "title": "Malaria chemoprophylaxis & the 'no prophylaxis is…",
-   "id": "infectious-28"
+   "id": "infectious-28",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Malaria_falciparum_ring_forms.jpg/960px-Malaria_falciparum_ring_forms.jpg",
+     "caption": "Malaria - Plasmodium falciparum thick and thin blood film",
+     "alt": "Ring-form trophozoites of Plasmodium falciparum on Giemsa-stained blood film",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Malaria treatment by species & severity (Australian eTG)",
@@ -813,7 +929,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><tr><th>Scenario</th><th>Treatment</th></tr><tr><td>Uncomplicated falciparum/most</td><td>Oral artemether-lumefantrine (Riamet)</td></tr><tr><td>Severe/complicated falciparum</td><td>IV artesunate + ICU</td></tr><tr><td>Vivax/ovale acute</td><td>Blood schizonticide + primaquine (after G6PD)</td></tr></table>",
    "title": "Malaria treatment by species & severity (Australian eTG)",
-   "id": "infectious-29"
+   "id": "infectious-29",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Plasmodium_vivax_with_characteristic_Schuffners_Dots.jpg/960px-Plasmodium_vivax_with_characteristic_Schuffners_Dots.jpg",
+     "caption": "Plasmodium vivax blood film - enlarged erythrocytes with Schüffner dots",
+     "alt": "Plasmodium vivax trophozoites in enlarged red cells with Schüffner stippling",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/P._falciparum_thin_smear_ring_forms_and_gametocyte.jpg/960px-P._falciparum_thin_smear_ring_forms_and_gametocyte.jpg",
+     "caption": "Plasmodium falciparum blood film - multiple ring forms, no Schüffner dots",
+     "alt": "Falciparum malaria ring forms, multiple per cell, no stippling, smaller red cells",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Needlestick / BBV occupational exposure - immediate steps & relative transmission risks",
@@ -904,7 +1034,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Eschar</span><span class=\"gv-pill\">Rash</span><span class=\"gv-pill\">Headache</span><span class=\"gv-pill\">-> Doxycycline NOW</span></div>",
    "title": "Rickettsial infection (scrub/spotted fever)",
    "subtitle": "the eschar & doxycycline gotcha",
-   "id": "infectious-32"
+   "id": "infectious-32",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/O._tsutsugamushi_infection.tif/lossy-page1-960px-O._tsutsugamushi_infection.tif.jpg",
+     "caption": "Rickettsial eschar - tache noire at site of mite bite (scrub typhus/spotted fever)",
+     "alt": "Black eschar with surrounding erythema at the site of rickettsial mite bite",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Rocky_Mountain_spotted_fever_PHIL_1962_lores.jpg",
+     "caption": "Rickettsial maculopapular rash - trunk involvement",
+     "alt": "Maculopapular rash over trunk in rickettsial spotted fever",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Typhoid / enteric fever: when to give empirical antibiotics & the relative bradycardia clue",
@@ -935,7 +1079,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Clue</th><th>Significance</th></tr><tr><td>Relative bradycardia (Faget)</td><td>Classic typhoid sign</td></tr><tr><td>Indian subcontinent travel</td><td>High prior probability</td></tr><tr><td>Blood culture +</td><td>Diagnostic (Widal unreliable)</td></tr><tr><td>Week 3 perforation</td><td>Surgical emergency</td></tr></table>",
    "title": "Typhoid / enteric fever",
    "subtitle": "when to give empirical antibiotics & the relative bradycardia clue",
-   "id": "infectious-33"
+   "id": "infectious-33",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Salmonella_typhi_typhoid_fever_PHIL_2215_lores.jpg/960px-Salmonella_typhi_typhoid_fever_PHIL_2215_lores.jpg",
+     "caption": "Typhoid - rose spots on abdomen",
+     "alt": "Salmon-coloured rose spots on the abdomen in typhoid fever",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   }
  ]
 }

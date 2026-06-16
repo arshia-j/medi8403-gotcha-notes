@@ -69,7 +69,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Setting</th><th>Concentration</th><th>Route</th><th>Dose</th></tr></thead><tbody><tr><td>Anaphylaxis</td><td>1:1000</td><td>IM (lateral thigh)</td><td><span class=\"gv-num\">10 mcg/kg</span> (max 0.5 mg)</td></tr><tr><td>Cardiac arrest</td><td>1:10,000</td><td>IV/IO</td><td><span class=\"gv-num\">10 mcg/kg</span></td></tr></tbody></table>",
    "id": "paed-11",
    "title": "Anaphylaxis",
-   "subtitle": "IM adrenaline 10 microg/kg first; antihistamine isn't life-saving"
+   "subtitle": "IM adrenaline 10 microg/kg first; antihistamine isn't life-saving",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mia_Silverman_EpiPen.jpg/960px-Mia_Silverman_EpiPen.jpg",
+     "caption": "Anaphylaxis — IM adrenaline injection into anterolateral thigh (vastus lateralis)",
+     "alt": "Correct anatomical site for IM adrenaline in anaphylaxis: anterolateral thigh (vastus lateralis)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Urticaria12.2024.jpg/960px-Urticaria12.2024.jpg",
+     "caption": "Anaphylaxis — urticaria and angioedema clinical appearance",
+     "alt": "Widespread urticaria (wheals) and lip angioedema as cutaneous manifestations of anaphylaxis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-118",
@@ -89,7 +103,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- Choosing **promethazine/loratadine or hydrocortisone first** instead of adrenaline\n- Giving adrenaline **subcutaneously** or into the **deltoid** rather than IM lateral thigh\n- Using the **1:10,000 IV** concentration for routine IM dosing",
    "mnemonic": "Adrenaline first, flat on the floor.",
    "source": "ASCIA / RCH Melbourne CPG: Anaphylaxis (accessed 2026)",
-   "verified": true
+   "verified": true,
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Intramuscular_site_of_adrenaline.jpg/960px-Intramuscular_site_of_adrenaline.jpg",
+     "caption": "Anaphylaxis — IM adrenaline injection into anterolateral thigh (vastus lateralis)",
+     "alt": "Correct site for IM adrenaline: anterolateral thigh (NOT deltoid, NOT SC)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Bacterial meningitis / meningococcaemia: antibiotics IMMEDIATELY, do not delay for LP or CT",
@@ -124,6 +146,12 @@ window.GOTCHA.modules.push(
      "caption": "Non-blanching petechial/purpuric rash — bacterial meningococcal meningitis",
      "alt": "Non-blanching purpuric and petechial rash on legs — classic sign of meningococcal septicaemia requiring immediate antibiotics",
      "credit": "DrFO.Jr.Tn, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Tuberculous-meningitis-scan.jpg",
+     "caption": "CT head — bacterial meningitis (diffuse meningeal enhancement)",
+     "alt": "Diffuse leptomeningeal enhancement on contrast CT — indicating meningeal inflammation (contrast CT not required before antibiotics)",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -153,7 +181,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">NO salbutamol</span><span class=\"gv-pill\">NO steroids</span><span class=\"gv-pill\">NO antibiotics</span><span class=\"gv-pill\">NO routine CXR</span><span class=\"gv-pill\">YES nasal suction</span><span class=\"gv-pill\">YES O2 if &lt;90%</span><span class=\"gv-pill\">YES feeding support</span></div>",
    "id": "paed-8",
    "title": "Bronchiolitis",
-   "subtitle": "Supportive only; no salbutamol under 12 months"
+   "subtitle": "Supportive only; no salbutamol under 12 months",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bronchiolitis_chest_X-ray.jpg",
+     "caption": "CXR — bronchiolitis (hyperinflation, perihilar infiltrates, no consolidation)",
+     "alt": "Bilateral hyperinflation with peribronchial thickening in RSV bronchiolitis — demonstrating why routine CXR is NOT recommended",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-116",
@@ -174,7 +210,15 @@ window.GOTCHA.modules.push(
    "mnemonic": "Bronchiolitis: oxygen and feeds — everything else is a trap.",
    "source": "RCH Melbourne CPG: Bronchiolitis (accessed 2026); PREDICT/Australasian Bronchiolitis Guideline",
    "alt": "Clinical photograph of an infant with bronchiolitis showing increased work of breathing — intercostal and subcostal recession and nasal flaring",
-   "verified": true
+   "verified": true,
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Bronchiolitis_chest_X-ray.jpg",
+     "caption": "CXR — bronchiolitis (hyperinflation, perihilar thickening in infant)",
+     "alt": "Bilateral hyperinflation and perihilar peribronchial thickening in RSV bronchiolitis — noting CXR is not routinely indicated",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Button battery & magnet ingestion - the 2-hour oesophageal emergency vs the watch-and-wait coin",
@@ -236,6 +280,12 @@ window.GOTCHA.modules.push(
      "src": "assets/img/haematology_blood_film_acute_leukaemia_01.jpg",
      "alt": "Peripheral blood film with multiple immature blast cells of acute leukaemia.",
      "credit": "Unknown photographer, Wikimedia Commons, public domain · Public domain"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/ALL_-_Peripherial_Blood_-_Diagnosis_-_01.jpg",
+     "caption": "Pallor and petechiae in childhood leukaemia",
+     "alt": "Child with marked pallor and petechiae/bruising reflecting pancytopenia from bone marrow infiltration by leukaemia",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -294,7 +344,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Severity</th><th>Stridor</th><th>Treatment</th></tr></thead><tbody><tr><td>Cough only</td><td>None</td><td>No steroid needed; supportive</td></tr><tr><td>Mild-moderate</td><td>Stridor present (active or at rest)</td><td>Dexamethasone <span class=\"gv-num\">0.15 mg/kg</span> PO (or prednisolone 1 mg/kg)</td></tr><tr><td>Severe/life-threat</td><td>Stridor at rest, distress/drowsy</td><td>Dexamethasone 0.6 mg/kg (max 12 mg) + neb adrenaline 5 mL 1:1000 + airway team</td></tr></tbody></table>",
    "id": "paed-9",
    "title": "Croup",
-   "subtitle": "Steroid only if stridor; adrenaline for stridor at rest"
+   "subtitle": "Steroid only if stridor; adrenaline for stridor at rest",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Croup_steeple_sign.jpg",
+     "caption": "Croup - steeple sign on AP neck/CXR",
+     "alt": "AP radiograph of the neck and upper chest showing subglottic narrowing (steeple sign / pencil sign) characteristic of croup (laryngotracheobronchitis)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-115",
@@ -315,7 +373,15 @@ window.GOTCHA.modules.push(
    "mnemonic": "Every croup gets a steroid; adrenaline only if it stridors at rest.",
    "source": "RCH Melbourne CPG: Croup (laryngotracheobronchitis) (accessed 2026)",
    "verified": true,
-   "alt": "Frontal neck X-ray with tapered subglottic narrowing producing the steeple sign in croup."
+   "alt": "Frontal neck X-ray with tapered subglottic narrowing producing the steeple sign in croup.",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Croup_steeple_sign.jpg",
+     "caption": "Croup - AP neck X-ray showing classic steeple sign",
+     "alt": "AP soft-tissue neck radiograph demonstrating symmetric subglottic tapering (steeple/pencil sign) of laryngotracheobronchitis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-117",
@@ -336,7 +402,27 @@ window.GOTCHA.modules.push(
    "mnemonic": "Drooling + no cough = hands off the throat, call anaesthetics. Barking cough = a dose of dex.",
    "source": "RCH Melbourne CPG: Croup; eTG; ANZCOR choking/FBAO (accessed 2026)",
    "alt": "AP neck radiograph showing the steeple sign — symmetrical subglottic tracheal narrowing characteristic of croup",
-   "verified": true
+   "verified": true,
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Croup_steeple_sign.jpg",
+     "caption": "Croup - steeple sign on AP neck radiograph",
+     "alt": "AP neck radiograph showing symmetric subglottic narrowing (steeple sign) in laryngotracheobronchitis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Epiglottitis.jpg",
+     "caption": "Epiglottitis - lateral neck X-ray showing thumb sign",
+     "alt": "Lateral soft-tissue neck radiograph demonstrating the swollen, rounded epiglottis (thumb sign) of acute epiglottitis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Fremdkoerperaspiration_mit_Ventilwirkung_2W_-_CR_ap_-_001.jpg/960px-Fremdkoerperaspiration_mit_Ventilwirkung_2W_-_CR_ap_-_001.jpg",
+     "caption": "Foreign body airway - CXR showing hyperinflation or radio-opaque foreign body",
+     "alt": "Chest radiograph showing unilateral air-trapping/hyperinflation or a radio-opaque foreign body in the airway of a child",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Dehydration severity: the RCH % bands (NOT the UK 4-6-9)",
@@ -420,7 +506,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Kocher criteria met</th><th>Probability septic arthritis</th></tr></thead><tbody><tr><td>1</td><td>~3%</td></tr><tr><td>2</td><td>~40%</td></tr><tr><td>3</td><td>~93%</td></tr><tr><td>4</td><td><span class=\"gv-num\">~99%</span></td></tr></tbody></table>",
    "id": "paed-18",
    "title": "Fever and Limp",
-   "subtitle": "Kocher criteria separate septic arthritis from transient synovitis"
+   "subtitle": "Kocher criteria separate septic arthritis from transient synovitis",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ultrasonography_of_joint_effusion_in_transient_synovitis_of_the_hip.jpg",
+     "caption": "Septic arthritis hip - ultrasound showing joint effusion",
+     "alt": "Hip ultrasound demonstrating a distended joint capsule with effusion, the key imaging finding driving aspiration and Kocher criteria workup for septic arthritis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Fever without focus by AGE: <=28 days = full septic workup + IV antibiotics regardless of looking well",
@@ -480,6 +574,24 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_kawasaki_strawberry_tongue_lips_01.jpg",
      "alt": "Clinical photograph of a child's mouth showing a strawberry tongue and red, cracked, fissured lips, the mucositis of Kawasaki disease",
      "credit": "Dong Soo Kim (derivative by Natr), Wikimedia Commons, CC BY 2.0 (panel label cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Kawasakidiseasemanifestations.png/960px-Kawasakidiseasemanifestations.png",
+     "caption": "Kawasaki disease - palmar erythema and desquamation of fingertips",
+     "alt": "Periungual and palmar desquamation (peeling fingertips) in the convalescent phase of Kawasaki disease — one of the five principal diagnostic features",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kawasaki_symptoms_A.jpg",
+     "caption": "Kawasaki disease - bilateral non-purulent conjunctival injection",
+     "alt": "Bilateral bulbar conjunctival injection without discharge (non-purulent conjunctivitis) — a principal feature of Kawasaki disease",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Coronaraneursymen_bei_Kawasaki-Syndrom_-_CT_-_Rekonstruktion_-_MIP_-_011.jpg",
+     "caption": "Kawasaki disease - coronary artery aneurysm on echocardiogram",
+     "alt": "Echocardiogram demonstrating dilation of the coronary artery (coronary artery aneurysm) — the feared complication prevented by IVIG by day 10",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -575,7 +687,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Preseptal (periorbital)</th><th>Post-septal (orbital)</th></tr></thead><tbody><tr><td>Proptosis</td><td>No</td><td>YES</td></tr><tr><td>Eye movements</td><td>Full, painless</td><td>Painful/restricted</td></tr><tr><td>Visual acuity</td><td>Normal</td><td>Reduced</td></tr><tr><td>Management</td><td>Often oral/conservative</td><td>CT + IV abx + ENT/ophthal</td></tr></tbody></table>",
    "id": "paed-24",
    "title": "Orbital vs Periorbital Cellulitis",
-   "subtitle": "Proptosis, ophthalmoplegia, reduced acuity mean post-septal emergency"
+   "subtitle": "Proptosis, ophthalmoplegia, reduced acuity mean post-septal emergency",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Celulitis_Periorbitaria_%28Preseptal%29.JPG/960px-Celulitis_Periorbitaria_%28Preseptal%29.JPG",
+     "caption": "Periorbital (preseptal) cellulitis - eyelid erythema and swelling without proptosis",
+     "alt": "Unilateral periorbital erythema and swelling confined to the eyelids with intact eye movements and no proptosis, representing pre-septal (periorbital) cellulitis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RtmaxobitinfectteethCT.png/960px-RtmaxobitinfectteethCT.png",
+     "caption": "Orbital cellulitis - CT orbits showing subperiosteal abscess",
+     "alt": "Axial CT of the orbits demonstrating a medial subperiosteal abscess with proptosis and fat stranding, confirming post-septal orbital cellulitis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Paediatric cardiac arrest (APLS/ANZCOR) - IV/IO adrenaline is NOT the anaphylaxis dose",
@@ -666,7 +792,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Paracetamol level at 4h post-ingestion</div><div class=\"gv-step\">Plot on nomogram (150 mg/L at 4h)</div><div class=\"gv-step\">Above line: NAC 200 mg/kg/4h then 100 mg/kg/16h</div></div>",
    "id": "paed-23",
    "title": "Paediatric Paracetamol Overdose",
-   "subtitle": "Take level at 4 hours, plot nomogram, give acetylcysteine"
+   "subtitle": "Take level at 4 hours, plot nomogram, give acetylcysteine",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumack_Matthew_nomogram_with_treatment_%28study%29_line-vi.png/960px-Rumack_Matthew_nomogram_with_treatment_%28study%29_line-vi.png",
+     "caption": "Paracetamol toxicity nomogram - Rumack-Matthew treatment line",
+     "alt": "Rumack-Matthew nomogram plotting serum paracetamol concentration against hours post-ingestion, with the treatment line starting at 1000 micromol/L (150 mg/L) at 4 hours used to guide acetylcysteine therapy",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Paediatric sepsis: antibiotics within the hour, do NOT wait for cultures/LP",
@@ -811,11 +945,11 @@ window.GOTCHA.modules.push(
   {
    "topic": "Appendicitis in young children - faster perforation, atypical presentation, pain BEFORE vomiting",
    "subarea": "Surgical causes of vomiting",
-   "whatFirst": "In a child with abdominal pain, the sequence matters: classic surgical sequence is PAIN FIRST, then anorexia/vomiting. Maintain a low threshold for surgical review and serial examination; investigations are low-yield if used indiscriminately, so USS only after senior/surgical discussion. Keep nil-by-mouth, GIVE analgesia (IV morphine or intranasal fentanyl in severe pain - it does NOT mask the diagnosis), fluids, antibiotics if proceeding.",
-   "trap": "Under-5s present ATYPICALLY and perforate FAST (often within 48 h, before diagnosis is made) because the omentum is underdeveloped and they cannot localise/verbalise pain; they may present as sepsis or perforation. Diarrhoea, fever and irritability mimic gastroenteritis - so 'gastro' with persistent localised tenderness or a very unwell child is appendicitis until proven otherwise.",
-   "discriminator": "Surgical abdomen: pain PRECEDES vomiting; movement/coughing worsens pain (peritonism); migratory periumbilical->RIF pain. Gastroenteritis: VOMITING PRECEDES pain, large-volume diarrhoea, child wants to move, diffuse cramps. Lies still vs writhes is a useful discriminator (peritonitis = lies still; colic e.g. intussusception/renal = writhes).",
-   "redFlags": "Generalised tenderness/guarding/rigidity (perforation/peritonitis), high fever, tachycardia, looking toxic - urgent surgery + resuscitation; do not delay for imaging if peritonitic.",
-   "mcqTrap": "Most tempting wrong answer in the toddler vignette: 'gastroenteritis - oral rehydration and discharge'. Wrong when pain came first, tenderness is localised, or the child is toxic. Also tempting: 'withhold analgesia until surgeon reviews' - outdated; RCH says give analgesia, it does not obscure appendicitis.",
+   "whatFirst": "- Classic surgical sequence: **PAIN FIRST**, then anorexia/vomiting\n- Maintain a **low threshold for surgical review** and serial examination\n- Investigations are low-yield if used indiscriminately\n  - **USS only** after senior/surgical discussion\n- Keep **nil-by-mouth**\n- **GIVE analgesia** (IV morphine or intranasal fentanyl in severe pain — does **NOT** mask the diagnosis)\n- IV **fluids**\n- **Antibiotics** if proceeding",
+   "trap": "- Under-5s present **ATYPICALLY** and perforate **FAST** (often within **48 h**, before diagnosis is made)\n  - Omentum is underdeveloped; they cannot localise or verbalise pain\n  - May present as **sepsis** or **perforation**\n- **Diarrhoea, fever and irritability** mimic gastroenteritis\n- 'Gastro' with **persistent localised tenderness** or a very unwell child = **appendicitis until proven otherwise**",
+   "discriminator": "- Surgical abdomen: pain **PRECEDES vomiting**; movement/coughing worsens pain (peritonism); migratory **periumbilical→RIF** pain\n- Gastroenteritis: **VOMITING PRECEDES pain**, large-volume diarrhoea, child wants to move, diffuse cramps\n- **Lies still** = peritonitis vs **writhes** = colic (e.g. intussusception/renal)",
+   "redFlags": "- **Generalised tenderness/guarding/rigidity** (perforation/peritonitis)\n- **High fever**, tachycardia, looking toxic\n- → urgent **surgery + resuscitation**; do not delay for imaging if peritonitic",
+   "mcqTrap": "- Most tempting wrong answer: '**gastroenteritis** — oral rehydration and discharge'\n  - Wrong when pain came first, tenderness is localised, or the child is toxic\n- Also tempting: '**withhold analgesia** until surgeon reviews' — outdated\n  - RCH says give analgesia; it does **not** obscure appendicitis",
    "source": "RCH Melbourne CPG Abdominal pain - acute (analgesia for all, IV morphine/intranasal fentanyl in severe pain; USS only after senior/surgical discussion, low yield if indiscriminate; young children may present as sepsis/perforation); CHQ Acute Abdominal Pain - Emergency Management in Children gdl-00704",
    "mnemonic": "'Pain THEN vomit = surgeon; vomit THEN pain = gastro.' Toddlers perforate before you finish the differential.",
    "tags": [
@@ -826,25 +960,33 @@ window.GOTCHA.modules.push(
     "young-child"
    ],
    "cutoffs": [
-    "Under-5s perforate fast (often <48 h)",
-    "Surgical abdomen: pain PRECEDES vomiting",
-    "Lies still = peritonism vs writhes = colic",
-    "Give analgesia (does not mask appendicitis); USS only after senior/surgical discussion"
+    "Under-5s perforate fast (often **<48 h**)",
+    "Surgical abdomen: **pain PRECEDES vomiting**",
+    "**Lies still** = peritonism vs **writhes** = colic",
+    "Give **analgesia** (does not mask appendicitis); USS only after senior/surgical discussion"
    ],
    "verified": true,
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Pain FIRST then vomit = surgical</span><span class=\"gv-pill\">Vomit FIRST then pain = gastro</span><span class=\"gv-pill\">Lies still = peritonism</span><span class=\"gv-pill\">Writhes = colic</span></div>",
    "id": "paed-29",
    "title": "Appendicitis In Young Children",
-   "subtitle": "Under-5s present atypically and perforate fast (often before diagnosis)"
+   "subtitle": "Under-5s present atypically and perforate fast (often before diagnosis)",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/10/CT_scan_of_the_abdomen_showing_acute_appendicitis.jpg",
+     "caption": "Paediatric appendicitis - CT showing appendiceal inflammation with perforation",
+     "alt": "Perforated appendicitis in a young child - dilated appendix with periappendiceal fat stranding and free fluid",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Incarcerated inguinal hernia in an infant",
    "subarea": "Surgical causes of vomiting",
-   "whatFirst": "Attempt GENTLE TAXIS (manual reduction) with analgesia/sedation +/- Trendelenburg if there are NO signs of strangulation - successful reduction converts an emergency into a SEMI-elective repair within ~24-48 h (allows oedema to settle, reduces operative risk). If irreducible OR any sign of strangulation -> urgent theatre.",
-   "trap": "Infant inguinal hernias (especially premature, first months of life) incarcerate FREQUENTLY and the contents that strangulate can be bowel OR, in infants/girls, an OVARY. A tender, firm, irreducible groin/scrotal lump with a vomiting, unsettled baby = incarceration, and bilious vomiting + abdominal distension means bowel obstruction. Do not mistake it for 'just a hernia to fix in clinic'.",
-   "discriminator": "Incarcerated hernia: groin/scrotal swelling extending to the external ring (you cannot 'get above' it - distinguishes from a hydrocele/undescended testis which you can get above), irreducible, tender, with obstructive symptoms. Strangulation adds skin erythema, exquisite tenderness, systemic toxicity. Vs hydrocele = transilluminates, non-tender, and you CAN get above it.",
-   "redFlags": "Erythema over the lump, marked tenderness, bilious vomiting, abdominal distension, systemic unwellness, failed reduction = strangulation -> emergency operation (no further reduction attempts).",
-   "mcqTrap": "Most tempting wrong answer: 'reassure and book elective repair in clinic' when the lump is currently irreducible/tender. Wrong - that risks bowel/ovarian strangulation. Opposite trap: rushing a reducible, non-strangulated hernia straight to emergency theatre when gentle reduction then semi-urgent repair is preferred.",
+   "whatFirst": "- Attempt **GENTLE TAXIS** (manual reduction) with analgesia/sedation ± Trendelenburg\n  - If there are **NO signs of strangulation**\n- Successful reduction converts an emergency into a **SEMI-ELECTIVE repair within ~24-48 h**\n  - Allows oedema to settle, reduces operative risk\n- If **irreducible OR any sign of strangulation** → **urgent theatre**",
+   "trap": "- Infant inguinal hernias (especially premature, first months of life) **incarcerate FREQUENTLY**\n- Contents that strangulate can be bowel OR, in infants/girls, an **OVARY**\n- Tender, firm, irreducible groin/scrotal lump + vomiting, unsettled baby = **incarceration**\n- Bilious vomiting + abdominal distension = **bowel obstruction**\n- Do **not** mistake it for 'just a hernia to fix in clinic'",
+   "discriminator": "- **Incarcerated hernia**: groin/scrotal swelling extending to external ring\n  - You **CANNOT 'get above' it** — distinguishes from hydrocele/undescended testis (which you can get above)\n  - Irreducible, tender, with obstructive symptoms\n- **Strangulation** adds: skin **erythema**, exquisite tenderness, systemic toxicity\n- **Hydrocele**: **transilluminates**, non-tender, you **CAN get above it**",
+   "redFlags": "- Erythema over the lump\n- Marked tenderness\n- **Bilious vomiting**\n- Abdominal distension\n- Systemic unwellness\n- **Failed reduction**\n- = **Strangulation → emergency operation** (no further reduction attempts)",
+   "mcqTrap": "- Most tempting wrong answer: '**reassure and book elective repair in clinic**' when the lump is currently irreducible/tender\n  - Wrong — risks **bowel/ovarian strangulation**\n- Opposite trap: rushing a **reducible, non-strangulated hernia** straight to emergency theatre\n  - Correct approach: **gentle reduction** then semi-urgent repair",
    "source": "RCH Melbourne surgical guidance (inguinal hernia / acute scrotal-groin swelling) and CHQ paediatric surgical guidance: incarcerated hernia - attempt reduction if not strangulated, then semi-urgent repair; emergency repair if strangulated/irreducible",
    "mnemonic": "'Can't get above it = hernia; reduce it if it's not red/sick, then fix soon.'",
    "tags": [
@@ -855,9 +997,9 @@ window.GOTCHA.modules.push(
     "manual-reduction"
    ],
    "cutoffs": [
-    "Reduce if NOT strangulated -> semi-elective repair within ~24-48 h",
-    "Irreducible / strangulated = emergency theatre",
-    "Cannot 'get above' the lump = inguinal hernia"
+    "Reduce if **NOT strangulated** → semi-elective repair within **~24-48 h**",
+    "**Irreducible / strangulated** = emergency theatre",
+    "**Cannot 'get above' the lump** = inguinal hernia"
    ],
    "verified": false,
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Tender groin/scrotal lump + vomiting</div><div class=\"gv-step\">Signs of strangulation? (red, toxic, bilious)</div><div class=\"gv-step\">NO -> gentle reduction + semi-urgent repair</div><div class=\"gv-step\">YES / irreducible -> emergency theatre</div></div>",
@@ -868,11 +1010,11 @@ window.GOTCHA.modules.push(
   {
    "topic": "Intussusception - age, enema reduction first-line, and enema contraindications",
    "subarea": "Surgical causes of vomiting",
-   "whatFirst": "If no contraindication: AIR/CONTRAST ENEMA is BOTH diagnostic and therapeutic and is first-line (success >80%). Resuscitate, NGT if obstructed, and involve surgery before the radiological reduction (in case it fails/perforates). Surgery is reserved for failed enema, peritonitis or perforation.",
-   "trap": "Currant-jelly (redcurrant) stool and the palpable sausage mass are LATE / uncommon signs - the full classic triad (pain + mass + blood) appears in <15% of cases. Waiting for currant-jelly stool to confirm the diagnosis means waiting for bowel ischaemia. Also: the child between colicky episodes can look completely normal and well, falsely reassuring you between paroxysms; lethargy/pallor can dominate and mimic sepsis or a neurological cause.",
-   "discriminator": "Peak 4-9 months (range 3 months-2 years), intermittent severe colic with drawing-up of legs and screaming, then floppy/pale between episodes. USS is >98% sensitive/specific (target/doughnut sign) and is the diagnostic test of choice - far better than relying on the late clinical triad. Beyond age 2-3 yrs, suspect a pathological LEAD POINT (Meckel, polyp, lymphoma, HSP) - enema less likely to work.",
-   "redFlags": "Peritonitis, shock, bowel perforation, or unstable child = enema CONTRAINDICATED -> straight to theatre. Recurrence most often within 24-48 h of reduction (observe).",
-   "mcqTrap": "Most tempting wrong answer: 'proceed to laparotomy/surgery as first-line'. Wrong if no peritonitis/perforation/shock - air enema is first-line and avoids surgery in >80%. The other trap is choosing AXR or 'wait for currant-jelly stool / palpable mass' to diagnose - USS is the test, and those clinical signs are late.",
+   "whatFirst": "- If no contraindication: **AIR/CONTRAST ENEMA** is BOTH diagnostic and therapeutic — **first-line** (success **>80%**)\n- **Resuscitate**, NGT if obstructed\n- Involve **surgery before** the radiological reduction (in case it fails/perforates)\n- Surgery reserved for **failed enema**, peritonitis, or perforation",
+   "trap": "- Currant-jelly stool and palpable sausage mass are **LATE / uncommon signs**\n  - Full classic triad (pain + mass + blood) appears in **<15%** of cases\n- Waiting for **currant-jelly stool** to confirm = waiting for **bowel ischaemia**\n- Child between colicky episodes can look **completely normal** and well — **falsely reassuring** between paroxysms\n- **Lethargy/pallor** can dominate and mimic **sepsis or neurological cause**",
+   "discriminator": "- Peak **4-9 months** (range 3 months–2 years)\n- Intermittent severe colic with **drawing-up of legs** and screaming, then floppy/pale between episodes\n- **USS** is >**98%** sensitive/specific (**target/doughnut sign**) — diagnostic test of choice\n  - Far better than relying on the late clinical triad\n- Beyond **age 2-3 yrs**: suspect a **pathological LEAD POINT** (Meckel, polyp, lymphoma, HSP)\n  - Enema less likely to work",
+   "redFlags": "- **Peritonitis**, shock, bowel perforation, or unstable child = **enema CONTRAINDICATED** → straight to theatre\n- Recurrence most often within **24-48 h** of reduction (observe)",
+   "mcqTrap": "- Most tempting wrong answer: '**proceed to laparotomy/surgery** as first-line'\n  - Wrong if no peritonitis/perforation/shock — **air enema** is first-line and avoids surgery in >80%\n- Other trap: choosing **AXR** or 'wait for currant-jelly stool / palpable mass' to diagnose\n  - **USS** is the test; those clinical signs are **late**",
    "source": "RCH Melbourne CPG Intussusception: peak 4-9 months (range 3 months-2 years); full triad <15%; USS >98% sens/spec; air/contrast enema success >80%; CONTRAINDICATED in peritonitis, shock, radiological perforation or unstable patient; recurrences most commonly within first 24-48 hours",
    "mnemonic": "Enema is OUT if 'PPS': Peritonitis, Perforation, Shock (then theatre).",
    "tags": [
@@ -883,11 +1025,11 @@ window.GOTCHA.modules.push(
     "currant-jelly"
    ],
    "cutoffs": [
-    "Peak age 4-9 months (range 3 months-2 years)",
-    "USS >98% sensitive & specific",
-    "Air/contrast enema success >80%",
-    "Enema contraindicated: peritonitis / perforation / shock / unstable",
-    "Recurrence usually within 24-48 h"
+    "Peak age **4-9 months** (range 3 months–2 years)",
+    "USS **>98%** sensitive & specific",
+    "Air/contrast enema success **>80%**",
+    "Enema contraindicated: **peritonitis / perforation / shock / unstable**",
+    "Recurrence usually within **24-48 h**"
    ],
    "verified": true,
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Suspected intussusception</div><div class=\"gv-step\">USS (target sign, >98%)</div><div class=\"gv-step\">No peritonitis/perforation/shock?</div><div class=\"gv-step\">AIR ENEMA (dx + tx, >80%)</div><div class=\"gv-step\">Fails OR PPS present = surgery</div></div>",
@@ -899,17 +1041,23 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_us_intussusception_target_sign_01.jpg",
      "alt": "Abdominal ultrasound showing the target sign of intussusception",
      "credit": "Cerevisae, Wikimedia Commons, CC BY-SA 4.0 (caption text & colour-Doppler panel cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ultrasound_of_target_sign_in_intussusception_of_the_right_bowel.png/960px-Ultrasound_of_target_sign_in_intussusception_of_the_right_bowel.png",
+     "caption": "Intussusception - AXR showing paucity of bowel gas and soft tissue mass",
+     "alt": "Plain abdominal radiograph in intussusception showing soft tissue density mass in the right abdomen with paucity of gas in that region",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
   {
    "topic": "Bilious (green) vomiting in a neonate = malrotation with midgut volvulus until excluded",
    "subarea": "Surgical causes of vomiting",
-   "whatFirst": "Resuscitate + insert NGT to decompress AND make an urgent same-hour surgical referral; the definitive diagnostic test is an URGENT upper GI contrast study (the recognised investigation of choice). Do not wait, do not feed, do not send home.",
-   "trap": "GREEN bilious vomiting in a neonate is mechanical obstruction (malrotation + midgut volvulus) until proven otherwise. The catch is that the baby can look deceptively WELL early and the abdomen can be soft and non-distended (the obstruction is proximal/high) - a normal-looking abdomen does NOT reassure. Ischaemia of the entire midgut can occur within HOURS, so this is a minutes-matter emergency, not a 'review in the morning' problem.",
-   "discriminator": "Bilious (dark green) vomit = obstruction distal to the ampulla of Vater = surgical until excluded. Compare to NON-bilious projectile vomit at 2-6 weeks = pyloric stenosis (obstruction proximal to ampulla). Yellow/milky posset is NOT bilious. Late/distended + bloody stool in a PRETERM = think NEC instead (pneumatosis on AXR).",
-   "redFlags": "Any bilious vomit in a neonate; abdominal distension, tenderness, peritonism, haematochezia, shock, lethargy = midgut already ischaemic - emergency laparotomy, do not wait for contrast.",
-   "mcqTrap": "The tempting wrong answer is 'arrange an abdominal ultrasound' or 'abdominal X-ray' as the FIRST investigation. AXR can be normal in malrotation; the time-critical recognised test for malrotation/volvulus is the urgent UPPER GI CONTRAST study (abnormal duodeno-jejunal flexure / 'corkscrew'). Another trap: 'trial of feeds and observe' - never observe bilious vomiting.",
+   "whatFirst": "- **Resuscitate** + insert **NGT** to decompress\n- Urgent **same-hour surgical referral**\n- Definitive diagnostic test: **urgent UPPER GI CONTRAST STUDY** (recognised investigation of choice)\n- Do **not** wait, do **not** feed, do **not** send home",
+   "trap": "- **GREEN bilious vomiting** in a neonate = mechanical obstruction (malrotation + midgut volvulus) until proven otherwise\n- Baby can look **deceptively WELL** early; abdomen can be **soft and non-distended** (obstruction is proximal/high)\n  - A **normal-looking abdomen does NOT reassure**\n- Ischaemia of the **entire midgut can occur within HOURS**\n- This is a **minutes-matter emergency**, not a 'review in the morning' problem",
+   "discriminator": "- **Bilious (dark green) vomit** = obstruction **distal to the ampulla of Vater** = surgical until excluded\n- **Non-bilious projectile vomit at 2-6 weeks** = **pyloric stenosis** (obstruction proximal to ampulla)\n- Yellow/milky posset = **NOT bilious**\n- Late/distended + bloody stool in a **PRETERM** = think **NEC** instead (pneumatosis on AXR)",
+   "redFlags": "- Any bilious vomit in a neonate\n- Abdominal distension, tenderness, peritonism, haematochezia, shock, lethargy = **midgut already ischaemic**\n- → **emergency laparotomy**, do not wait for contrast",
+   "mcqTrap": "- Tempting wrong answer: 'arrange an **abdominal ultrasound**' or '**abdominal X-ray**' as the FIRST investigation\n  - AXR can be **normal** in malrotation\n  - Time-critical recognised test = **urgent UPPER GI CONTRAST** study (abnormal duodeno-jejunal flexure / 'corkscrew')\n- Another trap: '**trial of feeds and observe**' — **never** observe bilious vomiting",
    "source": "RCH Melbourne CPG Vomiting (2020); Safer Care Victoria - Bowel obstruction in neonates (upper GI contrast = investigation of choice; bile-stained vomit = surgical emergency in neonates, most volvulus within first week of life); CHQ (Queensland Children's) Acute Abdominal Pain - Emergency Management in Children gdl-00704",
    "mnemonic": "GREEN = GO (to theatre/surgeon now). 'Bilious in a baby is a bleep, not a wait.'",
    "tags": [
@@ -920,24 +1068,32 @@ window.GOTCHA.modules.push(
     "surgical-emergency"
    ],
    "cutoffs": [
-    "Any bilious vomit at age <=28 days (and well beyond) = emergency",
-    "Midgut ischaemia within hours of volvulus",
-    "Upper GI contrast = recognised investigation of choice"
+    "Any bilious vomit at age **≤28 days** (and well beyond) = emergency",
+    "Midgut ischaemia **within hours** of volvulus",
+    "**Upper GI contrast** = recognised investigation of choice"
    ],
    "verified": true,
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Neonate GREEN (bilious) vomit</div><div class=\"gv-step\">Resuscitate + NGT decompress</div><div class=\"gv-step\">URGENT surgical referral</div><div class=\"gv-step\">Upper GI contrast (NOT first-line USS/AXR)</div><div class=\"gv-step\">Peritonism/shock = straight to laparotomy</div></div>",
    "id": "paed-25",
    "title": "Malrotation With Midgut Volvulus",
-   "subtitle": "Green bilious vomiting in a neonate is surgical until excluded"
+   "subtitle": "Green bilious vomiting in a neonate is surgical until excluded",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Sigmavolvulus_-_91w_-_CT_cor_-_001_-_Annotation.gif",
+     "caption": "Midgut volvulus - CT whirlpool sign of mesenteric vessels",
+     "alt": "CT abdomen showing whirlpool sign of swirling mesenteric vessels around the superior mesenteric artery in midgut volvulus",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Neonatal NEC - bilious aspirate + bloody stool in a preterm (the surgical mimic of malrotation)",
    "subarea": "Surgical causes of vomiting",
-   "whatFirst": "Stop feeds (NIL BY MOUTH), insert NGT for decompression, start IV fluids + broad-spectrum antibiotics, and get an URGENT AXR looking for PNEUMATOSIS INTESTINALIS (intramural gas). Surgical review; surgery for perforation (free gas) or clinical deterioration despite medical therapy.",
-   "trap": "In a PRETERM baby, bilious aspirate + abdominal distension + bloody/mucousy stool is NEC, not malrotation - and management is initially MEDICAL (NBM, decompress, antibiotics), unlike the contrast-then-surgery pathway for malrotation in a term neonate. The trap is investigating a sick preterm with an upper GI contrast (risky/contraindicated) instead of getting an AXR.",
-   "discriminator": "NEC: premature, day-of-life ~1-2 weeks, feeding intolerance, distension, bloody stool, pneumatosis intestinalis +/- portal venous gas on AXR. Malrotation/volvulus: typically TERM, well-grown, bilious vomiting, contrast shows abnormal DJ flexure/corkscrew. Free intraperitoneal gas on AXR (perforation) = surgery in either.",
-   "redFlags": "Pneumoperitoneum (free gas), rapidly worsening distension, fixed dilated loop, abdominal wall erythema, thrombocytopenia, shock, metabolic acidosis = perforation/necrosis -> emergency laparotomy.",
-   "mcqTrap": "Most tempting wrong answer: 'urgent upper GI contrast study' (correct for term malrotation, wrong/dangerous in a septic preterm with suspected NEC - AXR is the test). Also tempting: 'continue trophic feeds' - feeds must STOP.",
+   "whatFirst": "- **Stop feeds** (NIL BY MOUTH)\n- Insert **NGT** for decompression\n- Start **IV fluids** + **broad-spectrum antibiotics**\n- Urgent **AXR** looking for **PNEUMATOSIS INTESTINALIS** (intramural gas)\n- **Surgical review**\n- Surgery for: **perforation** (free gas) or **clinical deterioration** despite medical therapy",
+   "trap": "- In a **PRETERM** baby: bilious aspirate + abdominal distension + bloody/mucousy stool = **NEC**, not malrotation\n- Management is initially **MEDICAL** (NBM, decompress, antibiotics) — unlike the contrast-then-surgery pathway for malrotation in a term neonate\n- Trap: investigating a sick preterm with an **upper GI contrast** (risky/contraindicated) instead of getting an **AXR**",
+   "discriminator": "- **NEC**: premature, day-of-life ~**1-2 weeks**, feeding intolerance, distension, bloody stool, **pneumatosis intestinalis** ± portal venous gas on AXR\n- **Malrotation/volvulus**: typically **TERM**, well-grown, bilious vomiting, contrast shows abnormal **DJ flexure/corkscrew**\n- **Free intraperitoneal gas** on AXR (perforation) = **surgery in either**",
+   "redFlags": "- **Pneumoperitoneum** (free gas)\n- Rapidly worsening distension\n- Fixed dilated loop\n- Abdominal wall erythema\n- **Thrombocytopenia**\n- Shock, metabolic acidosis\n- = perforation/necrosis → **emergency laparotomy**",
+   "mcqTrap": "- Most tempting wrong answer: '**urgent upper GI contrast study**'\n  - Correct for term malrotation; **wrong/dangerous** in a septic preterm with suspected NEC\n  - **AXR is the test**\n- Also tempting: '**continue trophic feeds**' — feeds **must STOP**",
    "source": "Safer Care Victoria / RCH Australian neonatal guidance and CHQ surgical guidance: preterm + distension + bloody stool + bilious aspirate = NEC; AXR pneumatosis intestinalis; management NBM + NGT + IV antibiotics; surgery for perforation/deterioration",
    "mnemonic": "'Preterm + blood + bubbles in the bowel wall (pneumatosis) = NEC; stop the feeds.'",
    "tags": [
@@ -948,30 +1104,38 @@ window.GOTCHA.modules.push(
     "AXR"
    ],
    "cutoffs": [
-    "AXR pneumatosis intestinalis = NEC (+/- portal venous gas)",
-    "Initial mgmt MEDICAL: NBM + NGT + IV antibiotics",
-    "Free gas (pneumoperitoneum) = emergency surgery"
+    "AXR **pneumatosis intestinalis** = NEC (± portal venous gas)",
+    "Initial mgmt **MEDICAL**: NBM + NGT + IV antibiotics",
+    "**Free gas** (pneumoperitoneum) = emergency surgery"
    ],
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>NEC (preterm)</th><th>Malrotation/volvulus</th></tr></thead><tbody><tr><td>Baby</td><td>Premature</td><td>Usually term</td></tr><tr><td>Clue</td><td>Bloody stool + distension</td><td>Bilious vomiting</td></tr><tr><td>Test</td><td>AXR: pneumatosis</td><td>Upper GI contrast: corkscrew</td></tr><tr><td>First step</td><td>NBM + NGT + IV abx</td><td>NGT + urgent surgery</td></tr></tbody></table>",
    "id": "paed-32",
    "title": "Neonatal Necrotising Enterocolitis",
-   "subtitle": "Preterm with bilious aspirate and bloody stool; manage medically first"
+   "subtitle": "Preterm with bilious aspirate and bloody stool; manage medically first",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pneumatosis_intestinalis_und_hepatis_bei_NEC_0W_-_CR_ap_-_001.jpg/960px-Pneumatosis_intestinalis_und_hepatis_bei_NEC_0W_-_CR_ap_-_001.jpg",
+     "caption": "NEC - AXR showing pneumatosis intestinalis (intramural gas)",
+     "alt": "Plain abdominal radiograph in necrotising enterocolitis demonstrating pneumatosis intestinalis (bubbly/linear intramural gas in bowel wall) in a preterm neonate",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Paediatric burns - children's proportions, modified TBSA, fluids & referral",
    "subarea": "Surgical causes of vomiting",
-   "trap": "Children are NOT small adults: the adult 'rule of 9s' overestimates legs and underestimates the head (an infant's head is ~18% TBSA vs 9% in an adult). Use a PAEDIATRIC tool: Lund-Browder chart (age-adjusted) or the child's own PALM (~1% TBSA each). Fluids by modified Parkland: 3 mL x weight(kg) x %TBSA Hartmann's (paediatric Australian guidance uses 3, not 4 mL) over 24 h, HALF in the first 8 h FROM TIME OF INJURY - and superficial (epidermal/erythema only) burns are NOT counted in TBSA. Children also need MAINTENANCE fluid (with glucose) added on top, because they deplete glycogen fast.",
-   "whatFirst": "Stop the burning + cool with running water 20 minutes (effective up to 3 h post-burn), but keep the child WARM (hypothermia risk - cool the burn, warm the child). Then assess TBSA with a paediatric chart and calculate fluids from the time of injury, not time of presentation.",
-   "discriminator": "Adult rule of 9s (head 9%) is WRONG in children (infant head ~18%, leg ~14%). Don't count simple erythema/superficial burns in the %TBSA. Suspicious patterns (glove-and-stocking immersion scald, cigarette circles, sparing of flexion creases) = consider non-accidental injury.",
-   "redFlags": "Refer/transfer: >10% TBSA (children), any full-thickness, burns to face/hands/feet/perineum/genitalia/major joints, circumferential, electrical/chemical, inhalation injury, or suspected NAI.",
+   "trap": "- Children are **NOT small adults**: the adult 'rule of 9s' overestimates legs and underestimates the head\n  - An infant's head is **~18% TBSA** vs 9% in an adult\n- Use a **paediatric tool**: Lund-Browder chart (age-adjusted) or the child's own **palm (~1% TBSA** each)\n- Fluids by **modified Parkland**: **3 mL x weight(kg) x %TBSA** Hartmann's (Australian paediatric guidance uses 3, not 4 mL) over 24 h\n  - Half in the **first 8 h from time of injury**\n- **Superficial (epidermal/erythema only) burns are NOT counted** in TBSA\n- Children also need **maintenance fluid (with glucose)** added on top — they deplete glycogen fast",
+   "whatFirst": "- **Stop the burning** + cool with running water **20 minutes** (effective up to 3 h post-burn)\n- Keep the child **WARM** — hypothermia risk\n  - Cool the burn, warm the child\n- Then assess **TBSA with a paediatric chart** and calculate fluids from the **time of injury**, not time of presentation",
+   "discriminator": "- Adult rule of 9s (head **9%**) is **WRONG in children** — infant head ~18%, leg ~14%\n- Do **NOT count simple erythema/superficial burns** in the %TBSA\n- Suspicious patterns = consider **non-accidental injury**\n  - Glove-and-stocking immersion scald\n  - Cigarette circles\n  - Sparing of flexion creases",
+   "redFlags": "- Refer/transfer if **>10% TBSA** (children)\n- Any **full-thickness** burn\n- Burns to **face/hands/feet/perineum/genitalia/major joints**\n- **Circumferential** burns\n- **Electrical/chemical** burns\n- **Inhalation injury**\n- Suspected **NAI**",
    "cutoffs": [
-    "Cooling: cool running water 20 min (up to 3 h post-burn); keep child warm",
-    "Fluids (paediatric modified Parkland): 3 mL x kg x %TBSA Hartmann's, half in first 8 h from injury + maintenance fluid",
-    "Palm (incl. fingers) ~1% TBSA; use Lund-Browder for children",
-    "Refer if >10% TBSA, full-thickness, or face/hands/perineum/flexures/circumferential/electrical/chemical/inhalation/NAI"
+    "Cooling: **cool running water 20 min** (up to 3 h post-burn); keep child warm",
+    "Fluids (paediatric modified Parkland): **3 mL x kg x %TBSA** Hartmann's, half in first 8 h from injury + maintenance fluid",
+    "Palm (incl. fingers) **~1% TBSA**; use Lund-Browder for children",
+    "Refer if **>10% TBSA**, full-thickness, or face/hands/perineum/flexures/circumferential/electrical/chemical/inhalation/NAI"
    ],
-   "mcqTrap": "Applying the adult 'rule of 9s' (head 9%) to estimate an infant's burn area - it underestimates the head and overestimates the legs; use Lund-Browder or the palm method. Also: counting superficial erythema in the TBSA when calculating fluids.",
+   "mcqTrap": "- Applying the **adult 'rule of 9s' (head 9%)** to estimate an infant's burn area — it underestimates the head and overestimates the legs\n  - Use Lund-Browder or the palm method instead\n- Also: **counting superficial erythema** in the TBSA when calculating fluids",
    "mnemonic": "Kids = big head, small legs. 'Cool the burn 20, keep the child warm.' Parkland for kids = 3 mL (not 4) + maintenance.",
    "source": "RCH Melbourne CPG: Burns - acute management; SA/WCH Paediatric Burns Service Guidelines (2025); NSW ACI Burn transfer guidelines",
    "verified": true,
@@ -985,16 +1149,24 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Cool 20 min running water (keep child warm)</div><div class=\"gv-step\">TBSA via Lund-Browder / palm (~1%) - exclude erythema</div><div class=\"gv-step\">Fluids: 3 mL x kg x %TBSA, half in first 8h from injury + maintenance</div><div class=\"gv-step\">Refer if >10% / full-thickness / special site / NAI</div></div>",
    "id": "paed-33",
    "title": "Paediatric Burns Assessment",
-   "subtitle": "Rule of 9s is wrong in kids; use Lund-Browder or palm"
+   "subtitle": "Rule of 9s is wrong in kids; use Lund-Browder or palm",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Lund-Browder_chart-burn_injury_area.PNG",
+     "caption": "Lund-Browder chart - paediatric burns surface area assessment",
+     "alt": "Lund-Browder diagram showing age-adjusted TBSA percentages for head and lower limbs in paediatric burns, contrasted with the adult rule of nines",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Paediatric DKA - cautious fluids, NO bolus unless shocked, cerebral oedema (differs from adult)",
    "subarea": "Surgical causes of vomiting",
-   "whatFirst": "Fluids FIRST, insulin LATER. Start IV rehydration and run it for 1 HOUR BEFORE commencing the insulin infusion. Replace the deficit SLOWLY over 48 hours (maintenance + deficit). Do NOT give a routine fluid bolus and do NOT bolus insulin. A bolus (10 mL/kg 0.9% sodium chloride over 30 min) is ONLY for the genuinely shocked child.",
-   "trap": "Children are not adults in DKA. The adult instinct - large rapid fluid boluses and immediate insulin - is dangerous here because rapid osmotic shifts precipitate CEREBRAL OEDEMA, the leading cause of DKA death in children. It usually develops within the first 12 hours, often after treatment has started, and can occur even with apparently appropriate management. Highest risk: first presentation, age <5 yrs, severe acidaemia, severe hypocapnia, increased urea.",
-   "discriminator": "Diagnosis (all three): glucose >11 mmol/L, venous pH <7.3 OR bicarbonate <18 mmol/L, and ketones (>=3 mmol/L blood or >=2+ urine). Cerebral oedema heralded by HEADACHE, irritability, falling GCS, bradycardia + rising BP (Cushing) - treat with 3% sodium chloride (3 mL/kg over 15 min) or mannitol 20% (0.5 g/kg over 20 min), elevate head, restrict fluids; do NOT wait for a CT.",
-   "redFlags": "Headache, recurrence of vomiting, drowsiness/irritability, incontinence, bradycardia, rising BP, falling GCS during treatment = cerebral oedema -> hypertonic saline/mannitol immediately.",
-   "mcqTrap": "Most tempting wrong answer: 'give a 20 mL/kg saline bolus and start IV insulin immediately' (adult-style). Wrong - no routine bolus, run fluids 1 h before insulin, replace deficit over 48 h. Also tempting but wrong: bolusing insulin at initiation. The cerebral-oedema vignette trap: choosing 'urgent CT head' before treatment - treat empirically with hypertonic saline/mannitol first.",
+   "whatFirst": "- **Fluids FIRST, insulin LATER**\n- Start IV rehydration and run it for **1 HOUR BEFORE** commencing insulin infusion\n- Replace the deficit **SLOWLY over 48 hours** (maintenance + deficit)\n- Do **NOT give a routine fluid bolus**; do **NOT bolus insulin**\n- A bolus (**10 mL/kg 0.9% sodium chloride** over 30 min) is ONLY for the **genuinely shocked** child",
+   "trap": "- Children are **not adults in DKA**: adult instincts are dangerous here\n- Rapid fluid boluses and immediate insulin cause rapid osmotic shifts precipitating **CEREBRAL OEDEMA** — the leading cause of DKA death in children\n- Cerebral oedema usually develops within the **first 12 hours**, often after treatment has started\n  - Can occur even with apparently appropriate management\n- Highest risk: **first presentation**, age **<5 yrs**, severe acidaemia, severe hypocapnia, increased urea",
+   "discriminator": "- Diagnosis requires **all three**:\n  - Glucose **>11 mmol/L**\n  - Venous pH **<7.3** OR bicarbonate **<18 mmol/L**\n  - Ketones (**≥3 mmol/L** blood or **≥2+ urine**)\n- Cerebral oedema heralded by: **headache**, irritability, falling GCS, bradycardia + rising BP (Cushing)\n  - Treat with **3% sodium chloride (3 mL/kg over 15 min)** or **mannitol 20% (0.5 g/kg over 20 min)**\n  - Elevate head, restrict fluids\n  - Do **NOT wait for a CT**",
+   "redFlags": "- **Headache**, recurrence of vomiting, drowsiness/irritability, incontinence during treatment = cerebral oedema\n- **Bradycardia + rising BP** (Cushing reflex), falling GCS\n- Action: **hypertonic saline/mannitol immediately**",
+   "mcqTrap": "- Most tempting wrong answer: **'give a 20 mL/kg saline bolus and start IV insulin immediately'** (adult-style)\n  - No routine bolus; run fluids 1 h before insulin; replace deficit over 48 h\n- Also tempting but wrong: **bolusing insulin** at initiation\n- Cerebral-oedema vignette trap: choosing **'urgent CT head'** before treatment\n  - Treat empirically with hypertonic saline/mannitol first",
    "source": "RCH Melbourne CPG Diabetic Ketoacidosis: dx glucose >11, venous pH <7.3 or HCO3 <18, ketones >=3 mmol/L (or >=2+ urine); shock-only bolus 10 mL/kg 0.9% sodium chloride over 30 min; rehydrate over 48 h; insulin started 1 h AFTER fluids at 0.05 (transfer/<5yr/BGL<15) or 0.1 units/kg/hr; NO insulin bolus; cerebral oedema risk = first presentation, <5 yr, severe acidaemia/hypocapnia/increased urea, develops within first 12 h; mannitol 20% 0.5 g/kg over 20 min or 3% saline 3 mL/kg over 15 min",
    "mnemonic": "DKA in kids = 'Slow and low': SLOW fluids over 48 h, LOW/late insulin (no bolus, wait 1 h). Watch the head.",
    "tags": [
@@ -1006,12 +1178,12 @@ window.GOTCHA.modules.push(
     "paediatric-vs-adult"
    ],
    "cutoffs": [
-    "Dx: glucose >11 mmol/L; venous pH <7.3 or HCO3 <18; ketones >=3 (blood) / >=2+ (urine)",
-    "Bolus 10 mL/kg 0.9% sodium chloride over 30 min ONLY if shocked",
-    "Insulin started 1 h AFTER fluids; 0.05 or 0.1 units/kg/hr; NO bolus",
-    "Replace deficit over 48 h",
-    "Cerebral oedema within first 12 h; risk <5 yr, first presentation, severe acidosis/hypocapnia/increased urea",
-    "Mannitol 20% 0.5 g/kg over 20 min OR 3% saline 3 mL/kg over 15 min"
+    "Dx: glucose **>11 mmol/L**; venous pH **<7.3** or HCO3 **<18**; ketones **≥3** (blood) / **≥2+** (urine)",
+    "Bolus **10 mL/kg** 0.9% sodium chloride over 30 min ONLY if shocked",
+    "Insulin started **1 h AFTER** fluids; 0.05 or 0.1 units/kg/hr; NO bolus",
+    "Replace deficit over **48 h**",
+    "Cerebral oedema within first **12 h**; risk **<5 yr**, first presentation, severe acidosis/hypocapnia/increased urea",
+    "Mannitol 20% **0.5 g/kg over 20 min** OR 3% saline **3 mL/kg over 15 min**"
    ],
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Step</th><th>Paediatric DKA (RCH)</th></tr></thead><tbody><tr><td>Diagnosis</td><td>Glucose <span class=\"gv-num\">>11</span>; pH <span class=\"gv-num\">&lt;7.3</span> or HCO3 <span class=\"gv-num\">&lt;18</span>; ketones <span class=\"gv-num\">>=3</span></td></tr><tr><td>Bolus</td><td>ONLY if shocked: 10 mL/kg saline / 30 min</td></tr><tr><td>Deficit</td><td>Replace over <span class=\"gv-num\">48 h</span> (slow)</td></tr><tr><td>Insulin</td><td>Start 1 h AFTER fluids; 0.05-0.1 u/kg/hr; NO bolus</td></tr><tr><td>Cerebral oedema</td><td>3% saline 3 mL/kg / 15 min OR mannitol 0.5 g/kg / 20 min</td></tr></tbody></table>",
@@ -1022,11 +1194,11 @@ window.GOTCHA.modules.push(
   {
    "topic": "Pyloric stenosis - electrolytes, age window, and FLUIDS-BEFORE-KNIFE rule",
    "subarea": "Surgical causes of vomiting",
-   "whatFirst": "MEDICAL resuscitation FIRST: correct dehydration, electrolytes and alkalosis with 0.9% sodium chloride + 5% glucose (add potassium once urine output 1-2 mL/kg/hr), and specifically AWAIT NORMALISATION OF SERUM BICARBONATE before pyloromyotomy. The surgery is urgent but is NOT an emergency - never rush to theatre on an alkalotic baby.",
-   "trap": "Pyloromyotomy is timed on a metabolically corrected baby. The classic exam catch is choosing 'urgent surgery' on a baby who is still alkalotic - persistent metabolic alkalosis risks post-operative APNOEA/hypoventilation. The metabolic derangement, not the pylorus, kills.",
-   "discriminator": "Hypochloraemic, hypokalaemic METABOLIC ALKALOSIS (vomiting HCl). Paradoxical aciduria is the late give-away. NON-bilious projectile vomit at 2-6 weeks in a HUNGRY baby (vs the unwell/lethargic baby of sepsis or the bilious vomit of malrotation). Palpable 'olive' RUQ + visible peristalsis.",
-   "redFlags": "Severe alkalosis (high bicarbonate), profound hypokalaemia, hypochloraemia, lethargy/poor perfusion = under-resuscitated; do NOT proceed to surgery.",
-   "mcqTrap": "The single most tempting wrong answer: 'urgent/emergency pyloromyotomy' or 'theatre now'. Wrong - correct fluids/electrolytes/alkalosis FIRST. Also tempting but wrong: 'metabolic acidosis' (it is ALKALOSIS) and 'bilious vomiting' (it is NON-bilious - obstruction is proximal to the ampulla).",
+   "whatFirst": "- **MEDICAL resuscitation FIRST**: correct dehydration, electrolytes and alkalosis\n- Fluid: **0.9% sodium chloride + 5% glucose**; add **potassium** once urine output **1-2 mL/kg/hr**\n- **Await normalisation of serum bicarbonate** before pyloromyotomy\n- Surgery is urgent but **NOT an emergency** — never rush to theatre on an alkalotic baby",
+   "trap": "- **Pyloromyotomy** is timed on a metabolically corrected baby — not urgency of obstruction\n- Classic exam catch: choosing 'urgent surgery' on a baby who is still **alkalotic**\n- Persistent metabolic alkalosis risks post-operative **apnoea/hypoventilation**\n- The **metabolic derangement, not the pylorus, kills**",
+   "discriminator": "- **Hypochloraemic, hypokalaemic METABOLIC ALKALOSIS** (vomiting HCl)\n- **Paradoxical aciduria** is the late give-away\n- **NON-bilious projectile vomit** at **2-6 weeks** in a **HUNGRY** baby\n  - Vs unwell/lethargic baby of sepsis\n  - Vs bilious vomit of malrotation\n- Palpable **'olive' RUQ** + visible peristalsis",
+   "redFlags": "- Severe **alkalosis** (high bicarbonate)\n- Profound **hypokalaemia**, hypochloraemia\n- **Lethargy/poor perfusion** = under-resuscitated\n- Do **NOT proceed to surgery** in this state",
+   "mcqTrap": "- Single most tempting wrong answer: **'urgent/emergency pyloromyotomy'** or 'theatre now'\n  - Correct fluids/electrolytes/alkalosis FIRST\n- Also tempting but wrong: **'metabolic acidosis'** — it is ALKALOSIS\n- Also wrong: **'bilious vomiting'** — it is NON-bilious (obstruction proximal to the ampulla)",
    "source": "RCH Melbourne CPG Pyloric Stenosis: presents 2-6 weeks, unlikely after 12 weeks; hypochloraemic hypokalaemic metabolic alkalosis; surgery delayed until correction of dehydration/electrolytes/acid-base; 'particularly important to await normalisation of serum bicarbonate before surgery'; USS 95% sensitive; rehydration/maintenance fluid 0.9% sodium chloride + 5% glucose, K+ once UO 1-2 mL/kg/hr",
    "mnemonic": "'No knife on an alkalotic baby.' Electrolytes: low Cl, low K, high HCO3 (the 'C-K-B' that all go wrong).",
    "tags": [
@@ -1037,25 +1209,33 @@ window.GOTCHA.modules.push(
     "fluids-before-surgery"
    ],
    "cutoffs": [
-    "Age 2-6 weeks (RCH); unlikely after 12 weeks",
-    "USS 95% sensitive (classic radiology teaching: muscle thickness >=3 mm, channel length >=15-17 mm; not quoted by RCH)",
-    "Correct fluids/electrolytes + normalise bicarbonate BEFORE pyloromyotomy",
-    "Fluid = 0.9% sodium chloride + 5% glucose; add K+ once urine output 1-2 mL/kg/hr"
+    "Age **2-6 weeks** (RCH); unlikely after 12 weeks",
+    "USS **95% sensitive** (muscle thickness **≥3 mm**, channel length **≥15-17 mm**; not quoted by RCH)",
+    "Correct fluids/electrolytes + **normalise bicarbonate BEFORE** pyloromyotomy",
+    "Fluid = 0.9% sodium chloride + 5% glucose; add K+ once urine output **1-2 mL/kg/hr**"
    ],
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Pyloric stenosis</th><th>Value</th></tr></thead><tbody><tr><td>Age window (RCH)</td><td><span class=\"gv-num\">2-6 weeks</span> (unlikely >12 wk)</td></tr><tr><td>Vomit</td><td>Non-bilious, projectile</td></tr><tr><td>Acid-base</td><td>Hypochloraemic hypokalaemic metabolic ALKALOSIS</td></tr><tr><td>USS sensitivity</td><td><span class=\"gv-num\">95%</span> (classic: muscle <span class=\"gv-num\">>=3 mm</span>, channel <span class=\"gv-num\">>=15-17 mm</span>)</td></tr><tr><td>Sequence</td><td>Correct fluids + bicarbonate FIRST, then pyloromyotomy</td></tr></tbody></table>",
    "id": "paed-26",
    "title": "Pyloric Stenosis",
-   "subtitle": "Correct alkalosis with fluids before pyloromyotomy (apnoea risk)"
+   "subtitle": "Correct alkalosis with fluids before pyloromyotomy (apnoea risk)",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/PyloricStenosisUS.jpg",
+     "caption": "Pyloric stenosis - USS showing elongated, thickened pyloric muscle (donut/target sign)",
+     "alt": "Abdominal ultrasound demonstrating elongated pyloric channel >16 mm and pyloric muscle thickness >4 mm confirming hypertrophic pyloric stenosis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Testicular torsion - ~6-hour salvage window; theatre BEFORE ultrasound",
    "subarea": "Surgical causes of vomiting",
-   "whatFirst": "Acute scrotal pain = torsion until proven otherwise -> URGENT surgical exploration (RACS: aim within ~2 hours of decision). If torsion is clinically suspected, go STRAIGHT TO THEATRE; do NOT delay for an ultrasound. The clock is from pain onset, not from arrival.",
-   "trap": "Imaging is the trap. A scrotal Doppler USS that shows flow does NOT exclude torsion (intermittent/partial torsion can have preserved or reactive flow), and obtaining it wastes the salvage window. USS is only appropriate AFTER a surgeon has clinically EXCLUDED torsion. Salvage is ~80-100% if explored within ~6 hours from pain onset and diminishes over time (salvage still possible up to ~24-48 h but rates fall sharply).",
-   "discriminator": "Torsion: sudden severe pain, high-riding/horizontal testis, ABSENT cremasteric reflex, no relief on elevation, nausea/vomiting, age peak ~12-18 yrs (also neonatal). Mimic = epididymo-orchitis (gradual onset, dysuria, cremasteric PRESENT, Prehn's sign positive = pain relieved by elevation) and torsion of appendix testis ('blue dot' sign, localised upper-pole tenderness). When in doubt -> explore.",
-   "redFlags": "Any acute scrotal pain/swelling in an adolescent; absent cremasteric reflex; pain >6 h with worsening - still explore (and explore the contralateral side for prophylactic fixation).",
-   "mcqTrap": "The single most tempting wrong answer: 'urgent Doppler ultrasound to confirm before surgery'. Wrong - exploration must not be delayed for imaging when torsion is suspected; a normal Doppler does not exclude it. Also wrong: 'trial of analgesia and review' or 'antibiotics for epididymitis'.",
+   "whatFirst": "- Acute scrotal pain = **torsion until proven otherwise**\n- **URGENT surgical exploration** (RACS: aim within ~2 hours of decision)\n- If torsion is clinically suspected, go **STRAIGHT TO THEATRE** — do NOT delay for ultrasound\n- Clock is from **pain onset**, not from arrival",
+   "trap": "- **Imaging is the trap**: a scrotal Doppler USS showing flow does NOT exclude torsion\n  - Intermittent/partial torsion can have preserved or reactive flow\n  - Obtaining USS wastes the **salvage window**\n- USS is only appropriate AFTER a surgeon has clinically **EXCLUDED** torsion\n- Salvage is **~80-100%** if explored within **~6 hours** from pain onset\n  - Salvage still possible up to ~24-48 h but rates fall sharply",
+   "discriminator": "- **Torsion**: sudden severe pain, high-riding/horizontal testis, **ABSENT cremasteric reflex**, no relief on elevation, nausea/vomiting, age peak **~12-18 yrs** (also neonatal)\n- **Epididymo-orchitis mimic**: gradual onset, dysuria, cremasteric PRESENT, Prehn's sign positive (pain relieved by elevation)\n- **Torsion of appendix testis**: 'blue dot' sign, localised upper-pole tenderness\n- When in doubt → **explore**",
+   "redFlags": "- Any **acute scrotal pain/swelling** in an adolescent\n- **Absent cremasteric reflex**\n- Pain **>6 h** with worsening — still explore\n- Explore the **contralateral side** for prophylactic fixation",
+   "mcqTrap": "- Single most tempting wrong answer: **'urgent Doppler ultrasound to confirm before surgery'**\n  - Exploration must not be delayed for imaging; a normal Doppler does not exclude torsion\n- Also wrong: **'trial of analgesia and review'** or 'antibiotics for epididymitis'",
    "source": "RCH Melbourne CPG Acute scrotal pain or swelling; RACS position paper 'Acute scrotal pain and suspected testicular torsion' (2022): viability ~80-100% if surgery within ~6 h, urgent exploration recommended within ~2 h; USS should NOT delay surgery and cannot reliably exclude torsion - only consider USS once torsion clinically excluded",
    "mnemonic": "'Cut, don't scan.' ~6 hours to save the ball. Cremasteric absent = call the surgeon.",
    "tags": [
@@ -1066,17 +1246,25 @@ window.GOTCHA.modules.push(
     "cremasteric-reflex"
    ],
    "cutoffs": [
-    "Salvage ~80-100% if explored within ~6 h from onset",
-    "Falls sharply over time (possible up to ~24-48 h)",
-    "RACS: aim to explore within ~2 h of decision",
-    "Peak age ~12-18 years",
-    "Do NOT delay theatre for USS"
+    "Salvage **~80-100%** if explored within **~6 h** from onset",
+    "Falls sharply over time (possible up to **~24-48 h**)",
+    "RACS: aim to explore within **~2 h** of decision",
+    "Peak age **~12-18 years**",
+    "Do **NOT delay theatre** for USS"
    ],
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Feature</th><th>Torsion</th><th>Epididymo-orchitis</th></tr></thead><tbody><tr><td>Onset</td><td>Sudden, severe</td><td>Gradual</td></tr><tr><td>Cremasteric reflex</td><td>ABSENT</td><td>Present</td></tr><tr><td>Prehn (elevate testis)</td><td>No relief</td><td>Relief (+ve)</td></tr><tr><td>Action</td><td>Theatre NOW (<span class=\"gv-num\">~6 h</span>)</td><td>Antibiotics</td></tr></tbody></table>",
    "id": "paed-28",
    "title": "Testicular Torsion",
-   "subtitle": "Theatre before ultrasound; preserved Doppler flow does not exclude it"
+   "subtitle": "Theatre before ultrasound; preserved Doppler flow does not exclude it",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/44/Scrotal_ultrasonography_of_testicular_torsion.jpg",
+     "caption": "Testicular torsion - Doppler USS showing absent blood flow",
+     "alt": "Scrotal Doppler ultrasound demonstrating absent intratesticular blood flow on the affected side compared with normal flow on the contralateral side",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-119",
@@ -1123,7 +1311,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Pattern</th><th>Interpretation</th><th>Action</th></tr></thead><tbody><tr><td>Tracking the 3rd centile, parallel, well child</td><td>Likely familial/constitutional small</td><td>Reassure + monitor</td></tr><tr><td>Crosses DOWN <span class=\"gv-num\">≥2</span> major centiles</td><td>Faltering growth — red flag</td><td>Diet hx → examine → investigate</td></tr><tr><td>Crosses UP rapidly</td><td>?overfeeding, ?endocrine, ?HC=hydrocephalus</td><td>Assess</td></tr></tbody></table>",
    "id": "paed-34",
    "title": "Crossing Centiles vs Stable Line",
-   "subtitle": "The trajectory matters; downward crossing of 2 centiles is the flag"
+   "subtitle": "The trajectory matters; downward crossing of 2 centiles is the flag",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Weight-for-age-girls.svg/960px-Weight-for-age-girls.svg.png",
+     "caption": "Growth chart showing downward centile crossing - failure to thrive",
+     "alt": "Paediatric growth chart (weight and height for age) demonstrating sustained downward crossing of two major centile lines indicating pathological growth faltering",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Developmental milestone red flags — the must-not-miss limit ages",
@@ -1206,7 +1402,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>System</th><th>Screen</th><th>When</th></tr></thead><tbody><tr><td>Thyroid</td><td>TSH</td><td>6 & 12 mo, then annually from 2 yr</td></tr><tr><td>Hearing</td><td>Audiology</td><td>6-monthly to 4 yr, then annual</td></tr><tr><td>Vision</td><td>Ophthal review</td><td>Birth, 6 wk, annual to 5 yr, then 2-yearly</td></tr><tr><td>Heart</td><td>Echo (all)</td><td>First month — even if no murmur</td></tr><tr><td>OSA</td><td>Sleep study</td><td>Refer by age 4</td></tr><tr><td>Cervical spine</td><td>X-ray</td><td>ONLY if symptomatic</td></tr></tbody></table>",
    "id": "paed-43",
    "title": "Down Syndrome Surveillance",
-   "subtitle": "Annual TSH from age 2; scheduled hearing and vision checks"
+   "subtitle": "Annual TSH from age 2; scheduled hearing and vision checks",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Boy_with_Down_Syndrome.JPG/960px-Boy_with_Down_Syndrome.JPG",
+     "caption": "Down syndrome - typical facial features (trisomy 21)",
+     "alt": "Child with Down syndrome showing characteristic facial features including upslanting palpebral fissures, flat nasal bridge, epicanthal folds, and small ears",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Failure to thrive / faltering growth — the causal buckets directing minimal workup",
@@ -1232,7 +1436,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">IN: inadequate intake + psychosocial (commonest)</span><span class=\"gv-pill\">THROUGH: malabsorption</span><span class=\"gv-pill\">OUT: increased demand / losses</span></div>",
    "id": "paed-37",
    "title": "Faltering Growth",
-   "subtitle": "Classify by mechanism; inadequate intake is commonest"
+   "subtitle": "Classify by mechanism; inadequate intake is commonest",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Weight-for-age-girls.svg/960px-Weight-for-age-girls.svg.png",
+     "caption": "Faltering growth - weight-for-age centile chart showing centile crossing downward",
+     "alt": "Weight centile chart illustrating downward centile crossing pattern typical of faltering growth",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Global developmental delay vs isolated (single-domain) delay",
@@ -1257,7 +1469,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-39",
    "title": "Global vs Isolated Developmental Delay",
-   "subtitle": "Isolated speech delay: check hearing first"
+   "subtitle": "Isolated speech delay: check hearing first",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Child_Development_Stages_Graphic_-_Blue_-_48412252121.jpg/960px-Child_Development_Stages_Graphic_-_Blue_-_48412252121.jpg",
+     "caption": "Developmental milestone chart - multiple domain delay vs isolated delay",
+     "alt": "Comparison of global developmental delay (multiple domains affected) versus isolated speech delay",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Head circumference (OFC) red flags — micro/macrocephaly and centile crossing",
@@ -1285,7 +1505,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>OFC finding</th><th>Think</th></tr></thead><tbody><tr><td>Crossing UP + bulging fontanelle</td><td>Hydrocephalus / raised ICP → urgent imaging</td></tr><tr><td>Big but PARALLEL, big-headed parent</td><td>Benign familial macrocephaly → reassure</td></tr><tr><td><span class=\"gv-num\">&lt;3rd</span> centile / crossing down</td><td>Microcephaly: congenital infection, genetic, FASD</td></tr></tbody></table>",
    "id": "paed-36",
    "title": "Head Circumference Red Flags",
-   "subtitle": "Rapid upward crossing = hydrocephalus/raised ICP until proven otherwise"
+   "subtitle": "Rapid upward crossing = hydrocephalus/raised ICP until proven otherwise",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/CT_brain_scan_of_child_with_medulloblastoma_and_resulting_hydrocephalus.jpg/960px-CT_brain_scan_of_child_with_medulloblastoma_and_resulting_hydrocephalus.jpg",
+     "caption": "CT brain - hydrocephalus with dilated ventricles",
+     "alt": "Axial CT head showing markedly enlarged lateral ventricles consistent with hydrocephalus causing upward OFC centile crossing",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "HEEADSSS adolescent assessment — sequence, alone-time & confidentiality limits",
@@ -1365,7 +1593,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Precocious (too early)</th><th>Delayed (too late)</th></tr></thead><tbody><tr><td>Girls</td><td>&lt; <span class=\"gv-num\">8 yr</span></td><td>No breast by 13 / no menarche by 15</td></tr><tr><td>Boys</td><td>&lt; <span class=\"gv-num\">9 yr</span> (testes ≥4 mL)</td><td>Testes &lt;4 mL by 14 yr</td></tr></tbody></table>",
    "id": "paed-42",
    "title": "Precocious vs Delayed Puberty",
-   "subtitle": "Precocious: <8 girls, <9 boys (testes 4 mL)"
+   "subtitle": "Precocious: <8 girls, <9 boys (testes 4 mL)",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tanner_scale_female.jpg/960px-Tanner_scale_female.jpg",
+     "caption": "Tanner stages - breast development girls (B1-B5)",
+     "alt": "Female Tanner staging diagram illustrating breast development stages B1-B5 and pubic hair development",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Tanner_scale-male.svg/960px-Tanner_scale-male.svg.png",
+     "caption": "Tanner stages - testicular/genital development boys (G1-G5)",
+     "alt": "Male Tanner staging diagram illustrating genital development stages G1-G5 and testicular volume pubic hair",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Short stature workup — mid-parental height & bone age",
@@ -1395,7 +1637,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Pattern</th><th>Bone age</th><th>Velocity</th><th>Final height</th></tr></thead><tbody><tr><td>Familial short stature</td><td>= chronological</td><td>Normal</td><td>Short (on target for parents)</td></tr><tr><td>Constitutional delay</td><td>Delayed</td><td>Normal</td><td>Normal (catch-up)</td></tr><tr><td>Pathological (GHD, hypothyroid, Turner, coeliac)</td><td>Delayed</td><td><span class=\"gv-num\">Low</span></td><td>Reduced unless treated</td></tr></tbody></table>",
    "id": "paed-40",
    "title": "Short Stature Workup",
-   "subtitle": "Mid-parental height plus a bone-age X-ray decide everything"
+   "subtitle": "Mid-parental height plus a bone-age X-ray decide everything",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/X-ray_of_a_hand_with_automatic_bone_age_calculation.jpg/960px-X-ray_of_a_hand_with_automatic_bone_age_calculation.jpg",
+     "caption": "Left hand-wrist X-ray - bone age assessment (Greulich-Pyle method)",
+     "alt": "Plain radiograph of left hand and wrist used for bone age estimation in short stature workup",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Tanner staging — what marks the START of puberty in each sex",
@@ -1422,7 +1672,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-41",
    "title": "Tanner Staging",
-   "subtitle": "Breast bud in girls; testicular enlargement in boys"
+   "subtitle": "Breast bud in girls; testicular enlargement in boys",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Tanner_scale_female.jpg/960px-Tanner_scale_female.jpg",
+     "caption": "Tanner B2 - breast bud (thelarche), first sign of puberty in girls",
+     "alt": "Diagram or clinical illustration showing Tanner B2 breast bud as the first sign of female puberty",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Acute otitis media - immediate antibiotics vs watchful waiting",
@@ -1457,6 +1715,12 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_otoscopy_glue_ear_ome_01.jpg",
      "alt": "Otoscopy image of a tympanic membrane showing a middle-ear effusion (glue ear / OME), contrasting with the bulging erythematous drum of acute otitis media.",
      "credit": "Welleschik, Wikimedia Commons, CC BY-SA 3.0 (cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Acute_Otitis_Media_Stage_of_Resolution.jpg/960px-Acute_Otitis_Media_Stage_of_Resolution.jpg",
+     "caption": "Otoscopy - acute otitis media with bulging erythematous tympanic membrane",
+     "alt": "Otoscopic view of inflamed, bulging, erythematous tympanic membrane with loss of light reflex in acute otitis media",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1587,7 +1851,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Cyanotic (5 T's, R->L)</th><th>Acyanotic (L->R or obstructive)</th></tr></thead><tbody><tr><td>Transposition (TGA)</td><td>VSD</td></tr><tr><td>Tetralogy of Fallot</td><td>ASD</td></tr><tr><td>Truncus arteriosus</td><td>PDA</td></tr><tr><td>Tricuspid atresia</td><td>AVSD</td></tr><tr><td>TAPVR</td><td>Coarctation / AS / PS</td></tr></tbody></table>",
    "id": "paed-45",
    "title": "Cyanotic vs Acyanotic CHD",
-   "subtitle": "Hyperoxia test sorts cardiac from lung cause"
+   "subtitle": "Hyperoxia test sorts cardiac from lung cause",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Cyanotic_neonate.jpg",
+     "caption": "Cyanotic CHD - central cyanosis in neonate (blue lips/tongue)",
+     "alt": "Central cyanosis of lips and tongue in a neonate with cyanotic congenital heart disease (right-to-left shunt)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Boot-shaped_heart.jpg/960px-Boot-shaped_heart.jpg",
+     "caption": "CXR - Tetralogy of Fallot (boot-shaped heart, decreased pulmonary vascularity)",
+     "alt": "Chest X-ray showing boot-shaped heart with upturned apex and reduced pulmonary vascular markings in Tetralogy of Fallot",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Cystic fibrosis — newborn screen pathway & sweat chloride cut-offs",
@@ -1615,7 +1893,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Day 2-3: IRT (raised)</div><div class=\"gv-step\">CFTR DNA on same card</div><div class=\"gv-step\">Sweat test if mutation(s)</div><div class=\"gv-step\">Cl >=60 = CF / 30-59 borderline / &lt;30 normal</div></div>",
    "id": "paed-53",
    "title": "Cystic Fibrosis Newborn Screen",
-   "subtitle": "Two-tier IRT then DNA; sweat chloride confirms"
+   "subtitle": "Two-tier IRT then DNA; sweat chloride confirms",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Sweat_Test_Infant.png/960px-Sweat_Test_Infant.png",
+     "caption": "Sweat chloride test - iontophoresis pilocarpine sweat collection",
+     "alt": "Pilocarpine iontophoresis sweat chloride test setup used to confirm cystic fibrosis diagnosis (>60 mmol/L positive)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Duct-dependent lesions & prostaglandin E1 — the day 2-7 collapse",
@@ -1642,7 +1928,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Well at birth</div><div class=\"gv-step\">Day 2-7: duct closes</div><div class=\"gv-step\">Shock / cyanosis / absent femorals</div><div class=\"gv-step\">Start PGE1 + treat as sepsis</div><div class=\"gv-step\">Watch for apnoea -> intubate</div></div>",
    "id": "paed-46",
    "title": "Duct-Dependent Lesions",
-   "subtitle": "Day 2-7 collapse: give prostaglandin E1, not just sepsis cover"
+   "subtitle": "Day 2-7 collapse: give prostaglandin E1, not just sepsis cover",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Hypoplastic_Left_Heart_Syndrome.png",
+     "caption": "CXR - Duct-dependent lesion: hypoplastic left heart syndrome (cardiomegaly, pulmonary oedema)",
+     "alt": "Chest X-ray of neonate with hypoplastic left heart syndrome showing cardiomegaly and pulmonary venous congestion",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/PDA_Coil.png",
+     "caption": "Echocardiogram - duct-dependent circulation: large PDA with right-to-left shunt",
+     "alt": "Echocardiogram showing patent ductus arteriosus maintaining systemic circulation in a duct-dependent lesion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Haemolytic uraemic syndrome (HUS) - the do-NOT-give-antibiotics rule",
@@ -1718,6 +2018,18 @@ window.GOTCHA.modules.push(
      "caption": "ITP - petechiae and non-blanching purpura in a well child (normal platelet morphology on film)",
      "alt": "Widespread petechiae and purpura in a well child with immune thrombocytopaenic purpura (ITP)",
      "credit": "DrFO.Jr.Tn, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Knee_joint_of_a_haemophiliac_Wellcome_L0062595.jpg/960px-Knee_joint_of_a_haemophiliac_Wellcome_L0062595.jpg",
+     "caption": "Haemarthrosis - haemophilia (swollen hot joint, knee haemarthrosis)",
+     "alt": "Swollen, tense knee joint haemarthrosis in a boy with haemophilia A - classic deep bleeding pattern",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Epistaxis_%28Nose_Bleed%29.jpg/960px-Epistaxis_%28Nose_Bleed%29.jpg",
+     "caption": "vWD - mucosal bleeding (epistaxis, gum bleeding) pattern",
+     "alt": "Mucosal bleeding pattern (epistaxis, gingival bleeding) characteristic of von Willebrand disease",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1825,7 +2137,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Syndrome</th><th>EEG</th><th>First-line</th></tr></thead><tbody><tr><td>Infantile spasms (West)</td><td>Hypsarrhythmia</td><td>Vigabatrin / ACTH</td></tr><tr><td>Childhood absence</td><td>3 Hz spike-wave</td><td>Ethosuximide</td></tr><tr><td>Benign rolandic</td><td>Centrotemporal spikes</td><td>Often none</td></tr></tbody></table>",
    "id": "paed-65",
    "title": "Infantile Spasms",
-   "subtitle": "Salaam spasms plus hypsarrhythmia; not colic or reflux"
+   "subtitle": "Salaam spasms plus hypsarrhythmia; not colic or reflux",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Hypsarrhythmia.png/960px-Hypsarrhythmia.png",
+     "caption": "Hypsarrhythmia — chaotic EEG pattern of infantile spasms (West syndrome)",
+     "alt": "High-amplitude chaotic multifocal spike-and-wave EEG pattern (hypsarrhythmia) characteristic of infantile spasms / West syndrome",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Innocent vs pathological murmur — the discriminating features",
@@ -1851,7 +2171,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Innocent</th><th>Pathological (refer for echo)</th></tr></thead><tbody><tr><td>Systolic only, &lt;=2/6</td><td>Any diastolic murmur</td></tr><tr><td>Soft, musical, varies with position</td><td>Loud >=3/6 or thrill</td></tr><tr><td>Normal S1/S2, asymptomatic</td><td>Fixed split S2 / ejection click</td></tr><tr><td>Normal pulses</td><td>Weak femorals, radiation to back/axilla</td></tr></tbody></table>",
    "id": "paed-47",
    "title": "Innocent vs Pathological Murmur",
-   "subtitle": "Any diastolic, pansystolic, thrill or weak femorals is pathological"
+   "subtitle": "Any diastolic, pansystolic, thrill or weak femorals is pathological",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Ventricular_Septal_Defect.jpg",
+     "caption": "Echocardiogram — pathological murmur (e.g. VSD with turbulent jet)",
+     "alt": "Colour-flow Doppler echocardiogram demonstrating a pathological turbulent jet consistent with a ventricular septal defect",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-122",
@@ -1877,6 +2205,24 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_kawasaki_strawberry_tongue_lips_01.jpg",
      "alt": "Clinical photograph of a strawberry tongue with red cracked lips, the mucositis criterion of Kawasaki disease.",
      "credit": "Dong Soo Kim (derivative by Natr), Wikimedia Commons, CC BY 2.0 (panel label cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kawasaki_symptoms_A.jpg",
+     "caption": "Kawasaki disease — bilateral non-exudative conjunctivitis",
+     "alt": "Bilateral bulbar conjunctival injection with limbal sparing and no exudate in a child with Kawasaki disease",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kawasaki.PNG/960px-Kawasaki.PNG",
+     "caption": "Kawasaki disease — polymorphous rash (truncal erythema)",
+     "alt": "Polymorphous maculopapular to erythematous rash on the trunk in a child with Kawasaki disease",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Kawasaki_symptoms_F.jpg",
+     "caption": "Kawasaki disease — desquamation of fingertips (periungual peeling)",
+     "alt": "Periungual and fingertip desquamation (peeling) occurring 2-3 weeks into Kawasaki disease",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1905,6 +2251,18 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_kawasaki_strawberry_tongue_lips_01.jpg",
      "alt": "Clinical photograph of mucositis in Kawasaki disease — cracked erythematous lips and a strawberry tongue.",
      "credit": "Dong Soo Kim (derivative by Natr), Wikimedia Commons, CC BY 2.0 (panel label cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kawasaki_symptoms_A.jpg",
+     "caption": "Kawasaki disease — bilateral non-exudative conjunctivitis",
+     "alt": "Bilateral bulbar conjunctival injection with limbal sparing in Kawasaki disease",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Coronaraneursymen_bei_Kawasaki-Syndrom_-_CT_-_Volume_rendering_gesamt_-_023.jpg",
+     "caption": "Echocardiogram — coronary artery aneurysm in Kawasaki disease",
+     "alt": "Parasternal short-axis echocardiogram demonstrating dilation of the left anterior descending coronary artery (aneurysm) in Kawasaki disease",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1933,6 +2291,12 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_kawasaki_strawberry_tongue_lips_01.jpg",
      "alt": "Clinical photograph of the mouth in Kawasaki disease showing a strawberry tongue with red, cracked and fissured lips (mucositis).",
      "credit": "Dong Soo Kim (derivative by Natr), Wikimedia Commons, CC BY 2.0 (panel label cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Kawasaki_symptoms_F.jpg",
+     "caption": "Kawasaki disease — periungual desquamation of fingers",
+     "alt": "Fingertip and periungual skin peeling (desquamation) in the convalescent phase of Kawasaki disease",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1967,6 +2331,18 @@ window.GOTCHA.modules.push(
      "caption": "HSP / IgA vasculitis — palpable purpura over buttocks and lower limbs",
      "alt": "Palpable non-blanching purpura over buttocks and extensor lower limbs in a well child with HSP",
      "credit": "The original uploader was Okwikikim at English Wikipedia., Wikimedia Commons, Public domain"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/Charlotte_Cleverley-Bisman_Meningicoccal_Disease.jpg",
+     "caption": "Meningococcaemia — non-blanching petechiae and purpura (stellate ecchymoses)",
+     "alt": "Rapidly spreading non-blanching stellate purpura and petechiae on the trunk and limbs in meningococcal septicaemia",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/92/Purpura.jpg",
+     "caption": "ITP — petechiae and purpura with normal platelet morphology (low platelet count)",
+     "alt": "Scattered petechiae and bruising in immune thrombocytopenic purpura — well child without fever or systemic illness",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1996,7 +2372,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Nephrotic</th><th>Nephritic</th></tr></thead><tbody><tr><td>Hallmark</td><td>Heavy proteinuria</td><td>Haematuria + RBC casts</td></tr><tr><td>BP</td><td>Usually normal</td><td>Hypertension</td></tr><tr><td>Albumin</td><td>Low -> oedema</td><td>Normal-ish</td></tr><tr><td>First step</td><td>Steroids (no biopsy)</td><td>Treat cause; check C3</td></tr></tbody></table>",
    "id": "paed-48",
    "title": "Nephrotic Syndrome in Children",
-   "subtitle": "Treat with steroids before biopsy in typical minimal change"
+   "subtitle": "Treat with steroids before biopsy in typical minimal change",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Nephrotic_eyes.JPG",
+     "caption": "Nephrotic syndrome — periorbital oedema in a child",
+     "alt": "Marked bilateral periorbital puffiness (facial oedema) in a child with nephrotic syndrome — often mistaken for allergy",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Combinpedal.jpg/960px-Combinpedal.jpg",
+     "caption": "Nephrotic syndrome — pitting oedema of the legs and scrotal oedema",
+     "alt": "Pitting oedema of the lower limbs and scrotal oedema in a child with nephrotic syndrome",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "T1DM new diagnosis & the honeymoon period",
@@ -2115,6 +2505,18 @@ window.GOTCHA.modules.push(
      "caption": "Scarlet fever — strawberry tongue (white then red)",
      "alt": "White-coated then red strawberry tongue and circumoral pallor — scarlet fever (group A streptococcal infection)",
      "credit": "Whispyhistory, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Koplik_spots%2C_measles_2019.jpg/960px-Koplik_spots%2C_measles_2019.jpg",
+     "caption": "Measles — Koplik spots on buccal mucosa",
+     "alt": "Tiny white spots (Koplik spots) on erythematous buccal mucosa — pathognomonic prodromal sign of measles",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Sestamalattia.JPG/960px-Sestamalattia.JPG",
+     "caption": "Roseola infantum (HHV-6) — rose-pink macular rash appearing after fever breaks",
+     "alt": "Faint rose-pink macular rash appearing on trunk after 3-5 days of high fever in roseola infantum (exanthem subitum / HHV-6)",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -2145,7 +2547,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Reliable specimen (clean-catch/SPA/cath — NOT bag)</div><div class=\"gv-step\">&lt;3 mo or unwell? -> IV abx + admit</div><div class=\"gv-step\">Atypical or recurrent? -> ultrasound</div><div class=\"gv-step\">Abnormal USS/DMSA / recurrent -> MCUG</div></div>",
    "id": "paed-49",
    "title": "Paediatric UTI and VUR Imaging",
-   "subtitle": "Never diagnose UTI on a bag urine"
+   "subtitle": "Never diagnose UTI on a bag urine",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Vesicoureteral-reflux-004.jpg",
+     "caption": "MCUG (micturating cystourethrogram) — vesicoureteric reflux",
+     "alt": "Micturating cystourethrogram (MCUG) demonstrating retrograde filling of the ureter(s) and collecting system — vesicoureteric reflux (VUR)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/DMSA_scan_while_on_enalapril.jpg",
+     "caption": "DMSA renal scan — photopenic defect indicating cortical scarring",
+     "alt": "DMSA scintigraphy showing photopenic cortical defect consistent with renal scarring from recurrent pyelonephritis in a child with VUR",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Pertussis in the young infant - apnoea, NOT whoop",
@@ -2234,6 +2650,12 @@ window.GOTCHA.modules.push(
      "src": "assets/img/msk_xray_elbow_fat_pad_supracondylar_01.jpg",
      "alt": "Lateral paediatric elbow X-ray showing an elevated anterior fat pad (sail sign) and a posterior fat-pad sign, indicating a joint effusion from an occult fracture that may have a near-normal bony appearance.",
      "credit": "RSatUSZ (Universitätsspital Zürich), Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Salter_Harris_Fracture_Types.svg/960px-Salter_Harris_Fracture_Types.svg.png",
+     "caption": "Salter-Harris classification — diagram showing types I-V through the physis",
+     "alt": "Schematic diagram of the Salter-Harris classification (types I-V) illustrating where each fracture traverses relative to the epiphysis, physis and metaphysis",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -2276,17 +2698,23 @@ window.GOTCHA.modules.push(
      "caption": "Perthes disease — X-ray of hip showing flattened sclerotic capital femoral epiphysis",
      "alt": "AP pelvis X-ray in a child showing flattened, sclerotic and fragmented capital femoral epiphysis consistent with Perthes disease (Legg-Calve-Perthes / avascular necrosis)",
      "credit": "J. Lengerke, Wikimedia Commons, Public domain"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Ultrasound_measuring_the_developmental_dysplasia_of_right_hip.jpg/960px-Ultrasound_measuring_the_developmental_dysplasia_of_right_hip.jpg",
+     "caption": "DDH — ultrasound of neonatal hip showing acetabular dysplasia",
+     "alt": "Graf method hip ultrasound in an infant demonstrating a shallow acetabulum with reduced alpha angle — developmental dysplasia of the hip",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
   {
    "topic": "JIA vs septic joint — the can't-miss discriminator (Kocher)",
    "subarea": "Subspecialty disease",
-   "trap": "A hot swollen joint forces the question: benign (JIA/reactive) or a SEPTIC JOINT (orthopaedic emergency)? Septic arthritis = acutely unwell, FEBRILE, refuses to weight-bear/move the joint (pseudoparalysis), exquisite pain on any movement, raised WCC/CRP/ESR -> URGENT joint aspiration + IV antibiotics +/- washout. The trap is anchoring on 'JIA flare' and missing sepsis: JIA requires arthritis persisting >=6 WEEKS, so an ACUTE single hot joint over hours-days is sepsis until proven otherwise.",
-   "whatFirst": "Acute hot joint + fever + non-weight-bearing -> bloods (FBC, CRP, ESR, cultures) + URGENT joint aspiration for Gram stain/culture/cell count before antibiotics where possible; do NOT delay for an outpatient rheumatology referral.",
-   "discriminator": "Kocher criteria for septic hip (each +1): non-weight-bearing, fever >38.5C, ESR >40 mm/h, WCC >12 x10^9/L — more criteria = higher probability (4/4 ~99%). Acute (hours-days), single, exquisitely painful joint = septic; arthritis >=6 weeks with morning stiffness that improves with movement = JIA.",
-   "redFlags": "Fever + refusal to weight-bear + exquisitely painful, immobile joint = septic arthritis (or osteomyelitis) — aspirate and treat now. Don't be reassured by a partial response to NSAIDs. Consider osteomyelitis and, with systemic features/cytopenias, leukaemia.",
-   "mcqTrap": "Tempting wrong answer: 'NSAIDs and rheumatology referral' / 'likely JIA' for an acutely febrile child refusing to weight-bear on a single hot joint. Wrong — that is septic arthritis until aspiration excludes it; missed septic joints destroy cartilage within days.",
+   "trap": "- Hot swollen joint forces the question: **benign (JIA/reactive)** or **SEPTIC JOINT** (orthopaedic emergency)?\n- Septic arthritis = acutely unwell, **FEBRILE**, refuses to weight-bear/move joint (pseudoparalysis), exquisite pain on any movement, raised **WCC/CRP/ESR** → URGENT aspiration + IV antibiotics ± washout\n- Trap: **anchoring on 'JIA flare'** and missing sepsis\n  - JIA requires arthritis persisting **≥6 WEEKS**\n  - An ACUTE single hot joint over hours-days is **sepsis until proven otherwise**",
+   "whatFirst": "- Acute hot joint + fever + non-weight-bearing → **bloods (FBC, CRP, ESR, cultures)** + **URGENT joint aspiration** for Gram stain/culture/cell count\n  - Aspirate **before antibiotics** where possible\n- Do **NOT delay** for outpatient rheumatology referral",
+   "discriminator": "- **Kocher criteria** for septic hip (each +1):\n  - Non-weight-bearing\n  - Fever **>38.5°C**\n  - ESR **>40 mm/h**\n  - WCC **>12 x10⁹/L**\n  - More criteria = higher probability (**4/4 ~99%**)\n- **Acute (hours-days)**, single, exquisitely painful joint = **septic**\n- **Arthritis ≥6 weeks** with morning stiffness improving with movement = **JIA**",
+   "redFlags": "- Fever + refusal to weight-bear + **exquisitely painful, immobile joint** = septic arthritis (or osteomyelitis) — aspirate and treat now\n- Do **not be reassured** by partial response to NSAIDs\n- Consider **osteomyelitis** and, with systemic features/cytopenias, **leukaemia**",
+   "mcqTrap": "- Tempting wrong answer: **'NSAIDs and rheumatology referral'** / 'likely JIA' for an acutely febrile child refusing to weight-bear on a single hot joint\n  - That is **septic arthritis** until aspiration excludes it\n  - Missed septic joints **destroy cartilage within days**",
    "mnemonic": "Kocher = 'WEFW': Weight-bearing (can't), ESR >40, Fever >38.5, WCC >12. JIA needs the '6-week rule'; acute single hot joint = aspirate.",
    "source": "RCH Melbourne CPG Acutely swollen joint / Septic arthritis; Kocher criteria (validated); RACGP/Starship JIA definition (arthritis >=6 weeks)",
    "tags": [
@@ -2298,15 +2726,23 @@ window.GOTCHA.modules.push(
     "emergency"
    ],
    "cutoffs": [
-    "Kocher: non-weight-bearing, fever >38.5C, ESR >40 mm/h, WCC >12 x10^9/L",
-    "JIA = arthritis >=6 weeks, onset <16 yr, other causes excluded",
-    "Septic joint = orthopaedic emergency -> aspirate + IV antibiotics"
+    "Kocher: non-weight-bearing, fever **>38.5°C**, ESR **>40 mm/h**, WCC **>12 x10⁹/L**",
+    "JIA = arthritis **≥6 weeks**, onset **<16 yr**, other causes excluded",
+    "Septic joint = **orthopaedic emergency** → aspirate + IV antibiotics"
    ],
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Septic arthritis</th><th>JIA</th></tr></thead><tbody><tr><td>Onset</td><td>Acute (hours-days)</td><td>>=6 weeks</td></tr><tr><td>Systemic</td><td>Febrile, unwell</td><td>Often well; morning stiffness</td></tr><tr><td>Joint</td><td>Won't move/weight-bear</td><td>Stiffness eases with use</td></tr><tr><td>Action</td><td>Aspirate + IV antibiotics now</td><td>Rheumatology workup</td></tr></tbody></table>",
    "id": "paed-60",
    "title": "Septic Arthritis vs JIA",
-   "subtitle": "Febrile, non-weight-bearing joint is septic until proven"
+   "subtitle": "Febrile, non-weight-bearing joint is septic until proven",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ultrasonography_of_joint_effusion_in_transient_synovitis_of_the_hip.jpg",
+     "caption": "Septic arthritis hip — ultrasound showing joint effusion",
+     "alt": "Hip ultrasound demonstrating a large joint effusion (anechoic fluid anterior to femoral neck) in septic arthritis of the hip",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-121",
@@ -2332,17 +2768,23 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_xray_sufe_left_hip_01.jpg",
      "alt": "Frog-leg lateral hip radiograph showing the capital femoral epiphysis slipped posteriorly and inferiorly off the femoral neck, slipped capital femoral epiphysis.",
      "credit": "Mikir (Wikipedia), public domain · Public domain"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Slipped_capital_femoral_epiphysis.jpg",
+     "caption": "SCFE — Klein's line on AP hip X-ray (abnormal Trethowan sign)",
+     "alt": "AP pelvis X-ray demonstrating failure of Klein's line (drawn along the superior femoral neck) to intersect the capital femoral epiphysis — positive Trethowan sign in SCFE",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
   {
    "topic": "Wilms tumour vs neuroblastoma — abdominal mass discriminators",
    "subarea": "Subspecialty disease",
-   "trap": "Both cause a paediatric abdominal mass; sorting them is the exam point. Wilms (nephroblastoma): older toddler/preschool (peak ~3-4 yr), arises FROM the kidney, mass does NOT usually cross the midline, smooth/unilateral, often well child, +/- haematuria & hypertension. Neuroblastoma: younger (often <2 yr), arises from adrenal/sympathetic chain, IRREGULAR mass that CROSSES the midline, calcifies, child often UNWELL/systemic, raised urinary catecholamines (VMA/HVA), and paraneoplastic signs (opsoclonus-myoclonus 'dancing eyes', periorbital 'raccoon eyes' from bony mets, Horner's).",
-   "whatFirst": "Palpable abdominal mass in a child = imaging (USS then CT/MRI); do NOT vigorously palpate a suspected Wilms (rupture risk). Urinary catecholamines + characteristic features point to neuroblastoma.",
-   "discriminator": "Crosses midline + calcification + unwell + raised catecholamines + 'dancing eyes'/raccoon eyes = neuroblastoma. Confined to one side, doesn't cross midline, well child, +/- haematuria/HTN = Wilms. Neuroblastoma is younger.",
-   "redFlags": "Opsoclonus-myoclonus ('dancing eyes'), periorbital ecchymoses ('raccoon eyes'), bone pain, hypertension, or a hard fixed mass crossing midline — urgent oncology referral. Avoid repeated abdominal palpation (Wilms rupture).",
-   "mcqTrap": "Tempting wrong answer: choosing Wilms for a sick infant with a calcified midline-crossing mass and 'dancing eyes' — those are neuroblastoma. Conversely, a well 3-yr-old with a smooth flank mass +/- haematuria is Wilms.",
+   "trap": "- Both cause a paediatric abdominal mass — sorting them is the exam point\n- **Wilms (nephroblastoma)**:\n  - Older toddler/preschool, peak **~3-4 yr**\n  - Arises **FROM the kidney**; mass does **NOT usually cross the midline**\n  - Smooth, unilateral; often **well child**\n  - ± haematuria and hypertension\n- **Neuroblastoma**:\n  - Younger, often **<2 yr**\n  - Arises from **adrenal/sympathetic chain**\n  - **IRREGULAR mass that CROSSES the midline**, calcifies\n  - Child often **UNWELL/systemic**\n  - Raised urinary catecholamines (**VMA/HVA**)\n  - Paraneoplastic signs: **opsoclonus-myoclonus ('dancing eyes')**, periorbital **'raccoon eyes'** from bony mets, Horner's",
+   "whatFirst": "- Palpable abdominal mass in a child → **imaging (USS then CT/MRI)**\n- Do **NOT vigorously palpate** a suspected Wilms — **rupture risk**\n- Urinary catecholamines + characteristic features point to **neuroblastoma**",
+   "discriminator": "- Crosses midline + calcification + unwell + **raised catecholamines** + 'dancing eyes'/raccoon eyes = **neuroblastoma**\n- Confined to one side, doesn't cross midline, well child, ± haematuria/HTN = **Wilms**\n- **Neuroblastoma is younger** (<2 yr vs ~3-4 yr)",
+   "redFlags": "- **Opsoclonus-myoclonus ('dancing eyes')** — paraneoplastic neuroblastoma sign\n- **Periorbital ecchymoses ('raccoon eyes')** — bony metastases\n- Bone pain, hypertension, hard fixed mass **crossing midline** — urgent oncology referral\n- Avoid **repeated abdominal palpation** (Wilms rupture risk)",
+   "mcqTrap": "- Tempting wrong answer: choosing **Wilms** for a sick infant with a calcified midline-crossing mass and 'dancing eyes'\n  - Those are **neuroblastoma** features\n- Conversely: a well **3-yr-old** with a smooth flank mass ± haematuria = **Wilms**",
    "mnemonic": "NeurOblastoma = NastY: crOsses midline, calcifies, catecholamines, child unwell, 'dancing eyes'. Wilms = Within the kidney, doesn't cross, child Well-ish.",
    "source": "RCH Melbourne / Children's Cancer Centre paediatric oncology guidance",
    "tags": [
@@ -2353,14 +2795,22 @@ window.GOTCHA.modules.push(
     "discriminator"
    ],
    "cutoffs": [
-    "Neuroblastoma: often <2 yr; crosses midline; raised VMA/HVA",
-    "Wilms: peak ~3-4 yr; does not cross midline; +/- haematuria/HTN"
+    "Neuroblastoma: often **<2 yr**; crosses midline; raised **VMA/HVA**",
+    "Wilms: peak **~3-4 yr**; does not cross midline; ± haematuria/HTN"
    ],
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Wilms</th><th>Neuroblastoma</th></tr></thead><tbody><tr><td>Age</td><td>~3-4 yr</td><td>Often &lt;2 yr</td></tr><tr><td>Origin</td><td>Kidney</td><td>Adrenal/sympathetic chain</td></tr><tr><td>Midline</td><td>Does NOT cross</td><td>Crosses; calcifies</td></tr><tr><td>Child</td><td>Often well, +/-HTN/haematuria</td><td>Unwell; raised catecholamines; 'dancing eyes'</td></tr></tbody></table>",
    "id": "paed-56",
    "title": "Wilms Tumour vs Neuroblastoma",
-   "subtitle": "Wilms rarely crosses midline; neuroblastoma does"
+   "subtitle": "Wilms rarely crosses midline; neuroblastoma does",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Wilms_Tumor_CTScan.gif",
+     "caption": "Wilms tumour (nephroblastoma) - CT abdomen showing large intrarenal mass not crossing midline",
+     "alt": "Large well-defined intrarenal mass arising from one kidney, displacing but not crossing the midline, typical of Wilms tumour",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Apgar score — components, timing, and what it does NOT do",
@@ -2489,6 +2939,18 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_cxr_rds_neonate_fresh.png",
      "alt": "Neonatal chest X-ray showing diffuse ground-glass (reticulogranular) opacification with air bronchograms and low lung volumes — respiratory distress syndrome from surfactant deficiency.",
      "credit": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest:  None Mikael Häggström, M.D.Consent note: Written informed consent was obtained from a parent of the individual, including for online publication., Wikimedia Commons, CC0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pneumatosis_intestinalis_und_hepatis_bei_NEC_0W_-_CR_ap_-_001.jpg/960px-Pneumatosis_intestinalis_und_hepatis_bei_NEC_0W_-_CR_ap_-_001.jpg",
+     "caption": "NEC - AXR showing pneumatosis intestinalis (intramural gas)",
+     "alt": "Abdominal X-ray demonstrating linear or bubbly intramural gas (pneumatosis intestinalis) within the bowel wall, pathognomonic of necrotising enterocolitis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/ROP02_thumb.jpg",
+     "caption": "Retinopathy of prematurity - fundus photograph showing fibrovascular proliferation",
+     "alt": "Fundus photograph in a premature infant showing peripheral avascular retina with a ridge and fibrovascular proliferative changes (stage 3 ROP)",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -2557,7 +3019,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-77",
    "title": "Developmental Dysplasia of the Hip",
-   "subtitle": "Ortolani relocates, Barlow dislocates; USS under 6 months"
+   "subtitle": "Ortolani relocates, Barlow dislocates; USS under 6 months",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Ultrasound_measuring_the_developmental_dysplasia_of_right_hip.jpg/960px-Ultrasound_measuring_the_developmental_dysplasia_of_right_hip.jpg",
+     "caption": "DDH - ultrasound hip showing shallow acetabulum and laterally displaced femoral head",
+     "alt": "Neonatal hip ultrasound (Graf method) demonstrating a shallow acetabulum with lateral displacement of the cartilaginous femoral head, confirming developmental dysplasia of the hip",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Congenitaldislocation10.JPG/960px-Congenitaldislocation10.JPG",
+     "caption": "DDH - AP pelvis X-ray showing laterally displaced femoral head (older infant)",
+     "alt": "AP pelvis radiograph in an older infant showing superolateral displacement of the femoral head with a shallow acetabulum, consistent with DDH",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Duct-dependent congenital heart disease — collapse at day 2-7 as the duct closes",
@@ -2587,7 +3063,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-81",
    "title": "Duct-Dependent Congenital Heart Disease",
-   "subtitle": "Collapse at day 2-7 as duct closes; give prostaglandin E1"
+   "subtitle": "Collapse at day 2-7 as duct closes; give prostaglandin E1",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Transposition_great_arteries_Orphanet_1750-1172-3-27-1.JPEG",
+     "caption": "CXR in duct-dependent congenital heart disease - 'egg-on-side' heart (TGA)",
+     "alt": "Neonatal chest X-ray showing the classic 'egg-on-a-string' cardiac silhouette of transposition of the great arteries with a narrow mediastinum",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cardiovascular_system_-_Congenital_heart_disease_-_Hypoplastic_left_heart_syndrom_--_Smart-Servier.png",
+     "caption": "Hypoplastic left heart syndrome - CXR showing cardiomegaly and pulmonary plethora",
+     "alt": "Neonatal CXR in HLHS showing marked cardiomegaly and increased pulmonary vascular markings (pulmonary plethora) in a duct-dependent systemic circulation lesion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-128",
@@ -2609,7 +3099,15 @@ window.GOTCHA.modules.push(
    "mnemonic": "Well then wrecked at day 2-7 = duct closing. Open it: Prostaglandin keeps the Passage Patent.",
    "source": "RCH Melbourne CPG 'Congenital heart disease'; Queensland Clinical Guidelines neonatal; eTG",
    "alt": "Newborn with two pulse oximetry probes (right hand and foot) demonstrating pre- versus post-ductal oxygen saturation measurement during critical congenital heart disease screening",
-   "verified": true
+   "verified": true,
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Transposition_great_arteries_Orphanet_1750-1172-3-27-1.JPEG",
+     "caption": "CXR in duct-dependent congenital heart disease - 'egg-on-side' heart (TGA)",
+     "alt": "Neonatal chest X-ray showing the classic 'egg-on-a-string' cardiac silhouette of transposition of the great arteries with a narrow mediastinum",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Infant of a diabetic mother (IDM) — the bundle of neonatal complications",
@@ -2712,7 +3210,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-80",
    "title": "Necrotising Enterocolitis",
-   "subtitle": "Pneumatosis intestinalis (intramural gas) is pathognomonic on AXR"
+   "subtitle": "Pneumatosis intestinalis (intramural gas) is pathognomonic on AXR",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pneumatosis_intestinalis_und_hepatis_bei_NEC_0W_-_CR_ap_-_001.jpg/960px-Pneumatosis_intestinalis_und_hepatis_bei_NEC_0W_-_CR_ap_-_001.jpg",
+     "caption": "NEC - AXR showing pneumatosis intestinalis (pathognomonic intramural gas)",
+     "alt": "Abdominal radiograph in a preterm neonate showing bubbly and linear intramural gas (pneumatosis intestinalis) within dilated bowel loops, pathognomonic of necrotising enterocolitis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Neonatal hypoglycaemia — threshold 2.6, at-risk groups, and 'don't feed your way out of a low'",
@@ -2779,6 +3285,12 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_cxr_rds_neonate_fresh.png",
      "alt": "Neonatal chest X-ray showing diffuse ground-glass (reticulogranular) opacification with air bronchograms and low lung volumes, typical of respiratory distress syndrome in a preterm infant",
      "credit": "Mikael Häggström, M.D. Author info - Reusing images- Conflicts of interest:  None Mikael Häggström, M.D.Consent note: Written informed consent was obtained from a parent of the individual, including for online publication., Wikimedia Commons, CC0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Mekoniumaspiration_bei_Neugeborenen_im_Roentgenbild_0W_-_CR_ap_-_001.jpg/960px-Mekoniumaspiration_bei_Neugeborenen_im_Roentgenbild_0W_-_CR_ap_-_001.jpg",
+     "caption": "MAS - CXR showing patchy coarse asymmetric infiltrates with hyperinflation (meconium aspiration)",
+     "alt": "Neonatal chest X-ray showing coarse patchy asymmetric consolidation, areas of hyperinflation and sometimes pneumothorax, consistent with meconium aspiration syndrome",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -2844,16 +3356,16 @@ window.GOTCHA.modules.push(
   {
    "topic": "Scalp swellings of the newborn - the dangerous subgaleal one",
    "subarea": "Neonatology",
-   "trap": "Three-way discriminator: CAPUT succedaneum = oedema that CROSSES suture lines, present AT birth, resolves in days (harmless). CEPHALOHAEMATOMA = subperiosteal bleed that does NOT cross sutures (limited to one bone), appears HOURS after birth, firm, resolves over weeks, causes JAUNDICE as it breaks down. SUBGALEAL haemorrhage = boggy, fluctuant swelling that CROSSES sutures and can shift with head position, after instrumental (esp. VACUUM) delivery - the DANGEROUS one because the subgaleal space can hold the neonate's entire blood volume -> exsanguination/shock. The trap is mistaking a subgaleal bleed for harmless caput.",
-   "whatFirst": "If swelling crosses sutures AND is boggy/expanding after an instrumental delivery, treat as SUBGALEAL: serial head circumference, monitor for shock (tachycardia, pallor, falling Hct), and resuscitate - this is a haemorrhagic emergency, not observation.",
-   "discriminator": "Crosses sutures + soft + present at birth + benign = caput. Does NOT cross sutures + firm + appears later + jaundice = cephalohaematoma. Crosses sutures + boggy/fluctuant + expanding + shock = subgaleal (dangerous).",
-   "redFlags": "Subgaleal: rapidly increasing head circumference, boggy swelling shifting with position, tachycardia, pallor, hypotension, falling haematocrit (occult major blood loss). Cephalohaematoma: significant jaundice (monitor bilirubin).",
+   "trap": "- Three-way discriminator — do not conflate:\n- **CAPUT succedaneum**: oedema crossing suture lines, present **AT birth**, resolves in days (harmless)\n- **CEPHALOHAEMATOMA**: subperiosteal bleed, does **NOT cross sutures** (limited to one bone), appears **HOURS after birth**, firm, resolves over weeks, causes **JAUNDICE** as it breaks down\n- **SUBGALEAL haemorrhage**: boggy/fluctuant, **CROSSES sutures**, can shift with head position, after **instrumental (esp. VACUUM)** delivery\n  - The **DANGEROUS one** — subgaleal space can hold the neonate's **entire blood volume** → exsanguination/shock\n- Trap: **mistaking subgaleal bleed for harmless caput**",
+   "whatFirst": "- If swelling crosses sutures AND is **boggy/expanding** after instrumental delivery, treat as **SUBGALEAL**\n- Actions:\n  - Serial **head circumference** measurements\n  - Monitor for **shock** (tachycardia, pallor, falling Hct)\n  - **Resuscitate** — this is a haemorrhagic emergency, not observation",
+   "discriminator": "- Crosses sutures + soft + present **at birth** + benign = **caput**\n- Does **NOT cross sutures** + firm + appears **later** + jaundice = **cephalohaematoma**\n- Crosses sutures + **boggy/fluctuant** + expanding + shock = **subgaleal** (dangerous)",
+   "redFlags": "- **Subgaleal**: rapidly increasing head circumference, boggy swelling shifting with position, tachycardia, pallor, **hypotension**, falling haematocrit (occult major blood loss)\n- **Cephalohaematoma**: significant jaundice — monitor **bilirubin**",
    "cutoffs": [
-    "Caput: crosses sutures, present at birth, resolves in days",
-    "Cephalohaematoma: does NOT cross sutures, appears after birth, jaundice risk, resolves weeks",
-    "Subgaleal: crosses sutures, boggy, instrumental/vacuum delivery, can exsanguinate"
+    "Caput: **crosses sutures**, present at birth, resolves in days",
+    "Cephalohaematoma: does **NOT cross sutures**, appears after birth, jaundice risk, resolves weeks",
+    "Subgaleal: crosses sutures, boggy, **instrumental/vacuum delivery**, can exsanguinate"
    ],
-   "mcqTrap": "Calling a boggy, expanding, suture-crossing swelling after a vacuum delivery 'caput' and observing - it may be a subgaleal haemorrhage that can rapidly cause hypovolaemic shock.",
+   "mcqTrap": "- Calling a **boggy, expanding, suture-crossing swelling** after a vacuum delivery **'caput'** and merely observing\n  - May be **subgaleal haemorrhage** — can rapidly cause **hypovolaemic shock**",
    "mnemonic": "Caput Crosses + Calms down. cePHalohaematoma = Pinned to one Plate (Periosteum), Jaundice. Subgaleal = Sutures crossed + Shock + Suction (vacuum).",
    "source": "RCH/Australian neonatal guidance; StatPearls caput/cephalohaematoma",
    "verified": true,
@@ -2867,22 +3379,30 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Crosses sutures?</th><th>Onset</th><th>Danger</th></tr></thead><tbody><tr><td>Caput</td><td>YES</td><td>At birth</td><td>Benign</td></tr><tr><td>Cephalohaematoma</td><td>NO</td><td>Hours after</td><td>Jaundice</td></tr><tr><td>Subgaleal</td><td>YES (boggy)</td><td>Birth/hours</td><td>Exsanguination</td></tr></tbody></table>",
    "id": "paed-85",
    "title": "Newborn Scalp Swellings",
-   "subtitle": "Subgaleal bleed crosses sutures and can exsanguinate"
+   "subtitle": "Subgaleal bleed crosses sutures and can exsanguinate",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Scalp_hematomas.jpg/960px-Scalp_hematomas.jpg",
+     "caption": "Caput succedaneum - diffuse boggy scalp swelling crossing suture lines, present at birth",
+     "alt": "Newborn with diffuse soft oedematous scalp swelling that crosses suture lines and is present from birth, representing caput succedaneum",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Newborn screening — bloodspot (48-72 h), SWISH hearing, DDH exam",
    "subarea": "Neonatology",
-   "trap": "Three SEPARATE programs students conflate. (1) Newborn BLOODSPOT (heel-prick) at 48-72 h — a national minimum panel (≥32 conditions incl. congenital hypothyroidism, CF, CAH, galactosaemia, PKU + other IEM, with SCID and SMA added over the last ~5 years). It does NOT include hearing or heart disease. (2) SWISH = Statewide Infant Screening – Hearing (automated ABR/OAE), separate. (3) DDH is a clinical exam (Ortolani/Barlow), NOT a bloodspot. The trap is thinking the heel-prick covers hearing or hips.",
-   "whatFirst": "Bloodspot ideally at 48-72 h (a too-early sample, e.g. <24 h, can miss CH/CAH and may need repeating). Hearing screen before discharge/early weeks (SWISH). Hip exam at every baby check; targeted USS if risk factors.",
-   "discriminator": "Bloodspot = metabolic/endocrine/CF/SCID/SMA. SWISH = hearing. DDH = mechanical hip exam ± ultrasound. CCHD pulse-oximetry screening (where done) is yet another separate test.",
-   "redFlags": "Positive bloodspot recall (CAH, CF, CH) → urgent follow-up; congenital hypothyroidism and CAH are time-critical to prevent harm. Failed hearing screen → audiology referral (don't 'wait and see' — early amplification matters for language).",
-   "mcqTrap": "'The Guthrie heel-prick screens for deafness / hip dysplasia / heart disease.' Wrong — those are separate programs (SWISH hearing, clinical hip exam ± USS, CCHD pulse oximetry).",
+   "trap": "- Three **SEPARATE** programs students conflate:\n- **(1) Newborn BLOODSPOT (heel-prick)** at 48-72 h\n  - National minimum panel **≥32 conditions**: congenital hypothyroidism, CF, CAH, galactosaemia, PKU + other IEM\n  - **SCID and SMA** added over last ~5 years\n  - Does **NOT include hearing or heart disease**\n- **(2) SWISH** = Statewide Infant Screening – **Hearing** (automated ABR/OAE) — separate\n- **(3) DDH** = **clinical exam** (Ortolani/Barlow) — NOT a bloodspot\n- Trap: thinking the **heel-prick covers hearing or hips**",
+   "whatFirst": "- Bloodspot ideally at **48-72 h** — too-early sample (e.g. **<24 h**) can miss CH/CAH and may need repeating\n- **Hearing screen** before discharge/early weeks (SWISH)\n- **Hip exam** at every baby check; targeted USS if risk factors",
+   "discriminator": "- **Bloodspot** = metabolic/endocrine/CF/SCID/SMA\n- **SWISH** = hearing\n- **DDH** = mechanical hip exam ± ultrasound\n- **CCHD** pulse-oximetry screening (where done) = yet another separate test",
+   "redFlags": "- Positive bloodspot recall (**CAH, CF, CH**) → urgent follow-up\n  - Congenital hypothyroidism and CAH are **time-critical** to prevent harm\n- Failed hearing screen → **audiology referral** — do not 'wait and see'\n  - Early amplification matters for **language development**",
+   "mcqTrap": "- **'The Guthrie heel-prick screens for deafness / hip dysplasia / heart disease'** — WRONG\n  - Those are separate programs: SWISH (hearing), clinical hip exam ± USS, CCHD pulse oximetry",
    "mnemonic": "Three nets: Heel-prick (metabolic/endocrine/CF/SCID/SMA), SWISH (hearing), Hands-on hips (Ortolani/Barlow).",
    "cutoffs": [
-    "Bloodspot: 48-72 h; national minimum panel ≥32 conditions",
-    "SCID + SMA added (national expansion)",
-    "Hearing = SWISH (separate)",
-    "DDH = clinical exam newborn + 6-8 wk ± USS"
+    "Bloodspot: **48-72 h**; national minimum panel **≥32 conditions**",
+    "**SCID + SMA** added (national expansion)",
+    "Hearing = **SWISH** (separate)",
+    "DDH = clinical exam newborn + **6-8 wk** ± USS"
    ],
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Program</th><th>What</th><th>When</th></tr></thead><tbody><tr><td>Bloodspot (heel-prick)</td><td>≥32 metabolic/endocrine + CF, SCID, SMA</td><td>48-72 h</td></tr><tr><td>SWISH</td><td>Hearing (ABR/OAE)</td><td>Before discharge / early weeks</td></tr><tr><td>DDH</td><td>Ortolani/Barlow ± USS</td><td>Newborn + 6-8 wk check</td></tr></tbody></table>",
    "tags": [
@@ -2902,17 +3422,17 @@ window.GOTCHA.modules.push(
   {
    "topic": "Safe sleeping / SUDI — the modifiable risk factors examiners want",
    "subarea": "Neonatology",
-   "trap": "SUDI/SIDS prevention is examined as the Red Nose six safe-sleep recommendations: (1) back to sleep, (2) face/head uncovered, (3) smoke-free (antenatal AND postnatal), (4) safe sleeping environment (firm flat mattress, no soft bedding/pillows/bumpers/loose toys, no overheating), (5) own safe sleep space in the parents' room for the first 6-12 months (room-sharing, NOT bed-sharing), (6) breastfeeding (protective). The single biggest message and commonest MCQ answer: SUPINE (back). Side-lying is NOT safe (can roll prone).",
-   "whatFirst": "If asked the single best intervention → place baby on the BACK to sleep. Then layer the rest (smoke-free, room-share without bed-share, feet-to-foot, no soft bedding).",
-   "discriminator": "Highest-risk scenarios: prone/side sleeping, bed-sharing especially with parental smoking/alcohol/drugs/fatigue or on a sofa, prematurity/low birthweight, overheating/head covering, maternal smoking. Breastfeeding and (separately) immunisation are PROTECTIVE.",
-   "redFlags": "Sofa/couch co-sleeping and bed-sharing with an impaired/smoking parent are the highest-risk combinations — actively counsel against.",
-   "mcqTrap": "'Side-sleeping is an acceptable safe-sleep position.' Wrong — only SUPINE (on the back). Also wrong: 'pillows/positioners reduce SIDS' — they increase risk.",
+   "trap": "- SUDI/SIDS prevention: **Red Nose six safe-sleep recommendations**:\n  1. **Back to sleep** (supine)\n  2. **Face/head uncovered**\n  3. **Smoke-free** — antenatal AND postnatal\n  4. **Safe sleeping environment**: firm flat mattress, no soft bedding/pillows/bumpers/loose toys, no overheating\n  5. **Own safe sleep space in parents' room** for first 6-12 months — room-sharing, NOT bed-sharing\n  6. **Breastfeeding** (protective)\n- Single biggest message and commonest MCQ answer: **SUPINE (back)**\n- **Side-lying is NOT safe** — can roll prone",
+   "whatFirst": "- If asked the single best intervention → place baby on **BACK to sleep**\n- Then layer: smoke-free, **room-share without bed-share**, feet-to-foot, **no soft bedding**",
+   "discriminator": "- Highest-risk scenarios:\n  - **Prone/side sleeping**\n  - **Bed-sharing** especially with parental smoking/alcohol/drugs/fatigue or on a sofa\n  - **Prematurity/low birthweight**\n  - Overheating/**head covering**\n  - **Maternal smoking**\n- **Breastfeeding** and (separately) **immunisation** are PROTECTIVE",
+   "redFlags": "- **Sofa/couch co-sleeping** — highest-risk combination\n- **Bed-sharing with impaired/smoking parent** — actively counsel against",
+   "mcqTrap": "- **'Side-sleeping is an acceptable safe-sleep position'** — WRONG; only **SUPINE** (on the back)\n- Also wrong: **'pillows/positioners reduce SIDS'** — they **increase** risk",
    "mnemonic": "Safe sleep ABCs: Alone (own sleep space, room-share not bed-share), on the Back, in a Clear cot (firm flat mattress, no soft bedding) + smoke-free + breastfeed + don't overheat.",
    "cutoffs": [
-    "Position: SUPINE only (not prone, not side)",
-    "Room-share (not bed-share) first 6-12 months",
-    "Feet-to-foot, no pillows/bumpers/soft bedding",
-    "Smoke-free antenatal + postnatal; avoid overheating; breastfeeding protective"
+    "Position: **SUPINE only** (not prone, not side)",
+    "**Room-share** (not bed-share) first **6-12 months**",
+    "**Feet-to-foot**, no pillows/bumpers/soft bedding",
+    "**Smoke-free** antenatal + postnatal; avoid overheating; breastfeeding protective"
    ],
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Back to sleep</span><span class=\"gv-pill\">Face uncovered</span><span class=\"gv-pill\">Smoke-free</span><span class=\"gv-pill\">Own sleep space, room-share</span><span class=\"gv-pill\">Firm flat mattress</span><span class=\"gv-pill\">Breastfeed</span></div>",
    "tags": [
@@ -2926,21 +3446,29 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-82",
    "title": "Safe Sleeping and SUDI Prevention",
-   "subtitle": "Back to sleep, smoke-free, firm flat cot, room-share"
+   "subtitle": "Back to sleep, smoke-free, firm flat cot, room-share",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Safe_Infant_Sleep_for_SIDS_Awareness_Month_%2848842727393%29.jpg",
+     "caption": "Safe sleep position — supine infant in bare cot (back to sleep)",
+     "alt": "Infant lying supine on a firm flat mattress in a cot with no loose bedding, illustrating the Red Nose safe-sleep recommendation",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "SGA vs IUGR (and symmetric vs asymmetric) — they are NOT synonyms",
    "subarea": "Neonatology",
-   "trap": "SGA is a STATIC size definition (birthweight <10th centile for gestation) — a constitutionally small but healthy baby is SGA but NOT growth-restricted. IUGR/FGR is a DYNAMIC process (a fetus failing to reach its growth potential, often with abnormal Dopplers/falling growth velocity). A baby can be SGA-not-IUGR (just small) OR IUGR-not-SGA (was destined to be big, restricted down into 'normal' range). Conflating them is the classic O&G/neonatal trap.",
-   "whatFirst": "For an SGA neonate: assess proportionality, examine for dysmorphism/congenital infection (TORCH), and screen for the SGA complications — hypoglycaemia, hypothermia, polycythaemia, thrombocytopenia. Distinguish symmetric (head + body small) vs asymmetric (head-sparing).",
-   "discriminator": "SGA = size <10th centile (could be normal small). IUGR = pathological restriction (Doppler/velocity evidence). Symmetric IUGR = early/intrinsic (genetic, TORCH); asymmetric IUGR = late/placental (head-sparing, low ponderal index).",
-   "redFlags": "Asymmetric/late IUGR with abnormal umbilical artery Dopplers (absent/reversed end-diastolic flow) → high stillbirth risk, drives timing of delivery; postnatally watch hypoglycaemia + polycythaemia.",
-   "mcqTrap": "'A baby on the 5th centile is by definition growth-restricted (IUGR).' Wrong — small ≠ restricted; many <10th-centile babies are constitutionally small and well.",
+   "trap": "- **SGA** is a **STATIC size definition**: birthweight **<10th centile** for gestation\n  - A constitutionally small but healthy baby is SGA but **NOT growth-restricted**\n- **IUGR/FGR** is a **DYNAMIC process**: a fetus failing to reach its growth potential, often with abnormal Dopplers/falling growth velocity\n- A baby can be:\n  - **SGA-not-IUGR** (just small)\n  - **IUGR-not-SGA** (was destined to be big, restricted down into 'normal' range)\n- **Conflating them** is the classic O&G/neonatal trap",
+   "whatFirst": "- For SGA neonate: assess **proportionality**, examine for **dysmorphism/congenital infection (TORCH)**\n- Screen for SGA complications: **hypoglycaemia, hypothermia, polycythaemia, thrombocytopenia**\n- Distinguish **symmetric** (head + body small) vs **asymmetric** (head-sparing)",
+   "discriminator": "- **SGA** = size <10th centile (could be normal small)\n- **IUGR** = **pathological restriction** (Doppler/velocity evidence)\n- **Symmetric IUGR** = early/intrinsic (genetic, TORCH)\n- **Asymmetric IUGR** = late/placental (**head-sparing**, low ponderal index)",
+   "redFlags": "- **Asymmetric/late IUGR** with **absent/reversed end-diastolic flow** on umbilical artery Dopplers → high **stillbirth risk**, drives timing of delivery\n- Postnatally watch: **hypoglycaemia + polycythaemia**",
+   "mcqTrap": "- **'A baby on the 5th centile is by definition growth-restricted (IUGR)'** — WRONG\n  - **Small ≠ restricted**; many <10th-centile babies are constitutionally small and well",
    "mnemonic": "SGA = a Snapshot of Size; IUGR = a Journey of restricted Growth (Doppler-defined). Symmetric = early/genetic; Asymmetric = late/placental (head-sparing).",
    "cutoffs": [
-    "SGA: birthweight <10th centile for gestation",
-    "IUGR/FGR: failure to meet growth potential (Doppler/velocity)",
-    "SGA complications: hypoglycaemia, hypothermia, polycythaemia, thrombocytopenia"
+    "SGA: birthweight **<10th centile** for gestation",
+    "IUGR/FGR: failure to meet growth potential (**Doppler/velocity**)",
+    "SGA complications: **hypoglycaemia, hypothermia, polycythaemia, thrombocytopenia**"
    ],
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Symmetric IUGR</th><th>Asymmetric IUGR</th></tr></thead><tbody><tr><td>Timing of insult</td><td>Early</td><td>Late</td></tr><tr><td>Cause</td><td>Genetic / TORCH</td><td>Placental insufficiency</td></tr><tr><td>Head</td><td>Small (proportionate)</td><td>Spared (relatively large)</td></tr></tbody></table>",
    "tags": [
@@ -3126,6 +3654,12 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_otoscopy_glue_ear_ome_01.jpg",
      "alt": "Otoscopic view of otitis media with effusion (glue ear) behind an intact tympanic membrane",
      "credit": "Welleschik, Wikimedia Commons, CC BY-SA 3.0 (cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/PerforationTympan.jpg/960px-PerforationTympan.jpg",
+     "caption": "CSOM — otoscopy showing central tympanic membrane perforation with mucopurulent discharge",
+     "alt": "Otoscopic view of a central tympanic membrane perforation with mucopurulent discharge in the ear canal — chronic suppurative otitis media",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -3178,7 +3712,15 @@ window.GOTCHA.modules.push(
    "id": "paed-102",
    "title": "Fetal Alcohol Spectrum Disorder",
    "subtitle": "Three sentinel facial features diagnose even without exposure history",
-   "redFlags": "- **Microcephaly** + all 3 sentinel features in a child < 6 yr -> can diagnose even without formal neurodevelopmental testing\n- Co-occurring **vision/hearing deficits, seizures, cardiac/renal anomalies** -> screen, as FASD clusters with these"
+   "redFlags": "- **Microcephaly** + all 3 sentinel features in a child < 6 yr -> can diagnose even without formal neurodevelopmental testing\n- Co-occurring **vision/hearing deficits, seizures, cardiac/renal anomalies** -> screen, as FASD clusters with these",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fetal_Alcohol_Spectrum_Disorders_%28FASD%29_in_the_United_States_%2822185062444%29.png/960px-Fetal_Alcohol_Spectrum_Disorders_%28FASD%29_in_the_United_States_%2822185062444%29.png",
+     "caption": "FASD — three sentinel facial features: smooth philtrum, thin vermilion border, small palpebral fissures",
+     "alt": "Child with fetal alcohol spectrum disorder showing the three sentinel facial features: smooth/flat philtrum, thin upper lip (vermilion border), and short palpebral fissures",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "First Nations child dental & broader oral health",
@@ -3205,7 +3747,15 @@ window.GOTCHA.modules.push(
    "id": "paed-103",
    "title": "First Nations Child Oral Health",
    "subtitle": "Fluoride, first dental visit, and CDBS eligibility",
-   "redFlags": "- **Multiple decayed/discoloured teeth in a toddler** → ECC; arrange dental + welfare review\n- **Facial swelling / fever** with dental decay → dental abscess, needs urgent care\n- **ECC plus faltering growth or other neglect indicators** → child-protection consideration"
+   "redFlags": "- **Multiple decayed/discoloured teeth in a toddler** → ECC; arrange dental + welfare review\n- **Facial swelling / fever** with dental decay → dental abscess, needs urgent care\n- **ECC plus faltering growth or other neglect indicators** → child-protection consideration",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Nursing_bottle_caries.jpg",
+     "caption": "Early childhood dental caries — nursing bottle caries in a toddler",
+     "alt": "Severe early childhood dental caries (nursing bottle caries) showing extensive decay of the upper primary incisors in a young child",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "id": "paed-130",
@@ -3261,7 +3811,15 @@ window.GOTCHA.modules.push(
    "id": "paed-98",
    "title": "Fortification",
    "subtitle": "Folate must start preconception, not after positive test",
-   "redFlags": "- **Valproate / known diabetic / prior NTD** woman on only 0.5 mg → under-dosed, switch to **5 mg**\n- **Planning pregnancy but not yet on folate** → start now, don't wait for confirmation"
+   "redFlags": "- **Valproate / known diabetic / prior NTD** woman on only 0.5 mg → under-dosed, switch to **5 mg**\n- **Planning pregnancy but not yet on folate** → start now, don't wait for confirmation",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Spina_bifida_rear.jpg",
+     "caption": "Neural tube defect — myelomeningocele (consequence of periconceptional folate deficiency)",
+     "alt": "Newborn with a myelomeningocele (open neural tube defect) — the preventable outcome of insufficient periconceptional folate intake",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Herd immunity threshold concept (the R0 calculation)",
@@ -3295,6 +3853,12 @@ window.GOTCHA.modules.push(
      "caption": "Measles — morbilliform rash (canonical high-R0 vaccine-preventable disease)",
      "alt": "Classic confluent morbilliform (maculopapular) rash of measles spreading from face to trunk, illustrating the high-R0 disease used to anchor herd immunity threshold calculations",
      "credit": "Julien Harneis, Wikimedia Commons, CC BY-SA 2.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Herd_immunity_threshold_vs_r0.svg/960px-Herd_immunity_threshold_vs_r0.svg.png",
+     "caption": "Herd immunity threshold — graph of HIT vs R0 (HIT = 1 − 1/R0)",
+     "alt": "Graph showing herd immunity threshold (%) on y-axis vs basic reproductive number (R0) on x-axis, demonstrating that measles (R0 ~12–18) requires >94% coverage",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -3330,6 +3894,18 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_scarlet_fever_strawberry_tongue_01.jpg",
      "alt": "Clinical photograph of a white strawberry tongue in group A streptococcal infection / scarlet fever.",
      "credit": "Whispyhistory, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Erythema_marginatum.jpg/960px-Erythema_marginatum.jpg",
+     "caption": "Erythema marginatum — evanescent pink rings on trunk (major Jones criterion)",
+     "alt": "Erythema marginatum — serpiginous/ring-shaped erythematous rash on the trunk of a child with acute rheumatic fever",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2D_Echocardiogram_showing_Mitral_Regurgitation_in_PLAX_view_-_Navi_Mumbai.jpg/960px-2D_Echocardiogram_showing_Mitral_Regurgitation_in_PLAX_view_-_Navi_Mumbai.jpg",
+     "caption": "Acute rheumatic fever carditis — echocardiogram showing mitral regurgitation jet",
+     "alt": "Echocardiogram (colour Doppler) showing mitral regurgitation jet in a child with rheumatic carditis — a major Jones criterion",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -3423,17 +3999,17 @@ window.GOTCHA.modules.push(
   {
    "topic": "Minimum intervals between live vaccines",
    "subarea": "Population, immunisation & First Nations",
-   "trap": "Two parenteral (injected) live vaccines must be given EITHER on the same day OR at least 4 weeks apart — never 1-3 weeks apart, which blunts the second response. Does NOT apply to oral live (rotavirus) or to any inactivated vaccine.",
-   "whatFirst": "If MMR and varicella (or MMRV) are not given on the same day, separate them by ≥4 weeks. Inactivated vaccines can be co-administered with anything, any time.",
+   "trap": "- Two **parenteral (injected) live vaccines** must be given EITHER on the **same day** OR **≥4 weeks apart**\n  - **Never 1-3 weeks apart** — blunts the second vaccine's response\n- Does **NOT apply** to oral live (rotavirus) or to any **inactivated vaccine**",
+   "whatFirst": "- If MMR and varicella (or MMRV) are not given on the same day, separate by **≥4 weeks**\n- **Inactivated vaccines** can be co-administered with anything, any time",
    "cutoffs": [
-    "Two injected live vaccines: same day OR ≥4 weeks apart",
-    "MMR/varicella after IVIG/blood product: defer (immunoglobulin neutralises live vaccine) — delay depends on product"
+    "Two injected live vaccines: **same day** OR **≥4 weeks apart**",
+    "MMR/varicella after **IVIG/blood product**: defer — delay depends on product (immunoglobulin neutralises live vaccine)"
    ],
-   "discriminator": "The ≥4-week rule is ONLY for two parenteral live vaccines on different days. Inactivated + live, or oral live (rotavirus) + injected live, have no spacing rule.",
+   "discriminator": "- The **≥4-week rule** is ONLY for **two parenteral live vaccines on different days**\n- **Inactivated + live**, or **oral live (rotavirus) + injected live**, have **no spacing rule**",
    "source": "Australian Immunisation Handbook 2026 — 'Preparing for vaccination' (co-administration); Measles; Varicella chapters.",
    "verified": true,
    "mnemonic": "Live + Live: 'together or take a month'.",
-   "mcqTrap": "Booking varicella '2 weeks' after MMR. Either same day or ≥4 weeks — a 2-week gap compromises the second vaccine's response.",
+   "mcqTrap": "- Booking varicella **'2 weeks' after MMR** — WRONG\n  - Either **same day** or **≥4 weeks** — a 2-week gap compromises the second vaccine's response",
    "tags": [
     "immunisation",
     "live-vaccine",
@@ -3447,13 +4023,13 @@ window.GOTCHA.modules.push(
   {
    "topic": "Notifiable diseases & clinician obligation",
    "subarea": "Population, immunisation & First Nations",
-   "trap": "For the most urgent notifiable conditions (e.g. meningococcal, measles, acute flaccid paralysis/polio) you must notify the public health unit on CLINICAL SUSPICION, immediately by phone, BEFORE laboratory confirmation. The trap is waiting for the lab result.",
-   "whatFirst": "For urgent notifiable conditions, notify the public health unit immediately on suspicion (do not wait for confirmation) — this triggers contact tracing/prophylaxis.",
-   "discriminator": "Both treating doctors AND laboratories have a duty to notify under state Public Health Acts. Urgent group = phone on suspicion; routine group = notify once diagnosed. Notification ≠ AIR.",
+   "trap": "- For **urgent notifiable conditions** (meningococcal, measles, acute flaccid paralysis/polio), notify on **clinical suspicion** — do NOT wait for lab confirmation\n- The trap is **waiting for the lab result** before notifying",
+   "whatFirst": "- **Notify the public health unit immediately on suspicion** for urgent conditions\n- Do not wait for confirmation — early notification **triggers contact tracing and prophylaxis**",
+   "discriminator": "- **Both treating doctors AND laboratories** have a duty to notify under state Public Health Acts\n- **Urgent group** = phone on suspicion (before confirmation)\n- **Routine group** = notify once diagnosed\n- **Notification ≠ AIR** (Australian Immunisation Register)",
    "source": "State/Territory Public Health Acts; CDNA national notifiable disease list; NSW Health notifiable conditions.",
    "verified": true,
    "mnemonic": "Urgent = phone on suspicion; don't wait for the lab.",
-   "mcqTrap": "Choosing 'notify once PCR confirms meningococcus'. Notify immediately on clinical suspicion to enable contact prophylaxis.",
+   "mcqTrap": "- Trap: choosing **'notify once PCR confirms meningococcus'**\n- Notify immediately on **clinical suspicion** to enable contact prophylaxis",
    "tags": [
     "population",
     "notifiable-disease",
@@ -3496,23 +4072,29 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_otoscopy_glue_ear_ome_01.jpg",
      "alt": "Otoscopic view of otitis media with effusion behind an intact tympanic membrane",
      "credit": "Welleschik, Wikimedia Commons, CC BY-SA 3.0 (cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/PerforationTympan.jpg/960px-PerforationTympan.jpg",
+     "caption": "Chronic suppurative otitis media (CSOM) — perforated drum with discharge",
+     "alt": "Otoscopic view of a central tympanic membrane perforation with mucopurulent discharge, characteristic of CSOM which is highly prevalent in First Nations children",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
   {
    "topic": "Rotavirus vaccine — the strict age cut-off (timeliness trap)",
    "subarea": "Population, immunisation & First Nations",
-   "trap": "Rotavirus has HARD upper age limits (intussusception risk rises with age) — you cannot 'catch up' rotavirus like other vaccines. Dose 1 must be given by a strict early age and the course abandoned if late.",
-   "whatFirst": "Dose 1 by 14 weeks 6 days; dose 2 by 24 weeks 6 days (Rotarix 2-dose schedule). If the deadline is missed, do NOT give it — omit and continue the rest of the schedule.",
+   "trap": "- Rotavirus has **hard upper age limits** — unlike other vaccines, there is **no catch-up**\n- **Intussusception risk** rises with age, making late doses contraindicated\n- If the deadline is missed, **abandon the course** and continue the rest of the schedule",
+   "whatFirst": "- **Dose 1 by 14 weeks 6 days**; Dose 2 by 24 weeks 6 days (Rotarix 2-dose schedule)\n- If deadline missed, **do NOT give it** — omit and continue remaining vaccines",
    "cutoffs": [
-    "Dose 1 max age: 14 weeks 6 days",
-    "Dose 2 max age: 24 weeks 6 days (Rotarix 2-dose schedule)"
+    "**Dose 1** max age: 14 weeks 6 days",
+    "**Dose 2** max age: 24 weeks 6 days (Rotarix 2-dose schedule)"
    ],
-   "discriminator": "Unlike Hib/pneumococcal/DTPa (generous catch-up windows), rotavirus has NO catch-up beyond the upper limit. Previous intussusception = absolute contraindication.",
+   "discriminator": "- Unlike **Hib/pneumococcal/DTPa** (generous catch-up windows), rotavirus has **NO catch-up** beyond the upper age limit\n- **Previous intussusception** = absolute contraindication",
    "source": "Australian Immunisation Handbook 2026, Rotavirus chapter (immunisationhandbook.health.gov.au).",
    "verified": true,
    "mnemonic": "Rota = 'race against the clock' — start by ~14 wk or never start.",
-   "mcqTrap": "Selecting 'give the missed rotavirus dose at the catch-up visit'. After the age limit it is contraindicated (intussusception risk) — omit it.",
+   "mcqTrap": "- Trap: selecting **'give the missed rotavirus dose at the catch-up visit'**\n- After the age limit it is **contraindicated** (intussusception risk) — omit it",
    "tags": [
     "immunisation",
     "rotavirus",
@@ -3526,13 +4108,13 @@ window.GOTCHA.modules.push(
   {
    "topic": "Vaccine side-effects vs complications of the disease (the parent-counselling answer)",
    "subarea": "Population, immunisation & First Nations",
-   "trap": "When a parent asks about risk, the examined answer reframes it: the risk of the SERIOUS complication from the wild disease vastly exceeds the risk from the vaccine. Know the comparators.",
-   "whatFirst": "Counsel with absolute risk: measles encephalitis ~1 in 1,000 cases (plus later SSPE) vs MMR — anaphylaxis ~1 in a million. MMR does NOT cause autism (Wakefield retracted/fraudulent).",
-   "discriminator": "Febrile seizure post-MMR peaks ~5-12 days later (delayed, live vaccine) vs immediate (minutes-hours) reactions to inactivated vaccines. Thrombocytopenia after MMR is rare/transient and far less than disease-associated.",
+   "trap": "- Reframe risk using **comparators**: serious complications from wild disease vastly exceed vaccine risks\n- Give **absolute numbers**, not relative framing",
+   "whatFirst": "- Measles encephalitis: **~1 in 1,000 cases** (plus later SSPE risk)\n- MMR anaphylaxis: **~1 in a million**\n- **MMR does NOT cause autism** — Wakefield study retracted and found fraudulent",
+   "discriminator": "- Post-MMR **febrile seizure** peaks **~5–12 days later** (delayed; live vaccine)\n- Immediate reactions (minutes–hours) occur with **inactivated vaccines** — different timing\n- **Thrombocytopenia** after MMR = rare and transient; far less than disease-associated thrombocytopenia",
    "source": "Australian Immunisation Handbook 2026; NCIRS adverse events following immunisation resources.",
    "verified": true,
    "mnemonic": "Disease maims, vaccine inconveniences.",
-   "mcqTrap": "Agreeing MMR 'might' be linked to autism. There is no causal link; the original study was fraudulent and retracted — state this clearly.",
+   "mcqTrap": "- Trap: agreeing MMR **'might' be linked to autism**\n- There is **no causal link**; the original study was **fraudulent and retracted** — state this clearly",
    "tags": [
     "immunisation",
     "counselling",
@@ -3554,13 +4136,13 @@ window.GOTCHA.modules.push(
   {
    "topic": "Principles of population screening — Wilson & Jungner",
    "subarea": "Population, immunisation & First Nations",
-   "trap": "Apply Wilson & Jungner (WHO 1968) and recognise the commonest reasons a proposed screen FAILS: no acceptable treatment that changes outcome, the test isn't acceptable/valid, or the natural history is unknown. A treatable disease with a good test is not enough alone.",
-   "whatFirst": "Check all criteria: important problem; recognisable latent/early stage; understood natural history; suitable + acceptable test; accepted effective treatment; agreed policy on whom to treat; facilities available; cost balanced against benefit; continuing (not one-off) process.",
-   "discriminator": "Lead-time and length-time bias inflate apparent survival benefit — improved 'survival from diagnosis' can be illusory; mortality reduction in an RCT is the real proof. A good test without effective early treatment fails the criteria.",
+   "trap": "- Apply **Wilson & Jungner (WHO 1968)** criteria; recognise why proposed screens fail\n- Commonest failures: **no acceptable treatment** that changes outcome; test not valid/acceptable; **natural history unknown**\n- A treatable disease with a good test is **not enough alone**",
+   "whatFirst": "- Check ALL criteria:\n  - **Important problem**\n  - **Recognisable latent/early stage**\n  - Understood **natural history**\n  - Suitable and **acceptable test**\n  - Accepted **effective treatment**\n  - Agreed policy on **whom to treat**\n  - **Facilities available**\n  - **Cost balanced** against benefit\n  - **Continuing** (not one-off) process",
+   "discriminator": "- **Lead-time bias** and **length-time bias** inflate apparent survival benefit\n  - Improved 'survival from diagnosis' can be **illusory**\n  - **Mortality reduction in an RCT** is the real proof\n- A good test **without effective early treatment** fails the criteria",
    "source": "Wilson JMG, Jungner G. Principles and practice of screening for disease. WHO Public Health Paper No. 34, 1968.",
    "verified": true,
    "mnemonic": "'IDENTIFY': Important disease, Detectable early stage, Effective treatment, Natural history known, Test acceptable/valid, Inexpensive (cost-effective), Facilities available, You treat per agreed policy.",
-   "mcqTrap": "Recommending a screen just because the test is accurate. Without effective early treatment that improves outcome, screening fails Wilson & Jungner.",
+   "mcqTrap": "- Trap: recommending a screen **just because the test is accurate**\n- Without **effective early treatment** that improves outcome, screening **fails Wilson & Jungner**",
    "tags": [
     "population",
     "screening",
@@ -3735,7 +4317,15 @@ window.GOTCHA.modules.push(
    "id": "paed-106",
    "title": "Fractures Specific for Abuse",
    "subtitle": "Posterior rib and metaphyseal corner fractures are high-specificity",
-   "mcqTrap": "- Distractor: a **clavicle or toddler's-tibia spiral in a walking child** dressed up as abuse — usually accidental\n- Correct high-specificity stem: **posterior rib + metaphyseal + multiple ages** OR **fracture in a non-mobile infant**\n- Trap: **\"X-ray the injured limb only\"** instead of a **full skeletal survey**"
+   "mcqTrap": "- Distractor: a **clavicle or toddler's-tibia spiral in a walking child** dressed up as abuse — usually accidental\n- Correct high-specificity stem: **posterior rib + metaphyseal + multiple ages** OR **fracture in a non-mobile infant**\n- Trap: **\"X-ray the injured limb only\"** instead of a **full skeletal survey**",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Multiple_Rib_Fractures.jpg",
+     "caption": "Posterior rib fractures — high-specificity for non-accidental injury",
+     "alt": "Chest X-ray or bone survey showing posterior/posteromedial rib fractures at the costovertebral junctions — the classic high-specificity NAI fracture pattern caused by gripping and squeezing an infant",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Other high-specificity NAI injury patterns (burns, head, intra-oral, fatal mimics)",

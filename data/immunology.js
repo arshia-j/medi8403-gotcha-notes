@@ -243,7 +243,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th></th><th>Histamine (allergic)</th><th>Bradykinin (ACEi / HAE)</th></tr><tr><td>Urticaria/itch</td><td>YES</td><td>NO</td></tr><tr><td>Onset</td><td>Minutes</td><td>Slower; ACEi hrs–years</td></tr><tr><td>Responds to adrenaline/antihistamine</td><td>YES</td><td>NO</td></tr><tr><td>Specific Rx</td><td>Adrenaline, antihistamine</td><td>C1-INH concentrate, icatibant, FFP</td></tr><tr><td>HAE labs</td><td>Normal</td><td>Low C4, low C1-INH; C1q normal (hereditary)/low (acquired)</td></tr></table>",
    "title": "Angioedema WITHOUT urticaria",
    "subtitle": "bradykinin-mediated (ACE-inhibitor & hereditary C1-INH): adrenaline may NOT work",
-   "id": "immunology-8"
+   "id": "immunology-8",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Angioedema_of_the_face.jpg",
+     "caption": "Angioedema — lip and tongue swelling (ACEi / HAE)",
+     "alt": "Marked swelling of the lips and tongue (angioedema) as seen in ACE-inhibitor-induced or hereditary angioedema — bradykinin-mediated, adrenaline largely ineffective",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AngioedemaFra.JPG/960px-AngioedemaFra.JPG",
+     "caption": "Laryngeal angioedema — airway oedema CT/endoscopy",
+     "alt": "Laryngeal oedema causing airway compromise in severe angioedema — illustrating the life-threatening airway risk distinct from anaphylaxis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Chronic spontaneous urticaria — second-gen antihistamine, updose ×4, then omalizumab",
@@ -274,7 +288,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">2nd-gen H1-antihistamine, regular standard dose</div><div class=\"gv-step\">Inadequate at 2–4 wk → updose same drug up to <span class=\"gv-num\">4×</span></div><div class=\"gv-step\">Still uncontrolled → add omalizumab <span class=\"gv-num\">300 mg</span> SC every 4 wk</div><div class=\"gv-step\">Avoid long-term oral steroids; short rescue only</div></div>",
    "title": "Chronic spontaneous urticaria",
    "subtitle": "second-gen antihistamine, updose ×4, then omalizumab",
-   "id": "immunology-9"
+   "id": "immunology-9",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Urticaire_g%C3%A9ant_dosD%C3%A9tail.jpg/960px-Urticaire_g%C3%A9ant_dosD%C3%A9tail.jpg",
+     "caption": "Chronic spontaneous urticaria - urticarial wheals and flare",
+     "alt": "Multiple raised, erythematous, blanchable wheals with surrounding flare on the trunk — classic appearance of urticaria",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Food, drug & venom allergy — pearls and the long-term plan",
@@ -305,7 +327,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Type</th><th>Clue</th><th>Adrenaline?</th><th>Plan</th></tr><tr><td>IgE allergy</td><td>Minutes, urticaria/anaphylaxis</td><td>Yes</td><td>Avoid + device + refer</td></tr><tr><td>Delayed rash</td><td>Days, morbilliform</td><td>No</td><td>Cautious avoid / delabel</td></tr><tr><td>SJS/TEN/DRESS</td><td>Mucosa, systemic, severe</td><td>No</td><td>Absolute lifelong avoidance</td></tr><tr><td>Venom</td><td>Sting → systemic</td><td>Yes acute</td><td>Tryptase + VIT 3–5 yr</td></tr></table>",
    "title": "Food, drug & venom allergy",
    "subtitle": "pearls and the long-term plan",
-   "id": "immunology-10"
+   "id": "immunology-10",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Angioedema_of_the_face.jpg",
+     "caption": "Angioedema - lip and facial swelling",
+     "alt": "Marked swelling of the lips and perioral soft tissues indicating angioedema in the context of allergic/anaphylactic reaction",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Asplenia: exactly WHICH vaccines + revaccination intervals",
@@ -462,6 +492,12 @@ window.GOTCHA.modules.push(
      "caption": "Sickle cell disease - blood film (a cause of functional hyposplenism)",
      "alt": "Peripheral blood film showing sickle cells (elongated crescent-shaped red cells) — sickle cell disease is the classic cause of functional hyposplenism",
      "credit": "SpicyMilkBoy, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Howell-Jolly_smear_2010-11-17.JPG/960px-Howell-Jolly_smear_2010-11-17.JPG",
+     "caption": "Howell-Jolly bodies - blood film in hyposplenism",
+     "alt": "Peripheral blood film showing Howell-Jolly bodies (small round nuclear remnants inside red cells) indicating hyposplenism or asplenia",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -555,7 +591,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Primary (intrinsic)</th><th>Secondary (acquired)</th></tr><tr><td>CVID (commonest symptomatic adult)</td><td>Drugs: steroids, rituximab, chemo</td></tr><tr><td>Selective IgA deficiency (commonest overall)</td><td>HIV</td></tr><tr><td>Complement deficiency</td><td>Myeloma / CLL (low IgG)</td></tr><tr><td>SCID (infants)</td><td>Protein loss (nephrotic, PLE)</td></tr></table>",
    "title": "Primary vs secondary immunodeficiency",
    "subtitle": "secondary is FAR commoner - look for the cause",
-   "id": "immunology-18"
+   "id": "immunology-18",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Oral_pseudomembranous_candidiasis_on_the_dorsum_of_the_tongue_of_a_59-year-old_male_%28third_week_of_RT_for_a_squamous_cell_carcinoma_of_the_floor_of_the_mouth%2C_T3N0M0%2C_daily_dose_1.8_Gy%29.png",
+     "caption": "Oral candidiasis (thrush) - sign of immunosuppression",
+     "alt": "White removable plaques on the tongue and oral mucosa (oral candidiasis / thrush) as a hallmark clinical sign of significant immunosuppression",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "When to SUSPECT immunodeficiency: warning-sign threshold + which infection points where",

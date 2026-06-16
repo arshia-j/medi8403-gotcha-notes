@@ -94,7 +94,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Sudden painless monocular loss + RAPD + cherry-red spot</div><div class=\"gv-step\">Age ≥50? → ESR/CRP NOW to exclude GCA</div><div class=\"gv-step\">Activate STROKE pathway: CT/CTA, consider IV thrombolysis if ≤<span class=\"gv-num\">4.5 h</span> (centre-dependent)</div><div class=\"gv-step\">Carotid Dopplers, ECG/echo, vascular risk modification</div></div>",
    "title": "Central retinal artery occlusion (CRAO)",
    "subtitle": "the time-window and stroke-pathway gotchas",
-   "id": "eyesent-3"
+   "id": "eyesent-3",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/07/Cherry_red_spot_in_patient_with_central_retinal_artery_occlusion_%28CRAO%29.jpg",
+     "caption": "Central retinal artery occlusion - cherry-red spot fundus",
+     "alt": "Fundus photograph showing pale/white ischaemic retina with a central cherry-red spot at the fovea (central retinal artery occlusion)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Central retinal vein occlusion (CRVO) — the ischaemic-vs-non-ischaemic and 90-day neovascular glaucoma gotchas",
@@ -160,6 +168,12 @@ window.GOTCHA.modules.push(
      "caption": "Non-proliferative diabetic retinopathy - microaneurysms, dot/blot haemorrhages",
      "alt": "Fundus photograph showing non-proliferative diabetic retinopathy: microaneurysms, dot and blot haemorrhages, hard exudates and cotton-wool spots",
      "credit": "MarkPanin, Wikimedia Commons, CC BY-SA 4.0 (timestamp cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fundus_Proliferative_retinopathy_EDA01.JPG/960px-Fundus_Proliferative_retinopathy_EDA01.JPG",
+     "caption": "Proliferative diabetic retinopathy - neovascularisation on disc/elsewhere",
+     "alt": "Fundus photograph showing proliferative diabetic retinopathy with new vessels at the disc (NVD) or elsewhere (NVE), vitreous haemorrhage or fibrovascular proliferation",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -186,7 +200,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Scenario</th><th>Steroid regimen (start NOW)</th></tr><tr><td>GCA with ANY visual loss/AAION</td><td>IV methylprednisolone <span class=\"gv-num\">0.5–1 g/day</span> x3 days → oral pred ~<span class=\"gv-num\">1 mg/kg</span> (40–60 mg)</td></tr><tr><td>GCA, no visual symptoms</td><td>Oral prednisolone <span class=\"gv-num\">40–60 mg/day</span></td></tr><tr><td>Biopsy timing</td><td>Within ~<span class=\"gv-num\">1–2 weeks</span> (stays positive despite steroids); negative ≠ excluded</td></tr><tr><td>Add</td><td>PPI + bone protection (Ca/vit D/bisphosphonate) ± aspirin</td></tr></table>",
    "title": "Giant cell arteritis (GCA)",
    "subtitle": "the steroid-before-biopsy and fellow-eye gotchas",
-   "id": "eyesent-6"
+   "id": "eyesent-6",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Temporal_Artery_Aneurysm_%285221715420%29.jpg/960px-Temporal_Artery_Aneurysm_%285221715420%29.jpg",
+     "caption": "Giant cell arteritis - thickened, tender, nodular temporal artery",
+     "alt": "Clinical photograph of a swollen, tender, palpably nodular and erythematous temporal artery in a patient with giant cell arteritis (temporal arteritis)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Keratitis / corneal ulcer in a contact-lens wearer — the can't-miss bug and the steroid/no-patch gotchas",
@@ -211,7 +233,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Stop lens wear</span><span class=\"gv-pill\">Same-day ophthal</span><span class=\"gv-pill\">Scrape MC&S first</span><span class=\"gv-pill\">Hourly fluoroquinolone</span><span class=\"gv-pill\">NO patch</span><span class=\"gv-pill\">NO steroid</span></div>",
    "title": "Keratitis / corneal ulcer in a contact-lens wearer",
    "subtitle": "the can't-miss bug and the steroid/no-patch gotchas",
-   "id": "eyesent-7"
+   "id": "eyesent-7",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Fluorescein-Stained_Central_Corneal_Epithelial_Defect_in_Infective_Keratitis.jpg/960px-Fluorescein-Stained_Central_Corneal_Epithelial_Defect_in_Infective_Keratitis.jpg",
+     "caption": "Microbial keratitis / corneal ulcer - fluorescein staining under slit lamp",
+     "alt": "Slit-lamp photograph with fluorescein staining showing an epithelial defect / stromal ulcer in microbial (contact-lens-related, Pseudomonas) keratitis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Optic neuritis — the painful-loss, MS-link and 'don't-steroid-orally' gotchas",
@@ -236,7 +266,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Subacute monocular loss + PAIN on movement + red desaturation + RAPD</div><div class=\"gv-step\">MRI brain + orbits with gadolinium (MS risk; screen NMO/MOG if atypical)</div><div class=\"gv-step\">Treat (if needed) IV methylprednisolone — NOT oral prednisolone alone</div><div class=\"gv-step\">Atypical (bilateral/no pain/no recovery/>50) → NMOSD/MOGAD/compression/GCA workup</div></div>",
    "title": "Optic neuritis",
    "subtitle": "the painful-loss, MS-link and 'don't-steroid-orally' gotchas",
-   "id": "eyesent-8"
+   "id": "eyesent-8",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg",
+     "caption": "Optic neuritis - optic disc swelling (papillitis) on fundus",
+     "alt": "Fundus photograph showing swollen hyperaemic optic disc with blurred margins in anterior optic neuritis (papillitis)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Case-3-mri.png",
+     "caption": "Optic neuritis - MRI T1+gadolinium showing optic nerve enhancement",
+     "alt": "MRI brain/orbits with gadolinium showing enhancement and/or swelling of the optic nerve in acute optic neuritis (and possibly periventricular MS plaques)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Papilloedema & idiopathic intracranial hypertension (IIH) — the 'image-before-LP' and opening-pressure gotchas",
@@ -295,7 +339,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">New flashes + shower of floaters (± curtain) — PAINLESS</div><div class=\"gv-step\">Same-day DILATED fundoscopy to find tear/detachment</div><div class=\"gv-step\">Tear only → laser/cryo retinopexy (prevents detachment)</div><div class=\"gv-step\">Detachment: macula-ON → surgery within ~24 h; macula-OFF → still repair, central window reduced</div></div>",
    "title": "Retinal detachment",
    "subtitle": "the flashes/floaters triage and macula-on/off timing gotchas",
-   "id": "eyesent-10"
+   "id": "eyesent-10",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Rhegmatogene_amotio_retinae.jpg",
+     "caption": "Rhegmatogenous retinal detachment - horseshoe tear and detached retina on fundus",
+     "alt": "Fundus photograph showing a bullous retinal detachment with a horseshoe/U-shaped tear and grey elevated retina with folds (rhegmatogenous retinal detachment)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Acute otitis externa: topical-first, and the gotchas (perforation, malignant OE)",
@@ -324,7 +376,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Aural toilet</span><span class=\"gv-pill\">Topical drops +/- wick</span><span class=\"gv-pill\">Perforated, then quinolone</span><span class=\"gv-pill\">Diabetic + severe pain, then necrotising OE</span></div>",
    "title": "Acute otitis externa",
    "subtitle": "topical-first, and the gotchas (perforation, malignant OE)",
-   "id": "eyesent-11"
+   "id": "eyesent-11",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/OtitisExterna10.JPG/960px-OtitisExterna10.JPG",
+     "caption": "Otitis externa - oedematous, erythematous, debris-filled ear canal on otoscopy",
+     "alt": "Otoscopy image showing acute otitis externa: oedematous narrowed ear canal with erythema, debris/discharge and a normal or partially visible tympanic membrane",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Acute otitis media: who gets immediate antibiotics vs wait-and-see (Australian thresholds)",
@@ -365,6 +425,12 @@ window.GOTCHA.modules.push(
      "caption": "Otitis media with effusion (glue ear) - amber/retracted TM with fluid level on otoscopy",
      "alt": "Otoscopy image showing otitis media with effusion (glue ear): an amber/yellow retracted tympanic membrane with a visible fluid level or air bubbles behind it",
      "credit": "Welleschik, Wikimedia Commons, CC BY-SA 3.0 (cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Acute_Otitis_Media_Stage_of_Resolution.jpg/960px-Acute_Otitis_Media_Stage_of_Resolution.jpg",
+     "caption": "Acute otitis media - bulging erythematous tympanic membrane on otoscopy",
+     "alt": "Otoscopy photograph showing acute otitis media: a bulging, hyperaemic/red opacified tympanic membrane with loss of normal landmarks and light reflex",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -395,7 +461,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Suspect epiglottitis, then DO NOT examine throat / no tongue depressor / keep UPRIGHT + calm</div><div class=\"gv-step\">Humidified O2 + call senior anaesthetics & ENT</div><div class=\"gv-step\">Secure airway in theatre (controlled)</div><div class=\"gv-step\">THEN IV antibiotics (ceftriaxone) + steroids</div></div>",
    "title": "Epiglottitis",
    "subtitle": "DO NOT examine the throat - airway first",
-   "id": "eyesent-13"
+   "id": "eyesent-13",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Epiglottitis.jpg",
+     "caption": "Epiglottitis - thumbprint sign on lateral neck X-ray",
+     "alt": "Lateral soft-tissue neck X-ray showing the classic thumbprint sign - a swollen, rounded epiglottis obliterating the vallecula",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Epistaxis: first-aid sequence and the cautery/packing escalation ladder",
@@ -425,7 +499,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Sit forward, pinch SOFT part, hold <span class=\"gv-num\">10-15 min</span></div><div class=\"gv-step\">Still bleeding + point seen, then silver nitrate cautery (ONE side only)</div><div class=\"gv-step\">Fails/diffuse, then anterior pack (Rapid Rhino / tampon)</div><div class=\"gv-step\">Bleeding into throat / posterior, then admit + ENT + posterior balloon</div></div>",
    "title": "Epistaxis",
    "subtitle": "first-aid sequence and the cautery/packing escalation ladder",
-   "id": "eyesent-14"
+   "id": "eyesent-14",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Locus_Kiesselbachii_Shematic.svg/960px-Locus_Kiesselbachii_Shematic.svg.png",
+     "caption": "Anterior epistaxis - Kiesselbach's plexus (Little's area) anatomy",
+     "alt": "Diagram or photo of the nasal septum showing Little's area / Kiesselbach's plexus as the commonest site of anterior epistaxis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Epistaxis_packing.jpg/960px-Epistaxis_packing.jpg",
+     "caption": "Nasal packing for posterior epistaxis",
+     "alt": "Anterior nasal packing with Rapid Rhino / ribbon gauze or posterior packing balloon catheter for ongoing epistaxis not controlled by pinching",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Head & neck cancer red flags: the persistent unilateral lump / hoarseness referral rules",
@@ -455,7 +543,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Hoarseness &gt;3 wk</span><span class=\"gv-pill\">Neck lump &gt;3 wk</span><span class=\"gv-pill\">Otalgia + normal ear</span><span class=\"gv-pill\">Unilateral nasal block/epistaxis</span><span class=\"gv-pill\">Oral ulcer/patch &gt;3 wk</span><span class=\"gv-pill\">Urgent ENT + US/FNA, NOT open biopsy</span></div>",
    "title": "Head & neck cancer red flags",
    "subtitle": "the persistent unilateral lump / hoarseness referral rules",
-   "id": "eyesent-15"
+   "id": "eyesent-15",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Cervical_lymphadenopathy_right_neck.png/960px-Cervical_lymphadenopathy_right_neck.png",
+     "caption": "Cervical lymphadenopathy - hard non-tender neck lump (metastatic SCC)",
+     "alt": "Visible and palpable hard cervical lymph node in the neck, representing the classic presentation of metastatic head and neck squamous cell carcinoma requiring urgent ENT referral",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Mastoiditis: the AOM complication that mandates admission, IV antibiotics and CT",
@@ -484,7 +580,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">AOM + postauricular swelling + PINNA pushed forward/down/out</div><div class=\"gv-step\">Admit + IV antibiotics + urgent ENT</div><div class=\"gv-step\">CT temporal bones (contrast): coalescent/abscess?</div><div class=\"gv-step\">Surgery: myringotomy +/- mastoidectomy</div></div>",
    "title": "Mastoiditis",
    "subtitle": "the AOM complication that mandates admission, IV antibiotics and CT",
-   "id": "eyesent-16"
+   "id": "eyesent-16",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Mastoiditis1.jpg/960px-Mastoiditis1.jpg",
+     "caption": "Mastoiditis - protruding pinna with postauricular swelling and erythema",
+     "alt": "Classic appearance of acute mastoiditis: pinna displaced anteriorly, inferiorly and laterally by postauricular erythema and swelling over the mastoid process",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/CT-Felsenbein-07.jpg",
+     "caption": "CT mastoids - opacification of mastoid air cells in mastoiditis",
+     "alt": "Axial CT of the temporal bones showing opacification and loss of normal trabecular pattern of mastoid air cells, consistent with acute coalescent mastoiditis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Sudden sensorineural hearing loss (SSNHL): an ENT EMERGENCY - refer within days",
@@ -515,7 +625,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Tuning fork</th><th>Sensorineural (SSNHL)</th><th>Conductive (wax/effusion)</th></tr><tr><td>Weber</td><td>Lateralises to GOOD ear</td><td>Lateralises to BAD ear</td></tr><tr><td>Rinne (affected)</td><td>AC &gt; BC (positive)</td><td>BC &gt; AC (negative)</td></tr><tr><td>Action</td><td>URGENT ENT + steroids + MRI</td><td>Treat cause; not emergency</td></tr></table>",
    "title": "Sudden sensorineural hearing loss (SSNHL)",
    "subtitle": "an ENT EMERGENCY - refer within days",
-   "id": "eyesent-17"
+   "id": "eyesent-17",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/An_audiogram_with_mixed_hearing_loss_for_the_left_ear.jpg/960px-An_audiogram_with_mixed_hearing_loss_for_the_left_ear.jpg",
+     "caption": "Audiogram - unilateral sensorineural hearing loss (SSNHL pattern)",
+     "alt": "Pure-tone audiogram demonstrating sudden unilateral sensorineural hearing loss of ≥30 dB across ≥3 contiguous frequencies, the diagnostic threshold for SSNHL",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rinneversuch.png/960px-Rinneversuch.png",
+     "caption": "Weber and Rinne tuning fork tests - SNHL pattern",
+     "alt": "Tuning fork Weber test (lateralises to good ear in SNHL) and Rinne test (AC > BC bilaterally, ratio maintained) demonstrating the sensorineural hearing loss pattern",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Tonsillitis vs quinsy vs glandular fever: the discriminators and the amoxicillin trap",
@@ -548,7 +672,39 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th></th><th>GAS tonsillitis</th><th>Quinsy</th><th>Glandular fever</th></tr><tr><td>Side</td><td>Bilateral</td><td>Unilateral</td><td>Bilateral</td></tr><tr><td>Key sign</td><td>Exudate, tender anterior nodes</td><td>Trismus, hot-potato voice, uvula deviated AWAY</td><td>Posterior nodes, splenomegaly</td></tr><tr><td>Do</td><td>Centor, then penicillin V x 10 days</td><td>Aspirate/I&D + antibiotics</td><td>Supportive; AVOID amoxicillin; no contact sport 3-4 wk</td></tr></table>",
    "title": "Tonsillitis vs quinsy vs glandular fever",
    "subtitle": "the discriminators and the amoxicillin trap",
-   "id": "eyesent-18"
+   "id": "eyesent-18",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Amigdalitis_%28_Tonsillitis_in_English_%29_with_white_spots.JPG/960px-Amigdalitis_%28_Tonsillitis_in_English_%29_with_white_spots.JPG",
+     "caption": "Bacterial tonsillitis - exudative tonsils (GAS)",
+     "alt": "Oropharynx showing bilaterally enlarged inflamed tonsils with white/yellow exudate and pharyngeal erythema consistent with group A streptococcal tonsillitis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/PeritonsilarAbsess.jpg/960px-PeritonsilarAbsess.jpg",
+     "caption": "Peritonsillar abscess (quinsy) - uvular deviation and unilateral swelling",
+     "alt": "Oropharynx showing unilateral peritonsillar bulge pushing the uvula contralaterally with erythema and trismus - classic quinsy appearance requiring incision and drainage",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Mononucleosis.JPG/640px-Mononucleosis.JPG",
+     "caption": "Infectious mononucleosis (EBV/glandular fever) - pharyngeal exudate with palatal petechiae",
+     "alt": "Posterior pharynx in EBV infectious mononucleosis showing confluent exudate, palatal petechiae and tonsillar enlargement - if given amoxicillin, causes maculopapular rash",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Rash_of_amoxicillin_use_during_EBV_infection.jpg/640px-Rash_of_amoxicillin_use_during_EBV_infection.jpg",
+     "caption": "Glandular fever (EBV) - amoxicillin maculopapular rash",
+     "alt": "Widespread maculopapular rash occurring after amoxicillin/ampicillin given to a patient with EBV infectious mononucleosis - the classic amoxicillin trap",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Atypical_lymphocytes_2.jpg/960px-Atypical_lymphocytes_2.jpg",
+     "caption": "EBV - atypical lymphocytes on blood film",
+     "alt": "Peripheral blood film in EBV infectious mononucleosis showing reactive/atypical lymphocytes (large cells with abundant pale cytoplasm and irregular nuclei) - the Monospot correlate",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Vertigo: BPPV (Dix-Hallpike/Epley) vs central - the discriminators that matter",
@@ -580,7 +736,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th></th><th>BPPV (peripheral)</th><th>Central (stroke)</th></tr><tr><td>Duration</td><td>Brief, positional (&lt;60 s)</td><td>Persistent/continuous</td></tr><tr><td>Nystagmus</td><td>Torsional/upbeat, latent, fatigable, unidirectional</td><td>Direction-changing or vertical, no fatigue</td></tr><tr><td>Head impulse</td><td>ABNORMAL (corrective saccade)</td><td>NORMAL</td></tr><tr><td>Skew/gait</td><td>No skew, can walk</td><td>Skew, severe gait ataxia</td></tr><tr><td>Action</td><td>Dix-Hallpike, then Epley</td><td>HINTS central, then MRI / stroke pathway</td></tr></table>",
    "title": "Vertigo",
    "subtitle": "BPPV (Dix-Hallpike/Epley) vs central - the discriminators that matter",
-   "id": "eyesent-19"
+   "id": "eyesent-19",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Dix-Hallpike_maneuver.ogv/960px--Dix-Hallpike_maneuver.ogv.jpg",
+     "caption": "Dix-Hallpike manoeuvre for BPPV diagnosis",
+     "alt": "Diagram or clinical photo showing the Dix-Hallpike manoeuvre: rapid recline from seated to head-hanging position with 45-degree head rotation, provoking torsional upbeat nystagmus in posterior canal BPPV",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Epley_maneuver.jpg/960px-Epley_maneuver.jpg",
+     "caption": "Epley manoeuvre - canalith repositioning for BPPV",
+     "alt": "Step-by-step diagram of the Epley canalith repositioning manoeuvre for posterior canal BPPV, the definitive treatment",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   }
  ]
 }

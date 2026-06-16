@@ -40,6 +40,12 @@ window.GOTCHA.modules.push(
      "caption": "Erythema multiforme — classic target (iris) lesions",
      "alt": "Erythema multiforme: multiple discrete three-zone target lesions with dark dusky centre, pale intermediate ring, and erythematous outer rim — acral distribution",
      "credit": "Grook Da Oger, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Toxic-epidermal-necrolysis.jpg",
+     "caption": "Stevens-Johnson syndrome — mucosal involvement and epidermal detachment",
+     "alt": "SJS: confluent blistering with mucosal erosions (lips/eyes), atypical flat targets and epidermal detachment <10% BSA — drug-triggered",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -101,7 +107,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Hypothermia (heat loss)</span><span class=\"gv-pill\">High-output cardiac failure</span><span class=\"gv-pill\">Fluid/electrolyte loss</span><span class=\"gv-pill\">Hypoalbuminaemia</span><span class=\"gv-pill\">Secondary sepsis</span></div>",
    "title": "Erythroderma (>=90% BSA)",
    "subtitle": "the dermatological emergency of 'acute skin failure'",
-   "id": "dermatology-3"
+   "id": "dermatology-3",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Dermatitis_exfoliativa.jpg/960px-Dermatitis_exfoliativa.jpg",
+     "caption": "Erythroderma - generalised confluent erythema covering >90% BSA",
+     "alt": "Diffuse bright-red erythema covering virtually the entire body surface, demonstrating the acute skin failure of erythroderma",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "IgA vasculitis (HSP): classification criteria & the renal follow-up timeline",
@@ -200,7 +214,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Pain out of proportion + systemic toxicity -> suspect NF</div><div class=\"gv-step\">Resuscitate + cultures + IV meropenem + vancomycin + clindamycin/lincomycin</div><div class=\"gv-step\">URGENT surgical exploration & debridement - do NOT delay for imaging or LRINEC</div><div class=\"gv-step\">Re-look in theatre every 24-36 h until no further necrosis</div></div>",
    "title": "Necrotising fasciitis",
    "subtitle": "the 'pain out of proportion' clinical diagnosis + LRINEC limits",
-   "id": "dermatology-6"
+   "id": "dermatology-6",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Necrotizing_fasciitis_left_leg.JPEG/960px-Necrotizing_fasciitis_left_leg.JPEG",
+     "caption": "Necrotising fasciitis - deceptively normal overlying skin with underlying necrosis",
+     "alt": "Early necrotising fasciitis showing erythema, oedema and skin discolouration disproportionate to the severe pain, with blistering indicating deep fascial necrosis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Necrotising_fascitis_producing_gas_in_soft_tissues.jpg/960px-Necrotising_fascitis_producing_gas_in_soft_tissues.jpg",
+     "caption": "Necrotising fasciitis - CT showing gas in soft tissue planes",
+     "alt": "Axial CT demonstrating gas tracking along fascial planes — the radiological sign of necrotising fasciitis (not needed to operate but confirms diagnosis)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Palpable purpura = small-vessel vasculitis until proven otherwise (vs flat, non-palpable petechiae)",
@@ -229,6 +257,12 @@ window.GOTCHA.modules.push(
      "caption": "Palpable purpura - raised non-blanching lesions of small-vessel vasculitis",
      "alt": "Raised, palpable, non-blanching purpuric papules indicating leukocytoclastic vasculitis — the key discriminator from flat petechiae",
      "credit": "DrFO.Jr.Tn, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Petechia_lower_leg.jpg/960px-Petechia_lower_leg.jpg",
+     "caption": "Flat petechiae - non-blanching macules from thrombocytopenia",
+     "alt": "Flat, non-palpable, non-blanching petechial macules characteristic of a platelet/thrombocytopenic cause",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -262,6 +296,12 @@ window.GOTCHA.modules.push(
      "caption": "Bullous pemphigoid - tense subepidermal bullae on erythematous base, mucosa spared",
      "alt": "Large, tense, intact bullae on an urticarial/erythematous base — subepidermal split; mucosa typically spared; negative Nikolsky sign",
      "credit": "Mohammad2018, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pemphigus_new_photo_due_to_antihypertensive_drug.jpg",
+     "caption": "Pemphigus vulgaris - flaccid blisters and erosions with mucosal involvement",
+     "alt": "Flaccid, easily ruptured blisters and widespread erosions — intraepidermal split; mucosa involved; positive Nikolsky sign",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -294,6 +334,12 @@ window.GOTCHA.modules.push(
      "caption": "Pressure injury staging - sacral full-thickness ulcer (Stage 3/4)",
      "alt": "Stage 3/4 pressure injury over the sacrum with full-thickness skin loss, slough and exposed subcutaneous tissue — demonstrating the NPIAP staging system",
      "credit": "AfroBrazilian, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Decubitus_03.JPG/960px-Decubitus_03.JPG",
+     "caption": "Deep tissue pressure injury (DTPI) - purple/maroon intact skin",
+     "alt": "Deep tissue pressure injury showing intact but purple/maroon discoloured skin or blood-filled blister — the 'unstageable' variant that can rapidly progress",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -336,6 +382,12 @@ window.GOTCHA.modules.push(
      "caption": "Target lesions of erythema multiforme / early SJS - atypical targetoid lesions",
      "alt": "Classic and atypical target lesions on the skin representing the early SJS/EM spectrum — the histological precursor to TEN, scored by SCORTEN",
      "credit": "Grook Da Oger, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Necrolysis_epidermalis_toxica_01.JPG/960px-Necrolysis_epidermalis_toxica_01.JPG",
+     "caption": "Stevens-Johnson syndrome / TEN - epidermal detachment and mucositis",
+     "alt": "Widespread full-thickness epidermal detachment with raw denuded areas, mucosal erosions, and target/atypical lesions — the SJS/TEN spectrum requiring SCORTEN scoring",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -376,6 +428,12 @@ window.GOTCHA.modules.push(
      "caption": "Venous leg ulcer - shallow, irregular, gaiter-zone ulcer with lipodermatosclerosis",
      "alt": "Shallow, irregularly shaped ulcer at the medial gaiter zone (above medial malleolus) with surrounding lipodermatosclerosis, haemosiderin staining and varicosities",
      "credit": "Ashashyou, Wikimedia Commons, CC BY-SA 4.0 (gauze edge cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Arterial_ulcer_peripheral_vascular_disease.jpg",
+     "caption": "Arterial leg ulcer - deep, punched-out ulcer over pressure point with pale base",
+     "alt": "Deep, punched-out, well-demarcated ulcer over the dorsum of the foot or pressure point with a pale/necrotic base — arterial/ischaemic ulcer",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -416,6 +474,12 @@ window.GOTCHA.modules.push(
      "caption": "Actinic keratosis - rough erythematous scaly patch on sun-damaged skin",
      "alt": "Multiple erythematous, scaly, sandpaper-textured keratotic patches on sun-exposed skin (scalp/forehead) — the pre-malignant lesion better felt than seen",
      "credit": "Future FamDoc, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Bowen%27s_disease_plaque.jpg",
+     "caption": "Bowen disease (SCC in situ) - well-demarcated erythematous scaly plaque",
+     "alt": "Well-demarcated, persistent, erythematous, scaly plaque on sun-exposed or non-sun-exposed skin — SCC in situ (full-thickness epidermal dysplasia)",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -455,6 +519,12 @@ window.GOTCHA.modules.push(
      "caption": "Nodular BCC - pearly papule with rolled telangiectatic edge, central ulceration",
      "alt": "Classic nodular basal cell carcinoma on the face — pearly/translucent papule with rolled border, surface telangiectasia and central ulceration ('rodent ulcer')",
      "credit": "M. Sand, D. Sand, C. Thrandorf et al., Wikimedia Commons, CC BY 2.0 (cropped to lesion)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Squamous_cell_carcinoma_%282%29.jpg/960px-Squamous_cell_carcinoma_%282%29.jpg",
+     "caption": "Cutaneous SCC - indurated keratotic nodule with ulceration on sun-damaged skin",
+     "alt": "Squamous cell carcinoma — indurated, keratotic, sometimes ulcerated nodule or plaque on sun-damaged skin, with potential for metastasis unlike BCC",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -485,7 +555,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Dermoscopy & the changing/atypical lesion",
    "subtitle": "what the exam wants",
-   "id": "dermatology-14"
+   "id": "dermatology-14",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Superficial_spreading_melanoma_in_situ_on_dermoscopy%2C_reflectance_confocal_microscopy_and_histopathology_2.jpg/960px-Superficial_spreading_melanoma_in_situ_on_dermoscopy%2C_reflectance_confocal_microscopy_and_histopathology_2.jpg",
+     "caption": "Dermoscopy of melanoma - atypical pigment network, regression and irregular streaks",
+     "alt": "Dermoscopic image of melanoma showing irregular pigment network, multiple colours, atypical vascular structures and regression structures — features not visible to the naked eye",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Melanoma — ABCDE & the changing lesion: which features actually trigger biopsy",
@@ -562,6 +640,12 @@ window.GOTCHA.modules.push(
      "caption": "Melanoma - clinical appearance driving WLE decision",
      "alt": "Invasive melanoma requiring wide local excision — the clinical correlate of the Breslow measurement that dictates surgical margins",
      "credit": "Dermanonymous, Wikimedia Commons, CC BY-SA 4.0 (cropped to centre on the lesion, removing margin-marker dots)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Histopathology_of_acral_lentiginous_melanoma_in_situ%2C_intermediate_magnification.jpg/960px-Histopathology_of_acral_lentiginous_melanoma_in_situ%2C_intermediate_magnification.jpg",
+     "caption": "Melanoma - Breslow thickness measurement on histology",
+     "alt": "Histological section of invasive melanoma with measurement of Breslow thickness (from granular layer to deepest tumour cell) — the primary determinant of excision margins and prognosis",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -636,6 +720,12 @@ window.GOTCHA.modules.push(
      "caption": "Melanoma - urgent referral trigger: changing/evolving pigmented lesion",
      "alt": "Melanoma with features mandating urgent referral — asymmetry, irregular border, colour variation and evolution, the key red-flag trigger",
      "credit": "Dermanonymous, Wikimedia Commons, CC BY-SA 4.0 (cropped to centre on the lesion, removing margin-marker dots)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lower_lip_cancer.jpg/960px-Lower_lip_cancer.jpg",
+     "caption": "High-risk SCC - indurated SCC on the lip, an urgent referral site",
+     "alt": "Squamous cell carcinoma on the lip — a high-risk anatomical site requiring urgent specialist referral due to elevated metastatic potential",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -661,7 +751,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Mild comedonal: topical retinoid +/- BPO</div><div class=\"gv-step\">Mild-mod inflammatory: retinoid + BPO +/- topical abx (never abx alone)</div><div class=\"gv-step\">Mod-severe: + oral doxycycline (with topicals) or hormonal (COCP/spironolactone)</div><div class=\"gv-step\">Severe/nodulocystic/scarring/refractory: refer -> oral isotretinoin</div></div>",
    "title": "Acne",
    "subtitle": "severity-based treatment ladder and the antibiotic/isotretinoin rules",
-   "id": "dermatology-19"
+   "id": "dermatology-19",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Acne_Vulgaris_x%C9%99st%C9%99liyi.jpg/960px-Acne_Vulgaris_x%C9%99st%C9%99liyi.jpg",
+     "caption": "Moderate-to-severe acne - mixed comedones, inflammatory papules, pustules and nodules",
+     "alt": "Moderate-to-severe acne vulgaris with open/closed comedones, erythematous papules, pustules and nodular lesions on the face — demonstrating severity requiring topical retinoid backbone therapy",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Angioedema: histamine- vs bradykinin-mediated (antihistamine WON'T work for the latter)",
@@ -685,7 +783,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Histaminergic (allergic)</th><th>Bradykinin (ACEi / hereditary)</th></tr></thead><tbody><tr><td>Urticaria/itch</td><td>YES</td><td>NO</td></tr><tr><td>Onset</td><td>Minutes, after trigger</td><td>ACEi: any time (even years); HAE: recurrent</td></tr><tr><td>Clue</td><td>Allergen exposure</td><td>ACEi use / FHx + abdo pain / low C4</td></tr><tr><td>Treatment</td><td>Adrenaline, antihistamine, steroid</td><td>Stop ACEi; C1-INH concentrate, icatibant, FFP</td></tr><tr><td>Antihistamine works?</td><td>Yes</td><td>NO</td></tr></tbody></table>",
    "title": "Angioedema",
    "subtitle": "histamine- vs bradykinin-mediated (antihistamine WON'T work for the latter)",
-   "id": "dermatology-20"
+   "id": "dermatology-20",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Angioedema_of_the_face.jpg",
+     "caption": "Histamine-mediated angioedema - lip and facial swelling (allergic)",
+     "alt": "Marked soft-tissue swelling of the lips and perioral area typical of histamine-mediated (IgE/allergic) angioedema",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Swollen_hand_during_a_hereditary_angioedema_attack..jpg/960px-Swollen_hand_during_a_hereditary_angioedema_attack..jpg",
+     "caption": "Hereditary angioedema (HAE) - non-pitting limb/abdominal swelling, bradykinin-mediated",
+     "alt": "Non-pitting, non-urticarial swelling of the forearm or abdomen characteristic of C1-esterase inhibitor deficiency (HAE), bradykinin-mediated - does NOT respond to adrenaline/antihistamines",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Cellulitis: Australian first-line antibiotics, dose, and the big mimic",
@@ -746,7 +858,15 @@ window.GOTCHA.modules.push(
    ],
    "title": "DRESS",
    "subtitle": "the LATE, multi-organ drug reaction with eosinophilia",
-   "id": "dermatology-22"
+   "id": "dermatology-22",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Drug_eruption3.jpg",
+     "caption": "DRESS syndrome - widespread morbilliform rash with facial oedema",
+     "alt": "Widespread erythematous morbilliform rash with characteristic facial oedema (especially periorbital) of Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), appearing 2-8 weeks after drug initiation",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Eczema vs psoriasis: the discriminating exam features",
@@ -865,6 +985,12 @@ window.GOTCHA.modules.push(
      "caption": "Plaque psoriasis on skin - the preceding rash that warns of psoriatic arthritis",
      "alt": "Chronic plaque psoriasis - the skin manifestation that precedes joint disease in psoriatic arthritis; up to 30% of psoriasis patients develop PsA",
      "credit": "Juan Ignacio Castells, Wikimedia Commons, CC BY-SA 3.0 (cropped to back)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Psoriatic_arthritis_dactylitis_ar1934-4.gif/960px-Psoriatic_arthritis_dactylitis_ar1934-4.gif",
+     "caption": "Psoriatic arthritis - dactylitis (sausage digit) and nail pitting",
+     "alt": "Dactylitis (diffuse swelling of an entire digit, 'sausage finger') and nail pitting characteristic of psoriatic arthritis",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -889,7 +1015,21 @@ window.GOTCHA.modules.push(
    ],
    "title": "Scabies",
    "subtitle": "permethrin protocol, the itch lag, and crusted scabies escalation",
-   "id": "dermatology-27"
+   "id": "dermatology-27",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Scabies_-_Skin_%2850839107751%29.jpg/960px-Scabies_-_Skin_%2850839107751%29.jpg",
+     "caption": "Scabies - interdigital burrows and papular rash",
+     "alt": "Linear burrows in the interdigital web spaces and erythematous papules of scabies infestation (Sarcoptes scabiei)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Norwegian_Scabies_in_Homeless_AIDS_Patient.jpg/960px-Norwegian_Scabies_in_Homeless_AIDS_Patient.jpg",
+     "caption": "Crusted (Norwegian) scabies - hyperkeratotic plaques, highly infectious",
+     "alt": "Thick hyperkeratotic crusted plaques of Norwegian/crusted scabies - the severe immunocompromised variant harbouring thousands of mites, requiring escalation beyond permethrin alone",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "SJS/TEN: BSA cut-offs, the offending-drug timing, and Nikolsky",
@@ -914,7 +1054,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">SJS &lt;<span class=\"gv-num\">10%</span> BSA</span><span class=\"gv-pill\">Overlap <span class=\"gv-num\">10-30%</span></span><span class=\"gv-pill\">TEN &gt;<span class=\"gv-num\">30%</span></span></div><div class=\"gv-flow\"><div class=\"gv-step\">New drug 4d-4wk ago + painful dusky rash + mucosa + Nikolsky+</div><div class=\"gv-step\">STOP drug immediately</div><div class=\"gv-step\">Burns/ICU transfer, fluids/analgesia, ophthal + urology, SCORTEN</div></div>",
    "title": "SJS/TEN",
    "subtitle": "BSA cut-offs, the offending-drug timing, and Nikolsky",
-   "id": "dermatology-28"
+   "id": "dermatology-28",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Mucosal_desquamation_in_a_person_with_Stevens%E2%80%93Johnson_syndrome.jpg/960px-Mucosal_desquamation_in_a_person_with_Stevens%E2%80%93Johnson_syndrome.jpg",
+     "caption": "Stevens-Johnson Syndrome (SJS) - mucosal erosions and epidermal detachment <10% BSA",
+     "alt": "Erosive mucositis (lips, oral mucosa) and early epidermal detachment with dusky erythema of SJS; Nikolsky sign positive",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Necrolysis_epidermalis_toxica_01.JPG/960px-Necrolysis_epidermalis_toxica_01.JPG",
+     "caption": "Toxic Epidermal Necrolysis (TEN) - widespread epidermal detachment >30% BSA",
+     "alt": "Extensive full-thickness epidermal sheet detachment exposing a raw dermis (>30% BSA) in TEN - the most severe end of the SJS/TEN spectrum",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Superficial fungal infections: KOH/diagnosis, topical-first, and the steroid trap",
@@ -945,6 +1099,12 @@ window.GOTCHA.modules.push(
      "caption": "Tinea corporis - annular lesion with raised active scaly edge and central clearing",
      "alt": "Classic ringworm: annular erythematous plaque with a raised, scaly, active leading edge and central clearing - asymmetrical and itchy",
      "credit": "ProjectManhattan, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Tinea_incognito.jpg/960px-Tinea_incognito.jpg",
+     "caption": "Tinea incognito - modified/masked tinea after topical steroid application",
+     "alt": "Tinea incognito: atypical tinea with loss of active border and spread after inappropriate topical corticosteroid use - the classic steroid trap",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -969,7 +1129,15 @@ window.GOTCHA.modules.push(
    ],
    "title": "Urticaria",
    "subtitle": "high-dose non-sedating antihistamine, NOT steroids/sedating antihistamines",
-   "id": "dermatology-30"
+   "id": "dermatology-30",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Hives_urticaria.jpg",
+     "caption": "Chronic spontaneous urticaria - wheals/hives on trunk",
+     "alt": "Multiple erythematous, pruritic, transient wheals (hives) of varying sizes on the trunk in chronic spontaneous urticaria - each lesion resolves within 24 hours",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   }
  ]
 }
