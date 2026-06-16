@@ -570,6 +570,146 @@
   document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !el.reviseModal.hidden) el.reviseModal.hidden = true; });
   updateReviseCount();
 
+  /* ---------------- AI quiz generator (live, bring-your-own Anthropic key) ---------------- */
+  (function () {
+    var Q = {
+      btn: document.getElementById("quiz-btn"), modal: document.getElementById("quiz-modal"),
+      close: document.getElementById("quiz-close"), setup: document.getElementById("quiz-setup"),
+      scope: document.getElementById("quiz-scope"), count: document.getElementById("quiz-count"),
+      diff: document.getElementById("quiz-diff"), model: document.getElementById("quiz-model"),
+      key: document.getElementById("quiz-key"), gen: document.getElementById("quiz-generate"),
+      msg: document.getElementById("quiz-msg"), run: document.getElementById("quiz-run"), sub: document.getElementById("quiz-sub")
+    };
+    if (!Q.btn) return;
+    var KEY_LS = "medi8403_anthropic_key", CFG_LS = "medi8403_quiz_cfg";
+    function setMsg(t, err) { Q.msg.textContent = t || ""; Q.msg.className = "quiz-msg" + (err ? " err" : ""); }
+
+    function buildScope() {
+      var html = "";
+      if (state.selected.length) {
+        html += '<label class="scope-row scope-revset"><input type="checkbox" id="scope-revset" checked> ' +
+          '<span>My revision set <em>(' + state.selected.length + ')</em></span></label>';
+      }
+      var groups = {}, order = [];
+      DATA.forEach(function (m) { var c = m.category || "Other"; if (!groups[c]) { groups[c] = []; order.push(c); } groups[c].push(m); });
+      var cats = []; CAT_ORDER.forEach(function (c) { if (groups[c]) cats.push(c); }); order.forEach(function (c) { if (cats.indexOf(c) < 0) cats.push(c); });
+      cats.forEach(function (cat) {
+        html += '<div class="scope-cat">' + esc(cat) + '</div>';
+        groups[cat].forEach(function (m) {
+          html += '<label class="scope-row"><input type="checkbox" class="scope-mod" value="' + esc(m.id) + '"> ' +
+            '<span>' + esc(m.name) + ' <em>(' + (m.cards ? m.cards.length : 0) + ')</em></span></label>';
+        });
+      });
+      Q.scope.innerHTML = html;
+      if (!state.selected.length) { var cur = Q.scope.querySelector('.scope-mod[value="' + state.moduleId + '"]'); if (cur) cur.checked = true; }
+    }
+    function scopeCards() {
+      var cards = [], seen = {};
+      function add(c) { if (c && c.id && !seen[c.id]) { seen[c.id] = 1; cards.push(c); } }
+      var rev = Q.scope.querySelector("#scope-revset");
+      if (rev && rev.checked) state.selected.forEach(function (id) { if (INDEX[id]) add(INDEX[id].card); });
+      Array.prototype.forEach.call(Q.scope.querySelectorAll(".scope-mod:checked"), function (b) {
+        var m = moduleById(b.value); if (m) (m.cards || []).forEach(add);
+      });
+      return cards;
+    }
+    function strip(s) { if (Array.isArray(s)) s = s.join("; "); return String(s || "").replace(/\*\*/g, "").replace(/\n\s*-\s+/g, "; ").replace(/\s+/g, " ").trim(); }
+    function condense(c) {
+      var p = "- " + (c.title || c.topic || "");
+      if (c.subtitle) p += " — " + c.subtitle;
+      if (c.trap) p += " | Trap: " + strip(c.trap).slice(0, 220);
+      if (c.cutoffs && c.cutoffs.length) p += " | Cut-offs: " + strip(c.cutoffs).slice(0, 240);
+      if (c.discriminator) p += " | Discriminator: " + strip(c.discriminator).slice(0, 170);
+      if (c.whatFirst) p += " | First step: " + strip(c.whatFirst).slice(0, 150);
+      if (c.redFlags) p += " | Red flags: " + strip(c.redFlags).slice(0, 150);
+      if (c.mcqTrap) p += " | Classic MCQ trap: " + strip(c.mcqTrap).slice(0, 200);
+      return p;
+    }
+    function shuffle(a) { for (var i = a.length - 1; i > 0; i--) { var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t; } return a; }
+
+    function runQuiz(questions) {
+      Q.setup.hidden = true; Q.run.hidden = false;
+      var score = 0, answered = 0, total = questions.length;
+      var html = '<div class="quiz-scoreline" id="quiz-scoreline">Tap an option to answer — score appears here.</div>';
+      questions.forEach(function (q, i) {
+        var ans = Math.max(0, Math.min((q.options || []).length - 1, q.answer || 0));
+        var opts = (q.options || []).map(function (o, j) {
+          return '<button type="button" class="quiz-opt" data-o="' + j + '"><b>' + String.fromCharCode(65 + j) + '</b> ' + esc(o) + '</button>';
+        }).join("");
+        html += '<div class="quiz-q" data-ans="' + ans + '" data-done="0">' +
+          '<div class="quiz-stem"><span class="quiz-num">Q' + (i + 1) + '</span> ' + esc(q.stem) + '</div>' +
+          '<div class="quiz-opts">' + opts + '</div>' +
+          '<div class="quiz-rat" hidden><b>Answer ' + String.fromCharCode(65 + ans) + '.</b> ' + esc(q.rationale || "") + '</div></div>';
+      });
+      html += '<div class="quiz-run-actions"><button id="quiz-new" type="button" class="ghost">New quiz</button></div>';
+      Q.run.innerHTML = html;
+      function score_() { document.getElementById("quiz-scoreline").textContent = "Score: " + score + " / " + answered + " answered  ·  " + total + " total"; }
+      Array.prototype.forEach.call(Q.run.querySelectorAll(".quiz-opt"), function (btn) {
+        btn.addEventListener("click", function () {
+          var qd = btn.parentNode.parentNode;
+          if (qd.getAttribute("data-done") === "1") return;
+          qd.setAttribute("data-done", "1");
+          var ans = parseInt(qd.getAttribute("data-ans"), 10), chosen = parseInt(btn.getAttribute("data-o"), 10);
+          Array.prototype.forEach.call(qd.querySelectorAll(".quiz-opt"), function (b, j) {
+            b.disabled = true; if (j === ans) b.classList.add("correct"); if (j === chosen && chosen !== ans) b.classList.add("wrong");
+          });
+          qd.querySelector(".quiz-rat").hidden = false;
+          answered++; if (chosen === ans) score++; score_();
+        });
+      });
+      document.getElementById("quiz-new").addEventListener("click", function () { Q.run.hidden = true; Q.setup.hidden = false; });
+    }
+
+    function generate() {
+      var cards = scopeCards();
+      if (!cards.length) { setMsg("Pick at least one module (or your revision set).", true); return; }
+      var key = Q.key.value.trim();
+      if (!key) { setMsg("Enter your Anthropic API key.", true); return; }
+      var n = parseInt(Q.count.value, 10) || 10, diff = Q.diff.value, model = Q.model.value;
+      try { localStorage.setItem(KEY_LS, key); localStorage.setItem(CFG_LS, JSON.stringify({ n: Q.count.value, diff: diff, model: model })); } catch (e) {}
+      var ground = cards.slice(); if (ground.length > 55) ground = shuffle(ground).slice(0, 55);
+      var grounding = ground.map(condense).join("\n");
+      var sys = "You are a MEDI8403 examiner (Macquarie University MD, Australian final-year, early-intern level). Write single-best-answer MCQs using CURRENT AUSTRALIAN guidelines and conventions. Test discriminators, exact cut-offs and what-first/sequence decisions — never bare recall, and never name the diagnosis in the stem. Each item: a short clinical vignette stem; exactly 5 plausible, similar-length options; one best answer; a one-sentence rationale naming the key cut-off/discriminator. Base every question ONLY on the provided notes.";
+      var user = "Write " + n + " " + (diff === "hard" ? "hard " : "") + "single-best-answer MCQs grounded ONLY in these MEDI8403 gotcha notes:\n\n" + grounding;
+      Q.gen.disabled = true; setMsg("Generating " + n + " questions with " + model + "… a few seconds.");
+      fetch("https://api.anthropic.com/v1/messages", {
+        method: "POST",
+        headers: { "content-type": "application/json", "x-api-key": key, "anthropic-version": "2023-06-01", "anthropic-dangerous-direct-browser-access": "true" },
+        body: JSON.stringify({
+          model: model, max_tokens: 8192, system: sys, messages: [{ role: "user", content: user }],
+          tool_choice: { type: "tool", name: "make_quiz" },
+          tools: [{ name: "make_quiz", description: "Return the generated MCQs.", input_schema: {
+            type: "object", required: ["questions"], properties: { questions: { type: "array", items: {
+              type: "object", required: ["stem", "options", "answer", "rationale"], properties: {
+                stem: { type: "string" }, options: { type: "array", items: { type: "string" } },
+                answer: { type: "integer", description: "0-based index (0-4) of the single best option" },
+                rationale: { type: "string" } } } } } } }]
+        })
+      }).then(function (res) {
+        return res.text().then(function (tx) { if (!res.ok) throw new Error("HTTP " + res.status + " — " + tx.slice(0, 260)); return JSON.parse(tx); });
+      }).then(function (data) {
+        var tu = (data.content || []).filter(function (b) { return b.type === "tool_use"; })[0];
+        if (!tu || !tu.input || !tu.input.questions || !tu.input.questions.length) throw new Error("No questions returned — try again.");
+        setMsg(""); runQuiz(tu.input.questions);
+      }).catch(function (e) {
+        var m = String(e && e.message || e);
+        if (/Failed to fetch|NetworkError|CORS/i.test(m)) m = "Network/CORS error — check your key and connection. " + m;
+        setMsg(m, true);
+      }).then(function () { Q.gen.disabled = false; });
+    }
+
+    Q.btn.addEventListener("click", function () {
+      buildScope();
+      try { var cfg = JSON.parse(localStorage.getItem(CFG_LS) || "{}"); if (cfg.n) Q.count.value = cfg.n; if (cfg.diff) Q.diff.value = cfg.diff; if (cfg.model) Q.model.value = cfg.model; } catch (e) {}
+      try { Q.key.value = localStorage.getItem(KEY_LS) || ""; } catch (e) {}
+      Q.run.hidden = true; Q.setup.hidden = false; setMsg(""); Q.modal.hidden = false;
+    });
+    Q.close.addEventListener("click", function () { Q.modal.hidden = true; });
+    Q.modal.addEventListener("click", function (e) { if (e.target === Q.modal) Q.modal.hidden = true; });
+    Q.gen.addEventListener("click", generate);
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !Q.modal.hidden) Q.modal.hidden = true; });
+  })();
+
   /* ---------------- go ---------------- */
   render();
 })();
