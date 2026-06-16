@@ -25,6 +25,10 @@
 
     <button class="expand-all" id="expand-all" type="button" aria-pressed="false">Expand all</button>
 
+    <button class="revise-btn" id="revise-btn" type="button" aria-haspopup="dialog" title="Your revision set — tick cards to collect them">
+      Revise <span class="revise-count" id="revise-count">0</span>
+    </button>
+
     <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light/dark theme" title="Toggle theme">
       <span class="theme-icon" aria-hidden="true">◐</span>
     </button>
@@ -34,6 +38,24 @@
     <nav class="side" id="nav" aria-label="Modules"></nav>
     <div class="scrim" id="scrim" hidden></div>
     <main class="content" id="content"></main>
+  </div>
+
+  <!-- revision set tray -->
+  <div class="revise-modal" id="revise-modal" hidden role="dialog" aria-modal="true" aria-label="Revision set">
+    <div class="revise-panel">
+      <div class="revise-head">
+        <h2>Revision set <span id="revise-n">0</span></h2>
+        <button class="revise-x" id="revise-close" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="revise-empty" id="revise-empty">Tick the checkbox on any card to add it here, then copy it all for your notes or hand it to Claude.</div>
+      <div class="revise-list" id="revise-list"></div>
+      <textarea class="revise-text" id="revise-text" spellcheck="false" aria-label="Combined revision text"></textarea>
+      <div class="revise-actions">
+        <button id="revise-copy" type="button">Copy for my notes</button>
+        <button id="revise-copy-claude" type="button">Copy for Claude</button>
+        <button id="revise-clear" class="ghost" type="button">Clear all</button>
+      </div>
+    </div>
   </div>
 
   <!-- module data (each file self-registers into window.GOTCHA.modules) -->
