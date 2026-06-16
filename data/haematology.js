@@ -32,7 +32,21 @@ window.GOTCHA.modules.push(
     "MEDI8401"
    ],
    "title": "Anaemia of chronic disease vs iron deficiency…",
-   "id": "haematology-1"
+   "id": "haematology-1",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Iron-deficiency_Anemia%2C_Peripheral_Blood_Smear_%284422704616%29.jpg/960px-Iron-deficiency_Anemia%2C_Peripheral_Blood_Smear_%284422704616%29.jpg",
+     "caption": "Iron deficiency anaemia - blood film (microcytic hypochromic with pencil cells)",
+     "alt": "Peripheral blood film showing microcytic hypochromic red cells with central pallor >1/3 diameter and pencil cells (iron deficiency)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/AnemiaFrote.jpg/960px-AnemiaFrote.jpg",
+     "caption": "Anaemia of chronic disease - blood film (normocytic-normochromic, or mild microcytic)",
+     "alt": "Peripheral blood film in anaemia of chronic disease showing normocytic normochromic or mildly microcytic red cells - contrasts with the more severe hypochromia of true IDA",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "B12/folate: cut-offs, the grey zone, and treat B12 BEFORE folate",
@@ -72,6 +86,12 @@ window.GOTCHA.modules.push(
      "caption": "Hypersegmented neutrophil on blood film (megaloblastic anaemia / B12 deficiency)",
      "alt": "Hypersegmented neutrophil (5+ lobes) - the hallmark peripheral film finding in B12 and folate deficiency / megaloblastic anaemia",
      "credit": "Ed Uthman (Houston TX USA) / Wikimedia Commons · CC BY 2.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Hypersegmented_neutrophil.png",
+     "caption": "Megaloblastic anaemia - macro-ovalocytes and hypersegmented neutrophil (B12/folate deficiency)",
+     "alt": "Macro-ovalocytes (oval macrocytes) alongside hypersegmented neutrophils on blood film in megaloblastic anaemia",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -213,6 +233,12 @@ window.GOTCHA.modules.push(
      "caption": "Koilonychia (spoon nails) - iron deficiency",
      "alt": "Spoon-shaped concave nails with everted edges (koilonychia) - a clinical sign of severe/chronic iron deficiency",
      "credit": "CHeitz, Wikimedia Commons, CC BY 2.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Iron_deficiency_Anaemia.jpg/960px-Iron_deficiency_Anaemia.jpg",
+     "caption": "Microcytic hypochromic blood film (iron deficiency anaemia)",
+     "alt": "Microcytic hypochromic red cells with central pallor exceeding 1/3 diameter and pencil cells - iron deficiency anaemia film",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -300,6 +326,12 @@ window.GOTCHA.modules.push(
      "caption": "Hypersegmented neutrophil - macrocytic anaemia (B12/folate deficiency)",
      "alt": "Hypersegmented neutrophil with macro-ovalocytes - key film finding in macrocytic/megaloblastic anaemia prompting B12/folate workup",
      "credit": "Ed Uthman (Houston TX USA) / Wikimedia Commons · CC BY 2.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Iron_deficiency_Anaemia.jpg/960px-Iron_deficiency_Anaemia.jpg",
+     "caption": "Microcytic hypochromic red cells - microcytic anaemia (iron deficiency / thalassaemia)",
+     "alt": "Small pale red cells with enlarged central pallor - the blood film appearance driving microcytic anaemia workup (iron studies, HbA2 electrophoresis)",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -440,7 +472,21 @@ window.GOTCHA.modules.push(
    ],
    "title": "Thalassaemia trait vs iron deficiency",
    "subtitle": "discriminating two microcytic anaemias",
-   "id": "haematology-12"
+   "id": "haematology-12",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/B-Thal.jpg/960px-B-Thal.jpg",
+     "caption": "Thalassaemia trait - peripheral blood film with microcytosis, target cells and hypochromia",
+     "alt": "Microcytic hypochromic red cells with prominent target cells and a high red cell count relative to low Hb (thalassaemia trait)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Iron-deficiency_Anemia%2C_Peripheral_Blood_Smear_%284422704616%29.jpg/960px-Iron-deficiency_Anemia%2C_Peripheral_Blood_Smear_%284422704616%29.jpg",
+     "caption": "Iron deficiency anaemia - peripheral blood film with pencil cells and hypochromia",
+     "alt": "Microcytic hypochromic red cells with pencil cells and reduced red cell count (iron deficiency anaemia)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Acute leukaemia — blast threshold, smear clues & what-first",
@@ -510,7 +556,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Suspect APML (bleeding + DIC + faggot cells)</div><div class=\"gv-step\">START ATRA NOW + cryo/FFP/platelets to target</div><div class=\"gv-step\">Send PML-RARA FISH/PCR (do not wait for it)</div><div class=\"gv-step\">Add ATO ± idarubicin (ALLG APML4)</div><div class=\"gv-step\">Watch for differentiation syndrome → dexamethasone</div></div>",
    "title": "APML + DIC",
    "subtitle": "the ATRA emergency (do NOT wait for confirmation)",
-   "id": "haematology-14"
+   "id": "haematology-14",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Faggot_cell_in_AML-M3.jpg",
+     "caption": "APML (AML M3) - faggot cells and Auer rods on blood film",
+     "alt": "Hypergranular promyelocytes with multiple Auer rods (faggot cells) characteristic of acute promyelocytic leukaemia",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "CLL — the ≥5 lymphocyte rule, smudge cells & Richter",
@@ -918,6 +972,12 @@ window.GOTCHA.modules.push(
      "caption": "TTP - schistocytes and thrombocytopenia on peripheral blood film",
      "alt": "Red cell fragments (schistocytes/helmet cells) with marked thrombocytopenia indicating thrombotic thrombocytopenic purpura",
      "credit": "Erhabor Osaro (Associate Professor), Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Giant_platelets_in_ITP.jpg",
+     "caption": "ITP - isolated thrombocytopenia with large platelets on peripheral blood film",
+     "alt": "Isolated thrombocytopenia with large/giant platelets and otherwise normal red cells in immune thrombocytopenic purpura",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1059,6 +1119,12 @@ window.GOTCHA.modules.push(
      "caption": "Schistocytes / red-cell fragments — intravascular haemolysis",
      "alt": "Fragmented red cells (schistocytes/helmet cells) indicating intravascular haemolysis as seen in severe AHTR",
      "credit": "Ed Uthman, MD, Wikimedia Commons, CC BY 2.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Paroxysmalnocturnalhemoglobinuria.png",
+     "caption": "Haemoglobinuria — pink/red urine after AHTR",
+     "alt": "Dark red or pink urine due to free haemoglobin from intravascular haemolysis, a key bedside sign of acute haemolytic transfusion reaction",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1087,7 +1153,15 @@ window.GOTCHA.modules.push(
    ],
    "verified": false,
    "title": "Allergic / anaphylactic transfusion reactions incl. IgA…",
-   "id": "haematology-30"
+   "id": "haematology-30",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Urticaria12.2024.jpg/960px-Urticaria12.2024.jpg",
+     "caption": "Urticaria / hives — mild allergic transfusion reaction",
+     "alt": "Widespread urticarial wheals (hives) representing the classic appearance of a mild allergic transfusion reaction — the only reaction where cautious restart is permissible",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "CMV-negative components — narrowed indications in the leucodepletion era",
@@ -1173,7 +1247,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "title": "Irradiated cellular components",
    "subtitle": "TA-GvHD prevention (who MUST get irradiated blood)",
-   "id": "haematology-33"
+   "id": "haematology-33",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Micrographs_of_grades_of_skin_graft-versus-host-disease.jpg/960px-Micrographs_of_grades_of_skin_graft-versus-host-disease.jpg",
+     "caption": "Transfusion-associated GvHD skin rash",
+     "alt": "Diffuse erythematous maculopapular rash of graft-versus-host disease — the feared near-universally fatal complication that irradiation prevents",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Product & threshold selection — platelets, FFP, cryoprecipitate (when, not just what)",

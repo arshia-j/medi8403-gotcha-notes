@@ -29,7 +29,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "obs-8",
    "title": "18-20 Week Morphology Scan",
-   "subtitle": "It is anatomy, not an aneuploidy screen"
+   "subtitle": "It is anatomy, not an aneuploidy screen",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Fetal_Anomaly_Ultrasound_Scan_in_Navi_Mumbai.jpg/960px-Fetal_Anomaly_Ultrasound_Scan_in_Navi_Mumbai.jpg",
+     "caption": "18–20 week morphology scan — fetal anatomy survey",
+     "alt": "Standard 18–20 week anomaly scan showing fetal structures including four-chamber cardiac view and cranial anatomy",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Placenta_Previa.png",
+     "caption": "Low-lying placenta / placenta praevia on morphology scan",
+     "alt": "Transvaginal ultrasound demonstrating placenta praevia with placenta covering the internal os at 20 weeks",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Aneuploidy SCREENING: NIPT vs combined first-trimester screen",
@@ -56,7 +70,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Test</th><th>Timing</th><th>Type</th></tr></thead><tbody><tr><td>Combined FTS (NT+bHCG+PAPP-A)</td><td><span class=\"gv-num\">11-13+6 wk</span></td><td>Screen (MBS funded)</td></tr><tr><td>NIPT (cfDNA)</td><td>from <span class=\"gv-num\">10 wk</span></td><td>Screen (self-funded)</td></tr><tr><td>CVS</td><td><span class=\"gv-num\">11-14 wk</span></td><td>Diagnostic</td></tr><tr><td>Amniocentesis</td><td><span class=\"gv-num\">&ge;15 wk</span></td><td>Diagnostic</td></tr></tbody></table>",
    "id": "obs-6",
    "title": "Aneuploidy Screening: NIPT vs CFTS",
-   "subtitle": "NIPT is screening only; confirm with CVS or amnio"
+   "subtitle": "NIPT is screening only; confirm with CVS or amnio",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Nuchal_translucency_Dr._Wolfgang_Moroder.jpg/960px-Nuchal_translucency_Dr._Wolfgang_Moroder.jpg",
+     "caption": "Nuchal translucency measurement on first-trimester ultrasound (CFTS)",
+     "alt": "First-trimester ultrasound with calipers measuring nuchal translucency thickness as part of combined first-trimester screening",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Anti-D within 72h of a SENSITISING EVENT (and the first-trimester dose twist)",
@@ -112,7 +134,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "obs-7",
    "title": "CVS vs Amniocentesis",
-   "subtitle": "CVS earlier at 11-14 wk; amnio deferred to >=15 wk"
+   "subtitle": "CVS earlier at 11-14 wk; amnio deferred to >=15 wk",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Amniocentesis.png/960px-Amniocentesis.png",
+     "caption": "Amniocentesis — ultrasound-guided transabdominal needle in amniotic fluid",
+     "alt": "Ultrasound showing needle entering amniotic cavity for amniocentesis at ≥15 weeks avoiding the fetus",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Dating: EDD, Naegele's rule & the redate-by-USS rule",
@@ -166,7 +196,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "obs-5",
    "title": "First-Trimester Dating by CRL",
-   "subtitle": "Once EDD is set early, later scans never re-date"
+   "subtitle": "Once EDD is set early, later scans never re-date",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg/960px-CRL_Crown_rump_length_12_weeks_ecografia_Dr._Wolfgang_Moroder.jpg",
+     "caption": "Crown-rump length (CRL) measurement — first-trimester dating ultrasound",
+     "alt": "First-trimester ultrasound with electronic calipers measuring crown-rump length from vertex to rump for accurate gestational age dating",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Folate dose: 0.4-0.8 mg standard vs 5 mg high-risk",
@@ -245,7 +283,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "obs-11",
    "title": "Kleihauer Test for Large FMH",
-   "subtitle": "One ampoule covers ~6 mL fetal cells; quantify the bleed"
+   "subtitle": "One ampoule covers ~6 mL fetal cells; quantify the bleed",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/KB_stain%2C_annotated.jpg/960px-KB_stain%2C_annotated.jpg",
+     "caption": "Kleihauer-Betke test — fetal red cells (pink) among maternal red cells (ghost cells)",
+     "alt": "Kleihauer-Betke acid elution stain showing fetal haemoglobin-containing cells as dense pink cells among pale ghost maternal red cells, used to quantify feto-maternal haemorrhage",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Perinatal mental health screening - EPDS",
@@ -330,7 +376,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "obs-13",
    "title": "Reduced Fetal Movements",
-   "subtitle": "Assess the same day with CTG, not a kick chart"
+   "subtitle": "Assess the same day with CTG, not a kick chart",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/CTG_Output.jpg",
+     "caption": "Cardiotocograph (CTG) — reassuring normal trace for reduced fetal movements",
+     "alt": "Normal CTG trace with baseline 110–160 bpm, normal variability, accelerations present and no decelerations, used to assess fetal wellbeing after reduced fetal movements",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Anti-D: routine antenatal prophylaxis (28 & 34 weeks)",
@@ -413,7 +467,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>SFH finding</th><th>Action</th></tr><tr><td>cm within +/-3 of weeks, rising</td><td>Continue routine</td></tr><tr><td>>=3 cm below weeks, OR static/falling, OR &lt;10th centile</td><td>Growth USS + umbilical artery Doppler</td></tr></table>",
    "id": "obs-15",
    "title": "Symphysis-Fundal Height",
-   "subtitle": "Lag from dates triggers an ultrasound, not a diagnosis"
+   "subtitle": "Lag from dates triggers an ultrasound, not a diagnosis",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Fundal_height.jpg/960px-Fundal_height.jpg",
+     "caption": "Symphysis-fundal height measurement technique — tape from fundus to symphysis pubis",
+     "alt": "Clinician measuring SFH with tape measure from the uterine fundus downward to the fixed point of the symphysis pubis with tape held upside-down",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Gestational_age_and_fundal_height.svg/960px-Gestational_age_and_fundal_height.svg.png",
+     "caption": "SFH customised growth chart — lag triggering ultrasound referral",
+     "alt": "Customised SFH growth chart showing serial measurements falling below the 10th centile, indicating small for gestational age requiring ultrasound biometry",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Drugs to AVOID in pregnancy",
@@ -442,7 +510,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Avoid</th><th>Harm</th><th>Safe alternative</th></tr></thead><tbody><tr><td>ACEi/ARB</td><td>Renal dysgenesis, oligohydramnios</td><td>Labetalol/methyldopa/nifedipine</td></tr><tr><td>Warfarin/DOAC</td><td>Fetal warfarin syndrome / unknown</td><td>LMWH</td></tr><tr><td>Trimethoprim (T1)</td><td>Folate antagonist -> NTD</td><td>Cephalexin</td></tr><tr><td>Nitrofurantoin (term)</td><td>Neonatal haemolysis</td><td>Cephalexin</td></tr></tbody></table>",
    "id": "obs-3",
    "title": "Teratogenic Drugs to Avoid",
-   "subtitle": "ACEi, warfarin and valproate are not safe defaults"
+   "subtitle": "ACEi, warfarin and valproate are not safe defaults",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Spina-bifida.jpg/960px-Spina-bifida.jpg",
+     "caption": "Valproate teratogenicity — spina bifida / neural tube defect",
+     "alt": "Lumbar myelomeningocele illustrating neural tube defect associated with sodium valproate exposure in the first trimester",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "TORCH / congenital infections: which test/action for which exposure",
@@ -485,6 +561,18 @@ window.GOTCHA.modules.push(
      "caption": "Parvovirus B19 - slapped cheek rash (erythema infectiosum)",
      "alt": "Confluent bright erythema of both cheeks with circumoral pallor — the classic slapped-cheek appearance of parvovirus B19 (erythema infectiosum)",
      "credit": "Gzzz, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Infant_with_skin_lesions_from_congenital_rubella.jpg",
+     "caption": "Congenital CMV - blueberry muffin rash (purpuric petechiae in neonate)",
+     "alt": "Widespread petechiae and purpuric macules ('blueberry muffin' rash) on a neonate — associated with congenital CMV and other TORCH infections causing extramedullary haematopoiesis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Newborn_infant_with_severe_hemolytic_disease_%28erythroblastosis_foetalis%29_resulting_in_hydrops_foetalis.png",
+     "caption": "Fetal hydrops - ultrasound showing ascites, skin oedema and pleural effusion",
+     "alt": "Fetal hydrops on ultrasound — skin oedema, ascites and pleural effusion caused by severe fetal anaemia from parvovirus B19 infection",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -549,6 +637,12 @@ window.GOTCHA.modules.push(
      "caption": "Koilonychia (spoon nails) - sign of iron deficiency",
      "alt": "Spoon-shaped concave nails with everted edges (koilonychia) — a clinical sign of iron deficiency",
      "credit": "CHeitz, Wikimedia Commons, CC BY 2.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Iron_deficiency_Anaemia.jpg/960px-Iron_deficiency_Anaemia.jpg",
+     "caption": "Iron deficiency anaemia - hypochromic microcytic red cells on blood film",
+     "alt": "Hypochromic microcytic red cells with pencil cells and anisocytosis — the peripheral blood film appearance of iron deficiency anaemia, the commonest cause of anaemia in pregnancy",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1679,7 +1773,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Manually replace the cord** into the uterus' or 'handle/check the cord pulsation repeatedly'\n  - Minimise handling; relieve pressure and deliver",
    "id": "obs-57",
    "title": "Umbilical Cord Prolapse",
-   "subtitle": "Relieve cord pressure first, then immediate delivery"
+   "subtitle": "Relieve cord pressure first, then immediate delivery",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cord.prolaps.jpg/960px-Cord.prolaps.jpg",
+     "caption": "Umbilical cord prolapse - clinical photograph",
+     "alt": "Prolapsed umbilical cord visibly presenting through or beyond the cervical os / vaginal introitus",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Vasa praevia: painless bleed at ROM + acute fetal compromise = FETAL blood",
@@ -1704,7 +1806,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Transfuse the mother** and continue labour' — the blood is fetal; immediate CS is the only answer",
    "id": "obs-49",
    "title": "Vasa Praevia",
-   "subtitle": "Bleed at ROM is fetal; immediate category-1 caesarean"
+   "subtitle": "Bleed at ROM is fetal; immediate category-1 caesarean",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Vasaprevia.jpg",
+     "caption": "Vasa praevia - colour Doppler ultrasound showing fetal vessels over os",
+     "alt": "Colour Doppler transvaginal ultrasound demonstrating fetal blood vessels running across the internal cervical os (vasa praevia)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Active management of the third stage - prophylactic oxytocin (the biggest PPH preventer)",
@@ -1775,7 +1885,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Feature</th><th>Normal (current AU)</th><th>Concerning</th></tr></thead><tbody><tr><td>Baseline</td><td><span class=\"gv-num\">110-160 bpm</span></td><td>Tachy >160 / Brady (>5 min below baseline)</td></tr><tr><td>Variability</td><td><span class=\"gv-num\">6-25 bpm</span></td><td>3-5 bpm if sustained; absent &lt;3 bpm; increased >25 bpm</td></tr></tbody></table>",
    "id": "obs-66",
    "title": "CTG Baseline and Variability",
-   "subtitle": "RANZCOG normal variability is 6-25 bpm, not 5-25"
+   "subtitle": "RANZCOG normal variability is 6-25 bpm, not 5-25",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/CTG_Output.jpg",
+     "caption": "CTG - normal baseline and variability (6-25 bpm)",
+     "alt": "Cardiotocograph trace showing a normal baseline rate (110-160 bpm) with normal beat-to-beat variability of 6-25 bpm",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cardiotocography.jpg/960px-Cardiotocography.jpg",
+     "caption": "CTG - reduced variability (sinusoidal / flat trace)",
+     "alt": "Cardiotocograph trace demonstrating reduced/absent variability (less than 5 bpm) indicating possible fetal compromise",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "CTG framework - DR C BRAVADO (read it in order)",
@@ -1795,7 +1919,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">DR - Define Risk</span><span class=\"gv-pill\">C - Contractions/10min</span><span class=\"gv-pill\">BRa - Baseline Rate</span><span class=\"gv-pill\">V - Variability</span><span class=\"gv-pill\">A - Accelerations</span><span class=\"gv-pill\">D - Decelerations</span><span class=\"gv-pill\">O - Overall</span></div>",
    "id": "obs-65",
    "title": "CTG Framework",
-   "subtitle": "Time decelerations against contractions to separate early from late"
+   "subtitle": "Time decelerations against contractions to separate early from late",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cardiotocography_diagram.jpg/960px-Cardiotocography_diagram.jpg",
+     "caption": "CTG - annotated trace with contractions (DR C BRAVADO features)",
+     "alt": "Cardiotocograph paper showing fetal heart rate channel and toco (contraction) channel with labelled features: baseline, variability, accelerations, decelerations timed against contractions",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "CTG overall classification - feature-based, not the old three-tier grid",
@@ -1815,7 +1947,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Assess features (DR C BRAVADO)</div><div class=\"gv-step\">Group: low / unlikely-in-isolation / may-be / likely compromise</div><div class=\"gv-step\">Abnormal -> treat reversible cause + intrauterine resuscitation</div><div class=\"gv-step\">No improvement -> FBS/scalp stim (if feasible) or expedite birth</div></div>",
    "id": "obs-70",
    "title": "CTG Overall Classification",
-   "subtitle": "RANZCOG is feature-based, not the old three-tier grid"
+   "subtitle": "RANZCOG is feature-based, not the old three-tier grid",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kardiotokogramm.jpg/960px-Kardiotokogramm.jpg",
+     "caption": "CTG - RANZCOG feature-based classification example",
+     "alt": "Cardiotocograph trace illustrating a combination of reassuring and non-reassuring features as classified by the RANZCOG feature-based (not three-tier) system",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "CTG vs intermittent auscultation: who gets which",
@@ -1843,7 +1983,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Risk status</th><th>Monitoring</th></tr><tr><td>Low-risk, normal IA</td><td>Intermittent auscultation</td></tr><tr><td>Meconium / fever / bleed / oxytocin / FGR / twins / VBAC / abnormal IA</td><td>Continuous CTG</td></tr></table>",
    "id": "obs-75",
    "title": "CTG vs Intermittent Auscultation",
-   "subtitle": "Low-risk labour gets auscultation, not continuous CTG"
+   "subtitle": "Low-risk labour gets auscultation, not continuous CTG",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Pinard_horn_Uganda_US_Army_nurse.jpg/960px-Pinard_horn_Uganda_US_Army_nurse.jpg",
+     "caption": "Intermittent auscultation - Pinard stethoscope in use",
+     "alt": "Midwife using a Pinard horn (fetoscope) against the maternal abdomen for intermittent auscultation of fetal heart in low-risk labour",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/CTG_Output.jpg",
+     "caption": "Continuous CTG trace - comparison with auscultation",
+     "alt": "Continuous electronic fetal monitoring (CTG) strip showing the difference between continuous EFM and the intermittent auscultation approach in low-risk labour",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Decelerations - early vs variable vs LATE (the most-tested discriminator)",
@@ -1885,7 +2039,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "obs-63",
    "title": "Failure to Progress, First Stage",
-   "subtitle": "Arrest = no cervical change over ~4 h at >=6 cm"
+   "subtitle": "Arrest = no cervical change over ~4 h at >=6 cm",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Partogramm_Modell_NSIONI_2005.JPG/960px-Partogramm_Modell_NSIONI_2005.JPG",
+     "caption": "Partogram - showing prolonged/arrested labour",
+     "alt": "WHO/standard partogram with cervical dilatation plotted against time, showing a plot crossing the alert line and approaching the action line, illustrating slow/arrested progress",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Fetal blood sampling (scalp lactate/pH) - the what-next numbers",
@@ -1969,7 +2131,21 @@ window.GOTCHA.modules.push(
    ],
    "id": "obs-68",
    "title": "Prolonged Deceleration and Bradycardia",
-   "subtitle": "Over 5 minutes is the likely-compromise threshold"
+   "subtitle": "Over 5 minutes is the likely-compromise threshold",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Cardiotocography.jpg/960px-Cardiotocography.jpg",
+     "caption": "Prolonged deceleration on CTG - deceleration lasting 90 seconds to 5 minutes",
+     "alt": "CTG strip showing a prolonged deceleration dipping below 100 bpm lasting over 90 seconds with gradual return to baseline",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cardiotocography_diagram.jpg/960px-Cardiotocography_diagram.jpg",
+     "caption": "Fetal bradycardia on CTG - sustained deceleration >5 minutes",
+     "alt": "CTG strip showing fetal heart rate falling below 100 bpm and remaining there for more than 5 minutes (bradycardia / likely fetal compromise)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Second-stage delay - exact time limits (nulliparous vs multiparous)",
@@ -2080,7 +2256,15 @@ window.GOTCHA.modules.push(
    ],
    "id": "obs-64",
    "title": "The 3 Ps of Poor Progress",
-   "subtitle": "Oxytocin only fixes Power, not Passenger or Passage"
+   "subtitle": "Oxytocin only fixes Power, not Passenger or Passage",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Breech_presentation%2C_from_Ramsbotham%2C_Principals...1841_Wellcome_L0004298.jpg/960px-Breech_presentation%2C_from_Ramsbotham%2C_Principals...1841_Wellcome_L0004298.jpg",
+     "caption": "Occiput posterior malposition - fetal head CT or diagram",
+     "alt": "Diagram or ultrasound showing occiput posterior position of the fetal head as a classic Passenger cause of poor progress",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Operative vaginal delivery: when to abandon & no sequential instruments",
@@ -2109,7 +2293,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Apply instrument correctly</div><div class=\"gv-step\">No descent / cup off x3 / no birth in 3 pulls</div><div class=\"gv-step\">ABANDON -> caesarean</div><div class=\"gv-step\">(NOT a second instrument)</div></div>",
    "id": "obs-92",
    "title": "Abandoning Operative Vaginal Delivery",
-   "subtitle": "No descent after three pulls: stop, no sequential instruments"
+   "subtitle": "No descent after three pulls: stop, no sequential instruments",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/%22Burton%22_obstetical_forceps_Wellcome_L0008317.jpg/960px-%22Burton%22_obstetical_forceps_Wellcome_L0008317.jpg",
+     "caption": "Forceps applied to fetal head - operative vaginal delivery",
+     "alt": "Diagram or photo showing obstetric forceps correctly applied to the fetal head in the left and right occiput anterior position",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Uterine inversion: STOP uterotonics, replace FAST (the counter-intuitive step)",
@@ -2185,7 +2377,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Breech confirmed on USS</div><div class=\"gv-step\">Offer ECV from 37 wk</div><div class=\"gv-step\">ECV fails/declined</div><div class=\"gv-step\">Elective CS at 39 wk</div></div>",
    "id": "obs-81",
    "title": "Breech Presentation Management",
-   "subtitle": "ECV from 37 weeks; planned CS the default"
+   "subtitle": "ECV from 37 weeks; planned CS the default",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Breechpre.jpg",
+     "caption": "Breech presentation on ultrasound - frank breech",
+     "alt": "Ultrasound scan showing frank breech presentation with fetal buttocks presenting, legs extended, head in fundus",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Caesarean urgency categories 1-4 (which is the \"crash\" CS?)",
@@ -2257,7 +2457,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Scenario at labour</th><th>Delivery</th></tr><tr><td>Primary HSV in T3</td><td>Caesarean</td></tr><tr><td>Active lesions / prodrome (any type)</td><td>Caesarean</td></tr><tr><td>Recurrent, no lesions</td><td>Vaginal</td></tr></table>",
    "id": "obs-91",
    "title": "Genital Herpes in Pregnancy",
-   "subtitle": "Primary third-trimester HSV: recommend caesarean delivery"
+   "subtitle": "Primary third-trimester HSV: recommend caesarean delivery",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/SOA-Herpes-genitalis-female.jpg",
+     "caption": "Primary genital herpes lesions - vulval HSV vesicles and ulcers",
+     "alt": "Clinical photograph showing multiple painful vesicles and shallow ulcers on the vulva/perineum representing primary genital HSV infection in pregnancy",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Herpes_n%C3%A9onatal_Herpes_simplex_a.jpg",
+     "caption": "Neonatal herpes - disseminated HSV skin vesicles neonate",
+     "alt": "Clinical photograph showing vesicular skin lesions of neonatal herpes simplex infection, illustrating the consequence of vertical transmission",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Instrumental delivery (forceps/vacuum): the prerequisites checklist",
@@ -2342,11 +2556,11 @@ window.GOTCHA.modules.push(
   {
    "topic": "Postpartum haemorrhage: the 4 T causes (Tone is #1)",
    "subarea": "Delivery, operative & intrapartum emergencies",
-   "trap": "Causes of primary PPH = the 4 Ts. TONE (uterine atony) ~70% and the #1 cause - always assume atony first. The gotcha: a WELL-CONTRACTED uterus that keeps bleeding means it is NOT tone -> look for Trauma/Tissue, don't keep giving uterotonics. Australian definitions: primary PPH = >=500 mL after vaginal birth, >=1000 mL after caesarean (within 24 h); >=1000 mL OR signs of shock = 'major' PPH.",
-   "whatFirst": "Simultaneously: call for help, ABC + two large IV cannulas + bloods/crossmatch, 'rub up' the fundus (bimanual massage), empty bladder, give a uterotonic - while examining for the cause (palpate tone, inspect tract, check placenta complete, check clotting).",
-   "discriminator": "Boggy/soft uterus = Tone (atony). Firm/contracted uterus still bleeding = Trauma or Tissue. Oozing from puncture sites / non-clotting blood = Thrombin (DIC). Sudden severe pain + non-palpable fundus + lump in vagina = uterine inversion (a Trauma cause).",
-   "redFlags": "Ongoing bleeding despite a well-contracted uterus = retained tissue or genital trauma; persistent non-clotting blood = DIC -> activate massive transfusion + give blood products/fibrinogen.",
-   "mcqTrap": "Giving repeated oxytocin/ergometrine when the uterus is already firm and contracted. Wrong - a contracted uterus excludes atony; examine for trauma (tears) and retained tissue instead.",
+   "trap": "- Causes of primary PPH = the **4 Ts**: Tone, Trauma, Tissue, Thrombin\n- **Tone (uterine atony)** ~70% and the #1 cause — always assume atony first\n- The gotcha: a **well-contracted uterus** that keeps bleeding means it is NOT tone\n  - Do NOT keep giving uterotonics — look for Trauma or Tissue instead\n- Australian definitions:\n  - Primary PPH = **≥500 mL** after vaginal birth\n  - Primary PPH = **≥1000 mL** after caesarean (within 24 h)\n  - **'Major' PPH** = ≥1000 mL OR signs of shock",
+   "whatFirst": "- Simultaneously call for **help** + **ABC** + two large-bore IV cannulas + bloods/crossmatch\n- **'Rub up' the fundus** (bimanual massage)\n- **Empty the bladder**\n- Give a **uterotonic**\n- While examining for the cause:\n  - Palpate **tone**\n  - Inspect **tract** for trauma\n  - Check **placenta complete** (tissue)\n  - Check **clotting** (thrombin/DIC)",
+   "discriminator": "- **Boggy/soft uterus** = Tone (atony)\n- **Firm/contracted uterus** still bleeding = Trauma or Tissue\n- **Oozing from puncture sites / non-clotting blood** = Thrombin (DIC)\n- Sudden severe pain + non-palpable fundus + lump in vagina = **uterine inversion** (a Trauma cause)",
+   "redFlags": "- Ongoing bleeding despite a **well-contracted uterus** = retained tissue or genital trauma\n- Persistent **non-clotting blood** = DIC\n  - Activate **massive transfusion protocol** + give blood products/fibrinogen",
+   "mcqTrap": "- Giving repeated **oxytocin/ergometrine** when the uterus is already firm and contracted — WRONG\n  - A contracted uterus excludes atony\n  - Examine for **trauma** (tears) and **retained tissue** instead",
    "mnemonic": "4 Ts in order of frequency: TONE, TRAUMA, TISSUE, THROMBIN (Tone first, biggest).",
    "source": "Queensland Clinical Guideline 'Primary postpartum haemorrhage' (MN24.1, 2024); RANZCOG Management of PPH (C-Obs 43). Verified 2026.",
    "verified": true,
@@ -2364,11 +2578,11 @@ window.GOTCHA.modules.push(
   {
    "topic": "Shoulder dystocia: what to do FIRST (and what NEVER to do)",
    "subarea": "Delivery, operative & intrapartum emergencies",
-   "trap": "The whole question is sequence. FIRST manoeuvres = McROBERTS (hyperflex maternal hips onto abdomen) + SUPRAPUBIC pressure - these alone resolve a large majority. NEVER apply FUNDAL pressure (impacts the shoulder further onto the pubic symphysis -> worsens dystocia, risks uterine rupture & brachial plexus injury). Do NOT pull harder on the head (causes Erb's palsy). The buzzword sign = the TURTLE SIGN (head retracts against perineum). Episiotomy creates room for INTERNAL manoeuvres but does not itself relieve a bony obstruction.",
-   "whatFirst": "Call for help + stop pushing -> McRoberts -> suprapubic pressure -> (consider episiotomy) -> internal rotational manoeuvres (Rubin II / Woods screw) / deliver posterior arm -> all-fours (Gaskin) -> last-resort (Zavanelli, symphysiotomy).",
-   "discriminator": "SUPRApubic pressure (just above symphysis, adducts the anterior shoulder) = correct. FUNDAL pressure = forbidden. McRoberts/suprapubic are EXTERNAL first-line; Rubin/Woods/posterior-arm are INTERNAL second-line.",
-   "redFlags": "Bony 'turtle sign' with failure to deliver shoulders after gentle axial traction; document time - risk of HIE rises with head-to-body delivery interval.",
-   "mcqTrap": "\"Apply fundal pressure\" - the single most tempting wrong answer; it worsens impaction and causes injury (suprapubic, not fundal). Also wrong: \"proceed straight to caesarean\" - the head is already out.",
+   "trap": "- The whole question is **sequence** — first manoeuvres are McRoberts + suprapubic pressure\n- **McROBERTS** (hyperflex maternal hips onto abdomen) + **SUPRAPUBIC pressure** — these alone resolve a large majority\n- **NEVER apply FUNDAL pressure** — impacts the shoulder further onto the pubic symphysis\n  - Worsens dystocia, risks uterine rupture and brachial plexus injury\n- Do **NOT pull harder** on the head — causes **Erb's palsy**\n- Buzzword sign = **TURTLE SIGN** (head retracts against perineum)\n- **Episiotomy** creates room for internal manoeuvres but does NOT itself relieve a bony obstruction",
+   "whatFirst": "- Call for help + **stop pushing**\n- **McRoberts** (hyperflex hips)\n- **Suprapubic pressure**\n- Consider **episiotomy**\n- Internal rotational manoeuvres: **Rubin II / Woods screw**\n- **Deliver posterior arm**\n- All-fours (**Gaskin** manoeuvre)\n- Last resort: **Zavanelli** / symphysiotomy",
+   "discriminator": "- **SUPRApubic pressure** (just above symphysis, adducts the anterior shoulder) = correct\n- **FUNDAL pressure** = forbidden\n- McRoberts/suprapubic = **EXTERNAL first-line**\n- Rubin/Woods/posterior-arm = **INTERNAL second-line**",
+   "redFlags": "- Bony **'turtle sign'** with failure to deliver shoulders after gentle axial traction\n- Document **time** — risk of HIE rises with head-to-body delivery interval",
+   "mcqTrap": "- **'Apply fundal pressure'** — the single most tempting wrong answer; worsens impaction and causes injury\n  - **Suprapubic**, not fundal\n- **'Proceed straight to caesarean'** — also wrong; the head is already out",
    "mnemonic": "HELPERR: Help, Evaluate for Episiotomy, Legs (McRoberts), Pressure (suprapubic), Enter (internal rotation), Remove posterior arm, Roll (all-fours). -> Legs & Pressure come before hands inside.",
    "source": "RANZCOG/Queensland Clinical Guideline & SA Perinatal Practice Guideline 'Shoulder dystocia' (McRoberts + suprapubic first; fundal pressure contraindicated). Verified 2026.",
    "verified": true,
@@ -2382,16 +2596,36 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Call help + stop pushing</div><div class=\"gv-step\">McRoberts (legs)</div><div class=\"gv-step\">Suprapubic pressure</div><div class=\"gv-step\">Internal rotation / deliver posterior arm</div><div class=\"gv-step\">All-fours -> last-resort manoeuvres</div></div>",
    "id": "obs-82",
    "title": "Shoulder Dystocia",
-   "subtitle": "McRoberts plus suprapubic first; never fundal pressure"
+   "subtitle": "McRoberts plus suprapubic first; never fundal pressure",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/McRoberts_maneuver.svg/960px-McRoberts_maneuver.svg.png",
+     "caption": "McRoberts manoeuvre - maternal hips hyperflexed onto abdomen",
+     "alt": "Clinical photograph or diagram showing McRoberts manoeuvre with the mother's thighs sharply flexed onto the abdomen to widen the pelvic outlet in shoulder dystocia",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Suprapubic-pressureforSD.jpg",
+     "caption": "Suprapubic pressure technique for shoulder dystocia",
+     "alt": "Diagram or photograph showing suprapubic pressure applied downward and laterally above the pubic symphysis to dislodge the anterior shoulder in shoulder dystocia",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/ShoulderDystociaFig1.jpg",
+     "caption": "Turtle sign - shoulder dystocia at delivery",
+     "alt": "Clinical photograph showing the turtle sign - fetal head retracting against the perineum after delivery, indicating impacted shoulder dystocia",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "PPH escalation, tranexamic acid timing & massive transfusion",
    "subarea": "Delivery, operative & intrapartum emergencies",
-   "trap": "Two timing gotchas. (1) TRANEXAMIC ACID 1 g IV given EARLY - within 3 HOURS of birth (WOMAN trial: benefit falls sharply after 3 h; give a 2nd 1 g dose if bleeding continues after 30 min or restarts within 24 h). Do NOT withhold TXA waiting for coagulation results. (2) Activate the MASSIVE TRANSFUSION PROTOCOL early for ongoing major haemorrhage - transfuse in ratios approaching 1:1:1 (RBC:FFP:platelets), keep fibrinogen >2 g/L (early cryoprecipitate/fibrinogen concentrate - fibrinogen falls first and predicts severity), platelets >50, and avoid the lethal triad (hypothermia, acidosis, coagulopathy). Replace calcium (citrate chelation).",
-   "whatFirst": "For major PPH: activate MTP + give TXA 1 g IV early (don't wait for labs) + warmed fluids/blood; correct fibrinogen early (target >2 g/L).",
-   "discriminator": "TXA is an ANTIFIBRINOLYTIC (reduces clot breakdown) - adjunctive, NOT a substitute for uterotonics or stopping the source. Fibrinogen is the first clotting factor to drop in obstetric haemorrhage (unlike trauma).",
-   "redFlags": "Estimated loss >=1000 mL ongoing, HR >100, BP <90 systolic, or clinical shock -> activate MTP; persistently low fibrinogen <2 g/L -> give cryoprecipitate/fibrinogen concentrate.",
-   "mcqTrap": "\"Withhold tranexamic acid until coagulation studies are available\" or \"TXA can be given any time within 24 hours with equal benefit.\" Both wrong - give 1 g IV immediately; benefit is greatest within 3 hours and declines thereafter.",
+   "trap": "- Two timing gotchas:\n- (1) **Tranexamic acid 1 g IV** given EARLY — within **3 hours** of birth\n  - WOMAN trial: benefit falls sharply after 3 h\n  - Give a **2nd 1 g dose** if bleeding continues after 30 min or restarts within 24 h\n  - Do **NOT withhold TXA** waiting for coagulation results\n- (2) Activate **Massive Transfusion Protocol** early for ongoing major haemorrhage\n  - Transfuse in ratios approaching **1:1:1** (RBC:FFP:platelets)\n  - Keep **fibrinogen >2 g/L** — early cryoprecipitate/fibrinogen concentrate (fibrinogen falls first and predicts severity)\n  - Keep **platelets >50**\n  - Avoid the **lethal triad**: hypothermia, acidosis, coagulopathy\n  - Replace **calcium** (citrate chelation)",
+   "whatFirst": "- Activate **MTP**\n- Give **TXA 1 g IV** early — do not wait for labs\n- Give **warmed fluids/blood**\n- Correct **fibrinogen** early (target **>2 g/L**)",
+   "discriminator": "- TXA is an **ANTIFIBRINOLYTIC** (reduces clot breakdown) — adjunctive, NOT a substitute for uterotonics or stopping the source\n- **Fibrinogen** is the first clotting factor to drop in obstetric haemorrhage (unlike trauma)",
+   "redFlags": "- Estimated loss **≥1000 mL** ongoing, HR >100, BP <90 systolic, or clinical shock → activate **MTP**\n- Persistently low **fibrinogen <2 g/L** → give cryoprecipitate/fibrinogen concentrate",
+   "mcqTrap": "- '**Withhold tranexamic acid** until coagulation studies are available' — WRONG\n- '**TXA can be given any time within 24 hours** with equal benefit' — WRONG\n  - Give 1 g IV immediately; benefit is greatest within **3 hours** and declines thereafter",
    "mnemonic": "TXA = \"1 gram, within 3 hours, repeat if still bleeding.\" Obstetric bleeding: \"Fibrinogen falls First.\"",
    "source": "WOMAN trial (Lancet 2017, TXA 1 g IV within 3 h); Queensland Clinical Guideline 'Primary PPH' (MN24.1) & National Blood Authority Patient Blood Management (fibrinogen >2 g/L). Verified 2026.",
    "verified": true,
@@ -2410,11 +2644,11 @@ window.GOTCHA.modules.push(
   {
    "topic": "Cord prolapse: relieve cord compression FIRST (knee-chest), don't reduce the cord",
    "subarea": "Delivery, operative & intrapartum emergencies",
-   "trap": "High-yield Category-1 emergency. Diagnosis: cord palpable/visible below the presenting part after ROM, usually with sudden fetal BRADYCARDIA/variable decelerations. What-first is to RELIEVE COMPRESSION immediately: (1) call help + Category 1 caesarean; (2) MANUALLY ELEVATE the presenting part off the cord (keep your hand in the vagina) and/or place mother in KNEE-CHEST or steep Trendelenburg/left-lateral with head down; (3) fill the bladder (~500 mL) to lift the head if delivery delayed; (4) minimal handling of the cord (handling -> vasospasm), keep it warm. Do NOT try to push the cord back in. Tocolysis if uterus contracting and delay to theatre.",
-   "whatFirst": "Manually elevate the presenting part off the cord + knee-chest/Trendelenburg position -> call Category 1 CS; fill bladder (~500 mL) if transfer delayed; minimise cord handling.",
-   "discriminator": "Overt prolapse (cord past presenting part, often after ROM) vs occult (cord alongside, intermittent variable decels). Either way the immediate manoeuvre is relieving compression and expediting delivery, not waiting. Knee-chest gives the greatest elevation effect.",
-   "redFlags": "Sudden fetal bradycardia/variable decelerations immediately after spontaneous or artificial ROM = look/feel for cord prolapse; if fully dilated and head low -> expedite instrumental, otherwise Category 1 CS.",
-   "mcqTrap": "\"Gently replace the cord into the uterus\" or \"reassess in 30 minutes.\" Both wrong - handling causes vasospasm and any delay risks fetal death; elevate the presenting part and proceed to immediate delivery.",
+   "trap": "- High-yield **Category-1 emergency**\n- Diagnosis: cord palpable/visible below the presenting part after ROM, usually with sudden fetal **BRADYCARDIA**/variable decelerations\n- What-first is to **RELIEVE COMPRESSION** immediately:\n  - (1) Call help + **Category 1 caesarean**\n  - (2) **Manually elevate** the presenting part off the cord (keep hand in vagina) AND/OR position mother **knee-chest** or steep Trendelenburg/left-lateral head down\n  - (3) Fill the **bladder (~500 mL)** to lift the head if delivery is delayed\n  - (4) **Minimal handling** of the cord — handling causes vasospasm; keep it warm\n- Do **NOT try to push the cord back in**\n- **Tocolysis** if uterus contracting and delay to theatre",
+   "whatFirst": "- **Manually elevate** the presenting part off the cord\n- **Knee-chest/Trendelenburg** position\n- Call **Category 1 CS**\n- Fill **bladder (~500 mL)** if transfer is delayed\n- **Minimise cord handling**",
+   "discriminator": "- **Overt prolapse** = cord past presenting part, often after ROM\n- **Occult prolapse** = cord alongside, intermittent variable decelerations\n- Either way: immediate manoeuvre = **relieving compression** and expediting delivery, not waiting\n- **Knee-chest** gives the greatest elevation effect",
+   "redFlags": "- Sudden fetal **bradycardia/variable decelerations** immediately after spontaneous or artificial ROM = look/feel for cord prolapse\n- If **fully dilated and head low** → expedite instrumental\n- Otherwise → **Category 1 CS**",
+   "mcqTrap": "- '**Gently replace the cord** into the uterus' — WRONG; handling causes vasospasm\n- '**Reassess in 30 minutes**' — WRONG; any delay risks fetal death\n  - Elevate the presenting part and proceed to **immediate delivery**",
    "mnemonic": "Cord prolapse = \"Hands up, bum up, call for the knife\" (elevate presenting part, knee-chest, Category 1 CS).",
    "source": "RANZCOG/RCOG Umbilical Cord Prolapse (Green-top 50, RANZCOG-endorsed) & Queensland intrapartum emergencies (elevate, knee-chest, bladder fill ~500 mL, Category 1 CS). Verified 2026.",
    "verified": true,
@@ -2428,16 +2662,30 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">ROM + sudden fetal bradycardia -> feel for cord</div><div class=\"gv-step\">Manually elevate presenting part off cord</div><div class=\"gv-step\">Knee-chest / Trendelenburg + fill bladder (~500 mL)</div><div class=\"gv-step\">Category 1 caesarean (or instrumental if fully dilated)</div></div>",
    "id": "obs-88",
    "title": "Umbilical Cord Prolapse",
-   "subtitle": "Relieve compression with knee-chest; do not reduce cord"
+   "subtitle": "Relieve compression with knee-chest; do not reduce cord",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Cord.prolaps.jpg/960px-Cord.prolaps.jpg",
+     "caption": "Umbilical cord prolapse - cord visible at vulva",
+     "alt": "Umbilical cord prolapsed through the cervix and visible at the vaginal introitus",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/CTG_Output.jpg",
+     "caption": "CTG - variable decelerations with cord compression",
+     "alt": "Cardiotocograph showing variable decelerations characteristic of cord compression",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Uterine atony: the drug + intervention ladder (doses)",
    "subarea": "Delivery, operative & intrapartum emergencies",
-   "trap": "The exact sequence and contraindications are the gotcha. Ladder: (1) MASSAGE / 'rub up' a contraction + empty bladder; (2) OXYTOCIN (IM 10 IU or IV, then infusion 40 IU in 500 mL-1 L); (3) ERGOMETRINE 250 microg IV/IM (max total 750 microg including any Syntometrine) - CONTRAINDICATED in hypertension/pre-eclampsia (vasospasm); (4) CARBOPROST (PGF2alpha) 250 microg IM, repeat q15min to max 2 mg (8 doses) - CONTRAINDICATED in asthma (bronchospasm); (5) MISOPROSTOL 1000 microg PR or 400 microg sublingual; plus TRANEXAMIC ACID 1 g IV early; then intrauterine BALLOON tamponade (Bakri), B-Lynch suture, uterine/internal iliac artery ligation, and finally HYSTERECTOMY.",
-   "whatFirst": "Massage + bladder empty + oxytocin first; escalate through uterotonics, then balloon tamponade, then surgical (B-Lynch -> ligation -> hysterectomy) if bleeding continues.",
-   "discriminator": "Ergometrine = avoid if HYPERTENSIVE/pre-eclamptic. Carboprost = avoid if ASTHMATIC. Misoprostol = safe in both (the answer when hypertensive AND asthmatic). Don't forget tranexamic acid 1 g IV - give EARLY (within 3 h).",
-   "redFlags": "Failure of medical therapy + balloon -> escalate to theatre for surgical management; ongoing loss with coagulopathy -> massive transfusion protocol.",
-   "mcqTrap": "\"Give ergometrine\" to a pre-eclamptic/hypertensive woman, OR \"give carboprost\" to an asthmatic. Both classic wrong answers - ergometrine contraindicated in hypertension, carboprost in asthma; reach for oxytocin/misoprostol instead.",
+   "trap": "- The exact **sequence and contraindications** are the gotcha\n- Ladder:\n  - (1) **Massage** / 'rub up' a contraction + empty bladder\n  - (2) **Oxytocin** IM 10 IU or IV, then infusion 40 IU in 500 mL–1 L\n  - (3) **Ergometrine** 250 microg IV/IM (max total 750 microg including any Syntometrine)\n    - **CONTRAINDICATED in hypertension/pre-eclampsia** (vasospasm)\n  - (4) **Carboprost** (PGF2alpha) 250 microg IM, repeat q15 min to max 2 mg (8 doses)\n    - **CONTRAINDICATED in asthma** (bronchospasm)\n  - (5) **Misoprostol** 1000 microg PR or 400 microg sublingual\n  - Plus **tranexamic acid 1 g IV** early\n  - Then intrauterine **balloon tamponade** (Bakri)\n  - Then **B-Lynch suture**\n  - Then **uterine/internal iliac artery ligation**\n  - Finally **hysterectomy**",
+   "whatFirst": "- **Massage** + bladder empty + **oxytocin** first\n- Escalate through uterotonics\n- Then **balloon tamponade**\n- Then surgical: **B-Lynch → ligation → hysterectomy** if bleeding continues",
+   "discriminator": "- **Ergometrine** = avoid if **HYPERTENSIVE/pre-eclamptic**\n- **Carboprost** = avoid if **ASTHMATIC**\n- **Misoprostol** = safe in **both** (the answer when hypertensive AND asthmatic)\n- Don't forget **tranexamic acid 1 g IV** — give EARLY (within 3 h)",
+   "redFlags": "- Failure of medical therapy + balloon → escalate to **theatre** for surgical management\n- Ongoing loss with **coagulopathy** → massive transfusion protocol",
+   "mcqTrap": "- '**Give ergometrine**' to a pre-eclamptic/hypertensive woman — WRONG; contraindicated in hypertension\n- '**Give carboprost**' to an asthmatic — WRONG; contraindicated in asthma\n  - Reach for **oxytocin/misoprostol** instead",
    "mnemonic": "Uterotonic order - \"Oh My Easy Cute Mum\": Oxytocin -> (Massage) -> Ergometrine -> Carboprost -> Misoprostol. Ergometrine-hypertension, Carboprost-asthma.",
    "source": "Queensland Clinical Guideline 'Primary postpartum haemorrhage' (MN24.1, 2024): oxytocin 40 IU IV infusion; ergometrine 250 microg, max total 750 microg; carboprost 250 microg q15min max 2 mg; misoprostol 1000 microg PR / 400 microg SL; TXA 1 g IV. Verified 2026.",
    "verified": true,
@@ -2456,17 +2704,17 @@ window.GOTCHA.modules.push(
   {
    "topic": "IOL complications: uterine tachysystole/hyperstimulation",
    "subarea": "Delivery, operative & intrapartum emergencies",
-   "trap": "Tachysystole = >5 contractions in 10 minutes averaged over 30 minutes (with or without FHR change). The killer is tachysystole WITH fetal compromise (decelerations/bradycardia) during induction. 'CTG abnormal during induction - what first?' The management depends on the agent: if on PROSTAGLANDIN (Cervidil/dinoprostone) -> REMOVE the pessary. If on OXYTOCIN -> STOP/reduce the infusion. Then reposition (left lateral), IV fluids, O2; if it persists, give acute TOCOLYSIS - terbutaline 250 microg SC (single dose). The trap is reaching for tocolysis or crash caesarean FIRST - you remove/stop the agent first, and only tocolyse if that fails.",
-   "whatFirst": "Remove the prostaglandin / stop the oxytocin FIRST + reposition; if compromise persists -> terbutaline 250 microg SC.",
-   "discriminator": "Tachysystole alone (normal CTG) = reduce/stop agent. Tachysystole + abnormal FHR = the emergency needing tocolysis if not resolving.",
+   "trap": "- **Tachysystole** = >5 contractions in 10 minutes averaged over 30 minutes (with or without FHR change)\n- The killer: tachysystole WITH **fetal compromise** (decelerations/bradycardia) during induction\n- 'CTG abnormal during induction — what first?' Management depends on the **agent**:\n  - If on **PROSTAGLANDIN** (Cervidil/dinoprostone) → **REMOVE the pessary**\n  - If on **OXYTOCIN** → **STOP/reduce the infusion**\n- Then: reposition (left lateral), IV fluids, O2\n- If it persists → acute **TOCOLYSIS**: terbutaline 250 microg SC (single dose)\n- The trap: reaching for **tocolysis or crash caesarean FIRST** — remove/stop the agent first; tocolyse only if that fails",
+   "whatFirst": "- **Remove the prostaglandin / stop the oxytocin FIRST** + reposition\n- If compromise persists → **terbutaline 250 microg SC**",
+   "discriminator": "- **Tachysystole alone** (normal CTG) = reduce/stop agent\n- **Tachysystole + abnormal FHR** = the emergency needing tocolysis if not resolving",
    "cutoffs": [
-    "Tachysystole = >5 contractions/10 min averaged over 30 min",
-    "Terbutaline 250 microg (0.5 mL) SC single dose",
-    "Sequence: stop agent -> reposition/fluids/O2 -> tocolysis -> deliver if no response"
+    "Tachysystole = **>5 contractions**/10 min averaged over 30 min",
+    "Terbutaline **250 microg** (0.5 mL) SC single dose",
+    "Sequence: **stop agent** → reposition/fluids/O2 → tocolysis → deliver if no response"
    ],
-   "redFlags": "Prolonged deceleration/fetal bradycardia not recovering after removing the agent.",
+   "redFlags": "- **Prolonged deceleration/fetal bradycardia** not recovering after removing the agent",
    "trapAnswer": "'Immediate caesarean' or 'give terbutaline' as the FIRST step before removing the PGE2 / stopping oxytocin.",
-   "mcqTrap": "Skipping straight to tocolysis or caesarean instead of first ceasing the uterotonic.",
+   "mcqTrap": "- Skipping straight to **tocolysis or caesarean** instead of first ceasing the uterotonic",
    "mnemonic": "Stop the stimulant before you tocolyse.",
    "source": "Queensland Clinical Guidelines (IOL); SA Perinatal Practice Guideline Tocolysis; KEMH Terbutaline guideline (current)",
    "verified": true,
@@ -2479,16 +2727,24 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Remove PGE2 / stop oxytocin</div><div class=\"gv-step\">Left lateral, IV fluids, O2</div><div class=\"gv-step\">Persists -> terbutaline 250 mcg SC</div><div class=\"gv-step\">No response -> deliver</div></div>",
    "id": "obs-90",
    "title": "Uterine Tachysystole",
-   "subtitle": "Over 5 contractions per 10 minutes; stop oxytocin"
+   "subtitle": "Over 5 contractions per 10 minutes; stop oxytocin",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Cardiotocography_diagram.jpg/960px-Cardiotocography_diagram.jpg",
+     "caption": "CTG - uterine tachysystole with fetal decelerations",
+     "alt": "Cardiotocograph demonstrating more than 5 contractions in 10 minutes (tachysystole) with associated fetal heart rate decelerations",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "VBAC: the cardinal risk is uterine rupture - what raises it and what's the sign?",
    "subarea": "Delivery, operative & intrapartum emergencies",
-   "trap": "The single defining hazard of birth after caesarean is UTERINE RUPTURE. Background rupture risk with one prior lower-segment CS in spontaneous labour is ~0.5%. The gotcha is what AMPLIFIES it: induction with PROSTAGLANDINS roughly triples the risk (~1.4%) - so prostaglandins are AVOIDED for cervical ripening in a scarred uterus; use a mechanical (balloon/Foley) method. Oxytocin (~0.8-1.1%) is higher than spontaneous but lower than PG. Continuous CTG is mandatory. >=2 prior CS or a previous classical (vertical) incision generally contraindicates planned vaginal birth.",
-   "whatFirst": "If a scarred uterus needs ripening, use a MECHANICAL method (balloon/Foley catheter), NOT prostaglandin. In labour: continuous CTG; if rupture suspected -> immediate Category 1 CS + resuscitation.",
-   "discriminator": "Scar rupture triad = (1) abnormal CTG, classically sudden fetal BRADYCARDIA (most consistent sign), (2) constant abdominal PAIN (breakthrough pain despite epidural), (3) LOSS OF STATION / presenting part recedes, + maternal tachycardia/hypotension, scar tenderness, vaginal bleeding. Mimic = abruption (woody tender uterus, but no recession of presenting part / no scar history).",
-   "redFlags": "Fetal bradycardia + breakthrough abdominal pain through epidural + presenting part no longer palpable vaginally (rising station) = rupture until proven otherwise -> crash CS.",
-   "mcqTrap": "\"Use prostaglandin (PGE2) gel to ripen the cervix before induction\" in a woman with one previous caesarean. Wrong - prostaglandins markedly increase rupture risk in a scarred uterus; use a balloon catheter for mechanical ripening.",
+   "trap": "- The single defining hazard of birth after caesarean is **UTERINE RUPTURE**\n- Background rupture risk with one prior lower-segment CS in spontaneous labour = **~0.5%**\n- The gotcha — what AMPLIFIES it:\n  - Induction with **PROSTAGLANDINS** roughly triples the risk (**~1.4%**)\n  - Prostaglandins are **AVOIDED** for cervical ripening in a scarred uterus\n  - Use a **mechanical (balloon/Foley)** method instead\n  - **Oxytocin** (~0.8–1.1%) is higher than spontaneous but lower than PG\n- **Continuous CTG** is mandatory\n- **≥2 prior CS** or a previous **classical (vertical) incision** generally contraindicates planned vaginal birth",
+   "whatFirst": "- If a scarred uterus needs ripening, use a **MECHANICAL method** (balloon/Foley catheter), NOT prostaglandin\n- In labour: **continuous CTG**\n- If rupture suspected → immediate **Category 1 CS** + resuscitation",
+   "discriminator": "- Scar rupture triad:\n  - (1) Abnormal CTG — classically sudden fetal **BRADYCARDIA** (most consistent sign)\n  - (2) Constant abdominal **PAIN** (breakthrough pain despite epidural)\n  - (3) **LOSS OF STATION** / presenting part recedes + maternal tachycardia/hypotension + scar tenderness + vaginal bleeding\n- Mimic = **abruption**: woody tender uterus, but NO recession of presenting part / no scar history",
+   "redFlags": "- Fetal bradycardia + **breakthrough abdominal pain** through epidural + presenting part no longer palpable vaginally (**rising station**) = rupture until proven otherwise → crash CS",
+   "mcqTrap": "- '**Use prostaglandin (PGE2) gel** to ripen the cervix before induction' in a woman with one previous caesarean — WRONG\n  - Prostaglandins markedly increase rupture risk in a scarred uterus\n  - Use a **balloon catheter** for mechanical ripening",
    "mnemonic": "Rupture = the 3 B's: fetal Bradycardia, abdominal pain/Belly, loss of station/Baby recedes.",
    "source": "RANZCOG Birth After Caesarean (C-Obs 38, v4.1 Aug 2025); Australian population cohort rupture rates. Verified 2026.",
    "verified": true,
@@ -2501,22 +2757,36 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Labour onset</th><th>Approx rupture risk</th></tr></thead><tbody><tr><td>Spontaneous</td><td><span class=\"gv-num\">~0.5%</span></td></tr><tr><td>Oxytocin induction</td><td><span class=\"gv-num\">~0.8-1.1%</span></td></tr><tr><td>Prostaglandin (+/-oxytocin)</td><td><span class=\"gv-num\">~1.4%</span> (AVOID)</td></tr></tbody></table>",
    "id": "obs-79",
    "title": "VBAC and Uterine Rupture",
-   "subtitle": "Prostaglandin induction roughly triples rupture risk"
+   "subtitle": "Prostaglandin induction roughly triples rupture risk",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cesarean_section.jpg/960px-Cesarean_section.jpg",
+     "caption": "Uterine rupture - intraoperative finding",
+     "alt": "Intraoperative photograph showing complete uterine wall rupture with fetal parts visible in the abdominal cavity",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kardiotokogramm.jpg/960px-Kardiotokogramm.jpg",
+     "caption": "CTG - sudden severe bradycardia (uterine rupture)",
+     "alt": "Cardiotocograph showing abrupt onset of prolonged fetal bradycardia preceding uterine rupture",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Breastfeeding contraindications in Australia — the genuinely absolute ones",
    "subarea": "Puerperium & postnatal",
-   "trap": "Almost everything is compatible with breastfeeding — the trap is over-calling contraindications. The truly absolute ones: infant GALACTOSAEMIA, active untreated TB (separate mother/baby until non-infectious; expressed milk is safe), and certain drugs (cytotoxics/chemo, radioactive isotopes, lithium, oral retinoids, amiodarone). Maternal HIV is now NUANCED in Australia (see discriminator), not a blanket ban. Mastitis is NOT a contraindication; most antibiotics/analgesics ARE safe.",
-   "whatFirst": "Don't reflexively stop breastfeeding — check the specific drug/condition against a lactation resource (LactMed / Australian guidance). Active untreated TB: separate but give EXPRESSED breast milk (TB doesn't pass into milk); resume direct feeding once mother treated and non-infectious.",
-   "discriminator": "HIV: Australian ASHM guidance now SUPPORTS informed/supported breastfeeding for women on ART with a sustained undetectable viral load and engaged care; formula feeding is recommended when NOT on treatment or NOT virally suppressed — so 'HIV = never breastfeed' is no longer correct. Galactosaemia: an INFANT contraindication. Hepatitis B (vaccinate + HBIg, breastfeed) and Hepatitis C (breastfeed unless cracked/bleeding nipples) are NOT contraindications.",
-   "redFlags": "Don't confuse 'medication crosses into milk in trace amounts' with 'contraindicated' — most do not require cessation. Drugs that DO: chemotherapy, radioisotopes, lithium, amiodarone, oral retinoids.",
-   "mcqTrap": "'Mother has mastitis / hepatitis B / is on flucloxacillin → stop breastfeeding' — all wrong. Note the updated HIV nuance: a virally-suppressed woman on ART may breastfeed with support; the absolute infant contraindication is galactosaemia.",
+   "trap": "- Almost everything is compatible with breastfeeding — the trap is **over-calling contraindications**\n- Truly absolute contraindications:\n  - Infant **GALACTOSAEMIA**\n  - Active **untreated TB** (separate mother/baby until non-infectious; expressed milk is safe)\n  - Certain drugs: **cytotoxics/chemo, radioactive isotopes, lithium, oral retinoids, amiodarone**\n- Maternal **HIV** is now NUANCED in Australia — not a blanket ban (see discriminator)\n- **Mastitis** is NOT a contraindication\n- Most **antibiotics/analgesics** ARE safe",
+   "whatFirst": "- Do NOT reflexively **stop breastfeeding** — check the specific drug/condition against a lactation resource (**LactMed** / Australian guidance)\n- Active untreated TB: **separate** but give expressed breast milk\n  - TB does NOT pass into milk\n  - Resume direct feeding once mother is treated and **non-infectious**",
+   "discriminator": "- **HIV**: Australian ASHM guidance now SUPPORTS informed/supported breastfeeding for women on **ART with a sustained undetectable viral load** and engaged care\n  - Formula feeding recommended when NOT on treatment or NOT virally suppressed\n  - **'HIV = never breastfeed'** is no longer correct\n- **Galactosaemia**: an INFANT contraindication\n- **Hepatitis B**: vaccinate + HBIg, **breastfeed** — NOT a contraindication\n- **Hepatitis C**: breastfeed unless **cracked/bleeding nipples** — NOT a contraindication",
+   "redFlags": "- Do NOT confuse 'medication crosses into milk in trace amounts' with **'contraindicated'** — most do not require cessation\n- Drugs that DO require cessation: **chemotherapy, radioisotopes, lithium, amiodarone, oral retinoids**",
+   "mcqTrap": "- 'Mother has **mastitis / hepatitis B / is on flucloxacillin** → stop breastfeeding' — all WRONG\n- Note the updated **HIV nuance**: a virally-suppressed woman on ART may breastfeed with support\n- The absolute **infant contraindication** is galactosaemia",
    "mnemonic": "Stop breastfeeding for: Galactosaemia (baby), active untreated TB (direct feeding), and Toxic drugs (chemo, radioiodine, lithium, retinoids). HIV = depends on viral suppression.",
    "cutoffs": [
-    "Galactosaemia: infant contraindication",
-    "Active untreated TB: separate until non-infectious; expressed milk safe",
-    "HIV: formula if not virally suppressed; supported breastfeeding possible if sustained undetectable on ART",
-    "Contraindicated drugs: chemo, radioisotopes, lithium, amiodarone, retinoids"
+    "**Galactosaemia**: infant contraindication",
+    "Active untreated **TB**: separate until non-infectious; expressed milk safe",
+    "**HIV**: formula if not virally suppressed; supported breastfeeding possible if sustained undetectable on ART",
+    "Contraindicated drugs: **chemo, radioisotopes, lithium, amiodarone, retinoids**"
    ],
    "tags": [
     "breastfeeding",
@@ -2534,16 +2804,16 @@ window.GOTCHA.modules.push(
   {
    "topic": "EPDS — the score that triggers action and the question that overrides the total",
    "subarea": "Puerperium & postnatal",
-   "trap": "Two independent triggers: a TOTAL score ≥13 needs further assessment, BUT question 10 (self-harm) scoring >0 demands urgent assessment REGARDLESS of the total — a woman can score low overall yet flag on Q10 and still needs immediate action. The EPDS is a screening tool, NOT diagnostic, and it does NOT detect postpartum psychosis.",
-   "whatFirst": "Any positive Q10 → assess safety of the woman and infant immediately and take urgent action per local protocol if suicidal thoughts disclosed. Total ≥13 → arrange clinical assessment for depression/anxiety, don't just 'rescreen later'.",
-   "discriminator": "EPDS screens depression AND anxiety (not depression-only). A high score flags assessment, not a diagnosis — confirm clinically. Psychosis is NOT captured by EPDS — never reassure on a 'normal' EPDS in a woman with psychotic features.",
-   "redFlags": "Q10 score of 1, 2 or 3 → assess safety of woman and any children in her care; arrange mental-health assessment / urgent action per clinical judgement.",
-   "mcqTrap": "'EPDS total is 9 (below 13), so no action needed' when Q10 is positive — wrong; Q10 overrides the total. Also wrong: treating EPDS as diagnostic of depression.",
+   "trap": "- Two independent triggers:\n  - **Total score ≥13** needs further assessment\n  - **Question 10** (self-harm) scoring **>0** demands urgent assessment REGARDLESS of the total\n    - A woman can score low overall yet flag on Q10 and still needs immediate action\n- The EPDS is a **screening tool**, NOT diagnostic\n- EPDS does **NOT detect postpartum psychosis**",
+   "whatFirst": "- Any **positive Q10** → assess **safety of the woman and infant immediately** and take urgent action per local protocol if suicidal thoughts disclosed\n- **Total ≥13** → arrange clinical assessment for depression/anxiety\n  - Do NOT just 'rescreen later'",
+   "discriminator": "- EPDS screens **depression AND anxiety** (not depression-only)\n- A high score flags **assessment**, not a diagnosis — confirm clinically\n- **Psychosis** is NOT captured by EPDS — never reassure on a 'normal' EPDS in a woman with **psychotic features**",
+   "redFlags": "- **Q10 score of 1, 2 or 3** → assess safety of woman and any children in her care\n  - Arrange **mental-health assessment / urgent action** per clinical judgement",
+   "mcqTrap": "- '**EPDS total is 9** (below 13), so no action needed' when Q10 is positive — WRONG; **Q10 overrides the total**\n- Also wrong: treating EPDS as **diagnostic** of depression",
    "mnemonic": "13 = think (assess). Q10 = act now (self-harm overrides the total).",
    "cutoffs": [
-    "EPDS total ≥13 → further assessment",
-    "Q10 (self-harm) >0 → urgent action at any total",
-    "10-item self-report scale, screening not diagnostic"
+    "EPDS total **≥13** → further assessment",
+    "**Q10** (self-harm) >0 → urgent action at any total",
+    "**10-item** self-report scale, screening not diagnostic"
    ],
    "tags": [
     "EPDS",
@@ -2560,16 +2830,16 @@ window.GOTCHA.modules.push(
   {
    "topic": "Mastitis vs breast abscess — CONTINUE breastfeeding; exact antibiotic and the abscess pivot",
    "subarea": "Puerperium & postnatal",
-   "trap": "The single biggest trap: 'STOP breastfeeding' is the WRONG answer for both mastitis AND abscess. Continue feeding/expressing from the affected breast — milk stasis worsens it and abrupt cessation promotes abscess. Antibiotic = di/flucloxacillin 500 mg QID for at least 5 days. Penicillin allergy → cephalexin (cefalexin); severe/immediate allergy → clindamycin. The pivot: not settling in 24-48h or a fluctuant lump → ultrasound to find an abscess.",
-   "whatFirst": "Conservative first (effective milk removal, analgesia) — many resolve without antibiotics. Add antibiotics if systemic features OR not improving after 24-48h of effective drainage. Discrete fluctuant lump or no response to antibiotics → USS; abscess = US-guided needle aspiration first-line, incision & drainage if large/not settling/aspiration unavailable.",
-   "discriminator": "Mastitis = diffuse tender erythematous wedge, fever, flu-like. Abscess = additional discrete tense/fluctuant lump. Not responding to appropriate antibiotics → think abscess OR inflammatory breast cancer (mimics mastitis: peau d'orange, non-resolving — biopsy if persistent).",
-   "redFlags": "Systemic sepsis features → admit for IV antibiotics. Mastitis not resolving despite correct antibiotics → USS + consider inflammatory breast cancer (core biopsy). Bloodstained aspirate, or residual mass after aspiration → core biopsy for malignancy.",
-   "mcqTrap": "'Cease breastfeeding and prescribe antibiotics' — wrong; continue breastfeeding (antibiotics and milk are safe for the baby). Also wrong: jumping to incision & drainage for an abscess when US-guided needle aspiration is first-line in Australia.",
+   "trap": "- The single biggest trap: '**STOP breastfeeding**' is the WRONG answer for both mastitis AND abscess\n- **Continue feeding/expressing** from the affected breast — milk stasis worsens it and abrupt cessation promotes abscess\n- Antibiotic = **di/flucloxacillin 500 mg QID** for at least **5 days**\n  - Penicillin allergy → **cephalexin (cefalexin)**\n  - Severe/immediate allergy → **clindamycin**\n- The pivot: not settling in **24–48 h** or a fluctuant lump → **ultrasound** to find an abscess",
+   "whatFirst": "- **Conservative first** (effective milk removal, analgesia) — many resolve without antibiotics\n- Add antibiotics if **systemic features** OR not improving after **24–48 h** of effective drainage\n- Discrete fluctuant lump or no response to antibiotics → **USS**\n- Abscess = **US-guided needle aspiration** first-line\n  - Incision and drainage if large / not settling / aspiration unavailable",
+   "discriminator": "- **Mastitis** = diffuse tender erythematous wedge, fever, flu-like\n- **Abscess** = additional discrete tense/fluctuant lump\n- Not responding to appropriate antibiotics → think **abscess** OR **inflammatory breast cancer**\n  - Mimics mastitis: peau d'orange, non-resolving\n  - **Biopsy** if persistent",
+   "redFlags": "- **Systemic sepsis** features → admit for IV antibiotics\n- Mastitis not resolving despite correct antibiotics → USS + consider **inflammatory breast cancer** (core biopsy)\n- **Bloodstained aspirate** or residual mass after aspiration → core biopsy for malignancy",
+   "mcqTrap": "- '**Cease breastfeeding** and prescribe antibiotics' — WRONG; continue breastfeeding (antibiotics and milk are safe for the baby)\n- '**Incision and drainage**' for an abscess as first-line — WRONG; **US-guided needle aspiration** is first-line in Australia",
    "mnemonic": "Mastitis: keep the milk moving + di/floxacillin 500 QID ×5+ days. Abscess: Aspirate first (not auto-incise).",
    "cutoffs": [
-    "Di/flucloxacillin 500 mg QID for ≥5 days",
-    "Penicillin allergy: cefalexin; severe allergy: clindamycin",
-    "Review in 24-48h; USS if not settling"
+    "**Di/flucloxacillin 500 mg QID** for ≥5 days",
+    "Penicillin allergy: **cefalexin**; severe allergy: **clindamycin**",
+    "Review in **24–48 h**; USS if not settling"
    ],
    "tags": [
     "mastitis",
@@ -2583,23 +2853,37 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Tender erythematous wedge + fever</div><div class=\"gv-step\">Effective milk removal + analgesia; KEEP feeding</div><div class=\"gv-step\">Not better in 24-48h or systemic → di/flucloxacillin 500 mg QID ≥5d</div><div class=\"gv-step\">Fluctuant lump / no response → USS</div><div class=\"gv-step\">Abscess → US-guided aspiration (I&D if fails)</div></div>",
    "id": "obs-98",
    "title": "Mastitis vs Breast Abscess",
-   "subtitle": "Keep breastfeeding; stopping promotes abscess"
+   "subtitle": "Keep breastfeeding; stopping promotes abscess",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Atlas_of_clinical_surgery%3B_with_special_reference_to_diagnosis_and_treatment_for_practitioners_and_students_%281908%29_%2814768289625%29.jpg/960px-Atlas_of_clinical_surgery%3B_with_special_reference_to_diagnosis_and_treatment_for_practitioners_and_students_%281908%29_%2814768289625%29.jpg",
+     "caption": "Mastitis - unilateral breast erythema and swelling",
+     "alt": "Unilateral segmental erythema, warmth and swelling of the breast consistent with infective mastitis in a breastfeeding woman",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Ultrasound_image_of_breast_110323101432_1023480.jpg",
+     "caption": "Breast abscess - ultrasound with hypoechoic collection",
+     "alt": "Breast ultrasound showing a well-defined hypoechoic/anechoic collection with thick walls representing a lactational breast abscess",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Perineal tears — 3rd/4th degree = anal sphincter (OASIS), theatre repair, and aftercare",
    "subarea": "Puerperium & postnatal",
-   "trap": "Grading hinges on the ANAL SPHINCTER: 3rd = anal SPHINCTER torn (3a <50% external sphincter, 3b >50% external, 3c internal sphincter also torn); 4th = through to anorectal MUCOSA/epithelium. The trap: a '3c' is still 3rd-degree (involves internal sphincter) — 4th degree only when the anal epithelium is breached. 3rd/4th degree (OASIS) need repair in THEATRE by a trained clinician, plus prophylactic broad-spectrum antibiotics AND laxatives (avoid constipation/straining on the repair).",
-   "whatFirst": "Recognise and grade with a rectal exam (sphincter injuries are missed without one; if in doubt, classify to the higher degree). 3rd/4th degree → repair in theatre under regional/general anaesthesia with good lighting. Give prophylactic broad-spectrum antibiotics and prescribe LAXATIVES + analgesia; arrange physiotherapy and follow-up.",
-   "discriminator": "3a (<50% EAS) vs 3b (>50% EAS) vs 3c (EAS + internal anal sphincter) vs 4th (anal mucosa/epithelium breached). Whether the internal sphincter and whether the mucosa is involved is the whole game.",
-   "redFlags": "Future faecal urgency/incontinence, repair breakdown, infection. A subsequent pregnancy after OASIS with ongoing symptoms or a poor repair may warrant elective caesarean discussion. AVOID constipation post-repair (laxatives); bulking agents are not given routinely with laxatives.",
-   "mcqTrap": "Labelling a tear involving the internal anal sphincter (3c) as '4th degree' — wrong; 4th degree requires anal epithelium involvement. Also: 'repair at the bedside in the birth suite' for a 3rd/4th degree — wrong, these go to theatre.",
+   "trap": "- Grading hinges on the **ANAL SPHINCTER**:\n  - **3a**: <50% external sphincter torn\n  - **3b**: >50% external sphincter torn\n  - **3c**: external sphincter + **internal sphincter** also torn\n  - **4th degree**: through to **anorectal mucosa/epithelium**\n- The trap: a '**3c**' is still 3rd-degree (involves internal sphincter)\n  - **4th degree only** when the anal epithelium is breached\n- **3rd/4th degree (OASIS)** need repair in **THEATRE** by a trained clinician\n  - Plus prophylactic **broad-spectrum antibiotics** AND **laxatives** (avoid constipation/straining on the repair)",
+   "whatFirst": "- **Recognise and grade** with a rectal exam — sphincter injuries are missed without one\n  - If in doubt, **classify to the higher degree**\n- 3rd/4th degree → **repair in theatre** under regional/general anaesthesia with good lighting\n- Give prophylactic **broad-spectrum antibiotics**\n- Prescribe **laxatives** + analgesia\n- Arrange **physiotherapy and follow-up**",
+   "discriminator": "- **3a** (<50% EAS) vs **3b** (>50% EAS) vs **3c** (EAS + internal anal sphincter) vs **4th** (anal mucosa/epithelium breached)\n- Whether the **internal sphincter** is involved and whether the **mucosa** is involved is the whole game",
+   "redFlags": "- Future **faecal urgency/incontinence**, repair breakdown, infection\n- Subsequent pregnancy after OASIS with ongoing symptoms or a poor repair → may warrant **elective caesarean** discussion\n- **AVOID constipation** post-repair (laxatives)\n  - Bulking agents are NOT given routinely with laxatives",
+   "mcqTrap": "- Labelling a tear involving the **internal anal sphincter (3c) as '4th degree'** — WRONG; 4th degree requires **anal epithelium** involvement\n- '**Repair at the bedside** in the birth suite' for a 3rd/4th degree — WRONG; these go to **theatre**",
    "mnemonic": "Degrees: 1 skin, 2 muscle, 3 Sphincter (a<50% / b>50% / c+internal), 4 'all the way' to anal mucosa. Aftercare = Antibiotics + Aperients (laxatives) + Analgesia + physio.",
    "cutoffs": [
-    "3a: <50% external anal sphincter torn",
-    "3b: >50% external anal sphincter torn",
-    "3c: external + internal anal sphincter torn",
-    "4th: anal/rectal epithelium breached",
-    "OASIS = 3rd/4th degree → theatre repair"
+    "**3a**: <50% external anal sphincter torn",
+    "**3b**: >50% external anal sphincter torn",
+    "**3c**: external + internal anal sphincter torn",
+    "**4th**: anal/rectal epithelium breached",
+    "**OASIS** = 3rd/4th degree → theatre repair"
    ],
    "tags": [
     "perineal-tear",
@@ -2612,23 +2896,37 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Degree</th><th>Structures involved</th><th>Repair</th></tr></thead><tbody><tr><td>1st</td><td>Skin / vaginal mucosa only</td><td>May not need suturing</td></tr><tr><td>2nd</td><td>Perineal muscles (sphincter intact)</td><td>Delivery room</td></tr><tr><td>3a / 3b / 3c</td><td>External AS &lt;50% / &gt;50% / + internal AS</td><td>Theatre (OASIS)</td></tr><tr><td>4th</td><td>+ Anal/rectal epithelium</td><td>Theatre (OASIS)</td></tr></tbody></table>",
    "id": "obs-105",
    "title": "Perineal Tears and OASIS",
-   "subtitle": "3c is still 3rd-degree; 4th reaches anorectal mucosa"
+   "subtitle": "3c is still 3rd-degree; 4th reaches anorectal mucosa",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Hirst-1898-Obstetrics-fig428-Perforations-and-lacerations-of-the-nymphce-Bar.jpg",
+     "caption": "Perineal tear grading diagram (1st through 4th degree / OASIS)",
+     "alt": "Anatomical diagram illustrating the four grades of perineal tears with particular emphasis on 3a, 3b, 3c and 4th-degree OASIS involvement of the anal sphincter complex and anorectal mucosa",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Hirst-1898-Obstetrics-fig427-Perforations-and-lacerations-of-the-nymphce-Bar.jpg",
+     "caption": "4th-degree perineal tear - anorectal mucosa visible",
+     "alt": "Clinical photograph of a 4th-degree perineal tear showing complete disruption of the anal sphincter complex with exposure of anorectal mucosa",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Postnatal mental health — baby blues vs PND vs postpartum PSYCHOSIS (the emergency)",
    "subarea": "Puerperium & postnatal",
-   "trap": "Three things examiners separate: BABY BLUES peaks day 3-5 and resolves by ~day 10-14 (no treatment beyond support); postnatal DEPRESSION needs treatment; postpartum PSYCHOSIS is a PSYCHIATRIC EMERGENCY (abrupt onset usually within first 2 weeks) needing URGENT admission (ideally a mother-baby unit). The trap is managing psychosis as 'severe baby blues' or arranging outpatient follow-up.",
-   "whatFirst": "Postpartum psychosis = urgent psychiatric assessment + admission (risk of suicide AND infanticide). Never send home / 'GP review next week'. Baby blues = reassure + support + safety-net. PND = assess severity, psychological therapy ± SSRI (sertraline favoured in breastfeeding).",
-   "discriminator": "Strongest risk factor for postpartum psychosis is bipolar disorder / prior postpartum psychosis. Psychosis: delusions, hallucinations, confusion, mania, rapid fluctuation, often bizarre beliefs about the baby — distinct from PND's persistent low mood/anhedonia and from self-limiting baby blues.",
-   "redFlags": "Thoughts of self-harm, harming the baby, command hallucinations, beliefs the baby is evil/swapped → emergency. EPDS Q10 positive at ANY total score → immediate assessment regardless of total. New psychotic symptoms postpartum are psychosis until proven otherwise.",
-   "mcqTrap": "Woman day 6 postpartum, confused, not sleeping, believing her baby is possessed → tempting wrong answer 'reassure, this is baby blues' or 'commence sertraline as outpatient'. Correct: urgent psychiatric admission (postpartum psychosis).",
+   "trap": "- Three distinct conditions examiners separate:\n  - **Baby blues**: peaks day 3-5, resolves by ~day 10-14, no treatment beyond support\n  - **Postnatal depression**: needs treatment\n  - **Postpartum psychosis**: psychiatric EMERGENCY, abrupt onset usually within first 2 weeks, needs urgent admission\n- Trap: managing psychosis as **'severe baby blues'** or arranging outpatient follow-up",
+   "whatFirst": "- **Postpartum psychosis** = urgent psychiatric assessment + admission\n  - Risk of suicide AND infanticide\n  - Never send home / 'GP review next week'\n- **Baby blues** = reassure + support + safety-net\n- **PND** = assess severity, psychological therapy ± SSRI\n  - **Sertraline** favoured in breastfeeding",
+   "discriminator": "- Strongest risk factor for postpartum psychosis: **bipolar disorder** / prior postpartum psychosis\n- Psychosis features: delusions, hallucinations, confusion, **mania**, rapid fluctuation, often bizarre beliefs about the baby\n- PND features: persistent **low mood/anhedonia**\n- Baby blues: **self-limiting**, not psychotic",
+   "redFlags": "- Thoughts of **self-harm**, harming the baby, command hallucinations, beliefs the baby is evil/swapped → emergency\n- **EPDS Q10 positive** at ANY total score → immediate assessment regardless of total\n- New postpartum psychotic symptoms = **psychosis until proven otherwise**",
+   "mcqTrap": "- Woman day 6 postpartum, confused, not sleeping, believing her baby is possessed\n  - Tempting wrong: 'reassure, this is baby blues' or 'commence sertraline as outpatient'\n  - Correct: **urgent psychiatric admission** (postpartum psychosis)",
    "mnemonic": "Blues = days (3-5). Depression = weeks-months. Psychosis = emergency (admit). Timing and urgency escalate together.",
    "cutoffs": [
-    "Baby blues peak day 3-5, resolve ~day 10-14",
-    "Postpartum psychosis incidence ~1-2 per 1000 births",
-    "Psychosis onset usually within first 2 weeks",
-    "EPDS total ≥13 = further assessment",
-    "EPDS Q10 >0 (any total) = urgent assessment"
+    "Baby blues peak **day 3-5**, resolve ~day **10-14**",
+    "Postpartum psychosis incidence ~**1-2 per 1000** births",
+    "Psychosis onset usually within first **2 weeks**",
+    "EPDS total **≥13** = further assessment",
+    "EPDS **Q10 >0** (any total) = urgent assessment"
    ],
    "tags": [
     "perinatal-mental-health",
@@ -2647,16 +2945,16 @@ window.GOTCHA.modules.push(
   {
    "topic": "Postpartum contraception timing — the oestrogen embargo and the 'start now' methods",
    "subarea": "Puerperium & postnatal",
-   "trap": "Oestrogen-containing contraception (combined pill/ring/patch) is CONTRAINDICATED in the early puerperium for VTE risk: avoid for at least the first 21 days postpartum, and if other VTE risk factors OR breastfeeding, defer to 6 weeks. Progestogen-only methods (POP, implant, DMPA) and LARC devices can start essentially immediately and are the preferred early options. Ovulation can return before 6 weeks, so don't rely on lactational amenorrhoea casually.",
-   "whatFirst": "Progestogen-only pill, etonogestrel implant, and DMPA can begin straight away postpartum, including while breastfeeding. IUD/IUS: insert within 48h of birth (immediate postpartum) OR wait ≥4 weeks; avoid the 48h-to-4-week window (higher expulsion/perforation). Combined hormonal: not before 21 days (and not before 6 weeks if breastfeeding/VTE risk).",
-   "discriminator": "Breastfeeding + early postpartum + wants the pill → give the PROGESTOGEN-ONLY pill, not the combined pill. The discriminator is VTE risk (oestrogen + recent delivery) plus theoretical milk-supply concerns with oestrogen.",
-   "redFlags": "Don't insert an IUD between 48 hours and 4 weeks postpartum (expulsion/perforation risk). Don't start combined hormonal contraception <21 days (VTE).",
-   "mcqTrap": "Breastfeeding woman at her 2-week check wants reliable contraception; tempting wrong answer 'combined oral contraceptive pill'. Correct: progestogen-only method or LARC (avoid oestrogen this early).",
+   "trap": "- **Oestrogen-containing contraception** (combined pill/ring/patch) is CONTRAINDICATED in early puerperium for VTE risk\n  - Avoid for at least the first **21 days** postpartum\n  - If other VTE risk factors OR breastfeeding, defer to **6 weeks**\n- **Progestogen-only methods** (POP, implant, DMPA) and LARC can start essentially immediately\n- Ovulation can return **before 6 weeks** — do not rely on lactational amenorrhoea casually",
+   "whatFirst": "- **Progestogen-only pill**, etonogestrel implant, and DMPA: can begin straight away postpartum, including while breastfeeding\n- **IUD/IUS**: insert within 48h of birth (immediate postpartum) OR wait ≥4 weeks\n  - Avoid the **48h-to-4-week window** (higher expulsion/perforation risk)\n- **Combined hormonal**: not before 21 days (not before 6 weeks if breastfeeding/VTE risk)",
+   "discriminator": "- Breastfeeding + early postpartum + wants the pill → give **progestogen-only pill**, not combined pill\n- Discriminator: **VTE risk** (oestrogen + recent delivery) plus theoretical milk-supply concerns with oestrogen",
+   "redFlags": "- Do NOT insert IUD between **48 hours and 4 weeks** postpartum (expulsion/perforation risk)\n- Do NOT start combined hormonal contraception **<21 days** (VTE)",
+   "mcqTrap": "- Breastfeeding woman at 2-week check wants reliable contraception\n  - Tempting wrong: **combined oral contraceptive pill**\n  - Correct: **progestogen-only method** or LARC (avoid oestrogen this early)",
    "mnemonic": "Oestrogen: 21 days minimum, 6 weeks if breastfeeding/VTE. Progestogen/LARC: anytime. IUD: ≤48h or ≥4 weeks (never in between).",
    "cutoffs": [
-    "Combined (oestrogen): avoid <21 days; defer to 6 weeks if breastfeeding/VTE risk",
-    "POP / implant / DMPA: any time postpartum",
-    "IUD/IUS: within 48h or ≥4 weeks postpartum"
+    "Combined (oestrogen): avoid **<21 days**; defer to **6 weeks** if breastfeeding/VTE risk",
+    "POP / implant / DMPA: **any time** postpartum",
+    "IUD/IUS: within **48h** or **≥4 weeks** postpartum"
    ],
    "tags": [
     "contraception",
@@ -2674,17 +2972,17 @@ window.GOTCHA.modules.push(
   {
    "topic": "Postpartum sepsis / endometritis — the 'antibiotics within 1 hour' rule and the regimen",
    "subarea": "Puerperium & postnatal",
-   "trap": "Maternal mortality rises ~8% for EVERY hour antibiotics are delayed — so broad-spectrum IV antibiotics go in within the FIRST HOUR, do NOT wait for cultures/imaging. The other trap: pregnant/postpartum women mount a blunted response and a normal-looking BP can hide profound sepsis (already vasodilated/tachycardic). Lactate and tachycardia are more sensitive than BP.",
-   "whatFirst": "Sepsis Six within 1h: blood cultures (before abx), broad-spectrum IV antibiotics, IV fluids, measure lactate, monitor urine output, give oxygen. Empirical regimen per SOMANZ: piperacillin-tazobactam 4.5 g IV 8-hourly ± gentamicin; add clindamycin/lincomycin if necrotising/toxin-mediated (Group A strep) suspected. Endometritis without severe sepsis: amoxy/ampicillin + gentamicin + metronidazole (or amoxicillin-clavulanate) per eTG.",
-   "discriminator": "Endometritis (tender uterus, offensive lochia, fever) vs other postpartum fever sources — the '7 Ws': Womb, Wind (chest), Water (UTI), Wound, Walk (DVT/PE), Wonder-drugs, Wean (breast). Examine breasts, legs and wounds, not just the uterus.",
-   "redFlags": "Group A Streptococcus (S. pyogenes) postpartum sepsis is fulminant — can kill in hours; add clindamycin (anti-toxin). Pain out of proportion + crepitus → necrotising fasciitis, surgical emergency. Lactate >2 mmol/L = hypoperfusion; >4 = septic shock territory.",
-   "mcqTrap": "'Await blood culture and imaging before starting antibiotics' — wrong; antibiotics within 1 hour, cultures first but do not delay. Also tempting: a narrow agent — postpartum sepsis is polymicrobial, needs broad cover.",
+   "trap": "- Maternal mortality rises **~8%** for EVERY hour antibiotics are delayed\n  - Broad-spectrum IV antibiotics go in within the **first hour** — do NOT wait for cultures/imaging\n- Pregnant/postpartum women mount a **blunted response**\n  - Normal-looking BP can hide profound sepsis (already vasodilated/tachycardic)\n- **Lactate and tachycardia** are more sensitive than BP",
+   "whatFirst": "- **Sepsis Six within 1h**: blood cultures (before abx), broad-spectrum IV antibiotics, IV fluids, measure lactate, monitor urine output, give oxygen\n- Empirical regimen per SOMANZ: **piperacillin-tazobactam 4.5 g IV 8-hourly** ± gentamicin\n  - Add **clindamycin/lincomycin** if necrotising/toxin-mediated (Group A strep) suspected\n- Endometritis without severe sepsis: **amoxy/ampicillin + gentamicin + metronidazole** (or amoxicillin-clavulanate) per eTG",
+   "discriminator": "- Endometritis (tender uterus, offensive lochia, fever) vs other postpartum fever sources — the **'7 Ws'**:\n  - Womb, Wind (chest), Water (UTI), Wound, Walk (DVT/PE), Wonder-drugs, Wean (breast)\n- Examine **breasts, legs and wounds**, not just the uterus",
+   "redFlags": "- **Group A Streptococcus** (S. pyogenes) postpartum sepsis is fulminant — can kill in hours; add clindamycin (anti-toxin)\n- Pain out of proportion + crepitus → **necrotising fasciitis**, surgical emergency\n- Lactate **>2 mmol/L** = hypoperfusion; **>4** = septic shock territory",
+   "mcqTrap": "- 'Await blood culture and imaging before starting antibiotics' — wrong\n  - **Antibiotics within 1 hour**, cultures first but do not delay\n- Also tempting: a narrow-spectrum agent\n  - Postpartum sepsis is **polymicrobial**, needs broad cover",
    "mnemonic": "7 Ws of postpartum fever: Womb, Wind, Water, Wound, Walk, Wonder-drugs, Wean (breast).",
    "cutoffs": [
-    "Antibiotics within 1 hour of recognition",
-    "~8% rise in mortality per hour of antibiotic delay",
-    "Lactate >2 = hypoperfusion; >4 = shock",
-    "Pip-tazo 4.5 g IV 8-hourly (empirical)"
+    "Antibiotics within **1 hour** of recognition",
+    "**~8%** rise in mortality per hour of antibiotic delay",
+    "Lactate **>2** = hypoperfusion; **>4** = shock",
+    "**Pip-tazo 4.5 g IV 8-hourly** (empirical)"
    ],
    "tags": [
     "sepsis",
@@ -2702,16 +3000,16 @@ window.GOTCHA.modules.push(
   {
    "topic": "Postpartum VTE — risk stays HIGH for ~6 weeks; LMWH, and why D-dimer is useless",
    "subarea": "Puerperium & postnatal",
-   "trap": "VTE risk is HIGHEST in the puerperium (especially the first 1-2 weeks) and remains elevated for ~6 weeks postpartum — not just antenatally. PE is a leading direct cause of maternal death. Thromboprophylaxis is LMWH (warfarin and DOACs avoided antenatally; DOACs avoided in lactation), often continued the full 6 weeks postnatally if high-risk. D-dimer is unhelpful (physiologically raised in pregnancy/puerperium) — do not use it to rule out VTE; image instead.",
-   "whatFirst": "Reassess VTE risk at delivery and again postnatally. High-risk (e.g. ≥4 risk factors, prior VTE, thrombophilia, caesarean + risk factors) → prophylactic LMWH, typically 6 weeks postpartum. Suspected PE → CTPA or V/Q despite pregnancy; suspected DVT → compression duplex ultrasound.",
-   "discriminator": "Postpartum dyspnoea/pleuritic chest pain/leg swelling → investigate for VTE, don't attribute to deconditioning. Left leg DVT is over-represented (left iliac vein compression / May-Thurner).",
-   "redFlags": "Sudden collapse, hypoxia, pleuritic chest pain, unilateral leg swelling postpartum = PE/DVT until excluded. Treat empirically with therapeutic LMWH while awaiting imaging if high clinical suspicion.",
-   "mcqTrap": "'D-dimer is normal so PE is excluded' — wrong in pregnancy/puerperium (raised at baseline). Also wrong: a DOAC for postpartum VTE prophylaxis/treatment in a breastfeeding woman — LMWH is the agent (warfarin is acceptable postpartum/breastfeeding for treatment; DOACs avoided in lactation).",
+   "trap": "- VTE risk is **highest in the puerperium** (especially first 1-2 weeks), remains elevated for ~6 weeks postpartum\n  - Not just antenatally\n- **PE** is a leading direct cause of maternal death\n- Thromboprophylaxis is **LMWH**\n  - Warfarin and DOACs avoided antenatally\n  - **DOACs avoided in lactation**\n  - Often continued the full 6 weeks postnatally if high-risk\n- **D-dimer is unhelpful** (physiologically raised in pregnancy/puerperium) — do not use it to rule out VTE; image instead",
+   "whatFirst": "- Reassess VTE risk **at delivery** and again postnatally\n- High-risk (e.g. ≥4 risk factors, prior VTE, thrombophilia, caesarean + risk factors) → **prophylactic LMWH**, typically 6 weeks postpartum\n- Suspected **PE** → CTPA or V/Q despite pregnancy\n- Suspected **DVT** → compression duplex ultrasound",
+   "discriminator": "- Postpartum dyspnoea/pleuritic chest pain/leg swelling → investigate for **VTE**, don't attribute to deconditioning\n- **Left leg DVT** is over-represented (left iliac vein compression / May-Thurner)",
+   "redFlags": "- Sudden collapse, hypoxia, **pleuritic chest pain**, unilateral leg swelling postpartum = PE/DVT until excluded\n- Treat empirically with **therapeutic LMWH** while awaiting imaging if high clinical suspicion",
+   "mcqTrap": "- '**D-dimer is normal** so PE is excluded' — wrong in pregnancy/puerperium (raised at baseline)\n- Also wrong: a **DOAC** for postpartum VTE prophylaxis/treatment in a breastfeeding woman\n  - LMWH is the agent; warfarin is acceptable postpartum/breastfeeding for treatment; DOACs avoided in lactation",
    "mnemonic": "Puerperium = peak VTE; Prophylaxis with LMWH; D-dimer = Don't (use it).",
    "cutoffs": [
-    "VTE risk elevated ~6 weeks postpartum (highest first 1-2 weeks)",
-    "Prophylactic LMWH often for 6 weeks postnatal if high-risk",
-    "Caesarean ↑ risk vs vaginal birth"
+    "VTE risk elevated **~6 weeks** postpartum (highest first **1-2 weeks**)",
+    "Prophylactic LMWH often for **6 weeks** postnatal if high-risk",
+    "**Caesarean** ↑ risk vs vaginal birth"
    ],
    "tags": [
     "VTE",
@@ -2736,18 +3034,18 @@ window.GOTCHA.modules.push(
   {
    "topic": "PPH drug ladder — exact Australian doses and the two killer contraindications",
    "subarea": "Puerperium & postnatal",
-   "trap": "The contraindications are the exam trap: ERGOMETRINE is contraindicated in hypertension / pre-eclampsia (vasoconstriction → stroke); CARBOPROST (PGF2α / Hemabate) is contraindicated in ASTHMA (bronchospasm). So in a pre-eclamptic woman bleeding from atony, do NOT reach for ergometrine/Syntometrine — use oxytocin then carboprost/misoprostol. In an asthmatic, avoid carboprost.",
-   "whatFirst": "Oxytocin first-line: 5 IU IV slow or infusion (e.g. 40 IU in 1000 mL / 30 IU in 500 mL crystalloid). Then ergometrine 250 mcg IM/IV (NOT if hypertensive). Then carboprost 250 mcg IM, repeat q15min to max 2 mg / 8 doses (NOT if asthmatic). Misoprostol 800-1000 mcg PR. Tranexamic acid 1 g IV over 10 min early.",
-   "discriminator": "Oxytocin → ergometrine → carboprost are sequential escalation, not interchangeable alternatives. Syntometrine = ergometrine 500 mcg + oxytocin 5 IU (combined IM) — carries the same ergometrine HTN contraindication.",
-   "redFlags": "Give tranexamic acid EARLY (within 3h of birth) — benefit falls sharply with delay. Persistent atonic bleeding despite drugs → mechanical (bimanual compression, intrauterine balloon) → surgical (B-Lynch, uterine/internal iliac artery ligation, hysterectomy).",
-   "mcqTrap": "Pre-eclamptic woman BP 165/110 bleeding from a boggy uterus. Tempting wrong answer: 'ergometrine' or 'Syntometrine'. Correct: oxytocin (then carboprost if needed). Asthmatic → avoid carboprost, use misoprostol.",
+   "trap": "- Contraindication trap:\n  - **Ergometrine**: contraindicated in hypertension/pre-eclampsia (vasoconstriction → stroke)\n  - **Carboprost** (PGF2α / Hemabate): contraindicated in **asthma** (bronchospasm)\n- In a pre-eclamptic woman bleeding from atony: do NOT reach for ergometrine/Syntometrine — use oxytocin then carboprost/misoprostol\n- In an **asthmatic**: avoid carboprost",
+   "whatFirst": "- **Oxytocin first-line**: 5 IU IV slow or infusion (e.g. 40 IU in 1000 mL / 30 IU in 500 mL crystalloid)\n- Then **ergometrine 250 mcg IM/IV** (NOT if hypertensive)\n- Then **carboprost 250 mcg IM**, repeat q15min to max 2 mg / 8 doses (NOT if asthmatic)\n- **Misoprostol 800-1000 mcg PR**\n- **Tranexamic acid 1 g IV** over 10 min early",
+   "discriminator": "- Oxytocin → ergometrine → carboprost are **sequential escalation**, not interchangeable alternatives\n- **Syntometrine** = ergometrine 500 mcg + oxytocin 5 IU (combined IM)\n  - Carries the same ergometrine **HTN contraindication**",
+   "redFlags": "- Give **tranexamic acid EARLY** (within 3h of birth) — benefit falls sharply with delay\n- Persistent atonic bleeding despite drugs → **mechanical** (bimanual compression, intrauterine balloon) → surgical (B-Lynch, uterine/internal iliac artery ligation, hysterectomy)",
+   "mcqTrap": "- Pre-eclamptic woman BP 165/110 bleeding from a boggy uterus\n  - Tempting wrong: **'ergometrine'** or **'Syntometrine'**\n  - Correct: **oxytocin** (then carboprost if needed)\n- Asthmatic → avoid carboprost, use **misoprostol**",
    "mnemonic": "Ergometrine = Elevated BP forbidden; Carboprost = Cannot in asthma (Constricts airways).",
    "cutoffs": [
-    "Oxytocin 5 IU IV slow + infusion (e.g. 40 IU/1000 mL)",
-    "Ergometrine 250 mcg IM/IV, max 1 mg — avoid in HTN/PET",
-    "Carboprost 250 mcg IM q15min, max 2 mg (8 doses) — avoid in asthma",
-    "Misoprostol 800-1000 mcg PR",
-    "Tranexamic acid 1 g IV over 10 min, within 3h"
+    "**Oxytocin 5 IU IV** slow + infusion (e.g. 40 IU/1000 mL)",
+    "Ergometrine **250 mcg IM/IV**, max 1 mg — avoid in HTN/PET",
+    "Carboprost **250 mcg IM q15min**, max **2 mg (8 doses)** — avoid in asthma",
+    "Misoprostol **800-1000 mcg PR**",
+    "Tranexamic acid **1 g IV** over 10 min, within **3h**"
    ],
    "tags": [
     "PPH",
@@ -2765,18 +3063,18 @@ window.GOTCHA.modules.push(
   {
    "topic": "Primary vs secondary PPH — the time cut-off AND the volume cut-offs",
    "subarea": "Puerperium & postnatal",
-   "trap": "PRIMARY PPH = within 24h of birth; SECONDARY PPH = >24h up to 6 weeks (Qld) — many quote 12 weeks (the wider international window), but the Australian Qld guideline says 24h to 6 weeks. Volume thresholds: ≥500 mL vaginal, ≥1000 mL caesarean — but volume alone is misleading: ANY blood loss causing haemodynamic compromise is a PPH regardless of measured mL, and estimated blood loss is routinely UNDER-estimated. Treat the woman, not the number.",
-   "whatFirst": "Call for help + ABC + work the 4 Ts simultaneously. First step for the commonest cause (Tone, ~70%): rub up a contraction (fundal massage) + empty the bladder + give a uterotonic (oxytocin). Resuscitate first; do NOT chase the cause before resuscitating.",
-   "discriminator": "Primary (<24h, usually Tone/atony) vs Secondary (>24h, usually retained Products / endometritis). A soft boggy poorly-contracted uterus = atony; a well-contracted uterus that still bleeds points to Trauma (genital tract laceration) or Tissue.",
-   "redFlags": "Tachycardia and a narrowing pulse pressure precede hypotension — a young fit woman compensates until ~30-40% loss then crashes. Ongoing bleeding despite a contracted uterus = look for trauma or coagulopathy; activate the Massive Haemorrhage Protocol if ≥1500 mL or ongoing.",
-   "mcqTrap": "'Blood loss was only 450 mL so this is not a PPH.' Wrong — the definition is met by any loss causing haemodynamic instability, and EBL is underestimated. Conversely, don't pick '12 weeks' as the secondary cut-off on an Australian paper (Qld says 6 weeks).",
+   "trap": "- **Primary PPH** = within 24h of birth; **Secondary PPH** = >24h up to 6 weeks (Qld)\n  - Many quote 12 weeks (wider international window), but Australian Qld guideline = 24h to 6 weeks\n- Volume thresholds: **≥500 mL** vaginal, **≥1000 mL** caesarean\n  - Volume alone is misleading: ANY blood loss causing **haemodynamic compromise** is a PPH regardless of measured mL\n  - Estimated blood loss is routinely **UNDER-estimated**\n- Treat the woman, not the number",
+   "whatFirst": "- **Call for help + ABC** + work the 4 Ts simultaneously\n- First step for commonest cause (Tone, ~70%): **rub up a contraction** (fundal massage) + empty the bladder + give a uterotonic (oxytocin)\n- **Resuscitate first**; do NOT chase the cause before resuscitating",
+   "discriminator": "- **Primary** (<24h, usually Tone/atony) vs **Secondary** (>24h, usually retained Products/endometritis)\n- Soft boggy poorly-contracted uterus = **atony**\n- Well-contracted uterus that still bleeds → **Trauma** (genital tract laceration) or Tissue",
+   "redFlags": "- **Tachycardia and narrowing pulse pressure** precede hypotension\n  - Young fit woman compensates until ~30-40% loss then crashes\n- Ongoing bleeding despite a contracted uterus = look for **trauma or coagulopathy**\n- Activate **Massive Haemorrhage Protocol** if ≥1500 mL or ongoing",
+   "mcqTrap": "- 'Blood loss was only 450 mL so this is not a PPH' — wrong\n  - Definition met by any loss causing **haemodynamic instability**, and EBL is underestimated\n- Do not pick **'12 weeks'** as the secondary cut-off on an Australian paper (Qld says 6 weeks)",
    "mnemonic": "4 Ts in order of frequency: Tone (70%) > Trauma (20%) > Tissue (10%) > Thrombin (1%).",
    "cutoffs": [
-    "Primary PPH: within 24h of birth",
-    "Secondary PPH: >24h to 6 weeks postpartum (Qld)",
-    "≥500 mL vaginal birth",
-    "≥1000 mL caesarean (major/severe ≥1000 mL)",
-    "MHP consideration: ≥1500 mL or ongoing"
+    "Primary PPH: within **24h** of birth",
+    "Secondary PPH: **>24h to 6 weeks** postpartum (Qld)",
+    "**≥500 mL** vaginal birth",
+    "**≥1000 mL** caesarean (major/severe ≥1000 mL)",
+    "MHP consideration: **≥1500 mL** or ongoing"
    ],
    "tags": [
     "PPH",
@@ -2794,15 +3092,15 @@ window.GOTCHA.modules.push(
   {
    "topic": "Secondary PPH — retained products vs endometritis (the 24h-to-6-week bleed)",
    "subarea": "Puerperium & postnatal",
-   "trap": "Secondary PPH ≠ atony. The two big causes are retained products of conception and endometritis — and they coexist. The gotcha: you treat BOTH with antibiotics, but a heterogeneous intrauterine mass on USS points to RPOC needing evacuation. Over-calling RPOC on ultrasound leads to unnecessary surgical evacuation (which itself risks perforation and Asherman's).",
-   "whatFirst": "Assess haemodynamics + uterine tenderness + offensive lochia + fever. Pelvic USS for retained products. Start broad-spectrum antibiotics (covers concurrent endometritis). Surgical evacuation only if significant RPOC or ongoing heavy bleeding — ideally after antibiotics started.",
-   "discriminator": "Endometritis: tender bulky uterus, fever, offensive lochia, raised WCC/CRP. RPOC: persistent/heavy PV bleeding, open os, heterogeneous mass on USS. Classic RPOC bleed timing is day 7-14.",
-   "redFlags": "Sepsis features (fever, tachycardia, hypotension, raised lactate) → treat as postpartum sepsis. Heavy ongoing bleeding → resuscitate as for primary PPH.",
-   "mcqTrap": "'Give a uterotonic and discharge' is wrong for a secondary PPH with fever/offensive lochia — answer is USS + antibiotics ± evacuation. Don't omit antibiotics even when retained tissue looks obvious (superimposed endometritis is common).",
+   "trap": "- Secondary PPH ≠ **atony**\n- Two big causes: **retained products of conception** and **endometritis** — and they coexist\n- Treat BOTH with **antibiotics**\n  - Heterogeneous intrauterine mass on USS points to RPOC needing evacuation\n- Over-calling RPOC on ultrasound leads to **unnecessary surgical evacuation**\n  - Risks: perforation and **Asherman's syndrome**",
+   "whatFirst": "- Assess haemodynamics + uterine tenderness + offensive lochia + fever\n- **Pelvic USS** for retained products\n- Start **broad-spectrum antibiotics** (covers concurrent endometritis)\n- **Surgical evacuation** only if significant RPOC or ongoing heavy bleeding\n  - Ideally after antibiotics started",
+   "discriminator": "- **Endometritis**: tender bulky uterus, fever, offensive lochia, raised WCC/CRP\n- **RPOC**: persistent/heavy PV bleeding, open os, heterogeneous mass on USS\n  - Classic RPOC bleed timing: **day 7-14**",
+   "redFlags": "- **Sepsis features** (fever, tachycardia, hypotension, raised lactate) → treat as postpartum sepsis\n- Heavy ongoing bleeding → resuscitate as for **primary PPH**",
+   "mcqTrap": "- 'Give a uterotonic and discharge' — wrong for secondary PPH with fever/offensive lochia\n  - Correct: **USS + antibiotics ± evacuation**\n- Do not omit **antibiotics** even when retained tissue looks obvious\n  - Superimposed endometritis is common",
    "mnemonic": "Secondary PPH = 'Products + Pus' (retained Products + endometritis).",
    "cutoffs": [
-    "Secondary PPH: >24h to 6 weeks",
-    "Classic timing of RPOC bleed: day 7-14"
+    "Secondary PPH: **>24h to 6 weeks**",
+    "Classic timing of RPOC bleed: **day 7-14**"
    ],
    "tags": [
     "PPH",
@@ -2819,16 +3117,16 @@ window.GOTCHA.modules.push(
   {
    "topic": "Sheehan syndrome — postpartum hypopituitarism after massive PPH",
    "subarea": "Puerperium & postnatal",
-   "trap": "The classic earliest clue is FAILURE TO LACTATE (loss of prolactin) after a severe PPH/hypovolaemic shock — then failure to resume menses (loss of FSH/LH). It presents INSIDIOUSLY (sometimes months-years later) so it's missed; the acute danger is SECONDARY ADRENAL INSUFFICIENCY (ACTH loss) → adrenal crisis/hypotension, plus secondary hypothyroidism. Acutely, replace HYDROCORTISONE BEFORE thyroxine (giving thyroxine first can precipitate adrenal crisis).",
-   "whatFirst": "Suspect after massive PPH + failure to lactate. Check anterior pituitary axis: cortisol/ACTH, free T4/TSH, prolactin, FSH/LH/oestradiol. In acute crisis: IV hydrocortisone first, then thyroxine — never thyroxine before steroid cover.",
-   "discriminator": "Sheehan (post-PPH, panhypopituitarism, failure to lactate) vs lymphocytic hypophysitis (autoimmune, peripartum but not PPH-driven) vs postpartum thyroiditis (isolated thyroid, transient hyper- then hypothyroid, normal lactation). The PPH history + failure to lactate is the discriminator.",
-   "redFlags": "Persistent hypotension, hyponatraemia, hypoglycaemia, lethargy postpartum after a big bleed = possible adrenal crisis from undiagnosed Sheehan → treat with hydrocortisone. Diabetes insipidus is uncommon (posterior pituitary usually spared).",
-   "mcqTrap": "'Start levothyroxine' as the first step in a hypothyroid-looking post-PPH woman — wrong; give hydrocortisone first (risk of precipitating adrenal crisis). Also: attributing failure to lactate to 'stress' and missing the diagnosis.",
+   "trap": "- Classic earliest clue: **failure to lactate** (loss of prolactin) after severe PPH/hypovolaemic shock\n  - Then failure to resume menses (loss of FSH/LH)\n- Presents **insidiously** (sometimes months-years later) — frequently missed\n- Acute danger: **secondary adrenal insufficiency** (ACTH loss) → adrenal crisis/hypotension, plus secondary hypothyroidism\n- Acutely: replace **hydrocortisone BEFORE thyroxine**\n  - Giving thyroxine first can precipitate **adrenal crisis**",
+   "whatFirst": "- Suspect after **massive PPH + failure to lactate**\n- Check anterior pituitary axis: **cortisol/ACTH**, free T4/TSH, prolactin, FSH/LH/oestradiol\n- In acute crisis: **IV hydrocortisone first**, then thyroxine\n  - Never thyroxine before steroid cover",
+   "discriminator": "- **Sheehan's**: post-PPH, panhypopituitarism, failure to lactate\n- **Lymphocytic hypophysitis**: autoimmune, peripartum but not PPH-driven\n- **Postpartum thyroiditis**: isolated thyroid, transient hyper- then hypothyroid, normal lactation\n- Discriminator: **PPH history + failure to lactate**",
+   "redFlags": "- Persistent hypotension, hyponatraemia, hypoglycaemia, lethargy postpartum after a big bleed = possible **adrenal crisis** from undiagnosed Sheehan → treat with hydrocortisone\n- **Diabetes insipidus** is uncommon (posterior pituitary usually spared)",
+   "mcqTrap": "- 'Start **levothyroxine**' as first step in hypothyroid-looking post-PPH woman — wrong\n  - Give **hydrocortisone first** (risk of precipitating adrenal crisis)\n- Also: attributing failure to lactate to **'stress'** and missing the diagnosis",
    "mnemonic": "Sheehan = Shock (PPH) → Stops Suckling (no lactation) → Steroids before thyroxine.",
    "cutoffs": [
-    "Trigger: massive PPH / hypovolaemic shock",
-    "Earliest sign: failure to lactate (low prolactin)",
-    "Acute Rx: hydrocortisone BEFORE thyroxine"
+    "Trigger: **massive PPH** / hypovolaemic shock",
+    "Earliest sign: **failure to lactate** (low prolactin)",
+    "Acute Rx: **hydrocortisone BEFORE thyroxine**"
    ],
    "tags": [
     "Sheehan",
@@ -2840,22 +3138,30 @@ window.GOTCHA.modules.push(
    "verified": false,
    "id": "obs-106",
    "title": "Sheehan Syndrome",
-   "subtitle": "Failure to lactate after massive PPH"
+   "subtitle": "Failure to lactate after massive PPH",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Pituitary_apoplexy.jpg/960px-Pituitary_apoplexy.jpg",
+     "caption": "Sheehan syndrome - empty sella on MRI pituitary",
+     "alt": "MRI of the pituitary fossa demonstrating an empty or partially empty sella turcica consistent with pituitary infarction following postpartum haemorrhage (Sheehan syndrome)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Six-week postnatal check — what must be covered (and the easily-forgotten items)",
    "subarea": "Puerperium & postnatal",
-   "trap": "It is a structured maternal review, not just 'are you ok'. Easily-forgotten components: MOOD (EPDS), CONTRACEPTION (and the oestrogen/breastfeeding rules), perineal/CS wound healing, urinary AND faecal continence (especially after OASIS), pelvic-floor exercises, breastfeeding, BP check (especially after a hypertensive disorder), GDM follow-up (OGTT at 6-12 weeks postpartum), and ensuring cervical screening is up to date. The baby is reviewed separately.",
-   "whatFirst": "History: bleeding/lochia, wound pain, urinary/bowel symptoms, mood, breastfeeding, fatigue, sex/contraception. Exam as indicated: BP, perineum/wound, abdomen. Arrange: contraception, EPDS, postnatal GDM OGTT, BP follow-up for hypertensive disorders, immunisations if due.",
-   "discriminator": "Women with a hypertensive disorder of pregnancy or GDM need SPECIFIC follow-up here — commonly omitted: postnatal BP review; 75 g OGTT at 6-12 weeks for prior GDM to detect persisting type 2 diabetes.",
-   "redFlags": "Persisting hypertension/proteinuria, secondary PPH, breast lump not settling, low mood / EPDS flag, faecal incontinence after OASIS → escalate/refer rather than reassure.",
-   "mcqTrap": "Forgetting that a woman with GDM needs a 75 g OGTT at 6-12 weeks postpartum (not just an HbA1c, and not 'no follow-up'); or that prior pre-eclampsia mandates postnatal BP review and lifelong cardiovascular risk counselling.",
+   "trap": "- It is a **structured maternal review**, not just 'are you ok'\n- Easily-forgotten components:\n  - **Mood** (EPDS)\n  - **Contraception** (and the oestrogen/breastfeeding rules)\n  - Perineal/CS **wound healing**\n  - Urinary AND **faecal continence** (especially after OASIS)\n  - **Pelvic-floor exercises**\n  - Breastfeeding\n  - **BP check** (especially after a hypertensive disorder)\n  - **GDM follow-up** (OGTT at 6-12 weeks postpartum)\n  - Ensuring cervical screening is up to date\n- The baby is reviewed **separately**",
+   "whatFirst": "- History: bleeding/lochia, wound pain, urinary/bowel symptoms, mood, breastfeeding, fatigue, sex/contraception\n- Exam as indicated: **BP**, perineum/wound, abdomen\n- Arrange: contraception, **EPDS**, postnatal GDM OGTT, BP follow-up for hypertensive disorders, immunisations if due",
+   "discriminator": "- Women with a **hypertensive disorder** or **GDM** need specific follow-up — commonly omitted:\n  - Postnatal **BP review**\n  - **75 g OGTT at 6-12 weeks** for prior GDM to detect persisting type 2 diabetes",
+   "redFlags": "- Persisting hypertension/proteinuria, secondary PPH, breast lump not settling, **low mood/EPDS flag**, faecal incontinence after OASIS\n  - → escalate/refer rather than reassure",
+   "mcqTrap": "- Forgetting that a woman with GDM needs a **75 g OGTT at 6-12 weeks** postpartum\n  - Not just an HbA1c, and not 'no follow-up'\n- Prior **pre-eclampsia** mandates postnatal BP review AND lifelong cardiovascular risk counselling",
    "mnemonic": "6-week check 'MUM CHECC': Mood (EPDS), Uterus/lochia/wound, Micturition/bowels, Contraception, Hypertension follow-up, Examination (BP/perineum), Cervical screening, Coexisting (GDM OGTT).",
    "cutoffs": [
-    "Postnatal OGTT for prior GDM: 6-12 weeks postpartum (75 g)",
-    "EPDS at the check",
-    "Combined contraception only if ≥6 weeks when breastfeeding",
-    "Timing ~6 weeks (4-8 weeks)"
+    "Postnatal OGTT for prior GDM: **6-12 weeks** postpartum (**75 g**)",
+    "**EPDS** at the check",
+    "Combined contraception only if **≥6 weeks** when breastfeeding",
+    "Timing **~6 weeks** (4-8 weeks)"
    ],
    "tags": [
     "postnatal-check",

@@ -32,7 +32,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Scenario</th><th>BP rule</th></tr><tr><td>Ischaemic, no reperfusion</td><td>Treat only if >220/120; lower <=20%/24h</td></tr><tr><td>Eligible for thrombolysis</td><td>Must be <185/110 before lysis</td></tr><tr><td>During/after lysis or thrombectomy</td><td>Keep <180/105 for 24 h</td></tr><tr><td>Intracerebral haemorrhage</td><td>Lower SBP toward ~140</td></tr></table>",
    "title": "BP in acute ISCHAEMIC stroke",
    "subtitle": "do NOT lower aggressively (permissive hypertension)",
-   "id": "neurology-1"
+   "id": "neurology-1",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Right_dense_MCA_sign_as_seen_on_CT_brain.jpg/960px-Right_dense_MCA_sign_as_seen_on_CT_brain.jpg",
+     "caption": "Ischaemic stroke CT - hyperdense MCA sign (early ischaemia)",
+     "alt": "Non-contrast CT brain showing hyperdense right MCA sign indicating acute large vessel occlusion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Carotid disease: symptomatic >=70% stenosis -> endarterectomy WITHIN 2 WEEKS",
@@ -63,7 +71,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Stenosis (symptomatic)</th><th>Action</th></tr><tr><td>70-99%</td><td>CEA within 2 weeks + best medical Tx</td></tr><tr><td>50-69%</td><td>Individualised (modest benefit)</td></tr><tr><td>&lt;50% or near-occlusion</td><td>Medical management</td></tr><tr><td>Asymptomatic any %</td><td>Usually medical (surgery debated)</td></tr></table>",
    "title": "Carotid disease",
    "subtitle": "symptomatic >=70% stenosis -> endarterectomy WITHIN 2 WEEKS",
-   "id": "neurology-2"
+   "id": "neurology-2",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/RICA_Stenosis_174302500.jpg/960px-RICA_Stenosis_174302500.jpg",
+     "caption": "Carotid Doppler ultrasound - severe internal carotid stenosis",
+     "alt": "Carotid duplex ultrasound demonstrating high-grade ICA stenosis with elevated peak systolic velocity",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Endovascular thrombectomy: selected patients out to 24 h with perfusion imaging",
@@ -122,6 +138,12 @@ window.GOTCHA.modules.push(
      "caption": "Non-contrast CT brain - intracerebral haemorrhage (hyperdense clot)",
      "alt": "NCCT brain showing hyperdense intraparenchymal haematoma - contraindication to antithrombotics",
      "credit": "Jpogi, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Head_CT_scan.jpg",
+     "caption": "Non-contrast CT brain - normal scan (no haemorrhage) in acute stroke",
+     "alt": "Normal NCCT brain (no hyperdensity, no haemorrhage) - must be confirmed before giving antithrombotics",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -191,7 +213,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Agent</th><th>Dose</th><th>Admin</th><th>Status</th></tr><tr><td>Tenecteplase</td><td>0.25 mg/kg (max 25 mg)</td><td>Single bolus</td><td>Preferred</td></tr><tr><td>Alteplase</td><td>0.9 mg/kg (max 90 mg)</td><td>10% bolus + 60-min infusion</td><td>Alternative</td></tr></table>",
    "title": "IV thrombolysis",
    "subtitle": "tenecteplase now preferred in Australia, within 4.5 h, for DISABLING stroke",
-   "id": "neurology-6"
+   "id": "neurology-6",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/INFARCT.jpg",
+     "caption": "IV thrombolysis - CT before and after: resolving ischaemia",
+     "alt": "CT brain pre- and post-thrombolysis demonstrating reperfusion and resolving ischaemic change",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Secondary prevention after TIA / minor stroke: short-course DUAL antiplatelet (21 days)",
@@ -303,7 +333,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "mcqTrap": "- '**ABCD2 of 3 — reassure and review in 6 weeks**' — unsafe\n  - Urgent imaging and antiplatelet are needed **regardless of a low score**",
    "title": "TIA risk stratification (ABCD2) and the 'no…",
-   "id": "neurology-10"
+   "id": "neurology-10",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Cerebral_infarction_after_4_hours_on_DWI_MRI.jpg",
+     "caption": "MRI DWI - acute TIA/minor stroke with restricted diffusion",
+     "alt": "MRI brain DWI sequence showing small area of restricted diffusion (bright signal) confirming acute ischaemic event in TIA workup",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Bacterial meningitis: antibiotics BEFORE imaging — never delay",
@@ -343,6 +381,12 @@ window.GOTCHA.modules.push(
      "caption": "Meningococcal meningitis — non-blanching petechial/purpuric rash",
      "alt": "Non-blanching petechiae and purpura on the skin — the classic dermatological emergency sign of meningococcaemia that should trigger immediate antibiotics",
      "credit": "DrFO.Jr.Tn, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Head_CT_scan.jpg",
+     "caption": "CT head — normal scan (does not exclude meningitis; must not delay antibiotics)",
+     "alt": "Normal CT head — illustrating that a normal CT does not exclude bacterial meningitis and antibiotics must never be delayed for imaging",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -376,7 +420,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Confirm with biopsy before starting steroids**' — wrong, this risks blindness\n  - Biopsy yield is **preserved for 1-2 weeks**",
    "title": "Giant cell arteritis (GCA)",
    "subtitle": "steroids BEFORE biopsy",
-   "id": "neurology-12"
+   "id": "neurology-12",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Papilledema.jpg",
+     "caption": "Fundus — anterior ischaemic optic neuropathy (AION) — the blindness GCA causes",
+     "alt": "Pale, swollen optic disc with haemorrhages — AION from GCA; the irreversible visual loss that is prevented by NOT delaying steroids",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Idiopathic intracranial hypertension (IIH): the opening-pressure cut-off + vision threat",
@@ -415,6 +467,12 @@ window.GOTCHA.modules.push(
      "caption": "Fundus — severe papilloedema in IIH (swollen optic disc, blurred margins, venous engorgement)",
      "alt": "Bilateral papilloedema with blurred optic disc margins, disc hyperaemia, and engorged retinal veins — the key examination finding in IIH that reflects chronically elevated ICP",
      "credit": "Shveta Bansal , Timothy Dabbs  and Vernon Long, Wikimedia Commons, CC BY 2.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f7/SVT%2C_axial_T1w_MR_image_with_highlighting.jpg",
+     "caption": "MRV brain — cerebral venous sinus thrombosis (CVST) — the must-exclude mimic",
+     "alt": "MR venography showing absence of flow in a dural venous sinus (superior sagittal or transverse) — CVST must be excluded before diagnosing IIH as it presents identically",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -448,7 +506,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Feature</th><th>Migraine (benign)</th><th>Sinister secondary</th></tr><tr><td>Onset</td><td>Recurrent, builds over minutes</td><td>Thunderclap (&lt;1 min) / new</td></tr><tr><td>Course</td><td>Stereotyped, episodic</td><td>Progressive / pattern change</td></tr><tr><td>Position</td><td>No clear positional link</td><td>Worse lying / Valsalva</td></tr><tr><td>Exam</td><td>Normal incl. fundi</td><td>Papilloedema / focal signs / fever</td></tr><tr><td>Age/context</td><td>Younger, FHx, triggers</td><td>&gt;50, pregnancy, immunocompromised, cancer</td></tr></table>",
    "title": "Migraine vs sinister secondary headache",
    "subtitle": "the red-flag screen (SNNOOP10)",
-   "id": "neurology-14"
+   "id": "neurology-14",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Subarachnoid_haemorrhage.jpg",
+     "caption": "CT head — subarachnoid haemorrhage (hyperdense blood in basal cisterns)",
+     "alt": "Non-contrast CT showing hyperdense (white) blood filling the basal cisterns and Sylvian fissures — the sinister secondary cause a 'thunderclap headache' demands you exclude",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/CT_of_a_normal_brain%2C_coronal_12.png",
+     "caption": "CT head — normal scan with visual aura migraine (does not exclude SAH at >6h)",
+     "alt": "Normal non-contrast CT head — illustrating that for thunderclap headache, a negative CT does not exclude SAH beyond 6 hours and LP for xanthochromia is still required",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Raised intracranial pressure (ICP): recognition and emergency management",
@@ -491,6 +563,12 @@ window.GOTCHA.modules.push(
      "caption": "CT head — extradural haematoma (biconvex hyperdense collection) causing raised ICP",
      "alt": "Biconvex (lens-shaped) hyperdense extra-axial collection with midline shift — classic space-occupying lesion that makes LP dangerous (risk of coning/herniation)",
      "credit": "Jpogi, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Sliding_uncus_syndrome.tif/lossless-page1-960px-Sliding_uncus_syndrome.tif.png",
+     "caption": "CT head — uncal (transtentorial) herniation causing coning",
+     "alt": "CT showing effacement of basal cisterns and downward herniation of the uncus — the fatal consequence of LP without imaging in the context of a mass lesion",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -524,7 +602,27 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Thunderclap headache</div><div class=\"gv-step\">Non-contrast CT FIRST</div><div class=\"gv-step\">CT positive -> neurosurgery + CTA (NO LP)</div><div class=\"gv-step\">CT negative &amp; &lt;6 h -> SAH effectively excluded</div><div class=\"gv-step\">CT negative &amp; &gt;6 h -> LP at &gt;12 h from onset</div><div class=\"gv-step\">LP: xanthochromia / RBCs not clearing tube1->tube4 -> SAH</div></div><div class=\"gv-pills\"><span class=\"gv-pill\">CT rules out only if &lt;6 h</span><span class=\"gv-pill\">LP not before 12 h</span><span class=\"gv-pill\">Xanthochromia lasts ~2 wk</span></div>",
    "title": "Subarachnoid haemorrhage (SAH)",
    "subtitle": "the CT-then-LP timing trap",
-   "id": "neurology-16"
+   "id": "neurology-16",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Subarachnoid_haemorrhage.jpg",
+     "caption": "CT head — subarachnoid haemorrhage (hyperdense blood in basal cisterns and Sylvian fissures)",
+     "alt": "Non-contrast CT showing hyperdense subarachnoid blood in the basal cisterns — positive within 6 hours in >98% of SAH; negative after 6h mandates LP for xanthochromia",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Xanthochromia.jpg",
+     "caption": "CSF xanthochromia — yellow discolouration on spectrophotometry (LP positive >6 h after SAH)",
+     "alt": "Yellow (xanthochromic) CSF in a tube compared to clear CSF — the diagnostic finding on LP after a normal CT in suspected SAH presenting >6 hours from symptom onset",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Brain_Scan-Angiogram_With_Brain_Anatomy_Diagram.jpg/960px-Brain_Scan-Angiogram_With_Brain_Anatomy_Diagram.jpg",
+     "caption": "CT angiography — berry aneurysm at Circle of Willis (most common SAH cause)",
+     "alt": "CT angiogram showing a saccular berry aneurysm at the junction of the posterior communicating artery — the underlying cause identified after confirming SAH",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Viral (HSV) encephalitis: empirical aciclovir within the hour",
@@ -555,7 +653,15 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Wait for HSV PCR before aciclovir**' — wrong; PCR can be falsely negative early, and delay costs brain\n  - Give **aciclovir 10 mg/kg IV q8h** empirically",
    "title": "Viral (HSV) encephalitis",
    "subtitle": "empirical aciclovir within the hour",
-   "id": "neurology-17"
+   "id": "neurology-17",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Hsv_encephalitis.jpg",
+     "caption": "MRI brain — HSV encephalitis (T2/FLAIR hyperintensity in temporal lobes)",
+     "alt": "MRI FLAIR sequence showing high signal (oedema/inflammation) in the medial temporal lobes and cingulate gyrus — the hallmark imaging finding of HSV encephalitis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Delirium vs dementia — discriminators, CAM, must-rule-out causes",
@@ -619,7 +725,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Scenario</th><th>Private licence</th><th>Commercial licence</th></tr></thead><tbody><tr><td>Single UNPROVOKED seizure</td><td>12 months seizure-free (default)</td><td>5 years seizure-free, off ASM</td></tr><tr><td>Provoked / acute symptomatic seizure</td><td>Conditional return ~6 months (specialist)</td><td>Specialist + DLA assessment</td></tr><tr><td>Established epilepsy</td><td>12 months seizure-free</td><td>10 years seizure-free, off ASM</td></tr><tr><td>Withdrawing / changing ASM</td><td>No driving during taper + 3 months after</td><td>Specialist + DLA assessment</td></tr></tbody><tfoot><tr><td colspan=\"3\">Patient self-reports to licensing authority. Doctor advises + documents (mandatory reporting only SA &amp; NT).</td></tr></tfoot></table>",
    "title": "First seizure",
    "subtitle": "driving rules (Austroads) + when to image/EEG/treat",
-   "id": "neurology-19"
+   "id": "neurology-19",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spike-waves.png",
+     "caption": "EEG — interictal epileptiform discharges (spike-and-wave) after first seizure",
+     "alt": "EEG showing 3 Hz spike-and-wave epileptiform discharges — the key investigation after a first seizure that may confirm epileptiform tendency and guide treatment decisions",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "GCS — exact scoring, the airway threshold, common scoring traps",
@@ -651,7 +765,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Score</th><th>Eyes (E)</th><th>Verbal (V)</th><th>Motor (M)</th></tr></thead><tbody><tr><td>6</td><td>-</td><td>-</td><td>Obeys commands</td></tr><tr><td>5</td><td>-</td><td>Oriented</td><td>Localises to pain</td></tr><tr><td>4</td><td>Spontaneous</td><td>Confused</td><td>Withdraws (flexion) to pain</td></tr><tr><td>3</td><td>To voice</td><td>Inappropriate words</td><td>Abnormal flexion (decorticate)</td></tr><tr><td>2</td><td>To pain</td><td>Incomprehensible sounds</td><td>Extension (decerebrate)</td></tr><tr><td>1</td><td>None</td><td>None</td><td>None</td></tr></tbody><tfoot><tr><td colspan=\"4\">Total 3-15. GCS &lt;=8 -&gt; protect airway (intubate). Record best response + modifiers (T/C/E).</td></tr></tfoot></table>",
    "title": "GCS",
    "subtitle": "exact scoring, the airway threshold, common scoring traps",
-   "id": "neurology-20"
+   "id": "neurology-20",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Escala_de_Coma_de_Glasgow_-_ECG.png/960px-Escala_de_Coma_de_Glasgow_-_ECG.png",
+     "caption": "GCS scoring chart — Eyes (1-4), Verbal (1-5), Motor (1-6) with GCS ≤8 = intubate threshold",
+     "alt": "Glasgow Coma Scale table showing all 15 components and scores; minimum 3 (never 0); GCS ≤8 = airway at risk; best motor response scored from the best limb",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Provoked/acute symptomatic seizure vs epilepsy + safe-discharge of a first seizure",
@@ -681,7 +803,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Glucose</span><span class=\"gv-pill\">Na / Ca / Mg</span><span class=\"gv-pill\">Alcohol/benzo withdrawal</span><span class=\"gv-pill\">Drug toxicity</span><span class=\"gv-pill\">Eclampsia</span><span class=\"gv-pill\">Hypoxia</span><span class=\"gv-pill\">CNS infection</span><span class=\"gv-pill\">Uraemia</span></div>",
    "title": "Provoked/acute symptomatic seizure vs epilepsy + safe-discharge…",
-   "id": "neurology-21"
+   "id": "neurology-21",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/81/Normalt_EEG_vaken_vuxen.PNG",
+     "caption": "EEG — normal interictal EEG in provoked/acute symptomatic seizure (no epileptiform activity)",
+     "alt": "Normal EEG after a provoked seizure (e.g. hypoglycaemia, hyponatraemia) — supports the diagnosis of acute symptomatic seizure rather than epilepsy; treat the cause not the EEG",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Low_Blood_Sugar_-_Glucose_Monitor_-_50191694906.jpg/960px-Low_Blood_Sugar_-_Glucose_Monitor_-_50191694906.jpg",
+     "caption": "BGL (fingerprick glucose) — hypoglycaemia as reversible provoked seizure cause",
+     "alt": "Glucometer reading showing critical hypoglycaemia — a correctable provoked seizure cause; must always be checked first in any seizure presentation (DEFG protocol)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Reversible causes of coma — empiric DEFG/coma cocktail + structured ddx",
@@ -780,7 +916,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Bell's palsy (LMN)</th><th>Stroke (UMN)</th></tr></thead><tbody><tr><td>Forehead/eyebrow</td><td>INVOLVED (can't wrinkle)</td><td>SPARED (can wrinkle)</td></tr><tr><td>Other signs</td><td>Isolated facial</td><td>Limb/speech deficits</td></tr><tr><td>Action</td><td>Prednisolone &lt;72 h + eye care</td><td>Stroke pathway / imaging</td></tr></tbody></table><div class=\"gv-pills\"><span class=\"gv-pill\">Prednisolone 50-60 mg ~10d</span><span class=\"gv-pill\">Within 72 h</span><span class=\"gv-pill\">Antiviral NOT routine</span><span class=\"gv-pill\">Tape eye at night</span><span class=\"gv-pill\">Vesicles = Ramsay Hunt</span></div>",
    "title": "Bell's palsy (idiopathic LMN facial palsy)",
-   "id": "neurology-24"
+   "id": "neurology-24",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Man_suffering_from_right_facial_palsy_Wellcome_L0062879.jpg/960px-Man_suffering_from_right_facial_palsy_Wellcome_L0062879.jpg",
+     "caption": "Bell's palsy — LMN facial nerve palsy (inability to close eye, forehead involved, drooping corner of mouth)",
+     "alt": "Unilateral lower motor neuron facial palsy: ipsilateral forehead sparing absent (forehead wrinkles lost), lagophthalmos (cannot close eye), drooped corner of mouth — classic Bell's palsy appearance",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Herpes_zoster_back.jpg/960px-Herpes_zoster_back.jpg",
+     "caption": "Ramsay Hunt syndrome — vesicles in ear (geniculate ganglion VZV — a must-exclude cause of facial palsy)",
+     "alt": "Vesicular eruption in the external ear canal and pinna (herpes zoster oticus / Ramsay Hunt) — a VZV-caused facial palsy treated with aciclovir + prednisolone, not steroids alone",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Cauda equina syndrome (CES)",
@@ -803,7 +953,21 @@ window.GOTCHA.modules.push(
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Sign</th><th>Cauda equina (LMN)</th><th>Cord compression &gt;L1 (UMN)</th></tr></thead><tbody><tr><td>Tone/reflexes</td><td>Flaccid, areflexic</td><td>Spastic, hyperreflexic</td></tr><tr><td>Plantars</td><td>Down/absent</td><td>Upgoing</td></tr><tr><td>Sensory</td><td>Saddle anaesthesia</td><td>Sensory LEVEL</td></tr><tr><td>Bladder</td><td>EARLY painless retention</td><td>Later</td></tr><tr><td>Pattern</td><td>Bilateral, asymmetric</td><td>Below the level</td></tr></tbody></table><div class=\"gv-pills\"><span class=\"gv-pill\">Emergency MRI &lt;24h</span><span class=\"gv-pill\">Decompress &lt;48h (ideally &lt;24h)</span><span class=\"gv-pill\">Do a post-void residual</span></div>",
    "title": "Cauda equina syndrome (CES)",
-   "id": "neurology-25"
+   "id": "neurology-25",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/MRI_of_the_lumbar_spine_with_abscess_in_the_posterior_epidural_space%2C_causing_cauda_equina_syndrome.jpg/960px-MRI_of_the_lumbar_spine_with_abscess_in_the_posterior_epidural_space%2C_causing_cauda_equina_syndrome.jpg",
+     "caption": "MRI lumbar spine — cauda equina compression (disc prolapse compressing cauda equina)",
+     "alt": "Sagittal MRI lumbar spine showing a large central disc herniation at L4/5 or L5/S1 with compression of the cauda equina nerve roots — the emergency imaging that confirms CES diagnosis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grant_1962_663.png/960px-Grant_1962_663.png",
+     "caption": "Cauda equina anatomy — sacral dermatomes (saddle anaesthesia distribution)",
+     "alt": "Dermatome chart showing S2-S4 saddle anaesthesia distribution (perineum, inner thighs, genitalia) and S1 distribution — the clinical area of sensory loss in cauda equina syndrome",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Guillain-Barre syndrome (GBS) — respiratory monitoring & ICU trigger",
@@ -827,7 +991,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>20/30/40 rule (intubate if any)</th><th>Value</th></tr></thead><tbody><tr><td>FVC (Forced Vital Capacity)</td><td class=\"gv-num\">&lt; 20 mL/kg</td></tr><tr><td>MIP (max inspiratory pressure)</td><td class=\"gv-num\">&gt; -30 cmH2O (less negative)</td></tr><tr><td>MEP (max expiratory pressure)</td><td class=\"gv-num\">&lt; 40 cmH2O</td></tr></tbody></table><div class=\"gv-pills\"><span class=\"gv-pill\">SpO2 normal until arrest</span><span class=\"gv-pill\">Watch FALLING trend</span><span class=\"gv-pill\">Bulbar = airway risk</span><span class=\"gv-pill\">Dysautonomia = top killer</span></div>",
    "title": "Guillain-Barre syndrome (GBS)",
    "subtitle": "respiratory monitoring & ICU trigger",
-   "id": "neurology-26"
+   "id": "neurology-26",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Spirometry_NIH.jpg",
+     "caption": "Spirometry / bedside FVC monitoring — the 20-30-40 GBS ICU intubation rule",
+     "alt": "Forced vital capacity (FVC) trend chart showing declining respiratory reserve in GBS — the 20-30-40 rule: FVC <20 mL/kg, MIP <30, MEP <40 = intubate (SpO2 stays normal until arrest)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Malignant (metastatic) spinal cord compression — MSCC",
@@ -851,7 +1023,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">1. Suspect (cancer + back pain/neuro) → DEXAMETHASONE 16 mg load NOW (don't wait)</div><div class=\"gv-step\">2. URGENT MRI WHOLE spine &lt;24 h (one-third multi-level)</div><div class=\"gv-step\">3. Surgery (decompress) vs Radiotherapy (20 Gy/5#, 8 Gy/1#)</div><div class=\"gv-step\">4. Pre-Rx neuro status = best outcome predictor — TIME CRITICAL</div></div>",
    "title": "Malignant (metastatic) spinal cord compression",
    "subtitle": "MSCC",
-   "id": "neurology-27"
+   "id": "neurology-27",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Spinal_cord_compression.jpg",
+     "caption": "MRI spine — metastatic spinal cord compression (epidural metastasis with cord compression)",
+     "alt": "Sagittal MRI thoracic spine showing an epidural metastatic deposit compressing the spinal cord with associated cord signal change — the imaging that confirms MSCC and guides radiotherapy or surgery",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lung_cancer.jpg",
+     "caption": "CXR — lung cancer (most common primary causing MSCC)",
+     "alt": "Chest X-ray showing a hilar/peripheral lung mass — lung cancer is the most common primary tumour causing metastatic spinal cord compression",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Multiple sclerosis (MS) — acute relapse & mimics",
@@ -877,7 +1063,27 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Worsening MS symptoms → FEVER/INFECTION? → YES = pseudorelapse (Uhthoff): treat infection, NO steroids</div><div class=\"gv-step\">NO infection + NEW deficit &gt;24 h, &gt;30 days stable = true RELAPSE</div><div class=\"gv-step\">Methylprednisolone 1000 mg/day (IV or oral) x 3-5 days — NO taper</div><div class=\"gv-step\">Severe/refractory → consider plasma exchange; check NMOSD if atypical</div></div>",
    "title": "Multiple sclerosis (MS)",
    "subtitle": "acute relapse & mimics",
-   "id": "neurology-28"
+   "id": "neurology-28",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Axial_DIR_MRI_of_a_brain_with_multiple_sclerosis_lesions.jpg/960px-Axial_DIR_MRI_of_a_brain_with_multiple_sclerosis_lesions.jpg",
+     "caption": "MRI brain — multiple sclerosis (periventricular white matter plaques on T2/FLAIR)",
+     "alt": "MRI FLAIR sequence showing multiple periventricular ovoid hyperintense plaques (Dawson fingers) perpendicular to the ventricles — the hallmark imaging finding of MS",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Papilledema.jpg",
+     "caption": "Fundus — optic neuritis (disc pallor / swelling from MS — a common initial presentation)",
+     "alt": "Fundus photograph showing optic disc pallor or acute disc swelling in optic neuritis — a common initial MS presentation causing painful monocular visual loss",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/MULTIPLE_SCLEROSIS.JPG",
+     "caption": "MRI spine — MS spinal cord demyelinating lesion (short T2 cord lesion)",
+     "alt": "Sagittal MRI cervical spine showing a focal T2 hyperintense intramedullary lesion (demyelinating plaque) spanning less than 2 vertebral segments — spinal cord MS lesion",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Myasthenia gravis & myasthenic crisis",
@@ -901,7 +1107,15 @@ window.GOTCHA.modules.push(
    "verified": true,
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Myasthenic crisis</th><th>Cholinergic crisis</th></tr></thead><tbody><tr><td>Cause</td><td>Under-treated / NMJ blockade</td><td>Excess pyridostigmine</td></tr><tr><td>Pupils</td><td>Normal/large</td><td>Miosis (small)</td></tr><tr><td>Secretions</td><td>Dry</td><td>SLUDGE (wet)</td></tr><tr><td>HR</td><td>Normal/up</td><td>Bradycardia</td></tr><tr><td>Acute Rx</td><td>PLEX/IVIG, support airway</td><td>STOP pyridostigmine; atropine</td></tr></tbody></table>",
    "title": "Myasthenia gravis & myasthenic crisis",
-   "id": "neurology-29"
+   "id": "neurology-29",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Myasthenia_gravis_ptosis_reversal.jpg/960px-Myasthenia_gravis_ptosis_reversal.jpg",
+     "caption": "Myasthenia gravis — bilateral ptosis and fatigable weakness",
+     "alt": "Bilateral ptosis with partial eye closure demonstrating the classic ocular presentation of myasthenia gravis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Parkinson disease — inpatient & prescribing gotchas",
@@ -926,7 +1140,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Situation</th><th>AVOID</th><th>USE</th></tr></thead><tbody><tr><td>Nausea/antiemetic</td><td>Metoclopramide, prochlorperazine</td><td>Domperidone 10-20 mg TDS, ondansetron</td></tr><tr><td>Psychosis</td><td>Haloperidol, risperidone, olanzapine</td><td>Quetiapine, clozapine</td></tr><tr><td>NBM / missed doses</td><td>Stopping levodopa</td><td>Rotigotine patch / NG, on-time dosing</td></tr></tbody></table><div class=\"gv-pills\"><span class=\"gv-pill\">Levodopa = time-critical med</span><span class=\"gv-pill\">Abrupt stop → hyperpyrexia syndrome</span></div>",
    "title": "Parkinson disease",
    "subtitle": "inpatient & prescribing gotchas",
-   "id": "neurology-30"
+   "id": "neurology-30",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dopamine_pathways.svg/960px-Dopamine_pathways.svg.png",
+     "caption": "Parkinson disease — classic resting tremor, stooped posture and masked facies",
+     "alt": "Patient with Parkinson disease demonstrating flexed posture, masked facies and pill-rolling tremor at rest",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   }
  ]
 }

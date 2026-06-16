@@ -28,7 +28,15 @@ window.GOTCHA.modules.push(
    ],
    "visualHtml": "<table class=\"gv-table\"><tr><th>Drug / indication</th><th>After haemostasis</th></tr><tr><td>Aspirin — secondary prevention</td><td>Resume early (~<span class=\"gv-num\">3-5 days</span>) + PPI</td></tr><tr><td>Aspirin — primary prevention</td><td>Usually cease</td></tr><tr><td>DAPT post recent stent</td><td>Continue — cardiology input (stent thrombosis risk)</td></tr><tr><td>Anticoagulant</td><td>Reverse/hold acutely; restart per thrombotic risk</td></tr></table>",
    "title": "Antiplatelet/anticoagulant management around an upper GI bleed…",
-   "id": "gastroenterology-1"
+   "id": "gastroenterology-1",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gastric_ulcer_3.jpg/640px-Gastric_ulcer_3.jpg",
+     "caption": "Peptic ulcer - endoscopic appearance (Forrest Ia/Ib active bleeding)",
+     "alt": "Upper GI endoscopy showing an actively bleeding gastric or duodenal ulcer, providing clinical context for the antiplatelet/anticoagulant management decision after haemostasis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Dyspepsia red flags (ALARMS) & who skips test-and-treat for endoscopy",
@@ -56,7 +64,15 @@ window.GOTCHA.modules.push(
    ],
    "visualHtml": "<table class=\"gv-table\"><tr><th>Feature</th><th>Action</th></tr><tr><td>Any alarm feature (ALARMS)</td><td>Urgent endoscopy</td></tr><tr><td>New-onset dyspepsia, age ~50-55+ (Aus)</td><td>Endoscopy</td></tr><tr><td>Iron-deficiency anaemia (man / postmenopausal)</td><td>Endoscopy ± colonoscopy</td></tr><tr><td>Young, no alarms</td><td>Test-and-treat / empirical PPI trial</td></tr></table>",
    "title": "Dyspepsia red flags (ALARMS) & who skips…",
-   "id": "gastroenterology-2"
+   "id": "gastroenterology-2",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Adenocarcinoma_of_the_stomach.jpg/640px-Adenocarcinoma_of_the_stomach.jpg",
+     "caption": "Gastric adenocarcinoma - endoscopic appearance (red-flag dyspepsia)",
+     "alt": "Upper GI endoscopy showing an ulcerated/fungating gastric adenocarcinoma - the end-point of urgent endoscopy triggered by alarm/ALARMS features in dyspepsia",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Glasgow-Blatchford score (GBS) — the pre-endoscopy, pre-treatment risk tool",
@@ -105,7 +121,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Typical GORD, no alarms</div><div class=\"gv-step\">Lifestyle + empirical PPI <span class=\"gv-num\">4-8 wk</span> (before food)</div><div class=\"gv-step\">Controlled → step down to lowest effective / on-demand</div><div class=\"gv-step\">No response OR alarm feature → endoscopy</div></div>",
    "title": "GORD",
    "subtitle": "PPI step-down, the no-improvement-needs-scope rule, and Barrett's surveillance",
-   "id": "gastroenterology-4"
+   "id": "gastroenterology-4",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Barretts_esophagus.jpg/640px-Barretts_esophagus.jpg",
+     "caption": "Barrett's oesophagus - salmon-coloured columnar metaplasia at the GOJ",
+     "alt": "Upper GI endoscopy showing the characteristic salmon-pink tongues of columnar metaplasia extending proximally from the gastro-oesophageal junction, replacing normal white squamous mucosa (Barrett's oesophagus)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "H. pylori eradication regimen — Australian doses, duration, and the resistance shift",
@@ -153,7 +177,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Step</th><th>Rule</th></tr><tr><td>Stop PPI before testing</td><td><span class=\"gv-num\">2 weeks</span></td></tr><tr><td>Stop antibiotics/bismuth before testing</td><td><span class=\"gv-num\">4 weeks</span></td></tr><tr><td>Test of cure (UBT) after therapy</td><td>≥<span class=\"gv-num\">4 weeks</span></td></tr><tr><td>Serology for test of cure?</td><td>No (stays positive)</td></tr></table>",
    "title": "H. pylori test-and-treat",
    "subtitle": "when, the washout traps, and test of cure",
-   "id": "gastroenterology-6"
+   "id": "gastroenterology-6",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Urea_breath_test_kit.jpg/960px-Urea_breath_test_kit.jpg",
+     "caption": "Urea breath test - H. pylori non-invasive diagnostic test",
+     "alt": "Diagram or photo of the 13C urea breath test procedure, illustrating the non-invasive gold-standard H. pylori test-of-cure requiring 2-week PPI washout",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Rapid_urease_test.JPG/640px-Rapid_urease_test.JPG",
+     "caption": "CLO (rapid urease) test - antral biopsy in H. pylori",
+     "alt": "Rapid urease (CLO) test vial showing colour change from yellow to pink/red indicating H. pylori urease activity in a gastric biopsy specimen",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Non-variceal (peptic ulcer) bleed — PPI timing & Forrest-guided therapy",
@@ -177,7 +215,27 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Forrest class</th><th>Finding</th><th>Rebleed risk / action</th></tr><tr><td>Ia / Ib</td><td>Spurting / oozing</td><td>High → endoscopic haemostasis + IV PPI 72 h</td></tr><tr><td>IIa</td><td>Non-bleeding visible vessel</td><td>High → treat + IV PPI</td></tr><tr><td>IIb</td><td>Adherent clot</td><td>High-ish → consider removal/treat + IV PPI</td></tr><tr><td>IIc</td><td>Flat pigmented spot</td><td>Low → oral PPI</td></tr><tr><td>III</td><td>Clean base</td><td>Lowest → oral PPI, early discharge</td></tr></table>",
    "title": "Non-variceal (peptic ulcer) bleed",
    "subtitle": "PPI timing & Forrest-guided therapy",
-   "id": "gastroenterology-7"
+   "id": "gastroenterology-7",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Gastric_ulcer_3.jpg/640px-Gastric_ulcer_3.jpg",
+     "caption": "Forrest Ia - actively spurting peptic ulcer (endoscopy)",
+     "alt": "Endoscopic image of Forrest Ia classification: a peptic ulcer with active arterial spurting haemorrhage - highest risk, mandates endoscopic haemostasis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/GU_with_clip.jpg/640px-GU_with_clip.jpg",
+     "caption": "Forrest IIa - non-bleeding visible vessel in peptic ulcer (endoscopy)",
+     "alt": "Endoscopic image of Forrest IIa classification: a non-bleeding visible vessel (pigmented protuberance) in a peptic ulcer base - high re-bleed risk requiring endoscopic therapy",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Benign_gastric_ulcer_1.jpg/640px-Benign_gastric_ulcer_1.jpg",
+     "caption": "Forrest III - clean-base peptic ulcer (endoscopy)",
+     "alt": "Endoscopic image of Forrest III classification: a clean-based peptic ulcer with no stigmata of recent haemorrhage - low re-bleed risk, oral PPI sufficient, no endoscopic therapy needed",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "NSAID ulcer — who needs gastroprotection and the aspirin/SSRI multiplier",
@@ -202,7 +260,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Age >65</span><span class=\"gv-pill\">Prior ulcer/GI bleed</span><span class=\"gv-pill\">High-dose/2+ NSAIDs</span><span class=\"gv-pill\">+ anticoagulant</span><span class=\"gv-pill\">+ aspirin/antiplatelet</span><span class=\"gv-pill\">+ corticosteroid</span><span class=\"gv-pill\">+ SSRI</span></div>",
    "title": "NSAID ulcer",
    "subtitle": "who needs gastroprotection and the aspirin/SSRI multiplier",
-   "id": "gastroenterology-8"
+   "id": "gastroenterology-8",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Erosive_gastric_ulcer.jpg/640px-Erosive_gastric_ulcer.jpg",
+     "caption": "NSAID/peptic ulcer - endoscopic appearance",
+     "alt": "Upper GI endoscopy showing a gastric ulcer in the antrum or lesser curvature, typical site for NSAID-induced peptic ulceration",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Restrictive transfusion threshold in upper GI bleeding (70 g/L)",
@@ -250,7 +316,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Terlipressin (or octreotide) 2-5 days</span><span class=\"gv-pill\">IV ceftriaxone 1 g/day up to 7 days</span><span class=\"gv-pill\">Band ligation within 12 h</span><span class=\"gv-pill\">Resuscitate, restrictive Hb 70</span><span class=\"gv-pill\">Failure → balloon tamponade → TIPS</span></div>",
    "title": "Variceal bleed",
    "subtitle": "terlipressin/octreotide + antibiotics started BEFORE endoscopy",
-   "id": "gastroenterology-10"
+   "id": "gastroenterology-10",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Esophageal_varices_-_wale.jpg/640px-Esophageal_varices_-_wale.jpg",
+     "caption": "Oesophageal varices - endoscopic appearance (active or high-risk)",
+     "alt": "Upper GI endoscopy showing large tortuous oesophageal varices (Grade 2-3) with red wale signs or active haemorrhage, in the context of portal hypertension/cirrhosis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Variceal vs non-variceal upper GI bleed — the resuscitate-FIRST sequence (what you do before the scope)",
@@ -274,7 +348,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">ABC + 2 large-bore IV + crossmatch/VBG</div><div class=\"gv-step\">Resuscitate to perfusion (restrictive Hb target <span class=\"gv-num\">70 g/L</span>)</div><div class=\"gv-step\">Risk-stratify (Glasgow-Blatchford)</div><div class=\"gv-step\">If variceal suspected: terlipressin/octreotide + IV ceftriaxone NOW</div><div class=\"gv-step\">Endoscopy within <span class=\"gv-num\">24 h</span> (within 12 h if variceal/unstable)</div></div>",
    "title": "Variceal vs non-variceal upper GI bleed",
    "subtitle": "the resuscitate-FIRST sequence (what you do before the scope)",
-   "id": "gastroenterology-11"
+   "id": "gastroenterology-11",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Bleeding_esophageal_varices.png",
+     "caption": "Oesophageal varices - endoscopic appearance (variceal upper GI bleed)",
+     "alt": "Endoscopy showing actively bleeding or large oesophageal varices in a patient with cirrhosis - the variceal upper GI bleed requiring vasoactive drugs and antibiotics pre-scope",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Duodenal_ulcer01.jpg/640px-Duodenal_ulcer01.jpg",
+     "caption": "Peptic ulcer - endoscopic appearance (non-variceal upper GI bleed)",
+     "alt": "Upper GI endoscopy showing a peptic ulcer with stigmata of recent haemorrhage (visible vessel or adherent clot) - the commonest cause of non-variceal upper GI bleeding",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Acute severe UC — Truelove-Witts on admission; the day-3 Oxford rule; toxic megacolon is SURGICAL",
@@ -305,6 +393,12 @@ window.GOTCHA.modules.push(
      "caption": "Toxic megacolon on AXR — grossly dilated transverse colon with mucosal islands",
      "alt": "Toxic megacolon complicating acute severe UC — transverse colon >6 cm with thumbprinting/mucosal islands on plain abdominal radiograph",
      "credit": "Hellerhoff, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Ulcerative_colitis.jpg/640px-Ulcerative_colitis.jpg",
+     "caption": "Acute severe UC — colonoscopy showing continuous confluent mucosal inflammation",
+     "alt": "Colonoscopy appearance of acute severe ulcerative colitis: continuous erythema, ulceration, contact bleeding, no intervening normal mucosa",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -330,7 +424,21 @@ window.GOTCHA.modules.push(
    ],
    "title": "Clostridioides difficile",
    "subtitle": "2025 Australasian shift: metronidazole is NO LONGER first-line",
-   "id": "gastroenterology-13"
+   "id": "gastroenterology-13",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Clostridioides_%28pseudomembranous%29_colitis.jpg/960px-Clostridioides_%28pseudomembranous%29_colitis.jpg",
+     "caption": "C. difficile — pseudomembranous colitis on colonoscopy",
+     "alt": "Colonoscopy showing classic yellow-white pseudomembranes studding the colonic mucosa in Clostridioides difficile colitis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Pseudomembranoese_Colitis_coronar.jpg/640px-Pseudomembranoese_Colitis_coronar.jpg",
+     "caption": "C. difficile — CT abdomen showing pancolitis and colonic wall thickening",
+     "alt": "CT abdomen showing marked colonic wall thickening (accordion sign) and pericolonic fat stranding in severe Clostridioides difficile colitis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Coeliac disease — serology BEFORE biopsy, and never start a gluten-free diet first",
@@ -355,7 +463,15 @@ window.GOTCHA.modules.push(
    ],
    "title": "Coeliac disease",
    "subtitle": "serology BEFORE biopsy, and never start a gluten-free diet first",
-   "id": "gastroenterology-14"
+   "id": "gastroenterology-14",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Villous_atrophy_duodenum.jpg",
+     "caption": "Coeliac disease — duodenal biopsy showing villous atrophy (Marsh 3)",
+     "alt": "Histology of small bowel biopsy in coeliac disease: subtotal/total villous atrophy, crypt hyperplasia, and increased intraepithelial lymphocytes (Marsh grade 3)",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Colorectal cancer & NBCSP — the 45-74 / 2-yearly iFOBT rule + family-risk categories",
@@ -405,7 +521,27 @@ window.GOTCHA.modules.push(
    ],
    "title": "IBD",
    "subtitle": "UC vs Crohn — the discriminators MCQs hinge on (not the textbook list)",
-   "id": "gastroenterology-16"
+   "id": "gastroenterology-16",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Ulcerative_colitis.jpg",
+     "caption": "Ulcerative colitis — colonoscopy with continuous mucosal inflammation from rectum",
+     "alt": "Colonoscopy in ulcerative colitis showing continuous, confluent mucosal erythema, ulceration and contact bleeding starting from the rectum without skip lesions",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/CD_colitis_2.jpg",
+     "caption": "Crohn's disease — colonoscopy with skip lesions and cobblestoning",
+     "alt": "Colonoscopy in Crohn's disease showing discontinuous deep ulcers, cobblestone mucosa, and areas of normal intervening mucosa (skip lesions)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fistula_%26_Abscss_diag_01.png/960px-Fistula_%26_Abscss_diag_01.png",
+     "caption": "Crohn's disease — perianal fistula/skin tags",
+     "alt": "Perianal Crohn's disease with skin tags and external fistula openings — a classic exam-discriminating clinical sign not seen in UC",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "IBD complication & surveillance gotchas — colorectal cancer surveillance, PSC, and the flare mimic",
@@ -438,6 +574,12 @@ window.GOTCHA.modules.push(
      "caption": "Toxic megacolon — AXR showing dilated transverse colon >6 cm with mucosal islands",
      "alt": "Plain abdominal radiograph in toxic megacolon complicating IBD: grossly dilated transverse colon with thumbprinting/mucosal islands indicating mucosal necrosis",
      "credit": "Hellerhoff, Wikimedia Commons, CC BY-SA 3.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/37/Cholangiogram_of_primary_sclerosing_cholangitis.jpg",
+     "caption": "Primary sclerosing cholangitis — MRCP beading of bile ducts",
+     "alt": "MRCP showing multifocal strictures and dilatations of intrahepatic and extrahepatic bile ducts producing the classic 'beaded' appearance of primary sclerosing cholangitis",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -502,6 +644,18 @@ window.GOTCHA.modules.push(
      "caption": "Scleral icterus in cholangitis/obstructive jaundice",
      "alt": "Yellow discolouration of the sclera representing conjugated hyperbilirubinaemia as part of Charcot's triad in acute cholangitis",
      "credit": "Bobjgalindo, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Ultrasound_of_stone_within_the_distal_common_bile_duct.jpg/960px-Ultrasound_of_stone_within_the_distal_common_bile_duct.jpg",
+     "caption": "Acute cholangitis — dilated common bile duct with stone on ultrasound",
+     "alt": "Right upper quadrant ultrasound showing dilated common bile duct (>6 mm) with echogenic shadowing calculus at the distal CBD — the obstructing lesion driving cholangitis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/ERCP_stone.jpg",
+     "caption": "ERCP — bile duct stone extraction (source control for cholangitis)",
+     "alt": "Fluoroscopic image during ERCP showing a filling defect in the common bile duct (choledocholithiasis) and sphincterotomy/stone extraction — the definitive source control for acute cholangitis",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -562,7 +716,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Feature</th><th>Lipase (preferred)</th><th>Amylase</th></tr><tr><td>Diagnostic cut-off</td><td>&gt;3x ULN</td><td>&gt;3x ULN</td></tr><tr><td>Sensitivity/specificity</td><td>Higher</td><td>Lower</td></tr><tr><td>Stays elevated</td><td>8-14 days</td><td>3-5 days</td></tr><tr><td>Predicts severity?</td><td>No</td><td>No</td></tr><tr><td>Can be normal in</td><td colspan=\"2\">Alcohol &amp; hypertriglyceridaemic pancreatitis</td></tr></table>",
    "title": "Acute pancreatitis",
    "subtitle": "diagnosis: lipase, NOT amylase; and the trap of 'normal' enzymes",
-   "id": "gastroenterology-21"
+   "id": "gastroenterology-21",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Akute_exsudative_Pankreatitis_-_CT_axial.jpg/960px-Akute_exsudative_Pankreatitis_-_CT_axial.jpg",
+     "caption": "Acute pancreatitis — CT abdomen showing pancreatic oedema and peripancreatic fat stranding",
+     "alt": "Contrast-enhanced CT abdomen in acute pancreatitis showing enlarged oedematous pancreas with peripancreatic fat stranding and fluid — Balthazar grade C/D",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Acute pancreatitis - severity scoring & the prognostic markers that actually matter",
@@ -600,6 +762,12 @@ window.GOTCHA.modules.push(
      "caption": "Pancreatic pseudocyst — CT showing peripancreatic walled-off fluid collection",
      "alt": "CT abdomen showing a large rounded peripancreatic fluid collection with a defined wall (pseudocyst) — a late complication of acute pancreatitis relevant to severity assessment",
      "credit": "Hellerhoff, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Pankreatitis_exsudativ_CT_axial.jpg/960px-Pankreatitis_exsudativ_CT_axial.jpg",
+     "caption": "Necrotising pancreatitis — CT showing pancreatic necrosis (non-enhancing areas)",
+     "alt": "CECT abdomen demonstrating areas of pancreatic non-enhancement representing necrosis — the CT finding driving severe pancreatitis classification and CTSI scoring",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -632,7 +800,15 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th></th><th>Gallstone</th><th>Alcoholic</th></tr><tr><td>Typical patient</td><td>Older, female</td><td>Younger, male</td></tr><tr><td>LFTs</td><td>ALT/ALP/bili up</td><td>AST:ALT &gt;2</td></tr><tr><td>US</td><td>Stones, dilated CBD</td><td>Often normal</td></tr><tr><td>Lipase</td><td>High</td><td>May be near-normal</td></tr><tr><td>Recurrence</td><td>Until cholecystectomy</td><td>Recurrent if drinking</td></tr></table>",
    "title": "Acute pancreatitis",
    "subtitle": "aetiology: gallstones vs alcohol, and the work-up everyone forgets",
-   "id": "gastroenterology-23"
+   "id": "gastroenterology-23",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Ultrasound_image_of_gallbladder_stone_Gallstone_091937515.jpg",
+     "caption": "Gallstones on right upper quadrant ultrasound — echogenic foci with posterior acoustic shadowing",
+     "alt": "Abdominal ultrasound showing multiple echogenic gallstones within the gallbladder with characteristic posterior acoustic shadowing — the leading cause of acute pancreatitis",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Acute pancreatitis - fluid resuscitation: 'aggressive' has been redefined; balanced crystalloid; nutrition; NO prophylactic antibiotics",
@@ -695,7 +871,21 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Entity</th><th>Pain</th><th>Fever/WCC</th><th>LFTs/jaundice</th><th>Action</th></tr><tr><td>Biliary colic</td><td>&lt;6h, self-limiting</td><td>No</td><td>Normal</td><td>Elective lap chole</td></tr><tr><td>Acute cholecystitis</td><td>&gt;6h, Murphy +</td><td>Yes</td><td>Normal/mild</td><td>Abx + EARLY lap chole</td></tr><tr><td>Choledocholithiasis</td><td>RUQ</td><td>+/-</td><td>Bili/ALP up, CBD dilated</td><td>ERCP then chole</td></tr><tr><td>Cholangitis</td><td>RUQ</td><td>Yes (sepsis)</td><td>Jaundice + obstructive</td><td>Urgent drainage</td></tr></table>",
    "title": "Gallstone disease spectrum",
    "subtitle": "which presentation gets which intervention (the discriminator chain)",
-   "id": "gastroenterology-25"
+   "id": "gastroenterology-25",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ultrasonography_of_sludge_and_gallstones.jpg",
+     "caption": "Gallstones — ultrasound showing echogenic calculi with posterior acoustic shadowing",
+     "alt": "Right upper quadrant ultrasound demonstrating multiple echogenic gallstones within the gallbladder lumen with posterior acoustic shadowing — the imaging finding in uncomplicated cholelithiasis",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Acute_cholecystitis_as_seen_on_ultrasound_axial_view.jpg/960px-Acute_cholecystitis_as_seen_on_ultrasound_axial_view.jpg",
+     "caption": "Acute cholecystitis — ultrasound showing gallbladder wall thickening and pericholecystic fluid",
+     "alt": "Ultrasound of acute cholecystitis showing distended gallbladder with thickened wall (>3 mm), pericholecystic fluid, and positive sonographic Murphy's sign — distinguishing it from uncomplicated gallstones",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Jaundice work-up - the LFT-pattern algorithm and the conjugated/unconjugated fork",
@@ -735,6 +925,12 @@ window.GOTCHA.modules.push(
      "caption": "Scleral icterus — yellow discolouration of the sclera",
      "alt": "Clinical sign of jaundice: deep yellow-orange discolouration of the sclera indicating conjugated or mixed hyperbilirubinaemia, the first visible sign of jaundice",
      "credit": "Bobjgalindo, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ultrasound_of_diated_common_bile_duct_and_intrahepatic_ducts_due_to_gallstone_obstruction.png/960px-Ultrasound_of_diated_common_bile_duct_and_intrahepatic_ducts_due_to_gallstone_obstruction.png",
+     "caption": "Obstructive jaundice — dilated intrahepatic bile ducts on ultrasound",
+     "alt": "Abdominal ultrasound showing dilated intrahepatic bile ducts (parallel channel sign) indicating biliary obstruction — the key first-line imaging finding in obstructive jaundice work-up",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -775,6 +971,12 @@ window.GOTCHA.modules.push(
      "caption": "Alcoholic hepatitis — jaundice and scleral icterus",
      "alt": "Scleral icterus in alcoholic hepatitis reflecting conjugated hyperbilirubinaemia — used in Maddrey's discriminant function (bilirubin component)",
      "credit": "Bobjgalindo, Wikimedia Commons, CC BY-SA 4.0 (cropped)"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Comparison_of_Cutaneous_Jaundice_and_Scleral_Icterus.jpg/960px-Comparison_of_Cutaneous_Jaundice_and_Scleral_Icterus.jpg",
+     "caption": "Alcoholic hepatitis — ascites and jaundice with peripheral stigmata of chronic liver disease",
+     "alt": "Distended abdomen from ascites with jaundiced skin in decompensated alcoholic hepatitis, often accompanied by spider naevi and palmar erythema",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -812,6 +1014,18 @@ window.GOTCHA.modules.push(
      "caption": "Scleral icterus — jaundice as a sign of hepatic decompensation",
      "alt": "Yellow sclera indicating hyperbilirubinaemia in decompensated cirrhosis — one of the four cardinal decompensation events (jaundice, ascites, encephalopathy, variceal bleed)",
      "credit": "Bobjgalindo, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/CirrhosisWithAscites.png",
+     "caption": "Decompensated cirrhosis — massive ascites on clinical examination",
+     "alt": "Grossly distended abdomen from tense ascites in decompensated cirrhosis, with visible flanks bulging and umbilical eversion — a cardinal sign of hepatic decompensation",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Mallorys_Hyalin_in_Alcoholic_Liver_Disease_%282632109950%29.jpg/960px-Mallorys_Hyalin_in_Alcoholic_Liver_Disease_%282632109950%29.jpg",
+     "caption": "CT abdomen — cirrhotic liver with nodular surface, splenomegaly and ascites",
+     "alt": "CT abdomen showing shrunken nodular liver with irregular surface (cirrhosis), splenomegaly, and free peritoneal fluid (ascites) — radiological hallmarks of portal hypertension",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -844,7 +1058,21 @@ window.GOTCHA.modules.push(
    ],
    "title": "Haemochromatosis",
    "subtitle": "C282Y, the transferrin saturation >45% screen, and ferritin pitfalls",
-   "id": "gastroenterology-29"
+   "id": "gastroenterology-29",
+   "images": [
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/HemochromatosisSkin.jpg",
+     "caption": "Haemochromatosis — bronze skin discolouration (bronzed diabetes)",
+     "alt": "Characteristic bronze-grey hyperpigmentation of the skin in hereditary haemochromatosis due to iron and melanin deposition — the 'bronzed diabetes' classic clinical finding",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Jcm-12-02679-g004-550.jpg",
+     "caption": "Haemochromatosis — MRI liver showing iron overload (dark liver on T2)",
+     "alt": "T2-weighted MRI liver demonstrating diffuse decreased signal intensity (dark liver) due to paramagnetic iron deposition — the non-invasive gold standard for quantifying hepatic iron overload",
+     "credit": "Wikimedia Commons"
+    }
+   ]
   },
   {
    "topic": "Hepatic encephalopathy - precipitants, lactulose dosing endpoint, and the ammonia trap",
@@ -1000,6 +1228,12 @@ window.GOTCHA.modules.push(
      "caption": "Scleral icterus — jaundice in end-stage liver disease",
      "alt": "Icteric sclerae indicating significant hyperbilirubinaemia in the context of decompensated liver disease preceding HRS-AKI",
      "credit": "Bobjgalindo, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/CirrhosisWithAscitesMark.png",
+     "caption": "Tense ascites — decompensated cirrhosis (HRS context)",
+     "alt": "Grossly distended abdomen with tense ascites and visible abdominal wall veins — the typical clinical setting in which hepatorenal syndrome develops",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1081,6 +1315,12 @@ window.GOTCHA.modules.push(
      "caption": "Acanthosis nigricans — insulin resistance / metabolic syndrome",
      "alt": "Velvety hyperpigmented plaques in the axilla — a visible skin marker of insulin resistance that co-exists with NAFLD/MASLD in metabolic syndrome",
      "credit": "Mark F. Brady; Prashanth Rawla, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Non-alcoholic_fatty_liver_disease1.jpg/960px-Non-alcoholic_fatty_liver_disease1.jpg",
+     "caption": "CT abdomen — hepatic steatosis (fatty liver)",
+     "alt": "Axial CT showing diffuse low-attenuation liver parenchyma (liver density less than spleen) consistent with significant hepatic steatosis in NAFLD/MASLD",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1120,6 +1360,12 @@ window.GOTCHA.modules.push(
      "caption": "Scleral icterus — acute liver failure (late paracetamol toxicity)",
      "alt": "Deep jaundice as a sign of hepatocellular necrosis — the consequence of untreated paracetamol overdose when NAC is delayed or missed",
      "credit": "Bobjgalindo, Wikimedia Commons, CC BY-SA 4.0"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Rumack_Matthew_nomogram_with_treatment_%28study%29_line-vi.png/960px-Rumack_Matthew_nomogram_with_treatment_%28study%29_line-vi.png",
+     "caption": "Paracetamol overdose treatment nomogram",
+     "alt": "The Australian/NZ single-line nomogram with the 1000 micromol/L (150 mg/L) at 4-hour treatment threshold — used to determine NAC need after paracetamol ingestion",
+     "credit": "Wikimedia Commons"
     }
    ]
   },
