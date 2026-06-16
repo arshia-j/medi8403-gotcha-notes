@@ -127,15 +127,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Suspect GCA (age &gt;50, headache, jaw claudication, ↑ESR/CRP)</div><div class=\"gv-step\">No visual loss → prednisolone <span class=\"gv-num\">40-60 mg/day</span> NOW</div><div class=\"gv-step\">Visual loss/diplopia → IV methylpred <span class=\"gv-num\">500-1000 mg/day x3</span></div><div class=\"gv-step\">Biopsy ideally within <span class=\"gv-num\">1-2 weeks</span>; aspirin + bone/GI protection; consider tocilizumab</div></div>",
    "title": "Giant cell arteritis",
    "subtitle": "treat BEFORE biopsy; steroid dose by visual status; biopsy timing",
-   "id": "rheumatology-3",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Temporal_Artery_Aneurysm_%285221715420%29.jpg/960px-Temporal_Artery_Aneurysm_%285221715420%29.jpg",
-     "caption": "Giant cell arteritis — thickened non-pulsatile temporal artery",
-     "alt": "Tender, thickened, nodular and erythematous temporal artery visible on the scalp (GCA)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "rheumatology-3"
   },
   {
    "topic": "Idiopathic inflammatory myopathy — high CK, the anti-Jo1/ILD link & malignancy screen",
@@ -175,18 +167,6 @@ window.GOTCHA.modules.push(
      "caption": "Dermatomyositis — Gottron papules over MCP and IP joints",
      "alt": "Violaceous scaly plaques over the knuckles (Gottron papules) — pathognomonic of dermatomyositis",
      "credit": "Mohammad2018, Wikimedia Commons, CC BY-SA 4.0"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Dermatomyositis.jpg",
-     "caption": "Dermatomyositis — heliotrope rash around eyelids",
-     "alt": "Violaceous periorbital oedema and erythema (heliotrope rash) characteristic of dermatomyositis",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Dermatomyositis15.jpg/960px-Dermatomyositis15.jpg",
-     "caption": "Dermatomyositis — mechanic's hands (hyperkeratotic fissuring of lateral fingers)",
-     "alt": "Rough, cracked, hyperkeratotic skin over the lateral aspects of fingers (mechanic's hands) associated with anti-Jo-1 positive IIM and ILD",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -395,21 +375,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-pills\"><span class=\"gv-pill\">Anti-Ro/La</span><span class=\"gv-pill\">Schirmer + lip biopsy</span><span class=\"gv-pill\">Pregnancy: fetal heart block</span><span class=\"gv-pill\">Red flag: parotid swelling = lymphoma</span><span class=\"gv-pill\">Type 1 RTA</span></div>",
    "title": "Sjögren syndrome",
    "subtitle": "anti-Ro/La, the pregnancy heart-block link, and the lymphoma red flag",
-   "id": "rheumatology-10",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sjogren%27s_syndrome_%282%29.jpg",
-     "caption": "Sjögren syndrome — keratoconjunctivitis sicca (slit lamp showing punctate corneal staining)",
-     "alt": "Rose Bengal or fluorescein staining of the cornea demonstrating keratoconjunctivitis sicca (dry eye) in Sjögren syndrome",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Mumps_PHIL_130_lores.jpg",
-     "caption": "Sjögren syndrome — parotid gland enlargement",
-     "alt": "Bilateral parotid gland enlargement giving characteristic facial fullness in Sjögren syndrome",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "rheumatology-10"
   },
   {
    "topic": "SLE — hydroxychloroquine for all, dose cap, retinal screening & flare vs infection",
@@ -528,9 +494,9 @@ window.GOTCHA.modules.push(
    "id": "rheumatology-13",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/%D8%B5%D9%88%D8%B1%D8%A9_%D9%84%D9%85%D8%B1%D8%B6_%D8%A7%D9%84%D8%B1%D9%8A%D9%86%D9%88%D8%AF.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Raynaud%27s_Phenomenon.jpg/960px-Raynaud%27s_Phenomenon.jpg",
      "caption": "Raynaud phenomenon — triphasic colour change of fingers",
-     "alt": "White-blue-red triphasic colour change of fingers in Raynaud phenomenon (common in systemic sclerosis)",
+     "alt": "Raynaud phenomenon — triphasic colour change of fingers",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -613,15 +579,15 @@ window.GOTCHA.modules.push(
    "id": "rheumatology-15",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Foot_radiography_gout.jpg",
-     "caption": "Acute gout — podagra (first MTP joint)",
-     "alt": "Acutely inflamed, erythematous, swollen first metatarsophalangeal joint — the classic podagra presentation of acute gout",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Uric_acid_crystals_in_polarized_light.png/960px-Uric_acid_crystals_in_polarized_light.png",
      "caption": "Gout crystals — needle-shaped negatively birefringent under polarized light",
      "alt": "Monosodium urate crystals: needle-shaped, negatively birefringent (yellow when parallel to slow ray) under compensated polarized light microscopy",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Acute_gout.jpg/960px-Acute_gout.jpg",
+     "caption": "Acute gout — podagra (first MTP joint)",
+     "alt": "Acute gout — podagra (first MTP joint)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -699,15 +665,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Synovial fluid</th><th>Normal</th><th>Non-inflammatory (OA)</th><th>Inflammatory (gout/RA)</th><th>Septic</th></tr></thead><tbody><tr><td>WCC /mm3</td><td>&lt;200</td><td>200–2,000</td><td>2,000–50,000</td><td><span class=\"gv-num\">&gt;50,000</span> (&gt;90% PMN)</td></tr><tr><td>Appearance</td><td>Clear</td><td>Clear/straw</td><td>Cloudy</td><td>Turbid/purulent</td></tr><tr><td>Crystals</td><td>Nil</td><td>Nil</td><td>Often present</td><td>Crystals don't exclude sepsis</td></tr></tbody></table><div class=\"gv-flow\"><div class=\"gv-step\">Hot joint</div><div class=\"gv-step\">Aspirate + blood cultures (don't delay if septic)</div><div class=\"gv-step\">Empirical IV antibiotics</div><div class=\"gv-step\">Refer ortho for washout</div></div>",
    "title": "Septic arthritis",
    "subtitle": "ASPIRATE and culture BEFORE antibiotics (the sequencing gotcha)",
-   "id": "rheumatology-17",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/SepticArth2011_%28cropped%29.jpg",
-     "caption": "Septic arthritis — acutely swollen hot knee joint",
-     "alt": "Grossly swollen, erythematous knee with joint effusion requiring urgent aspiration — classic appearance of septic arthritis",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "rheumatology-17"
   },
   {
    "topic": "The acute monoarthritis approach — ASPIRATE every undiagnosed hot joint",
@@ -738,15 +696,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Acute single hot joint</div><div class=\"gv-step\">ASPIRATE + blood cultures</div><div class=\"gv-step\">3 tests: Gram/culture · WCC+diff · crystals</div><div class=\"gv-step\">WCC &gt;50k or organisms → septic → ortho</div><div class=\"gv-step\">Crystals + WCC 2k–50k → gout/CPPD (still exclude sepsis)</div></div><div class=\"gv-pills\"><span class=\"gv-pill\">Won't move = think SEPTIC</span><span class=\"gv-pill\">Normal urate ≠ not gout</span><span class=\"gv-pill\">Crystals ≠ no infection</span></div>",
    "title": "The acute monoarthritis approach",
    "subtitle": "ASPIRATE every undiagnosed hot joint",
-   "id": "rheumatology-18",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/SepticArth2011.jpg",
-     "caption": "Hot swollen monoarthritis — knee requiring aspiration",
-     "alt": "Acutely swollen, erythematous monoarthritis of the knee — illustrating that every undiagnosed hot joint must be aspirated regardless of prior gout history",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "rheumatology-18"
   },
   {
    "topic": "Urate-lowering therapy (allopurinol) — start after flare, titrate-to-target, HLA-B*5801 risk",
@@ -783,9 +733,9 @@ window.GOTCHA.modules.push(
    "id": "rheumatology-19",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Gout_SC07_1201.jpg/960px-Gout_SC07_1201.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Tophaceous_gout_of_Lt_MTP_joint%2C_elder_female_patient%2C_Thailand.jpg/960px-Tophaceous_gout_of_Lt_MTP_joint%2C_elder_female_patient%2C_Thailand.jpg",
      "caption": "Tophaceous gout — visible tophi on ear and hands",
-     "alt": "Chalky white tophaceous deposits over the helix of the ear and finger joints — the end-stage consequence of inadequately treated hyperuricaemia that urate-lowering therapy aims to prevent",
+     "alt": "Tophaceous gout — visible tophi on ear and hands",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -923,9 +873,9 @@ window.GOTCHA.modules.push(
    "id": "rheumatology-23",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/MRI_of_the_lumbar_spine_with_abscess_in_the_posterior_epidural_space%2C_causing_cauda_equina_syndrome.jpg/960px-MRI_of_the_lumbar_spine_with_abscess_in_the_posterior_epidural_space%2C_causing_cauda_equina_syndrome.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Spinal_disc_herniation_MRI.svg/960px-Spinal_disc_herniation_MRI.svg.png",
      "caption": "MRI lumbar spine — cauda equina compression (large central disc prolapse)",
-     "alt": "Axial and sagittal MRI showing a large central disc herniation at L4/5 or L5/S1 compressing the cauda equina — the surgical emergency responsible for saddle anaesthesia and urinary retention",
+     "alt": "MRI lumbar spine — cauda equina compression (large central disc prolapse)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1057,15 +1007,7 @@ window.GOTCHA.modules.push(
    ],
    "title": "Osteoporosis diagnosis",
    "subtitle": "DXA T-score vs Z-score & site",
-   "id": "rheumatology-27",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Morbus_Fabry_DXA_01.jpg/960px-Morbus_Fabry_DXA_01.jpg",
-     "caption": "DXA scan — bone mineral density measurement with T-score",
-     "alt": "DEXA/DXA printout showing bone mineral density measurement at the lumbar spine and hip with T-score and Z-score values, demonstrating osteoporosis (T-score ≤ -2.5)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "rheumatology-27"
   },
   {
    "topic": "Rotator cuff disease — impingement vs tear vs frozen shoulder vs the can't-miss",

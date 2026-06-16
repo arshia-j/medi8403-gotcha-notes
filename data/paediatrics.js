@@ -72,12 +72,6 @@ window.GOTCHA.modules.push(
    "subtitle": "IM adrenaline 10 microg/kg first; antihistamine isn't life-saving",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mia_Silverman_EpiPen.jpg/960px-Mia_Silverman_EpiPen.jpg",
-     "caption": "Anaphylaxis — IM adrenaline injection into anterolateral thigh (vastus lateralis)",
-     "alt": "Correct anatomical site for IM adrenaline in anaphylaxis: anterolateral thigh (vastus lateralis)",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Urticaria12.2024.jpg/960px-Urticaria12.2024.jpg",
      "caption": "Anaphylaxis — urticaria and angioedema clinical appearance",
      "alt": "Widespread urticaria (wheals) and lip angioedema as cutaneous manifestations of anaphylaxis",
@@ -146,12 +140,6 @@ window.GOTCHA.modules.push(
      "caption": "Non-blanching petechial/purpuric rash — bacterial meningococcal meningitis",
      "alt": "Non-blanching purpuric and petechial rash on legs — classic sign of meningococcal septicaemia requiring immediate antibiotics",
      "credit": "DrFO.Jr.Tn, Wikimedia Commons, CC BY-SA 3.0"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Tuberculous-meningitis-scan.jpg",
-     "caption": "CT head — bacterial meningitis (diffuse meningeal enhancement)",
-     "alt": "Diffuse leptomeningeal enhancement on contrast CT — indicating meningeal inflammation (contrast CT not required before antibiotics)",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -280,12 +268,6 @@ window.GOTCHA.modules.push(
      "src": "assets/img/haematology_blood_film_acute_leukaemia_01.jpg",
      "alt": "Peripheral blood film with multiple immature blast cells of acute leukaemia.",
      "credit": "Unknown photographer, Wikimedia Commons, public domain · Public domain"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/ALL_-_Peripherial_Blood_-_Diagnosis_-_01.jpg",
-     "caption": "Pallor and petechiae in childhood leukaemia",
-     "alt": "Child with marked pallor and petechiae/bruising reflecting pancytopenia from bone marrow infiltration by leukaemia",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -506,15 +488,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Kocher criteria met</th><th>Probability septic arthritis</th></tr></thead><tbody><tr><td>1</td><td>~3%</td></tr><tr><td>2</td><td>~40%</td></tr><tr><td>3</td><td>~93%</td></tr><tr><td>4</td><td><span class=\"gv-num\">~99%</span></td></tr></tbody></table>",
    "id": "paed-18",
    "title": "Fever and Limp",
-   "subtitle": "Kocher criteria separate septic arthritis from transient synovitis",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ultrasonography_of_joint_effusion_in_transient_synovitis_of_the_hip.jpg",
-     "caption": "Septic arthritis hip - ultrasound showing joint effusion",
-     "alt": "Hip ultrasound demonstrating a distended joint capsule with effusion, the key imaging finding driving aspiration and Kocher criteria workup for septic arthritis",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Kocher criteria separate septic arthritis from transient synovitis"
   },
   {
    "topic": "Fever without focus by AGE: <=28 days = full septic workup + IV antibiotics regardless of looking well",
@@ -576,21 +550,9 @@ window.GOTCHA.modules.push(
      "credit": "Dong Soo Kim (derivative by Natr), Wikimedia Commons, CC BY 2.0 (panel label cropped)"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Kawasakidiseasemanifestations.png/960px-Kawasakidiseasemanifestations.png",
-     "caption": "Kawasaki disease - palmar erythema and desquamation of fingertips",
-     "alt": "Periungual and palmar desquamation (peeling fingertips) in the convalescent phase of Kawasaki disease — one of the five principal diagnostic features",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kawasaki_symptoms_A.jpg",
      "caption": "Kawasaki disease - bilateral non-purulent conjunctival injection",
      "alt": "Bilateral bulbar conjunctival injection without discharge (non-purulent conjunctivitis) — a principal feature of Kawasaki disease",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Coronaraneursymen_bei_Kawasaki-Syndrom_-_CT_-_Rekonstruktion_-_MIP_-_011.jpg",
-     "caption": "Kawasaki disease - coronary artery aneurysm on echocardiogram",
-     "alt": "Echocardiogram demonstrating dilation of the coronary artery (coronary artery aneurysm) — the feared complication prevented by IVIG by day 10",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -698,7 +660,7 @@ window.GOTCHA.modules.push(
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/RtmaxobitinfectteethCT.png/960px-RtmaxobitinfectteethCT.png",
      "caption": "Orbital cellulitis - CT orbits showing subperiosteal abscess",
-     "alt": "Axial CT of the orbits demonstrating a medial subperiosteal abscess with proptosis and fat stranding, confirming post-septal orbital cellulitis",
+     "alt": "Orbital cellulitis - CT orbits showing subperiosteal abscess",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1041,12 +1003,6 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_us_intussusception_target_sign_01.jpg",
      "alt": "Abdominal ultrasound showing the target sign of intussusception",
      "credit": "Cerevisae, Wikimedia Commons, CC BY-SA 4.0 (caption text & colour-Doppler panel cropped)"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Ultrasound_of_target_sign_in_intussusception_of_the_right_bowel.png/960px-Ultrasound_of_target_sign_in_intussusception_of_the_right_bowel.png",
-     "caption": "Intussusception - AXR showing paucity of bowel gas and soft tissue mass",
-     "alt": "Plain abdominal radiograph in intussusception showing soft tissue density mass in the right abdomen with paucity of gas in that region",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1076,15 +1032,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Neonate GREEN (bilious) vomit</div><div class=\"gv-step\">Resuscitate + NGT decompress</div><div class=\"gv-step\">URGENT surgical referral</div><div class=\"gv-step\">Upper GI contrast (NOT first-line USS/AXR)</div><div class=\"gv-step\">Peritonism/shock = straight to laparotomy</div></div>",
    "id": "paed-25",
    "title": "Malrotation With Midgut Volvulus",
-   "subtitle": "Green bilious vomiting in a neonate is surgical until excluded",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/1/11/Sigmavolvulus_-_91w_-_CT_cor_-_001_-_Annotation.gif",
-     "caption": "Midgut volvulus - CT whirlpool sign of mesenteric vessels",
-     "alt": "CT abdomen showing whirlpool sign of swirling mesenteric vessels around the superior mesenteric artery in midgut volvulus",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Green bilious vomiting in a neonate is surgical until excluded"
   },
   {
    "topic": "Neonatal NEC - bilious aspirate + bloody stool in a preterm (the surgical mimic of malrotation)",
@@ -1469,15 +1417,7 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-39",
    "title": "Global vs Isolated Developmental Delay",
-   "subtitle": "Isolated speech delay: check hearing first",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Child_Development_Stages_Graphic_-_Blue_-_48412252121.jpg/960px-Child_Development_Stages_Graphic_-_Blue_-_48412252121.jpg",
-     "caption": "Developmental milestone chart - multiple domain delay vs isolated delay",
-     "alt": "Comparison of global developmental delay (multiple domains affected) versus isolated speech delay",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Isolated speech delay: check hearing first"
   },
   {
    "topic": "Head circumference (OFC) red flags — micro/macrocephaly and centile crossing",
@@ -1717,9 +1657,9 @@ window.GOTCHA.modules.push(
      "credit": "Welleschik, Wikimedia Commons, CC BY-SA 3.0 (cropped)"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Acute_Otitis_Media_Stage_of_Resolution.jpg/960px-Acute_Otitis_Media_Stage_of_Resolution.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Otitis_media_incipient.jpg/960px-Otitis_media_incipient.jpg",
      "caption": "Otoscopy - acute otitis media with bulging erythematous tympanic membrane",
-     "alt": "Otoscopic view of inflamed, bulging, erythematous tympanic membrane with loss of light reflex in acute otitis media",
+     "alt": "Otoscopy - acute otitis media with bulging erythematous tympanic membrane",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1928,21 +1868,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Well at birth</div><div class=\"gv-step\">Day 2-7: duct closes</div><div class=\"gv-step\">Shock / cyanosis / absent femorals</div><div class=\"gv-step\">Start PGE1 + treat as sepsis</div><div class=\"gv-step\">Watch for apnoea -> intubate</div></div>",
    "id": "paed-46",
    "title": "Duct-Dependent Lesions",
-   "subtitle": "Day 2-7 collapse: give prostaglandin E1, not just sepsis cover",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Hypoplastic_Left_Heart_Syndrome.png",
-     "caption": "CXR - Duct-dependent lesion: hypoplastic left heart syndrome (cardiomegaly, pulmonary oedema)",
-     "alt": "Chest X-ray of neonate with hypoplastic left heart syndrome showing cardiomegaly and pulmonary venous congestion",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/PDA_Coil.png",
-     "caption": "Echocardiogram - duct-dependent circulation: large PDA with right-to-left shunt",
-     "alt": "Echocardiogram showing patent ductus arteriosus maintaining systemic circulation in a duct-dependent lesion",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Day 2-7 collapse: give prostaglandin E1, not just sepsis cover"
   },
   {
    "topic": "Haemolytic uraemic syndrome (HUS) - the do-NOT-give-antibiotics rule",
@@ -2018,18 +1944,6 @@ window.GOTCHA.modules.push(
      "caption": "ITP - petechiae and non-blanching purpura in a well child (normal platelet morphology on film)",
      "alt": "Widespread petechiae and purpura in a well child with immune thrombocytopaenic purpura (ITP)",
      "credit": "DrFO.Jr.Tn, Wikimedia Commons, CC BY-SA 3.0"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Knee_joint_of_a_haemophiliac_Wellcome_L0062595.jpg/960px-Knee_joint_of_a_haemophiliac_Wellcome_L0062595.jpg",
-     "caption": "Haemarthrosis - haemophilia (swollen hot joint, knee haemarthrosis)",
-     "alt": "Swollen, tense knee joint haemarthrosis in a boy with haemophilia A - classic deep bleeding pattern",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Epistaxis_%28Nose_Bleed%29.jpg/960px-Epistaxis_%28Nose_Bleed%29.jpg",
-     "caption": "vWD - mucosal bleeding (epistaxis, gum bleeding) pattern",
-     "alt": "Mucosal bleeding pattern (epistaxis, gingival bleeding) characteristic of von Willebrand disease",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -2213,15 +2127,15 @@ window.GOTCHA.modules.push(
      "credit": "Wikimedia Commons"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kawasaki.PNG/960px-Kawasaki.PNG",
-     "caption": "Kawasaki disease — polymorphous rash (truncal erythema)",
-     "alt": "Polymorphous maculopapular to erythematous rash on the trunk in a child with Kawasaki disease",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Kawasaki_symptoms_F.jpg",
      "caption": "Kawasaki disease — desquamation of fingertips (periungual peeling)",
      "alt": "Periungual and fingertip desquamation (peeling) occurring 2-3 weeks into Kawasaki disease",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Kawasaki.PNG/960px-Kawasaki.PNG",
+     "caption": "Kawasaki disease — polymorphous rash (truncal erythema)",
+     "alt": "Kawasaki disease — polymorphous rash (truncal erythema)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2256,12 +2170,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/2/22/Kawasaki_symptoms_A.jpg",
      "caption": "Kawasaki disease — bilateral non-exudative conjunctivitis",
      "alt": "Bilateral bulbar conjunctival injection with limbal sparing in Kawasaki disease",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Coronaraneursymen_bei_Kawasaki-Syndrom_-_CT_-_Volume_rendering_gesamt_-_023.jpg",
-     "caption": "Echocardiogram — coronary artery aneurysm in Kawasaki disease",
-     "alt": "Parasternal short-axis echocardiogram demonstrating dilation of the left anterior descending coronary artery (aneurysm) in Kawasaki disease",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2378,12 +2286,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Nephrotic_eyes.JPG",
      "caption": "Nephrotic syndrome — periorbital oedema in a child",
      "alt": "Marked bilateral periorbital puffiness (facial oedema) in a child with nephrotic syndrome — often mistaken for allergy",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Combinpedal.jpg/960px-Combinpedal.jpg",
-     "caption": "Nephrotic syndrome — pitting oedema of the legs and scrotal oedema",
-     "alt": "Pitting oedema of the lower limbs and scrotal oedema in a child with nephrotic syndrome",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2553,12 +2455,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Vesicoureteral-reflux-004.jpg",
      "caption": "MCUG (micturating cystourethrogram) — vesicoureteric reflux",
      "alt": "Micturating cystourethrogram (MCUG) demonstrating retrograde filling of the ureter(s) and collecting system — vesicoureteric reflux (VUR)",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/DMSA_scan_while_on_enalapril.jpg",
-     "caption": "DMSA renal scan — photopenic defect indicating cortical scarring",
-     "alt": "DMSA scintigraphy showing photopenic cortical defect consistent with renal scarring from recurrent pyelonephritis in a child with VUR",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -2734,15 +2630,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th></th><th>Septic arthritis</th><th>JIA</th></tr></thead><tbody><tr><td>Onset</td><td>Acute (hours-days)</td><td>>=6 weeks</td></tr><tr><td>Systemic</td><td>Febrile, unwell</td><td>Often well; morning stiffness</td></tr><tr><td>Joint</td><td>Won't move/weight-bear</td><td>Stiffness eases with use</td></tr><tr><td>Action</td><td>Aspirate + IV antibiotics now</td><td>Rheumatology workup</td></tr></tbody></table>",
    "id": "paed-60",
    "title": "Septic Arthritis vs JIA",
-   "subtitle": "Febrile, non-weight-bearing joint is septic until proven",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ultrasonography_of_joint_effusion_in_transient_synovitis_of_the_hip.jpg",
-     "caption": "Septic arthritis hip — ultrasound showing joint effusion",
-     "alt": "Hip ultrasound demonstrating a large joint effusion (anechoic fluid anterior to femoral neck) in septic arthritis of the hip",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Febrile, non-weight-bearing joint is septic until proven"
   },
   {
    "id": "paed-121",
@@ -2867,15 +2755,7 @@ window.GOTCHA.modules.push(
    "verified": true,
    "id": "paed-71",
    "title": "Bilirubin Treatment Nomogram",
-   "subtitle": "Thresholds read off age-in-hours chart and lowered for risk",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Jaundice_phototherapy.jpg",
-     "caption": "Neonatal bilirubin treatment nomogram - age-in-hours vs bilirubin threshold chart",
-     "alt": "The Bhutani/AAP-style nomogram plotting total serum bilirubin against age in hours with phototherapy and exchange-transfusion threshold curves stratified by risk",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "subtitle": "Thresholds read off age-in-hours chart and lowered for risk"
   },
   {
    "topic": "Breastmilk jaundice vs breastfeeding (suboptimal-intake) jaundice",
@@ -2952,12 +2832,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Pneumatosis_intestinalis_und_hepatis_bei_NEC_0W_-_CR_ap_-_001.jpg/960px-Pneumatosis_intestinalis_und_hepatis_bei_NEC_0W_-_CR_ap_-_001.jpg",
      "caption": "NEC - AXR showing pneumatosis intestinalis (intramural gas)",
      "alt": "Abdominal X-ray demonstrating linear or bubbly intramural gas (pneumatosis intestinalis) within the bowel wall, pathognomonic of necrotising enterocolitis",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/ROP02_thumb.jpg",
-     "caption": "Retinopathy of prematurity - fundus photograph showing fibrovascular proliferation",
-     "alt": "Fundus photograph in a premature infant showing peripheral avascular retina with a ridge and fibrovascular proliferative changes (stage 3 ROP)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -3077,12 +2951,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Transposition_great_arteries_Orphanet_1750-1172-3-27-1.JPEG",
      "caption": "CXR in duct-dependent congenital heart disease - 'egg-on-side' heart (TGA)",
      "alt": "Neonatal chest X-ray showing the classic 'egg-on-a-string' cardiac silhouette of transposition of the great arteries with a narrow mediastinum",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Cardiovascular_system_-_Congenital_heart_disease_-_Hypoplastic_left_heart_syndrom_--_Smart-Servier.png",
-     "caption": "Hypoplastic left heart syndrome - CXR showing cardiomegaly and pulmonary plethora",
-     "alt": "Neonatal CXR in HLHS showing marked cardiomegaly and increased pulmonary vascular markings (pulmonary plethora) in a duct-dependent systemic circulation lesion",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -3739,9 +3607,9 @@ window.GOTCHA.modules.push(
    "redFlags": "- **Microcephaly** + all 3 sentinel features in a child < 6 yr -> can diagnose even without formal neurodevelopmental testing\n- Co-occurring **vision/hearing deficits, seizures, cardiac/renal anomalies** -> screen, as FASD clusters with these",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Fetal_Alcohol_Spectrum_Disorders_%28FASD%29_in_the_United_States_%2822185062444%29.png/960px-Fetal_Alcohol_Spectrum_Disorders_%28FASD%29_in_the_United_States_%2822185062444%29.png",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Philtrum_FAS_6_months.jpg",
      "caption": "FASD — three sentinel facial features: smooth philtrum, thin vermilion border, small palpebral fissures",
-     "alt": "Child with fetal alcohol spectrum disorder showing the three sentinel facial features: smooth/flat philtrum, thin upper lip (vermilion border), and short palpebral fissures",
+     "alt": "FASD — three sentinel facial features: smooth philtrum, thin vermilion border, small palpebral fissures",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -3918,12 +3786,6 @@ window.GOTCHA.modules.push(
      "src": "assets/img/paediatrics_scarlet_fever_strawberry_tongue_01.jpg",
      "alt": "Clinical photograph of a white strawberry tongue in group A streptococcal infection / scarlet fever.",
      "credit": "Whispyhistory, Wikimedia Commons, CC BY-SA 4.0"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Erythema_marginatum.jpg/960px-Erythema_marginatum.jpg",
-     "caption": "Erythema marginatum — evanescent pink rings on trunk (major Jones criterion)",
-     "alt": "Erythema marginatum — serpiginous/ring-shaped erythematous rash on the trunk of a child with acute rheumatic fever",
-     "credit": "Wikimedia Commons"
     },
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/2D_Echocardiogram_showing_Mitral_Regurgitation_in_PLAX_view_-_Navi_Mumbai.jpg/960px-2D_Echocardiogram_showing_Mitral_Regurgitation_in_PLAX_view_-_Navi_Mumbai.jpg",

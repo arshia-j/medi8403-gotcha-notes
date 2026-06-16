@@ -250,12 +250,6 @@ window.GOTCHA.modules.push(
      "caption": "Angioedema — lip and tongue swelling (ACEi / HAE)",
      "alt": "Marked swelling of the lips and tongue (angioedema) as seen in ACE-inhibitor-induced or hereditary angioedema — bradykinin-mediated, adrenaline largely ineffective",
      "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/AngioedemaFra.JPG/960px-AngioedemaFra.JPG",
-     "caption": "Laryngeal angioedema — airway oedema CT/endoscopy",
-     "alt": "Laryngeal oedema causing airway compromise in severe angioedema — illustrating the life-threatening airway risk distinct from anaphylaxis",
-     "credit": "Wikimedia Commons"
     }
    ]
   },

@@ -105,15 +105,7 @@ window.GOTCHA.modules.push(
    "mnemonic": "'Open the book medial-to-lateral — then still pin it in theatre.'",
    "verified": true,
    "title": "Manual detorsion + theatre logistics (transfer /…",
-   "id": "surg-urology-3",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Torsion_teste_aguda.jpg/960px-Torsion_teste_aguda.jpg",
-     "caption": "Testicular torsion - swollen, high-riding testis with horizontal lie",
-     "alt": "Acutely swollen, erythematous hemiscrotum with high-riding testis and horizontal (transverse) lie in testicular torsion",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-urology-3"
   },
   {
    "topic": "Suspected testicular torsion = STRAIGHT TO THEATRE — do NOT wait for ultrasound",
@@ -141,15 +133,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class='gv-flow'><div class='gv-step'>Sudden severe scrotal pain (peri-pubertal boy)</div><div class='gv-step'>Clinical exam: cremasteric reflex / lie / nausea</div><div class='gv-step'>Torsion suspected or cannot exclude</div><div class='gv-step'>NBM + IV + analgesia + consent — NO USS, NO transfer</div><div class='gv-step'>THEATRE: scrotal exploration within ~2 h</div></div>",
    "title": "Suspected testicular torsion = STRAIGHT TO THEATRE",
    "subtitle": "do NOT wait for ultrasound",
-   "id": "surg-urology-4",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Torsion_teste_aguda.jpg/960px-Torsion_teste_aguda.jpg",
-     "caption": "Testicular torsion - acute scrotum clinical presentation",
-     "alt": "Unilateral acutely swollen, red hemiscrotum with high-riding testis and absent cremasteric reflex in a teenage male — the classic torsion presentation",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-urology-4"
   },
   {
    "topic": "The 6-hour salvage window (and why you still explore at 24-48 h)",
@@ -213,15 +197,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class='gv-table'><thead><tr><th>Feature</th><th>Testicular torsion</th><th>Epididymo-orchitis</th><th>Appendix testis torsion</th></tr></thead><tbody><tr><td>Typical age</td><td>Peri-pubertal (also neonate)</td><td>&lt;35 STI / &gt;35 enteric; infants</td><td>Pre-pubertal 7-12 y</td></tr><tr><td>Onset</td><td>Sudden, severe</td><td>Gradual / subacute</td><td>Sub-acute, mild</td></tr><tr><td>Cremasteric reflex</td><td>Absent</td><td>Present</td><td>Present</td></tr><tr><td>Testis lie</td><td>High-riding / horizontal</td><td>Normal</td><td>Normal</td></tr><tr><td>Special sign</td><td>N&amp;V; tender whole testis</td><td>Tender posterolateral epididymis; fever; pyuria</td><td>Blue dot at upper pole</td></tr><tr><td>Action</td><td>THEATRE</td><td>Antibiotics</td><td>Analgesia / conservative</td></tr></tbody></table>",
    "title": "Torsion vs epididymo-orchitis vs torsion of appendix testis",
    "subtitle": "the discriminator table",
-   "id": "surg-urology-6",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Torsion_teste_aguda.jpg/960px-Torsion_teste_aguda.jpg",
-     "caption": "Testicular torsion - swollen tender high-riding testis",
-     "alt": "Unilateral acute scrotal swelling, erythema and high-riding testis with transverse lie seen in testicular torsion",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-urology-6"
   },
   {
    "topic": "Definitive stone treatment modalities — ESWL vs URS vs PCNL (which size/site picks which)",
@@ -458,12 +434,6 @@ window.GOTCHA.modules.push(
    "id": "surg-urology-12",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ultrasonography_of_keyhole_sign_of_lower_urinary_tract_obstruction.jpg/960px-Ultrasonography_of_keyhole_sign_of_lower_urinary_tract_obstruction.jpg",
-     "caption": "Acute urinary retention - distended bladder on ultrasound",
-     "alt": "Pelvic ultrasound showing a massively distended, globular bladder in acute urinary retention — classic appearance with large post-void residual",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Ultrasonography_of_end-stage_hydronephrosis_with_cortical_thinning.jpg",
      "caption": "Chronic urinary retention - bilateral hydronephrosis on ultrasound",
      "alt": "Renal ultrasound showing bilateral hydronephrosis and hydroureter from chronic high-pressure bladder outlet obstruction (BPH) — the silent, painless presentation",
@@ -625,15 +595,15 @@ window.GOTCHA.modules.push(
    "id": "surg-urology-17",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Digital_rectal_exam_%28male%29.jpg/960px-Digital_rectal_exam_%28male%29.jpg",
-     "caption": "Digital rectal examination findings - hard nodular prostate",
-     "alt": "Diagram or clinical illustration of a hard, nodular, asymmetric prostate on DRE — the red flag finding for prostate cancer requiring urgent referral",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Prostate-mets-102.jpg",
      "caption": "Skeletal metastases from prostate cancer on bone scan",
      "alt": "Tc-99m bone scan showing multiple areas of increased uptake (hot spots) throughout the axial skeleton representing osteoblastic metastases from prostate cancer",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Digital_Rectal_Exam%2C_extracted_from_Understanding_treatment_choices_for_prostate_cancer_%282000%29.jpg/960px-Digital_Rectal_Exam%2C_extracted_from_Understanding_treatment_choices_for_prostate_cancer_%282000%29.jpg",
+     "caption": "Digital rectal examination findings - hard nodular prostate",
+     "alt": "Digital rectal examination findings - hard nodular prostate",
      "credit": "Wikimedia Commons"
     }
    ]

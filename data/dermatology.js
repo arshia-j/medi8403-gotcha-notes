@@ -112,7 +112,7 @@ window.GOTCHA.modules.push(
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Dermatitis_exfoliativa.jpg/960px-Dermatitis_exfoliativa.jpg",
      "caption": "Erythroderma - generalised confluent erythema covering >90% BSA",
-     "alt": "Diffuse bright-red erythema covering virtually the entire body surface, demonstrating the acute skin failure of erythroderma",
+     "alt": "Erythroderma - generalised confluent erythema covering >90% BSA",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -217,15 +217,15 @@ window.GOTCHA.modules.push(
    "id": "dermatology-6",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Necrotizing_fasciitis_left_leg.JPEG/960px-Necrotizing_fasciitis_left_leg.JPEG",
-     "caption": "Necrotising fasciitis - deceptively normal overlying skin with underlying necrosis",
-     "alt": "Early necrotising fasciitis showing erythema, oedema and skin discolouration disproportionate to the severe pain, with blistering indicating deep fascial necrosis",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Necrotising_fascitis_producing_gas_in_soft_tissues.jpg/960px-Necrotising_fascitis_producing_gas_in_soft_tissues.jpg",
      "caption": "Necrotising fasciitis - CT showing gas in soft tissue planes",
      "alt": "Axial CT demonstrating gas tracking along fascial planes — the radiological sign of necrotising fasciitis (not needed to operate but confirms diagnosis)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Necrotizing_fasciitis_left_leg.JPEG/960px-Necrotizing_fasciitis_left_leg.JPEG",
+     "caption": "Necrotising fasciitis - deceptively normal overlying skin with underlying necrosis",
+     "alt": "Necrotising fasciitis - deceptively normal overlying skin with underlying necrosis",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -334,12 +334,6 @@ window.GOTCHA.modules.push(
      "caption": "Pressure injury staging - sacral full-thickness ulcer (Stage 3/4)",
      "alt": "Stage 3/4 pressure injury over the sacrum with full-thickness skin loss, slough and exposed subcutaneous tissue — demonstrating the NPIAP staging system",
      "credit": "AfroBrazilian, Wikimedia Commons, CC BY-SA 4.0"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Decubitus_03.JPG/960px-Decubitus_03.JPG",
-     "caption": "Deep tissue pressure injury (DTPI) - purple/maroon intact skin",
-     "alt": "Deep tissue pressure injury showing intact but purple/maroon discoloured skin or blood-filled blister — the 'unstageable' variant that can rapidly progress",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -558,7 +552,7 @@ window.GOTCHA.modules.push(
    "id": "dermatology-14",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Superficial_spreading_melanoma_in_situ_on_dermoscopy%2C_reflectance_confocal_microscopy_and_histopathology_2.jpg/960px-Superficial_spreading_melanoma_in_situ_on_dermoscopy%2C_reflectance_confocal_microscopy_and_histopathology_2.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Superficial_spreading_melanoma_in_situ_on_dermoscopy%2C_reflectance_confocal_microscopy_and_histopathology_1.jpg/960px-Superficial_spreading_melanoma_in_situ_on_dermoscopy%2C_reflectance_confocal_microscopy_and_histopathology_1.jpg",
      "caption": "Dermoscopy of melanoma - atypical pigment network, regression and irregular streaks",
      "alt": "Dermoscopic image of melanoma showing irregular pigment network, multiple colours, atypical vascular structures and regression structures — features not visible to the naked eye",
      "credit": "Wikimedia Commons"
@@ -640,12 +634,6 @@ window.GOTCHA.modules.push(
      "caption": "Melanoma - clinical appearance driving WLE decision",
      "alt": "Invasive melanoma requiring wide local excision — the clinical correlate of the Breslow measurement that dictates surgical margins",
      "credit": "Dermanonymous, Wikimedia Commons, CC BY-SA 4.0 (cropped to centre on the lesion, removing margin-marker dots)"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Histopathology_of_acral_lentiginous_melanoma_in_situ%2C_intermediate_magnification.jpg/960px-Histopathology_of_acral_lentiginous_melanoma_in_situ%2C_intermediate_magnification.jpg",
-     "caption": "Melanoma - Breslow thickness measurement on histology",
-     "alt": "Histological section of invasive melanoma with measurement of Breslow thickness (from granular layer to deepest tumour cell) — the primary determinant of excision margins and prognosis",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -858,15 +846,7 @@ window.GOTCHA.modules.push(
    ],
    "title": "DRESS",
    "subtitle": "the LATE, multi-organ drug reaction with eosinophilia",
-   "id": "dermatology-22",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Drug_eruption3.jpg",
-     "caption": "DRESS syndrome - widespread morbilliform rash with facial oedema",
-     "alt": "Widespread erythematous morbilliform rash with characteristic facial oedema (especially periorbital) of Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS), appearing 2-8 weeks after drug initiation",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "dermatology-22"
   },
   {
    "topic": "Eczema vs psoriasis: the discriminating exam features",
@@ -985,12 +965,6 @@ window.GOTCHA.modules.push(
      "caption": "Plaque psoriasis on skin - the preceding rash that warns of psoriatic arthritis",
      "alt": "Chronic plaque psoriasis - the skin manifestation that precedes joint disease in psoriatic arthritis; up to 30% of psoriasis patients develop PsA",
      "credit": "Juan Ignacio Castells, Wikimedia Commons, CC BY-SA 3.0 (cropped to back)"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Psoriatic_arthritis_dactylitis_ar1934-4.gif/960px-Psoriatic_arthritis_dactylitis_ar1934-4.gif",
-     "caption": "Psoriatic arthritis - dactylitis (sausage digit) and nail pitting",
-     "alt": "Dactylitis (diffuse swelling of an entire digit, 'sausage finger') and nail pitting characteristic of psoriatic arthritis",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -1017,12 +991,6 @@ window.GOTCHA.modules.push(
    "subtitle": "permethrin protocol, the itch lag, and crusted scabies escalation",
    "id": "dermatology-27",
    "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Scabies_-_Skin_%2850839107751%29.jpg/960px-Scabies_-_Skin_%2850839107751%29.jpg",
-     "caption": "Scabies - interdigital burrows and papular rash",
-     "alt": "Linear burrows in the interdigital web spaces and erythematous papules of scabies infestation (Sarcoptes scabiei)",
-     "credit": "Wikimedia Commons"
-    },
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Norwegian_Scabies_in_Homeless_AIDS_Patient.jpg/960px-Norwegian_Scabies_in_Homeless_AIDS_Patient.jpg",
      "caption": "Crusted (Norwegian) scabies - hyperkeratotic plaques, highly infectious",

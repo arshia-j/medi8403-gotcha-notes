@@ -1187,12 +1187,6 @@ window.GOTCHA.modules.push(
    "id": "cardiovascular-35",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/CTRupturedTA.PNG/960px-CTRupturedTA.PNG",
-     "caption": "Ruptured AAA — CT showing retroperitoneal haematoma and aneurysm",
-     "alt": "CT of ruptured abdominal aortic aneurysm with large retroperitoneal haematoma and irregular aortic wall",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Ultrasonography_of_abdominal_aortic_aneurysm_in_axial_plane.jpg",
      "caption": "AAA — ultrasound showing dilated aorta >3 cm",
      "alt": "Abdominal ultrasound demonstrating an aneurysmal aorta (>3 cm diameter) — screening/first-line imaging",

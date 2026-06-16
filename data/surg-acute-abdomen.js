@@ -379,12 +379,6 @@ window.GOTCHA.modules.push(
    "id": "surg-acute-abdomen-9",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Ultrasound_of_diated_common_bile_duct_and_intrahepatic_ducts_due_to_gallstone_obstruction.png/960px-Ultrasound_of_diated_common_bile_duct_and_intrahepatic_ducts_due_to_gallstone_obstruction.png",
-     "caption": "Acute cholangitis — CT showing dilated CBD with stone and biliary gas",
-     "alt": "CT axial view demonstrating dilated common bile duct with a hyperdense choledocholithiasis and/or pneumobilia — biliary obstruction requiring urgent decompression",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/0/09/ERCP_stone.jpg",
      "caption": "ERCP — CBD stone extraction in acute cholangitis",
      "alt": "ERCP fluoroscopy image showing a filling defect (CBD stone) in the common bile duct and biliary decompression via sphincterotomy — the definitive source-control procedure",
@@ -481,9 +475,9 @@ window.GOTCHA.modules.push(
      "credit": "Ewingdo, Wikimedia Commons, CC BY-SA 4.0"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pneumatosis_Intestinalis_CT.JPG/960px-Pneumatosis_Intestinalis_CT.JPG",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Ischemicbowel.PNG/960px-Ischemicbowel.PNG",
      "caption": "Acute mesenteric ischaemia — CT angiography showing superior mesenteric artery occlusion",
-     "alt": "CT angiography with filling defect/occlusion of the superior mesenteric artery (SMA) or its branches, with small bowel wall thickening, pneumatosis intestinalis or portal venous gas in advanced cases",
+     "alt": "Acute mesenteric ischaemia — CT angiography showing superior mesenteric artery occlusion",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -744,9 +738,9 @@ window.GOTCHA.modules.push(
    "id": "surg-acute-abdomen-17",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/6/60/CT_scan_-_Metastatic_colonic_adenocarcinoma_Case_245_%288193435371%29.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/RectalCancerStagingInPETCT%2Barrow.jpg/960px-RectalCancerStagingInPETCT%2Barrow.jpg",
      "caption": "Colorectal cancer — CT colonography/staging showing colonic mass",
-     "alt": "CT showing an apple-core / annular constricting mass in the sigmoid or left colon causing luminal narrowing — colorectal cancer; CT also stages T, N, M",
+     "alt": "Colorectal cancer — CT colonography/staging showing colonic mass",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -818,9 +812,9 @@ window.GOTCHA.modules.push(
    "id": "surg-acute-abdomen-19",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Fistula_diag_01-ca.svg/960px-Fistula_diag_01-ca.svg.png",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Intersphincteric_anal_fistula_1.jpg",
      "caption": "Fistula-in-ano — clinical photo showing external opening with granulation tissue",
-     "alt": "Perianal clinical photograph showing an external fistulous opening with granulation tissue adjacent to the anal margin — fistula-in-ano complicating prior anorectal abscess",
+     "alt": "Fistula-in-ano — clinical photo showing external opening with granulation tissue",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -849,15 +843,15 @@ window.GOTCHA.modules.push(
    "id": "surg-acute-abdomen-20",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Anorectal_mucosa_with_hemorrhoid.jpg/960px-Anorectal_mucosa_with_hemorrhoid.jpg",
-     "caption": "Internal haemorrhoids grading I-IV — proctoscopy / clinical diagram",
-     "alt": "Proctoscopy image or diagram showing internal haemorrhoid grades: I (bleed, no prolapse), II (prolapse, spontaneous reduction), III (prolapse, manual reduction), IV (irreducible) — drives treatment decision",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Perianalthrombose.jpg/960px-Perianalthrombose.jpg",
      "caption": "Thrombosed external haemorrhoid — clinical photo showing tense painful perianal lump",
      "alt": "Clinical perianal photograph showing a tense, purple, acutely painful thrombosed external haemorrhoid — the exam gotcha: manage with excision (not incision) within 72 hours for best results",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Internal_hemorrhoid_grades.png",
+     "caption": "Internal haemorrhoids grading I-IV — proctoscopy / clinical diagram",
+     "alt": "Internal haemorrhoids grading I-IV — proctoscopy / clinical diagram",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1003,15 +997,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Timing</th><th>Complication</th><th>Action</th></tr><tr><td>Early</td><td>Ischaemia / necrosis</td><td>Assess depth; below fascia -> theatre</td></tr><tr><td>Early</td><td>Retraction / mucocutaneous separation</td><td>Wound care; revise if severe</td></tr><tr><td>Early</td><td>High output (ileostomy)</td><td>ORS, loperamide, replace Mg/K, restrict hypotonic fluids</td></tr><tr><td>Late</td><td>Parastomal hernia (commonest)</td><td>Support/elective repair; urgent if obstructed</td></tr><tr><td>Late</td><td>Prolapse / stenosis</td><td>Conservative vs surgical revision</td></tr></table>",
    "title": "Stoma complications",
    "subtitle": "ischaemia, retraction, prolapse, parastomal hernia & the high-output gotcha",
-   "id": "surg-acute-abdomen-25",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Bowel_Ostomies.jpg",
-     "caption": "Ischaemic/necrotic stoma — dusky or black coloration",
-     "alt": "Dusky or frankly black stoma mucosa indicating ischaemia or necrosis — the early emergency complication requiring urgent surgical review",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-acute-abdomen-25"
   },
   {
    "topic": "Femoral & Richter's hernia traps — the ones that strangulate silently",
@@ -1083,15 +1069,7 @@ window.GOTCHA.modules.push(
    ],
    "title": "Forrest classification",
    "subtitle": "who gets endoscopic therapy + rebleed risk (and the adherent-clot trap)",
-   "id": "surg-acute-abdomen-27",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Deep_gastric_ulcer.png",
-     "caption": "Forrest Ia — actively spurting arterial bleed (endoscopy)",
-     "alt": "Endoscopic view of a peptic ulcer with active spurting arterial haemorrhage (Forrest Ia) — highest rebleed risk, requires immediate endoscopic therapy",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-acute-abdomen-27"
   },
   {
    "topic": "Glasgow-Blatchford vs Rockall — which score, when, and the discharge cutoff",
@@ -1147,15 +1125,7 @@ window.GOTCHA.modules.push(
    ],
    "title": "Hernia danger spectrum",
    "subtitle": "reducible vs incarcerated vs strangulated (when it becomes an emergency)",
-   "id": "surg-acute-abdomen-29",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Inguinal_hernia_prior_to_repair.jpg/960px-Inguinal_hernia_prior_to_repair.jpg",
-     "caption": "Strangulated hernia — skin erythema/discoloration over irreducible hernia",
-     "alt": "Irreducible hernia with overlying skin erythema, discolouration and oedema indicating strangulation and underlying bowel ischaemia",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-acute-abdomen-29"
   },
   {
    "topic": "High-dose IV PPI infusion — only after the scope, dose & duration",
@@ -1311,15 +1281,15 @@ window.GOTCHA.modules.push(
    "id": "surg-acute-abdomen-34",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Bloody_stool-1.jpg/960px-Bloody_stool-1.jpg",
-     "caption": "Melaena — black tarry stool indicating upper GI bleed",
-     "alt": "Melaena — black, tarry, offensive-smelling stool consistent with digested blood from an upper GI haemorrhage source",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/H%C3%A4matochezie_Dezember_2021.jpg/960px-H%C3%A4matochezie_Dezember_2021.jpg",
      "caption": "Haematochezia — bright red blood per rectum",
      "alt": "Haematochezia — passage of bright red or maroon blood per rectum, usually indicating a lower GI source (or massive upper GI bleed with rapid transit)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Melena_Bleeding_DU.jpg/960px-Melena_Bleeding_DU.jpg",
+     "caption": "Melaena — black tarry stool indicating upper GI bleed",
+     "alt": "Melaena — black tarry stool indicating upper GI bleed",
      "credit": "Wikimedia Commons"
     }
    ]

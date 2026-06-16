@@ -145,9 +145,9 @@ window.GOTCHA.modules.push(
    "id": "surg-breast-endocrine-4",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Mama_con_drenaje.jpg/960px-Mama_con_drenaje.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Pecho_enrojecido.jpg/960px-Pecho_enrojecido.jpg",
      "caption": "Lactational mastitis — unilateral erythema, swelling, warmth of breast",
-     "alt": "Lactational mastitis — unilateral breast with erythema, oedema and warmth in a breastfeeding woman, without a discrete fluctuant collection",
+     "alt": "Lactational mastitis — unilateral erythema, swelling, warmth of breast",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -173,15 +173,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Triple test component</th><th>What it adds</th><th>Gotcha</th></tr></thead><tbody><tr><td>1. Clinical exam (+ history)</td><td>Risk factors, fixation, skin/nipple change, nodes</td><td>A normal exam never overrides suspicious imaging/biopsy</td></tr><tr><td>2. Imaging (US +/- mammo)</td><td>Characterise, guide biopsy, screen other breast</td><td>Cancer can be imaging-occult</td></tr><tr><td>3. Non-excisional biopsy</td><td>Core = histology + ER/PR/HER2; FNAC = cytology only</td><td>FNA cannot tell invasive from DCIS; inadequate sample &ne; benign</td></tr></tbody><tfoot><tr><td colspan=\"3\">All 3 concordant-benign &rarr; &gt;99.6% reliable. <strong>Any discordance &rarr; tissue diagnosis (core/excision), not reassurance.</strong></td></tr></tfoot></table>",
    "title": "Triple assessment (triple test) of a breast lump",
    "subtitle": "what it is and the >99.6% rule",
-   "id": "surg-breast-endocrine-5",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/2015_14_Breast_Cancer-11_%2822146787830%29.jpg/960px-2015_14_Breast_Cancer-11_%2822146787830%29.jpg",
-     "caption": "Triple assessment diagram — clinical exam, imaging, biopsy",
-     "alt": "Schematic of the triple test: (1) clinical examination, (2) breast imaging (mammography or ultrasound), (3) core biopsy or FNAC — all three required for >99.6% diagnostic accuracy",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-breast-endocrine-5"
   },
   {
    "topic": "Urgent breast referral red flags — what makes it a 'see within 1 week' / DO NOT delay",
@@ -423,7 +415,7 @@ window.GOTCHA.modules.push(
     {
      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Segno_di_Chvostek_Punti.JPG",
      "caption": "Chvostek sign - facial twitch on tapping over facial nerve",
-     "alt": "Ipsilateral facial muscle twitching on tapping the facial nerve anterior to the ear - early bedside sign of post-thyroidectomy hypocalcaemia",
+     "alt": "Chvostek sign - facial twitch on tapping over facial nerve",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -639,9 +631,9 @@ window.GOTCHA.modules.push(
    "id": "surg-breast-endocrine-17",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Lymphoscintigraphy_images_of_lympledema.png",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Sentinel_lymph_node_%28axilla%29.jpg/960px-Sentinel_lymph_node_%28axilla%29.jpg",
      "caption": "Sentinel lymph node biopsy - lymphoscintigraphy hot spot",
-     "alt": "Lymphoscintigraphy image showing radiolabelled tracer uptake in the axillary sentinel node - preoperative mapping for SLNB in clinically node-negative early breast cancer",
+     "alt": "Sentinel lymph node biopsy - lymphoscintigraphy hot spot",
      "credit": "Wikimedia Commons"
     }
    ]

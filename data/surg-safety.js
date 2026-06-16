@@ -154,15 +154,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">C — \"I'm CONCERNED\"</div><div class=\"gv-step\">U — \"I'm UNSURE / uncomfortable\"</div><div class=\"gv-step\">S — \"This is a SAFETY issue\"</div><div class=\"gv-step\">S — \"STOP!\" (procedure halts)</div></div><div class=\"gv-pills\"><span class=\"gv-pill\">PACE: Probe</span><span class=\"gv-pill\">Alert</span><span class=\"gv-pill\">Challenge</span><span class=\"gv-pill\">Emergency</span></div>",
    "title": "Wrong-site / wrong-patient / wrong-procedure",
    "subtitle": "the STOP-and-reconcile rule + graded assertiveness (CUSS / PACE) to speak up across the authority gradient",
-   "id": "surg-safety-6",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Breast_lift_incision_planning.jpg/960px-Breast_lift_incision_planning.jpg",
-     "caption": "Surgical site marking — surgeon marking the operative limb/site before incision",
-     "alt": "Indelible marker used to mark the correct surgical site on a patient's limb prior to entering theatre, as per wrong-site prevention protocol",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-safety-6"
   },
   {
    "topic": "Factors impairing wound healing — the modifiable vs the killer ones (and the steroid/vitamin trap)",
@@ -192,12 +184,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Neuropathic_heel_ulcer_diabetic.jpg",
      "caption": "Diabetic foot ulcer — full-thickness neuropathic ulcer with sloughy base",
      "alt": "Neuropathic diabetic foot ulcer demonstrating impaired wound healing due to hyperglycaemia and peripheral neuropathy",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Wound_Dehiscence_post_inguinal_hernia_repair_2014-05-27_00-46.jpg/960px-Wound_Dehiscence_post_inguinal_hernia_repair_2014-05-27_00-46.jpg",
-     "caption": "Surgical wound infection — erythema, swelling, purulent discharge from a postoperative wound",
-     "alt": "Infected postoperative wound with surrounding cellulitis, dehiscence and purulent exudate — the commonest cause of delayed wound healing",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -275,12 +261,6 @@ window.GOTCHA.modules.push(
      "src": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Wound-healing-phases-Schematic-diagram-elucidating-the-four-distinct-stages-of-normal.jpg",
      "caption": "Phases of wound healing — timeline chart (haemostasis, inflammation, proliferation, remodelling)",
      "alt": "Graph showing the four overlapping phases of wound healing with timing: haemostasis (immediate), inflammation (0-3 days), proliferation (day 3-21), remodelling (day 21 onward); tensile strength curve illustrating weakness at days 5-8",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Wound_Dehiscence_post_inguinal_hernia_repair_2014-05-27_00-46.jpg/960px-Wound_Dehiscence_post_inguinal_hernia_repair_2014-05-27_00-46.jpg",
-     "caption": "Wound dehiscence — burst abdomen with evisceration (peaks day 5-8)",
-     "alt": "Abdominal wound dehiscence with evisceration occurring in the proliferative phase when collagen content is lowest and tensile strength is weakest (day 5-8)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -375,15 +355,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">Superficial incisional<br>skin/subcut · 30 days</div><div class=\"gv-step\">Deep incisional<br>fascia/muscle · 30 or 90 days (by procedure)</div><div class=\"gv-step\">Organ/space<br>operated cavity · 30 or 90 days (by procedure)</div></div>",
    "title": "Surgical site infection",
    "subtitle": "definition timing (30 vs 90 days, procedure-specific) and superficial/deep/organ-space classification",
-   "id": "surg-safety-12",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fungal_Generated_Wound_Drainage.jpg/960px-Fungal_Generated_Wound_Drainage.jpg",
-     "caption": "Superficial incisional SSI — erythema, warmth and purulent discharge at wound",
-     "alt": "Surgical site infection involving skin and subcutaneous tissue above fascia — erythema, swelling, warmth and purulent discharge from a post-operative incision",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "surg-safety-12"
   },
   {
    "topic": "Wound classification (clean / clean-contaminated / contaminated / dirty) and expected SSI rates",

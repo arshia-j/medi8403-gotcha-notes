@@ -200,15 +200,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Scenario</th><th>Steroid regimen (start NOW)</th></tr><tr><td>GCA with ANY visual loss/AAION</td><td>IV methylprednisolone <span class=\"gv-num\">0.5–1 g/day</span> x3 days → oral pred ~<span class=\"gv-num\">1 mg/kg</span> (40–60 mg)</td></tr><tr><td>GCA, no visual symptoms</td><td>Oral prednisolone <span class=\"gv-num\">40–60 mg/day</span></td></tr><tr><td>Biopsy timing</td><td>Within ~<span class=\"gv-num\">1–2 weeks</span> (stays positive despite steroids); negative ≠ excluded</td></tr><tr><td>Add</td><td>PPI + bone protection (Ca/vit D/bisphosphonate) ± aspirin</td></tr></table>",
    "title": "Giant cell arteritis (GCA)",
    "subtitle": "the steroid-before-biopsy and fellow-eye gotchas",
-   "id": "eyesent-6",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Temporal_Artery_Aneurysm_%285221715420%29.jpg/960px-Temporal_Artery_Aneurysm_%285221715420%29.jpg",
-     "caption": "Giant cell arteritis - thickened, tender, nodular temporal artery",
-     "alt": "Clinical photograph of a swollen, tender, palpably nodular and erythematous temporal artery in a patient with giant cell arteritis (temporal arteritis)",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "eyesent-6"
   },
   {
    "topic": "Keratitis / corneal ulcer in a contact-lens wearer — the can't-miss bug and the steroid/no-patch gotchas",
@@ -269,15 +261,15 @@ window.GOTCHA.modules.push(
    "id": "eyesent-8",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Fundal_photograph_showing_severe_papilloedema_in_the_right_eye.jpg",
-     "caption": "Optic neuritis - optic disc swelling (papillitis) on fundus",
-     "alt": "Fundus photograph showing swollen hyperaemic optic disc with blurred margins in anterior optic neuritis (papillitis)",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Case-3-mri.png",
      "caption": "Optic neuritis - MRI T1+gadolinium showing optic nerve enhancement",
      "alt": "MRI brain/orbits with gadolinium showing enhancement and/or swelling of the optic nerve in acute optic neuritis (and possibly periventricular MS plaques)",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Papilledema.jpg",
+     "caption": "Optic neuritis - optic disc swelling (papillitis) on fundus",
+     "alt": "Optic neuritis - optic disc swelling (papillitis) on fundus",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -425,12 +417,6 @@ window.GOTCHA.modules.push(
      "caption": "Otitis media with effusion (glue ear) - amber/retracted TM with fluid level on otoscopy",
      "alt": "Otoscopy image showing otitis media with effusion (glue ear): an amber/yellow retracted tympanic membrane with a visible fluid level or air bubbles behind it",
      "credit": "Welleschik, Wikimedia Commons, CC BY-SA 3.0 (cropped)"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Acute_Otitis_Media_Stage_of_Resolution.jpg/960px-Acute_Otitis_Media_Stage_of_Resolution.jpg",
-     "caption": "Acute otitis media - bulging erythematous tympanic membrane on otoscopy",
-     "alt": "Otoscopy photograph showing acute otitis media: a bulging, hyperaemic/red opacified tympanic membrane with loss of normal landmarks and light reflex",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -587,12 +573,6 @@ window.GOTCHA.modules.push(
      "caption": "Mastoiditis - protruding pinna with postauricular swelling and erythema",
      "alt": "Classic appearance of acute mastoiditis: pinna displaced anteriorly, inferiorly and laterally by postauricular erythema and swelling over the mastoid process",
      "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/8/87/CT-Felsenbein-07.jpg",
-     "caption": "CT mastoids - opacification of mastoid air cells in mastoiditis",
-     "alt": "Axial CT of the temporal bones showing opacification and loss of normal trabecular pattern of mastoid air cells, consistent with acute coalescent mastoiditis",
-     "credit": "Wikimedia Commons"
     }
    ]
   },
@@ -625,21 +605,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Tuning fork</th><th>Sensorineural (SSNHL)</th><th>Conductive (wax/effusion)</th></tr><tr><td>Weber</td><td>Lateralises to GOOD ear</td><td>Lateralises to BAD ear</td></tr><tr><td>Rinne (affected)</td><td>AC &gt; BC (positive)</td><td>BC &gt; AC (negative)</td></tr><tr><td>Action</td><td>URGENT ENT + steroids + MRI</td><td>Treat cause; not emergency</td></tr></table>",
    "title": "Sudden sensorineural hearing loss (SSNHL)",
    "subtitle": "an ENT EMERGENCY - refer within days",
-   "id": "eyesent-17",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/An_audiogram_with_mixed_hearing_loss_for_the_left_ear.jpg/960px-An_audiogram_with_mixed_hearing_loss_for_the_left_ear.jpg",
-     "caption": "Audiogram - unilateral sensorineural hearing loss (SSNHL pattern)",
-     "alt": "Pure-tone audiogram demonstrating sudden unilateral sensorineural hearing loss of ≥30 dB across ≥3 contiguous frequencies, the diagnostic threshold for SSNHL",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Rinneversuch.png/960px-Rinneversuch.png",
-     "caption": "Weber and Rinne tuning fork tests - SNHL pattern",
-     "alt": "Tuning fork Weber test (lateralises to good ear in SNHL) and Rinne test (AC > BC bilaterally, ratio maintained) demonstrating the sensorineural hearing loss pattern",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "eyesent-17"
   },
   {
    "topic": "Tonsillitis vs quinsy vs glandular fever: the discriminators and the amoxicillin trap",

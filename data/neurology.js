@@ -108,15 +108,7 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- Wrong: '**Thrombectomy window closes at 6 hours**' — FALSE; selected patients with perfusion mismatch treated up to **24 h**",
    "title": "Endovascular thrombectomy",
    "subtitle": "selected patients out to 24 h with perfusion imaging",
-   "id": "neurology-3",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Tmax_by_MRI_perfusion_in_cerebral_artery_occlusion.jpg",
-     "caption": "CT perfusion - ischaemic core vs penumbra mismatch",
-     "alt": "CT perfusion maps showing small infarct core (CBF/CBV deficit) with large penumbra (Tmax prolongation) in late-window stroke",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "neurology-3"
   },
   {
    "topic": "First imaging in suspected stroke: non-contrast CT to exclude haemorrhage BEFORE any antithrombotic",
@@ -221,15 +213,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><tr><th>Agent</th><th>Dose</th><th>Admin</th><th>Status</th></tr><tr><td>Tenecteplase</td><td>0.25 mg/kg (max 25 mg)</td><td>Single bolus</td><td>Preferred</td></tr><tr><td>Alteplase</td><td>0.9 mg/kg (max 90 mg)</td><td>10% bolus + 60-min infusion</td><td>Alternative</td></tr></table>",
    "title": "IV thrombolysis",
    "subtitle": "tenecteplase now preferred in Australia, within 4.5 h, for DISABLING stroke",
-   "id": "neurology-6",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/b/bd/INFARCT.jpg",
-     "caption": "IV thrombolysis - CT before and after: resolving ischaemia",
-     "alt": "CT brain pre- and post-thrombolysis demonstrating reperfusion and resolving ischaemic change",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "neurology-6"
   },
   {
    "topic": "Secondary prevention after TIA / minor stroke: short-course DUAL antiplatelet (21 days)",
@@ -428,15 +412,7 @@ window.GOTCHA.modules.push(
    "mcqTrap": "- '**Confirm with biopsy before starting steroids**' — wrong, this risks blindness\n  - Biopsy yield is **preserved for 1-2 weeks**",
    "title": "Giant cell arteritis (GCA)",
    "subtitle": "steroids BEFORE biopsy",
-   "id": "neurology-12",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Papilledema.jpg",
-     "caption": "Fundus — anterior ischaemic optic neuropathy (AION) — the blindness GCA causes",
-     "alt": "Pale, swollen optic disc with haemorrhages — AION from GCA; the irreversible visual loss that is prevented by NOT delaying steroids",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "neurology-12"
   },
   {
    "topic": "Idiopathic intracranial hypertension (IIH): the opening-pressure cut-off + vision threat",
@@ -900,15 +876,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<table class=\"gv-table\"><thead><tr><th>Step / time</th><th>Action</th><th>Agent &amp; dose</th></tr></thead><tbody><tr><td>0 min</td><td>ABC, glucose, IV, thiamine if at risk; 1st benzo</td><td>IV midazolam / IV diazepam / IM midazolam 10 mg if no IV</td></tr><tr><td>~5 min</td><td>Repeat benzo ONCE (max 2 total)</td><td>Same benzo, 2nd dose</td></tr><tr><td>~10-15 min</td><td>Second-line IV load</td><td>Levetiracetam 60 mg/kg (max 4.5 g) OR phenytoin 20 mg/kg (cardiac monitor) OR valproate 40 mg/kg</td></tr><tr><td>~20-30 min (refractory)</td><td>RSI + ICU + continuous EEG</td><td>Propofol / midazolam / thiopentone infusion</td></tr></tbody></table>",
    "title": "Status epilepticus ladder (adult)",
    "subtitle": "exact timings, doses, escalation",
-   "id": "neurology-23",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Spike-waves.png",
-     "caption": "EEG — status epilepticus (continuous ictal activity / seizure pattern on EEG)",
-     "alt": "EEG during generalised convulsive status epilepticus showing continuous high-amplitude rhythmic spike-and-wave discharge — confirms non-convulsive SE when clinically uncertain",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "neurology-23"
   },
   {
    "topic": "Bell's palsy (idiopathic LMN facial palsy)",
@@ -941,9 +909,9 @@ window.GOTCHA.modules.push(
      "credit": "Wikimedia Commons"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Herpes_zoster_back.jpg/960px-Herpes_zoster_back.jpg",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/RamsayHunt2.jpg",
      "caption": "Ramsay Hunt syndrome — vesicles in ear (geniculate ganglion VZV — a must-exclude cause of facial palsy)",
-     "alt": "Vesicular eruption in the external ear canal and pinna (herpes zoster oticus / Ramsay Hunt) — a VZV-caused facial palsy treated with aciclovir + prednisolone, not steroids alone",
+     "alt": "Ramsay Hunt syndrome — vesicles in ear (geniculate ganglion VZV — a must-exclude cause of facial palsy)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -978,9 +946,9 @@ window.GOTCHA.modules.push(
      "credit": "Wikimedia Commons"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Grant_1962_663.png/960px-Grant_1962_663.png",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/Saddle_anesthesia.png",
      "caption": "Cauda equina anatomy — sacral dermatomes (saddle anaesthesia distribution)",
-     "alt": "Dermatome chart showing S2-S4 saddle anaesthesia distribution (perineum, inner thighs, genitalia) and S1 distribution — the clinical area of sensory loss in cauda equina syndrome",
+     "alt": "Cauda equina anatomy — sacral dermatomes (saddle anaesthesia distribution)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1039,21 +1007,7 @@ window.GOTCHA.modules.push(
    "visualHtml": "<div class=\"gv-flow\"><div class=\"gv-step\">1. Suspect (cancer + back pain/neuro) → DEXAMETHASONE 16 mg load NOW (don't wait)</div><div class=\"gv-step\">2. URGENT MRI WHOLE spine &lt;24 h (one-third multi-level)</div><div class=\"gv-step\">3. Surgery (decompress) vs Radiotherapy (20 Gy/5#, 8 Gy/1#)</div><div class=\"gv-step\">4. Pre-Rx neuro status = best outcome predictor — TIME CRITICAL</div></div>",
    "title": "Malignant (metastatic) spinal cord compression",
    "subtitle": "MSCC",
-   "id": "neurology-27",
-   "images": [
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Spinal_cord_compression.jpg",
-     "caption": "MRI spine — metastatic spinal cord compression (epidural metastasis with cord compression)",
-     "alt": "Sagittal MRI thoracic spine showing an epidural metastatic deposit compressing the spinal cord with associated cord signal change — the imaging that confirms MSCC and guides radiotherapy or surgery",
-     "credit": "Wikimedia Commons"
-    },
-    {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Lung_cancer.jpg",
-     "caption": "CXR — lung cancer (most common primary causing MSCC)",
-     "alt": "Chest X-ray showing a hilar/peripheral lung mass — lung cancer is the most common primary tumour causing metastatic spinal cord compression",
-     "credit": "Wikimedia Commons"
-    }
-   ]
+   "id": "neurology-27"
   },
   {
    "topic": "Multiple sclerosis (MS) — acute relapse & mimics",
@@ -1088,15 +1042,15 @@ window.GOTCHA.modules.push(
      "credit": "Wikimedia Commons"
     },
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Papilledema.jpg",
-     "caption": "Fundus — optic neuritis (disc pallor / swelling from MS — a common initial presentation)",
-     "alt": "Fundus photograph showing optic disc pallor or acute disc swelling in optic neuritis — a common initial MS presentation causing painful monocular visual loss",
-     "credit": "Wikimedia Commons"
-    },
-    {
      "src": "https://upload.wikimedia.org/wikipedia/commons/5/5a/MULTIPLE_SCLEROSIS.JPG",
      "caption": "MRI spine — MS spinal cord demyelinating lesion (short T2 cord lesion)",
      "alt": "Sagittal MRI cervical spine showing a focal T2 hyperintense intramedullary lesion (demyelinating plaque) spanning less than 2 vertebral segments — spinal cord MS lesion",
+     "credit": "Wikimedia Commons"
+    },
+    {
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/OpticNeuritisExample.jpg/960px-OpticNeuritisExample.jpg",
+     "caption": "Fundus — optic neuritis (disc pallor / swelling from MS — a common initial presentation)",
+     "alt": "Fundus — optic neuritis (disc pallor / swelling from MS — a common initial presentation)",
      "credit": "Wikimedia Commons"
     }
    ]
@@ -1159,9 +1113,9 @@ window.GOTCHA.modules.push(
    "id": "neurology-30",
    "images": [
     {
-     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Dopamine_pathways.svg/960px-Dopamine_pathways.svg.png",
+     "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Blausen_0704_ParkinsonsDisease.png/960px-Blausen_0704_ParkinsonsDisease.png",
      "caption": "Parkinson disease — classic resting tremor, stooped posture and masked facies",
-     "alt": "Patient with Parkinson disease demonstrating flexed posture, masked facies and pill-rolling tremor at rest",
+     "alt": "Parkinson disease — classic resting tremor, stooped posture and masked facies",
      "credit": "Wikimedia Commons"
     }
    ]
