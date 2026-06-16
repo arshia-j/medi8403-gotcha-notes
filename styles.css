@@ -598,3 +598,52 @@ button.subarea-head:focus-visible { outline: 2px solid var(--accent); outline-of
   .card-gallery.multi .card-img { width: 47%; max-width: 47%; }
   .card-gallery .card-img img { width: 100%; height: 100px; }
 }
+
+/* ============================================================
+   REVISION SET — select cards, combine, copy
+   ============================================================ */
+.card { position: relative; }
+.card-head { padding-right: 34px; }
+.card-select { position: absolute; top: 8px; right: 10px; z-index: 3; cursor: pointer; line-height: 0; }
+.sel-box { width: 15px; height: 15px; cursor: pointer; accent-color: var(--accent); margin: 0; }
+.card.selected { background: color-mix(in srgb, var(--accent-soft) 70%, transparent); }
+.card.selected:not(.open) { box-shadow: inset 3px 0 0 var(--accent); }
+.card.selected.open { border-color: var(--accent-line); }
+.card.selected > .card-head .ch-title { color: var(--accent); }
+
+.revise-btn {
+  flex: 0 0 auto; font-size: .8rem; font-weight: 600; padding: 8px 13px; border-radius: 9px;
+  border: 1px solid var(--rule-strong); background: var(--surface-2); color: var(--ink-soft);
+  cursor: pointer; white-space: nowrap; display: inline-flex; align-items: center; gap: 6px;
+}
+.revise-btn:hover, .revise-btn.has { border-color: var(--accent); color: var(--accent); }
+.revise-count { font-size: .72rem; font-weight: 700; min-width: 18px; text-align: center;
+  background: var(--bg); color: var(--ink-faint); border-radius: 20px; padding: 1px 6px; }
+.revise-btn.has .revise-count { background: var(--accent); color: #fff; }
+
+.revise-modal { position: fixed; inset: 0; z-index: 110; display: flex; align-items: center; justify-content: center;
+  background: rgba(20, 15, 8, .5); -webkit-backdrop-filter: blur(3px); backdrop-filter: blur(3px); padding: 4vmin; }
+.revise-modal[hidden] { display: none; }
+.revise-panel { background: var(--surface); border: 1px solid var(--rule-strong); border-radius: 14px;
+  box-shadow: var(--shadow); width: min(680px, 100%); max-height: 88vh; display: flex; flex-direction: column; overflow: hidden; }
+.revise-head { display: flex; align-items: center; justify-content: space-between; padding: 15px 18px 11px; border-bottom: 1px solid var(--rule); }
+.revise-head h2 { font-family: var(--serif); font-size: 1.2rem; margin: 0; }
+.revise-head h2 span { color: var(--accent); }
+.revise-x { border: none; background: transparent; font-size: 1.6rem; line-height: 1; color: var(--ink-faint); cursor: pointer; padding: 0 4px; }
+.revise-x:hover { color: var(--accent); }
+.revise-empty { padding: 16px 18px; color: var(--ink-faint); font-size: .9rem; }
+.revise-list { padding: 10px 18px 4px; overflow-y: auto; max-height: 28vh; display: flex; flex-direction: column; gap: 5px; }
+.revise-item { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: .85rem;
+  padding: 5px 10px; background: var(--surface-2); border: 1px solid var(--rule); border-radius: 8px; }
+.revise-item em { color: var(--ink-faint); font-style: normal; font-size: .72rem; }
+.revise-rm { border: none; background: transparent; color: var(--ink-faint); font-size: 1.15rem; line-height: 1; cursor: pointer; }
+.revise-rm:hover { color: var(--danger); }
+.revise-text { margin: 8px 18px; min-height: 130px; max-height: 32vh; resize: vertical; font-family: var(--mono);
+  font-size: .76rem; line-height: 1.45; padding: 10px 12px; border: 1px solid var(--rule-strong); border-radius: 9px;
+  background: var(--surface-2); color: var(--ink); }
+.revise-actions { display: flex; flex-wrap: wrap; gap: 8px; padding: 12px 18px 16px; border-top: 1px solid var(--rule); }
+.revise-actions button { font-size: .84rem; font-weight: 600; padding: 9px 14px; border-radius: 9px;
+  border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer; }
+.revise-actions button:hover { filter: brightness(1.06); }
+.revise-actions button.ghost { background: transparent; color: var(--ink-soft); border-color: var(--rule-strong); margin-left: auto; }
+.revise-actions button.ghost:hover { border-color: var(--danger); color: var(--danger); }

@@ -7,12 +7,23 @@
   /* preferred category order; any unknown category is appended after these */
   var CAT_ORDER = ["Paediatrics", "Obstetrics", "Gynaecology", "Medicine", "Surgery"];
 
+  var SEL_KEY = "medi8403_revision_set";
+  function loadSel() { try { return JSON.parse(localStorage.getItem(SEL_KEY)) || []; } catch (e) { return []; } }
+
   var state = {
     moduleId: DATA[0] && DATA[0].id,
     sub: null,
     query: "",
-    expandAll: false
+    expandAll: false,
+    selected: loadSel()        /* ordered array of card ids in the revision set */
   };
+
+  /* id -> { card, module, subarea } across all modules (for lookup + combining) */
+  var INDEX = {};
+  DATA.forEach(function (m) {
+    (m.cards || []).forEach(function (c) { if (c.id) INDEX[c.id] = { card: c, module: m.name, subarea: c.subarea || "" }; });
+  });
+  function isSel(id) { return state.selected.indexOf(id) >= 0; }
 
   var el = {
     nav:        document.getElementById("nav"),
@@ -22,7 +33,18 @@
     expandAll:  document.getElementById("expand-all"),
     themeToggle:document.getElementById("theme-toggle"),
     navToggle:  document.getElementById("nav-toggle"),
-    scrim:      document.getElementById("scrim")
+    scrim:      document.getElementById("scrim"),
+    reviseBtn:  document.getElementById("revise-btn"),
+    reviseCount:document.getElementById("revise-count"),
+    reviseModal:document.getElementById("revise-modal"),
+    reviseClose:document.getElementById("revise-close"),
+    reviseList: document.getElementById("revise-list"),
+    reviseText: document.getElementById("revise-text"),
+    reviseN:    document.getElementById("revise-n"),
+    reviseEmpty:document.getElementById("revise-empty"),
+    reviseCopy: document.getElementById("revise-copy"),
+    reviseCopyClaude: document.getElementById("revise-copy-claude"),
+    reviseClear:document.getElementById("revise-clear")
   };
 
   /* ---------------- helpers ---------------- */
@@ -204,7 +226,14 @@
       'stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' +
       '<polyline points="6 9 12 15 18 9"></polyline></svg>';
 
-    return '<article class="card' + (tc ? " tc" : "") + open + '">' +
+    var selCls = (c.id && isSel(c.id)) ? " selected" : "";
+    var selBox = c.id
+      ? '<label class="card-select" title="Add to revision set" onclick="event.stopPropagation()">' +
+          '<input type="checkbox" class="sel-box" data-id="' + esc(c.id) + '"' + (isSel(c.id) ? " checked" : "") +
+          ' aria-label="Add to revision set" /></label>'
+      : "";
+
+    return '<article class="card' + (tc ? " tc" : "") + open + selCls + '">' +
       '<button type="button" class="card-head" aria-expanded="' + (state.expandAll ? "true" : "false") +
         '" aria-controls="' + bodyId + '">' +
         chevron +
@@ -212,7 +241,7 @@
         '<span class="ch-flags">' + imgDot +
           (tc ? '<span class="ch-tc" title="time-critical"></span>' : "") + (ver || "") +
         '</span>' +
-      '</button>' +
+      '</button>' + selBox +
       '<div class="card-body-outer" id="' + bodyId + '"><div class="card-body-inner">' +
         '<div class="card-body">' + body + '</div>' +
       '</div></div>' +
@@ -459,6 +488,87 @@
     var collapsed = grp.classList.toggle("collapsed");
     h.setAttribute("aria-expanded", collapsed ? "false" : "true");
   });
+
+  /* ---------------- revision set (select cards -> combine -> copy) ---------------- */
+  function saveSel() { try { localStorage.setItem(SEL_KEY, JSON.stringify(state.selected)); } catch (e) {} }
+  function updateReviseCount() {
+    el.reviseCount.textContent = state.selected.length;
+    el.reviseBtn.classList.toggle("has", state.selected.length > 0);
+  }
+  function cardMd(c, info) {
+    var L = [], title = c.title || c.topic || "Untitled";
+    L.push("## " + title + (c.subtitle ? " — " + c.subtitle : ""));
+    if (info) L.push("_" + info.module + (info.subarea ? " › " + info.subarea : "") + "_");
+    L.push("");
+    function field(label, val) { if (val && String(val).trim()) { L.push("**" + label + "**", String(val).trim(), ""); } }
+    field("The trap", c.trap);
+    if (c.cutoffs && c.cutoffs.length) { L.push("**Cut-offs / thresholds**"); c.cutoffs.forEach(function (x) { L.push("- " + x); }); L.push(""); }
+    field("What first / sequence", c.whatFirst);
+    field("Discriminator", c.discriminator);
+    field("Red flags / escalation", c.redFlags);
+    field("MCQ trap", c.mcqTrap);
+    field("VIVA angle", c.viva);
+    field("Mnemonic", c.mnemonic);
+    if (c.source) L.push("_Source: " + c.source + "_");
+    return L.join("\n");
+  }
+  function buildNotesMd() {
+    var cards = state.selected.map(function (id) { return INDEX[id]; }).filter(Boolean);
+    return "# MEDI8403 revision set (" + cards.length + " card" + (cards.length === 1 ? "" : "s") + ")\n\n" +
+      cards.map(function (info) { return cardMd(info.card, info); }).join("\n\n---\n\n");
+  }
+  function claudeWrap(t) {
+    var n = state.selected.length;
+    return "Here are " + n + " MEDI8403 revision card" + (n === 1 ? "" : "s") + " I'm working through. " +
+      "Please help me with these — quiz me on them, expand anything I'm shaky on, or tighten the key cut-offs:\n\n" + t;
+  }
+  function renderTray() {
+    var cards = state.selected.map(function (id) { return INDEX[id]; }).filter(Boolean);
+    el.reviseN.textContent = cards.length;
+    el.reviseEmpty.hidden = cards.length > 0;
+    el.reviseList.innerHTML = cards.map(function (info) {
+      var c = info.card;
+      return '<div class="revise-item"><span>' + esc(c.title || c.topic || "") +
+        ' <em>' + esc(info.module) + '</em></span>' +
+        '<button class="revise-rm" type="button" data-id="' + esc(c.id) + '" aria-label="Remove">×</button></div>';
+    }).join("");
+    el.reviseText.value = cards.length ? buildNotesMd() : "";
+  }
+  function toggleSelect(id, on) {
+    var i = state.selected.indexOf(id);
+    if (on && i < 0) state.selected.push(id);
+    else if (!on && i >= 0) state.selected.splice(i, 1);
+    saveSel(); updateReviseCount();
+    var box = el.main.querySelector('.sel-box[data-id="' + id + '"]');
+    if (box) { box.checked = on; var cd = box.closest(".card"); if (cd) cd.classList.toggle("selected", on); }
+    if (!el.reviseModal.hidden) renderTray();
+  }
+  function copyText(t, btn) {
+    function done() { var o = btn.textContent; btn.textContent = "Copied ✓"; setTimeout(function () { btn.textContent = o; }, 1400); }
+    function fb() { el.reviseText.value = t; el.reviseText.focus(); el.reviseText.select(); try { document.execCommand("copy"); } catch (e) {} }
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(t).then(done, function () { fb(); done(); });
+    else { fb(); done(); }
+  }
+  document.addEventListener("change", function (e) {
+    var b = e.target.closest ? e.target.closest(".sel-box") : null;
+    if (b) toggleSelect(b.getAttribute("data-id"), b.checked);
+  });
+  el.reviseBtn.addEventListener("click", function () { renderTray(); el.reviseModal.hidden = false; });
+  el.reviseClose.addEventListener("click", function () { el.reviseModal.hidden = true; });
+  el.reviseModal.addEventListener("click", function (e) { if (e.target === el.reviseModal) el.reviseModal.hidden = true; });
+  el.reviseList.addEventListener("click", function (e) {
+    var rm = e.target.closest ? e.target.closest(".revise-rm") : null;
+    if (rm) toggleSelect(rm.getAttribute("data-id"), false);
+  });
+  el.reviseCopy.addEventListener("click", function () { copyText(el.reviseText.value || buildNotesMd(), el.reviseCopy); });
+  el.reviseCopyClaude.addEventListener("click", function () { copyText(claudeWrap(el.reviseText.value || buildNotesMd()), el.reviseCopyClaude); });
+  el.reviseClear.addEventListener("click", function () {
+    state.selected = []; saveSel(); updateReviseCount(); renderTray();
+    Array.prototype.forEach.call(el.main.querySelectorAll(".card.selected"), function (c) { c.classList.remove("selected"); });
+    Array.prototype.forEach.call(el.main.querySelectorAll(".sel-box:checked"), function (b) { b.checked = false; });
+  });
+  document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !el.reviseModal.hidden) el.reviseModal.hidden = true; });
+  updateReviseCount();
 
   /* ---------------- go ---------------- */
   render();
