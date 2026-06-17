@@ -160,6 +160,18 @@
     showBack = true; editing = false; undoSnap = null; save(); render();
   }
 
+  // "so easy — don't remind me": retire the card with a very long interval (Enter)
+  function markKnown() {
+    if (!queue.length || editing) return;
+    var id = queue[0], cur = state.sched[id];
+    undoSnap = { id: id, prev: cur ? JSON.parse(JSON.stringify(cur)) : null, queue: queue.slice(), done: session.done };
+    state.sched[id] = { ease: cur ? cur.ease : 2.5, ivl: 9999, reps: (cur ? cur.reps : 0) + 1, lapses: cur ? cur.lapses : 0, due: todayNum() + 9999, last: todayNum(), known: true };
+    if (state.studied.day !== todayNum()) state.studied = { day: todayNum(), n: 0 };
+    state.studied.n++; bumpStreak();
+    queue.shift(); session.done++;
+    save(); showBack = false; render();
+  }
+
   // ---------- card actions: star / edit / delete ----------
   function toggleStar(id) { if (state.starred[id]) delete state.starred[id]; else state.starred[id] = true; save(); render(); }
   function deleteCard(id) {
@@ -260,11 +272,13 @@
       html += '<details class="fc-more"><summary class="fc-more-toggle"><span class="caret">▸</span> Confused? — full explanation</summary>' +
         '<div class="fc-more-body">' + explanation(card) + '</div></details>';
       html += '<div class="fc-grades">';
+      var keyFor = { 0: 'k', 3: 'm' };
       [['0', 'Again'], ['1', 'Hard'], ['2', 'Good'], ['3', 'Easy']].forEach(function (g) {
-        var prev = compute(state.sched[card.id], parseInt(g[0], 10));
-        html += '<button class="fc-grade" data-g="' + g[0] + '"><span class="g-lbl">' + g[1] + '</span><span class="g-ivl">' + ivlLabel(prev.ivl) + '</span></button>';
+        var gi = parseInt(g[0], 10), prev = compute(state.sched[card.id], gi);
+        html += '<button class="fc-grade" data-g="' + g[0] + '"><span class="g-lbl">' + g[1] + (keyFor[gi] ? ' <span class="g-key">' + keyFor[gi] + '</span>' : '') + '</span><span class="g-ivl">' + ivlLabel(prev.ivl) + '</span></button>';
       });
       html += '</div>';
+      html += '<button class="fc-bury" id="bury-btn">Got it — don’t remind me <span class="g-key">Enter</span></button>';
     }
     html += '</article>';
     stage.innerHTML = html;
@@ -287,6 +301,8 @@
     if (es) es.addEventListener('click', function () { saveEdit(id, document.getElementById('edit-front').value, document.getElementById('edit-back').value); });
     var ec = document.getElementById('edit-cancel');
     if (ec) ec.addEventListener('click', function () { editing = false; render(); });
+    var bb = document.getElementById('bury-btn');
+    if (bb) bb.addEventListener('click', markKnown);
   }
 
   function renderCounts() {
@@ -416,7 +432,11 @@
     if (e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); flip(); }
     else if (e.key === 'ArrowLeft' || e.key === 'u' || e.key === 'U') { e.preventDefault(); undo(); }
     else if (e.key === 's' || e.key === 'S') { if (showBack && queue.length) { e.preventDefault(); toggleStar(queue[0]); } }
-    else if (showBack && ['1', '2', '3', '4'].indexOf(e.key) >= 0) { e.preventDefault(); grade(parseInt(e.key, 10) - 1); }
+    else if (!showBack) { return; }                                 // remaining keys are answer-only
+    else if (e.key === 'k' || e.key === 'K') { e.preventDefault(); grade(0); }   // forgot  -> Again
+    else if (e.key === 'm' || e.key === 'M') { e.preventDefault(); grade(3); }   // easy    -> Easy
+    else if (e.key === 'Enter') { e.preventDefault(); markKnown(); }             // so easy -> retire
+    else if (['1', '2', '3', '4'].indexOf(e.key) >= 0) { e.preventDefault(); grade(parseInt(e.key, 10) - 1); }
   });
 
   // ---------- go ----------
