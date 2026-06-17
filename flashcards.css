@@ -208,6 +208,16 @@ body{
 .fc-primary:disabled{opacity:.45;cursor:not-allowed;}
 .fc-set-count{font-size:.8rem;color:var(--ink-2);}
 
+/* grade-key badges + "don't remind me" retire button */
+.g-key{display:inline-block;font-size:.6rem;font-weight:700;background:#f0f0f4;border:1px solid var(--line-2);border-radius:5px;padding:0 5px;color:var(--ink-3);vertical-align:middle;line-height:1.55;text-transform:none;letter-spacing:0;}
+.fc-bury{
+  margin-top:10px;width:100%;border:1px dashed var(--line-2);background:transparent;color:var(--ink-3);
+  font:inherit;font-size:.82rem;font-weight:500;padding:10px;border-radius:11px;cursor:pointer;
+  display:flex;align-items:center;justify-content:center;gap:8px;transition:.13s;
+}
+.fc-bury:hover{border-color:var(--good);color:var(--good);background:#f3faf6;}
+.fc-bury .g-key{border-color:#cfe8da;}
+
 /* removed / restore */
 .fc-removed{margin-top:14px;padding-top:12px;border-top:1px solid var(--line);font-size:.82rem;color:var(--ink-2);display:flex;align-items:center;justify-content:space-between;gap:10px;}
 .fc-removed button{border:1px solid var(--line-2);background:#fff;border-radius:8px;font:inherit;font-size:.78rem;padding:5px 11px;cursor:pointer;color:var(--accent);}
