@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Gotcha Flashcards — MEDI8403</title>
+  <meta name="description" content="Anki-style spaced-repetition flashcards built from the verified MEDI8403 Gotcha notes — the high-yield cut-offs, doses and discriminators." />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Flashcards" />
+  <link rel="apple-touch-icon" href="assets/icon.png" />
+  <link rel="stylesheet" href="flashcards.css" />
+</head>
+<body>
+  <header class="fc-top">
+    <div class="fc-brand">
+      <span class="fc-b1">Gotcha<em>Flashcards</em></span>
+      <span class="fc-b2" id="fc-scope-label">MEDI8403 · recall the traps</span>
+    </div>
+    <div class="fc-top-actions">
+      <div class="fc-mode" role="tablist" aria-label="Study mode">
+        <button id="mode-due"  class="fc-mode-btn is-on" role="tab" aria-selected="true">Due</button>
+        <button id="mode-cram" class="fc-mode-btn"       role="tab" aria-selected="false">Cram</button>
+      </div>
+      <button id="sets-btn" class="fc-ghost" type="button" aria-haspopup="dialog">Sets</button>
+      <button id="decks-btn" class="fc-ghost" type="button" aria-haspopup="dialog">Decks</button>
+      <button id="reset-btn" class="fc-ghost fc-muted" type="button" title="Reset all scheduling progress">Reset</button>
+    </div>
+  </header>
+
+  <div class="fc-counts" id="fc-counts" aria-live="polite"></div>
+  <div class="fc-prog"><span class="fc-prog-fill" id="fc-prog-fill"></span></div>
+
+  <main class="fc-stage" id="fc-stage">
+    <!-- card injected here -->
+  </main>
+
+  <footer class="fc-foot">
+    <span id="fc-streak" class="fc-foot-item"></span>
+    <span class="fc-foot-item fc-keys">Space flip · 1–4 grade · s star · ← undo</span>
+  </footer>
+
+  <!-- Decks / module filter -->
+  <div class="fc-modal" id="decks-modal" hidden role="dialog" aria-modal="true" aria-label="Decks">
+    <div class="fc-panel">
+      <div class="fc-panel-head">
+        <h2>Decks</h2>
+        <button class="fc-x" id="decks-close" type="button" aria-label="Close">×</button>
+      </div>
+      <p class="fc-panel-note">Tick the modules to include. In <strong>Cram</strong> mode, use “Cram this” to drill one module ignoring the schedule.</p>
+      <div class="fc-deck-tools">
+        <button id="deck-all"  class="fc-mini" type="button">Select all</button>
+        <button id="deck-none" class="fc-mini" type="button">None</button>
+      </div>
+      <div class="fc-deck-list" id="deck-list"></div>
+      <div class="fc-removed" id="deck-removed" hidden></div>
+    </div>
+  </div>
+
+  <!-- Session builder — start a session from a chosen set -->
+  <div class="fc-modal" id="sets-modal" hidden role="dialog" aria-modal="true" aria-label="Start a session">
+    <div class="fc-panel">
+      <div class="fc-panel-head">
+        <h2>Start a session</h2>
+        <button class="fc-x" id="sets-close" type="button" aria-label="Close">×</button>
+      </div>
+      <p class="fc-panel-note">Pick a set of cards, a size and how to schedule them, then start a focused session.</p>
+
+      <div class="fc-field">
+        <span class="fc-field-lbl">Set</span>
+        <div class="fc-radio-grid" id="set-source">
+          <label><input type="radio" name="set-src" value="enabled" checked /> All enabled modules</label>
+          <label><input type="radio" name="set-src" value="module" /> One module…</label>
+          <label><input type="radio" name="set-src" value="starred" /> ★ Starred <span id="set-star-n" class="fc-field-n"></span></label>
+          <label><input type="radio" name="set-src" value="due" /> Only due</label>
+          <label><input type="radio" name="set-src" value="new" /> Only new (unseen)</label>
+          <label><input type="radio" name="set-src" value="hardest" /> Hardest (most lapses)</label>
+        </div>
+      </div>
+
+      <label class="fc-field" id="set-module-wrap" hidden>
+        <span class="fc-field-lbl">Module</span>
+        <select id="set-module"></select>
+      </label>
+
+      <div class="fc-field-row">
+        <label class="fc-field"><span class="fc-field-lbl">Size</span>
+          <select id="set-limit">
+            <option value="0">All</option>
+            <option value="10">10</option>
+            <option value="20" selected>20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+          </select>
+        </label>
+        <label class="fc-field"><span class="fc-field-lbl">Scheduling</span>
+          <select id="set-mode">
+            <option value="cram" selected>Cram (ignore dates)</option>
+            <option value="due">Respect due dates</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="fc-field-row">
+        <button id="sets-start" class="fc-primary" type="button">Start session</button>
+        <span class="fc-set-count" id="sets-count"></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- module data (window.GOTCHA) — powers the "Confused?" full-explanation panel + images -->
+  <script src="data/cardiovascular.js"></script>
+  <script src="data/respiratory.js"></script>
+  <script src="data/gastroenterology.js"></script>
+  <script src="data/renal.js"></script>
+  <script src="data/endocrine.js"></script>
+  <script src="data/neurology.js"></script>
+  <script src="data/oncology.js"></script>
+  <script src="data/infectious.js"></script>
+  <script src="data/rheumatology.js"></script>
+  <script src="data/dermatology.js"></script>
+  <script src="data/eyesent.js"></script>
+  <script src="data/immunology.js"></script>
+  <script src="data/haematology.js"></script>
+  <script src="data/paediatrics.js"></script>
+  <script src="data/gynaecology.js"></script>
+  <script src="data/obstetrics.js"></script>
+  <script src="data/surg-perioperative.js"></script>
+  <script src="data/surg-acute-abdomen.js"></script>
+  <script src="data/surg-vascular.js"></script>
+  <script src="data/surg-urology.js"></script>
+  <script src="data/surg-breast-endocrine.js"></script>
+  <script src="data/surg-safety.js"></script>
+
+  <!-- atomic flashcards (window.FLASHCARDS) -->
+  <script src="data/flashcards/cardiovascular.js"></script>
+  <script src="data/flashcards/respiratory.js"></script>
+  <script src="data/flashcards/gastroenterology.js"></script>
+  <script src="data/flashcards/renal.js"></script>
+  <script src="data/flashcards/endocrine.js"></script>
+  <script src="data/flashcards/neurology.js"></script>
+  <script src="data/flashcards/oncology.js"></script>
+  <script src="data/flashcards/infectious.js"></script>
+  <script src="data/flashcards/rheumatology.js"></script>
+  <script src="data/flashcards/dermatology.js"></script>
+  <script src="data/flashcards/eyesent.js"></script>
+  <script src="data/flashcards/immunology.js"></script>
+  <script src="data/flashcards/haematology.js"></script>
+  <script src="data/flashcards/paediatrics.js"></script>
+  <script src="data/flashcards/gynaecology.js"></script>
+  <script src="data/flashcards/obstetrics.js"></script>
+  <script src="data/flashcards/surg-perioperative.js"></script>
+  <script src="data/flashcards/surg-acute-abdomen.js"></script>
+  <script src="data/flashcards/surg-vascular.js"></script>
+  <script src="data/flashcards/surg-urology.js"></script>
+  <script src="data/flashcards/surg-breast-endocrine.js"></script>
+  <script src="data/flashcards/surg-safety.js"></script>
+
+  <script src="flashcards.js"></script>
+</body>
+</html>
