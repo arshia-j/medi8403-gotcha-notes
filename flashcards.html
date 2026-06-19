@@ -19,6 +19,8 @@
       <span class="fc-b2" id="fc-scope-label">Spaced recall</span>
     </div>
     <div class="fc-top-actions">
+      <button id="exam-btn" class="fc-icon" type="button" aria-label="Exam readiness" title="Exam readiness">◎</button>
+      <button id="browser-btn" class="fc-icon" type="button" aria-label="Browse cards" title="Browse cards">≣</button>
       <button id="theme-btn" class="fc-icon" type="button" aria-label="Theme">☽</button>
       <button id="stats-btn" class="fc-icon" type="button" aria-label="Stats">▤</button>
       <button id="settings-btn" class="fc-icon" type="button" aria-label="Settings">⚙</button>
@@ -125,6 +127,16 @@
 
       <label class="fc-switch"><input type="checkbox" id="cloze-toggle" /> <span>Cloze mode — blank the key term in the answer</span></label>
       <label class="fc-switch"><input type="checkbox" id="swipe-toggle" /> <span>Swipe to grade (← Again · → Easy · ↑ Good)</span></label>
+      <label class="fc-switch"><input type="checkbox" id="tts-toggle" /> <span>Read cards aloud (tap 🔊 to replay)</span></label>
+
+      <div class="fc-field" id="reminder-field">
+        <label class="fc-switch"><input type="checkbox" id="reminder-toggle" /> <span>Daily reminder (iPhone)</span></label>
+        <div class="fc-field-row" id="reminder-time-row" hidden>
+          <span class="fc-field-lbl">Remind me at</span>
+          <input type="time" id="reminder-time" value="19:00" />
+        </div>
+        <span class="fc-hint" id="reminder-msg"></span>
+      </div>
 
       <div class="fc-field"><span class="fc-field-lbl">Backup</span>
         <div class="fc-field-row"><button id="export-btn" class="fc-mini" type="button">Export / share</button><button id="import-btn" class="fc-mini" type="button">Import…</button></div>
@@ -133,7 +145,59 @@
         <span class="fc-hint" id="settings-msg"></span>
       </div>
 
+      <div class="fc-field">
+        <span class="fc-field-lbl">Sync across devices</span>
+        <div id="sync-summary" class="fc-hint">Off — set up to sync this device with your others.</div>
+        <div class="fc-field-row">
+          <button id="sync-now" class="fc-mini" type="button">Sync now</button>
+          <button id="sync-qr-btn" class="fc-mini" type="button">Show QR</button>
+          <button id="sync-setup" class="fc-mini" type="button">Set up…</button>
+        </div>
+        <div id="sync-qr" class="fc-sync-qr" hidden></div>
+        <div id="sync-setup-fields" hidden>
+          <input id="sync-url" class="fc-sync-in" type="url" placeholder="Sync server URL" autocomplete="off" autocapitalize="off" spellcheck="false" />
+          <input id="sync-code" class="fc-sync-in" type="text" placeholder="Sync code (same on every device)" autocomplete="off" autocapitalize="off" spellcheck="false" />
+          <input id="sync-secret" class="fc-sync-in" type="text" placeholder="Shared secret (optional)" autocomplete="off" autocapitalize="off" spellcheck="false" />
+          <div class="fc-field-row">
+            <button id="sync-save" class="fc-mini" type="button">Save &amp; sync</button>
+            <button id="sync-gen" class="fc-mini" type="button">Generate code</button>
+            <button id="sync-off" class="fc-mini" type="button">Turn off</button>
+          </div>
+        </div>
+        <span class="fc-hint" id="sync-status"></span>
+      </div>
+
       <button id="reset-btn" class="fc-danger-btn" type="button">Reset progress</button>
+    </div>
+  </div>
+
+  <!-- Exam readiness -->
+  <div class="fc-modal" id="exam-modal" hidden role="dialog" aria-modal="true" aria-label="Exam readiness">
+    <div class="fc-panel">
+      <div class="fc-panel-head"><span class="fc-grip"></span><h2>Exam readiness</h2><button class="fc-x" id="exam-close" type="button" aria-label="Close">×</button></div>
+      <div id="exam-body"></div>
+    </div>
+  </div>
+
+  <!-- Card browser / library -->
+  <div class="fc-modal" id="browser-modal" hidden role="dialog" aria-modal="true" aria-label="Browse cards">
+    <div class="fc-panel fc-panel-wide">
+      <div class="fc-panel-head"><span class="fc-grip"></span><h2>Browse cards</h2><button class="fc-x" id="browser-close" type="button" aria-label="Close">×</button></div>
+      <input id="browser-search" class="fc-sync-in" type="search" placeholder="Search cards…" autocomplete="off" autocapitalize="off" />
+      <div class="fc-chips" id="browser-filters">
+        <button class="bf-chip is-on" data-bf="all" type="button">All</button>
+        <button class="bf-chip" data-bf="due" type="button">Due</button>
+        <button class="bf-chip" data-bf="new" type="button">New</button>
+        <button class="bf-chip" data-bf="learning" type="button">Learning</button>
+        <button class="bf-chip" data-bf="mature" type="button">Mature</button>
+        <button class="bf-chip" data-bf="leech" type="button">Leeches</button>
+        <button class="bf-chip" data-bf="starred" type="button">★ Starred</button>
+        <button class="bf-chip" data-bf="suspended" type="button">Suspended</button>
+        <button class="bf-chip" data-bf="edited" type="button">Edited</button>
+      </div>
+      <label class="fc-field"><select id="browser-module"></select></label>
+      <div class="fc-browser-bar"><span id="browser-count" class="fc-hint"></span><button id="browser-study" class="fc-mini" type="button">Study these</button></div>
+      <div class="fc-browser-list" id="browser-list"></div>
     </div>
   </div>
 
@@ -185,6 +249,9 @@
   <script src="data/flashcards/surg-breast-endocrine.js"></script>
   <script src="data/flashcards/surg-safety.js"></script>
 
+  <!-- sync: pure merge (shared) + vendored QR generator (offline, MIT) -->
+  <script src="vendor/qrcode.js"></script>
+  <script src="flashcards-sync.js"></script>
   <script src="flashcards.js"></script>
 </body>
 </html>
