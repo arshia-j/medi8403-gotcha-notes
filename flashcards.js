@@ -65,7 +65,7 @@
       persistRaw();
       rebuild();
       applyPrefs();
-      var tb = document.getElementById('theme-btn'); if (tb) tb.textContent = state.theme === 'dark' ? '☀' : '☽';
+      /* theme icon = two SVGs toggled by CSS on html.dark */
       if (!editing) buildQueue();
     } finally { applyingRemote = false; }
   }
@@ -535,7 +535,9 @@
     if (sessionLog.length) {
       var per = [0, 0, 0, 0]; sessionLog.forEach(function (e) { per[e.g]++; });
       var secs = Math.round((Date.now() - sessionStartedAt) / 1000), mm = Math.floor(secs / 60), ss = secs % 60, missedN = per[0];
-      var badges = '<div class="fc-summary">' +
+      var totalGraded = sessionLog.length, acc = totalGraded ? Math.round((per[2] + per[3]) / totalGraded * 100) : 0;
+      var badges = '<div class="ex-ring done-ring" style="--p:' + acc + '"><i><b>' + acc + '%</b><span>recall</span></i></div>' +
+        '<div class="fc-summary">' +
         '<span class="sm-badge again">' + per[0] + ' Again</span>' +
         '<span class="sm-badge hard">' + per[1] + ' Hard</span>' +
         '<span class="sm-badge good">' + per[2] + ' Good</span>' +
@@ -567,7 +569,7 @@
 
   document.getElementById('theme-btn').addEventListener('click', function () {
     state.theme = state.theme === 'dark' ? 'light' : 'dark'; applyPrefs(); save();
-    document.getElementById('theme-btn').textContent = state.theme === 'dark' ? '☀' : '☽';
+    /* theme icon = two SVGs toggled by CSS on html.dark */
   });
 
   // ---------- decks modal ----------
@@ -783,9 +785,14 @@
 
   // ---------- keyboard ----------
   document.addEventListener('keydown', function (e) {
+    // overlays (command palette / shortcuts) handle their own keys; don't rebuild the queue on close
+    var overlays = [cmdModal, shortcutsModal];
+    if (overlays.some(function (m) { return !m.hidden; })) { if (e.key === 'Escape') overlays.forEach(function (m) { m.hidden = true; }); return; }
     var modals = [decksModal, setsModal, statsModal, settingsModal, examModal, browserModal];
     if (modals.some(function (m) { return !m.hidden; })) { if (e.key === 'Escape') { modals.forEach(function (m) { m.hidden = true; }); buildQueue(); } return; }
+    if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openCmd(); return; }
     if (editing) return;
+    if (e.key === '?') { e.preventDefault(); openShortcuts(); return; }
     if (e.key === 'b' || e.key === 'B') { e.preventDefault(); openBrowser(); return; }
     if (e.key === 'e' || e.key === 'E') { e.preventDefault(); openExam(); return; }
     if (e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); flip(); }
@@ -1156,6 +1163,62 @@
     if (state.reminder.on) scheduleReminder();
   });
   document.getElementById('settings-btn').addEventListener('click', refreshExtraSettings);
+
+  // ---------- command palette (⌘K) ----------
+  var cmdModal = document.getElementById('cmd-modal');
+  var cmdInput = document.getElementById('cmd-input');
+  var cmdListEl = document.getElementById('cmd-list');
+  var cmdActive = 0, cmdFiltered = [];
+  function cmdActions() {
+    var a = [
+      { label: 'Study · Due', kw: 'spaced recall', run: function () { setMode('due'); } },
+      { label: 'Study · Cram all', kw: 'cram everything', run: function () { setMode('cram'); } },
+      { label: 'Blitz · rapid triage', kw: 'blitz fast', run: function () { blitz = true; custom = null; mode = 'cram'; buildQueue(); } },
+      { label: 'Exam readiness', kw: 'dashboard ready', run: openExam },
+      { label: 'Browse cards', kw: 'library search list', run: openBrowser },
+      { label: 'Stats', kw: 'statistics forecast', run: openStats },
+      { label: 'Sets · build a session', kw: 'session builder', run: openSets },
+      { label: 'Decks · modules', kw: 'enable modules', run: openDecks },
+      { label: 'Settings', kw: 'preferences sync reminder', run: openSettings },
+      { label: 'Toggle theme', kw: 'dark light mode', run: function () { state.theme = state.theme === 'dark' ? 'light' : 'dark'; applyPrefs(); save(); } },
+      { label: 'Keyboard shortcuts', kw: 'help keys', run: openShortcuts }
+    ];
+    moduleOrder.forEach(function (mid) {
+      a.push({ label: 'Cram · ' + moduleMeta[mid].name, kw: 'module ' + mid, run: function () { blitz = false; custom = { source: 'module', module: mid, limit: 0, cram: true, label: moduleMeta[mid].name }; buildQueue(); } });
+    });
+    return a;
+  }
+  var CMD_ALL = null;
+  function cmdRender() {
+    if (!CMD_ALL) CMD_ALL = cmdActions();
+    var q = cmdInput.value.trim().toLowerCase();
+    cmdFiltered = q ? CMD_ALL.filter(function (a) { return (a.label + ' ' + a.kw).toLowerCase().indexOf(q) >= 0; }) : CMD_ALL;
+    if (cmdActive >= cmdFiltered.length) cmdActive = 0;
+    cmdListEl.innerHTML = cmdFiltered.length
+      ? cmdFiltered.map(function (a, i) { return '<div class="cmd-item' + (i === cmdActive ? ' active' : '') + '" data-i="' + i + '">' + esc(a.label) + '</div>'; }).join('')
+      : '<div class="cmd-empty">No match</div>';
+    var act = cmdListEl.querySelector('.cmd-item.active'); if (act) act.scrollIntoView({ block: 'nearest' });
+  }
+  function cmdMove(d) { if (!cmdFiltered.length) return; cmdActive = (cmdActive + d + cmdFiltered.length) % cmdFiltered.length; cmdRender(); }
+  function cmdRun() { var a = cmdFiltered[cmdActive]; if (a) { closeCmd(); a.run(); } }
+  function openCmd() { CMD_ALL = cmdActions(); cmdActive = 0; cmdInput.value = ''; cmdRender(); cmdModal.hidden = false; setTimeout(function () { cmdInput.focus(); }, 30); }
+  function closeCmd() { cmdModal.hidden = true; }
+  cmdInput.addEventListener('input', function () { cmdActive = 0; cmdRender(); });
+  cmdInput.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowDown') { e.preventDefault(); cmdMove(1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); cmdMove(-1); }
+    else if (e.key === 'Enter') { e.preventDefault(); cmdRun(); }
+    else if (e.key === 'Escape') { e.preventDefault(); closeCmd(); }
+  });
+  cmdListEl.addEventListener('click', function (e) { var it = e.target.closest('.cmd-item'); if (!it) return; cmdActive = parseInt(it.getAttribute('data-i'), 10); cmdRun(); });
+  cmdModal.addEventListener('click', function (e) { if (e.target === cmdModal) closeCmd(); });
+
+  // ---------- keyboard shortcuts overlay (?) ----------
+  var shortcutsModal = document.getElementById('shortcuts-modal');
+  function openShortcuts() { shortcutsModal.hidden = false; }
+  document.getElementById('shortcuts-close').addEventListener('click', function () { shortcutsModal.hidden = true; });
+  shortcutsModal.addEventListener('click', function (e) { if (e.target === shortcutsModal) shortcutsModal.hidden = true; });
+  attachSheetSwipe(shortcutsModal.querySelector('.fc-panel'), function () { shortcutsModal.hidden = true; });
 
   // ---------- go ----------
   applyPrefs();

@@ -1,19 +1,21 @@
 /* Recall — minimalist Anki-style flashcard interface (light + dark) */
 :root{
-  --bg:#ffffff; --ink:#1b1b1f; --ink-2:#5b5b66; --ink-3:#8a8a96;
-  --line:#ececf0; --line-2:#e0e0e6; --card:#ffffff; --soft:#f4f4f7;
-  --accent:#3a5bd9; --accent-soft:#eef1fd;
-  --again:#c0392b; --hard:#b97309; --good:#1f8a52; --easy:#3a5bd9;
-  --shadow:0 1px 2px rgba(20,20,40,.04), 0 10px 34px rgba(20,20,50,.07);
-  --radius:18px; --maxw:660px; --fs-scale:1;
+  --bg:#f6f5f2; --ink:#1c1b1a; --ink-2:#57565f; --ink-3:#8d8b92;
+  --line:#e8e6e1; --line-2:#dbd9d3; --card:#ffffff; --soft:#efedea;
+  --accent:#4f46e5; --accent-soft:#ecebfb;
+  --again:#c0392b; --hard:#b06a09; --good:#1f8a52; --easy:#4f46e5;
+  --shadow:0 1px 2px rgba(28,24,40,.05), 0 12px 30px -8px rgba(28,24,60,.10);
+  --shadow-lg:0 4px 12px rgba(28,24,40,.07), 0 24px 60px -12px rgba(28,24,60,.18);
+  --radius:20px; --maxw:680px; --shell:900px; --fs-scale:1;
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
 }
 html.dark{
-  --bg:#0f0f12; --ink:#e9e9f2; --ink-2:#b3b3c4; --ink-3:#6f6f86;
-  --line:#26262f; --line-2:#33333f; --card:#17171c; --soft:#1e1e26;
-  --accent:#7c8cff; --accent-soft:#1e2138;
-  --again:#ef6b5e; --hard:#e0a23a; --good:#4cc88a; --easy:#7c8cff;
-  --shadow:0 1px 2px rgba(0,0,0,.3), 0 12px 40px rgba(0,0,0,.5);
+  --bg:#0e0e11; --ink:#e9e9f2; --ink-2:#b3b3c4; --ink-3:#7a7a90;
+  --line:#26262f; --line-2:#34343f; --card:#17171c; --soft:#1e1e26;
+  --accent:#8b95ff; --accent-soft:#20223a;
+  --again:#ef6b5e; --hard:#e0a23a; --good:#4cc88a; --easy:#8b95ff;
+  --shadow:0 1px 2px rgba(0,0,0,.3), 0 14px 40px -10px rgba(0,0,0,.55);
+  --shadow-lg:0 8px 24px rgba(0,0,0,.4), 0 30px 70px -14px rgba(0,0,0,.7);
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
 [hidden]{display:none !important;}
@@ -26,8 +28,11 @@ body{background:var(--bg);color:var(--ink);height:100vh;display:flex;flex-direct
 .fc-b1{font-weight:700;font-size:1.12rem;letter-spacing:-.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .fc-b2{font-size:.72rem;color:var(--ink-3);margin-top:1px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
 .fc-top-actions{display:flex;align-items:center;gap:6px;flex-shrink:0;}
-.fc-icon{width:38px;height:38px;border:1px solid var(--line-2);background:var(--card);color:var(--ink-2);border-radius:11px;font-size:1.05rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:.15s;}
-.fc-icon:hover{color:var(--ink);border-color:var(--ink-3);}
+.fc-icon{width:38px;height:38px;border:1px solid var(--line-2);background:var(--card);color:var(--ink-2);border-radius:11px;font-size:1.05rem;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:color .15s,border-color .15s,background .15s,transform .1s;}
+.fc-icon:hover{color:var(--ink);border-color:var(--ink-3);background:var(--soft);}
+.fc-icon:active{transform:scale(.94);}
+.fc-icon svg{width:18px;height:18px;display:block;}
+.fc-icon .sun{display:none;} html.dark .fc-icon .moon{display:none;} html.dark .fc-icon .sun{display:block;}
 
 /* ---------- toolbar ---------- */
 .fc-toolbar{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:0 clamp(14px,4vw,28px) 8px;flex-wrap:wrap;}
@@ -45,15 +50,16 @@ body{background:var(--bg);color:var(--ink);height:100vh;display:flex;flex-direct
 .fc-countdown.urgent{color:var(--again);font-weight:600;}
 
 /* ---------- counts + progress ---------- */
-.fc-counts{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;font-size:.78rem;color:var(--ink-2);padding:2px 16px 8px;}
-.fc-counts b{font-weight:600;color:var(--ink);}
-.fc-counts .dot{display:inline-block;width:7px;height:7px;border-radius:50%;margin-right:5px;vertical-align:middle;}
+.fc-counts{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;font-size:.76rem;color:var(--ink-2);padding:2px 16px 9px;}
+.fc-counts > span{display:inline-flex;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:999px;padding:4px 11px;}
+.fc-counts b{font-weight:700;color:var(--ink);margin-right:4px;font-variant-numeric:tabular-nums;}
+.fc-counts .dot{display:inline-block;width:6px;height:6px;border-radius:50%;margin-right:6px;vertical-align:middle;}
 .fc-prog{height:2px;background:var(--line);}
-.fc-prog-fill{display:block;height:100%;width:0;background:var(--accent);transition:width .3s ease;}
+.fc-prog-fill{display:block;height:100%;width:0;background:var(--accent);transition:width .35s cubic-bezier(.4,0,.2,1);}
 
 /* ---------- stage / card ---------- */
 .fc-stage{flex:1;min-height:0;display:flex;align-items:center;justify-content:center;padding:clamp(14px,4vw,40px);overflow-y:auto;}
-.fc-card{width:100%;max-width:var(--maxw);background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:clamp(20px,5vw,38px);display:flex;flex-direction:column;animation:cardIn .22s ease;}
+.fc-card{width:100%;max-width:var(--maxw);background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-lg);padding:clamp(22px,5vw,40px);display:flex;flex-direction:column;animation:cardIn .26s cubic-bezier(.2,.7,.2,1);}
 @keyframes cardIn{from{opacity:0;transform:translateY(6px) scale(.995);}to{opacity:1;transform:none;}}
 
 .fc-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:18px;}
@@ -109,19 +115,26 @@ body{background:var(--bg);color:var(--ink);height:100vh;display:flex;flex-direct
 
 /* grade buttons */
 .fc-grades{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:20px;}
-.fc-grade{border:1px solid var(--line-2);background:var(--card);border-radius:12px;padding:11px 6px 9px;cursor:pointer;font:inherit;transition:.13s;display:flex;flex-direction:column;align-items:center;gap:3px;}
-.fc-grade:hover{transform:translateY(-1px);box-shadow:0 4px 14px rgba(20,20,50,.08);}
+.fc-grade{border:1px solid var(--line-2);background:var(--card);border-radius:13px;padding:11px 6px 9px;cursor:pointer;font:inherit;transition:transform .12s ease,box-shadow .15s ease,background .12s,border-color .12s;display:flex;flex-direction:column;align-items:center;gap:3px;}
+.fc-grade:hover{transform:translateY(-2px);box-shadow:var(--shadow);}
+.fc-grade:active{transform:translateY(0);}
 .fc-grade .g-lbl{font-size:.86rem;font-weight:600;}
-.fc-grade .g-ivl{font-size:.68rem;color:var(--ink-3);}
+.fc-grade .g-ivl{font-size:.68rem;color:var(--ink-3);font-variant-numeric:tabular-nums;}
 .fc-grade[data-g="0"] .g-lbl{color:var(--again);} .fc-grade[data-g="1"] .g-lbl{color:var(--hard);}
 .fc-grade[data-g="2"] .g-lbl{color:var(--good);} .fc-grade[data-g="3"] .g-lbl{color:var(--easy);}
-.fc-grade[data-g="0"]{border-color:rgba(192,57,43,.3);} .fc-grade[data-g="2"]{border-color:rgba(31,138,82,.3);}
+.fc-grade[data-g="0"]{border-color:color-mix(in srgb,var(--again) 28%,var(--line-2));}
+.fc-grade[data-g="2"]{border-color:color-mix(in srgb,var(--good) 28%,var(--line-2));}
+.fc-grade[data-g="0"]:hover{background:color-mix(in srgb,var(--again) 8%,var(--card));}
+.fc-grade[data-g="1"]:hover{background:color-mix(in srgb,var(--hard) 9%,var(--card));}
+.fc-grade[data-g="2"]:hover{background:color-mix(in srgb,var(--good) 8%,var(--card));}
+.fc-grade[data-g="3"]:hover{background:color-mix(in srgb,var(--easy) 8%,var(--card));}
 .g-key{display:inline-block;font-size:.6rem;font-weight:700;background:var(--soft);border:1px solid var(--line-2);border-radius:5px;padding:0 5px;color:var(--ink-3);vertical-align:middle;line-height:1.55;text-transform:none;letter-spacing:0;}
 .fc-bury{margin-top:10px;width:100%;border:1px dashed var(--line-2);background:transparent;color:var(--ink-3);font:inherit;font-size:.82rem;font-weight:500;padding:10px;border-radius:11px;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:8px;transition:.13s;}
 .fc-bury:hover{border-color:var(--good);color:var(--good);}
 .fc-bury .g-key{border-color:rgba(31,138,82,.4);}
-.fc-flip-btn{margin-top:22px;width:100%;border:0;border-radius:12px;background:var(--accent);color:#fff;font:inherit;font-size:.95rem;font-weight:600;padding:14px;cursor:pointer;transition:.13s;}
-.fc-flip-btn:hover{filter:brightness(1.05);}
+.fc-flip-btn{margin-top:22px;width:100%;border:0;border-radius:13px;background:var(--accent);color:#fff;font:inherit;font-size:.92rem;font-weight:600;letter-spacing:.01em;padding:13px;cursor:pointer;transition:transform .12s ease,box-shadow .15s ease,filter .15s;box-shadow:0 2px 10px -2px color-mix(in srgb,var(--accent) 55%,transparent);}
+.fc-flip-btn:hover{filter:brightness(1.06);box-shadow:0 6px 18px -3px color-mix(in srgb,var(--accent) 55%,transparent);}
+.fc-flip-btn:active{transform:translateY(1px);box-shadow:0 1px 6px -2px color-mix(in srgb,var(--accent) 55%,transparent);}
 
 /* blitz */
 .fc-blitz-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:auto;padding-top:28px;}
@@ -259,10 +272,14 @@ body{background:var(--bg);color:var(--ink);height:100vh;display:flex;flex-direct
 
 /* ---------- v3: exam dashboard, browser, TTS, large-screen ---------- */
 .fc-panel-wide{max-width:520px;}
-@media(min-width:900px){
+/* On big screens (Mac/iPad) keep the whole app in one tidy centred column
+   so the chrome aligns with the card instead of stretching edge-to-edge. */
+@media(min-width:820px){
+  .fc-top,.fc-toolbar,.fc-counts,.fc-countdown{max-width:var(--shell);margin-inline:auto;width:100%;}
+  .fc-foot{max-width:var(--shell);margin-inline:auto;width:100%;}
+  .fc-stage{align-items:flex-start;padding-top:clamp(24px,7vh,76px);}
+  .fc-card{max-width:var(--maxw);}
   .fc-panel-wide{max-width:760px;}
-  .fc-stage{padding-left:24px;padding-right:24px;}
-  .fc-card{max-width:720px;}
 }
 
 /* exam readiness */
@@ -322,3 +339,33 @@ body{background:var(--bg);color:var(--ink);height:100vh;display:flex;flex-direct
 #reminder-time-row{align-items:center;gap:10px;margin-top:8px;}
 #reminder-time{font:inherit;font-size:.85rem;border:1px solid var(--line-2);border-radius:8px;padding:5px 8px;background:var(--card);color:var(--ink);}
 .fc-sub-h{font-size:.72rem;text-transform:uppercase;letter-spacing:.04em;color:var(--ink-3);font-weight:700;margin:4px 0 10px;}
+
+/* ---------- v3.1: command palette, shortcuts, polish ---------- */
+.fc-cmd{position:fixed;inset:0;background:rgba(20,20,40,.34);backdrop-filter:blur(3px);-webkit-backdrop-filter:blur(3px);display:flex;align-items:flex-start;justify-content:center;padding-top:14vh;z-index:60;animation:fade .12s ease;}
+.fc-cmd-box{width:100%;max-width:540px;margin:0 16px;background:var(--card);border:1px solid var(--line-2);border-radius:16px;box-shadow:var(--shadow-lg);overflow:hidden;animation:cmdIn .16s cubic-bezier(.2,.7,.2,1);}
+@keyframes cmdIn{from{opacity:0;transform:translateY(-8px) scale(.98);}to{opacity:1;transform:none;}}
+.fc-cmd-input{width:100%;border:0;border-bottom:1px solid var(--line);background:transparent;color:var(--ink);font:inherit;font-size:1rem;padding:16px 18px;outline:none;}
+.fc-cmd-input::placeholder{color:var(--ink-3);}
+.fc-cmd-list{max-height:46vh;overflow-y:auto;padding:6px;}
+.cmd-item{padding:10px 12px;border-radius:10px;font-size:.9rem;color:var(--ink-2);cursor:pointer;display:flex;align-items:center;}
+.cmd-item.active{background:var(--accent-soft);color:var(--accent);font-weight:600;}
+.cmd-empty{padding:18px 12px;text-align:center;color:var(--ink-3);font-size:.85rem;}
+
+/* shortcuts overlay */
+.fc-keys-grid{display:flex;flex-direction:column;gap:2px;margin-top:6px;}
+.kg-row{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:9px 2px;border-bottom:1px solid var(--line);font-size:.86rem;color:var(--ink-2);}
+.kg-row:last-child{border-bottom:0;}
+.kg-row kbd{font:inherit;font-size:.72rem;font-weight:600;background:var(--soft);border:1px solid var(--line-2);border-bottom-width:2px;border-radius:6px;padding:2px 7px;color:var(--ink-2);margin-left:4px;min-width:18px;text-align:center;display:inline-block;}
+
+/* completion accuracy ring */
+.ex-ring.done-ring{margin:0 auto 18px;width:108px;height:108px;}
+.ex-ring.done-ring i{width:84px;height:84px;}
+.ex-ring.done-ring b{font-size:1.7rem;}
+
+/* focus-visible accessibility rings */
+.fc-icon:focus-visible,.fc-ghost:focus-visible,.fc-mode-btn:focus-visible,.fc-grade:focus-visible,.fc-flip-btn:focus-visible,.bf-chip:focus-visible,.fc-mini:focus-visible,.fc-primary:focus-visible,.cmd-item:focus-visible,.br-acts button:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+.fc-card:focus{outline:none;}
+
+@media(prefers-reduced-motion:reduce){
+  *{animation-duration:.001ms !important;transition-duration:.001ms !important;}
+}
