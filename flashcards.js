@@ -6,6 +6,7 @@
   // ---------- source data ----------
   var DECK = (window.FLASHCARDS && window.FLASHCARDS.cards) || [];
   var MODULES = (window.GOTCHA && window.GOTCHA.modules) || [];
+  var AUDIO = window.FC_AUDIO || {}; // card ids that have a pre-generated ElevenLabs explanation
 
   var parentMap = {};
   MODULES.forEach(function (m) {
@@ -287,6 +288,27 @@
     queue = queue.filter(function (q) { return q !== id; });
     showBack = false; render();
   }
+
+  // ---------- spoken explanation audio (pre-generated ElevenLabs) ----------
+  var fcAudio = null, fcAudioId = null;
+  function stopAudio() { if (fcAudio) { try { fcAudio.pause(); } catch (e) {} } fcAudio = null; fcAudioId = null; }
+  function updateAudioBtn() {
+    var b = stage.querySelector('[data-act="audio"]'); if (!b) return;
+    var playing = fcAudio && !fcAudio.paused;
+    b.textContent = playing ? '⏸' : '▶'; b.classList.toggle('playing', !!playing);
+  }
+  function toggleAudio(id) {
+    try {
+      if (fcAudio && fcAudioId === id) { if (fcAudio.paused) fcAudio.play().catch(function () {}); else fcAudio.pause(); return; }
+      stopAudio();
+      try { window.speechSynthesis && window.speechSynthesis.cancel(); } catch (e) {}
+      fcAudio = new Audio('audio/' + id + '.mp3'); fcAudioId = id;
+      fcAudio.addEventListener('play', updateAudioBtn);
+      fcAudio.addEventListener('pause', updateAudioBtn);
+      fcAudio.addEventListener('ended', updateAudioBtn);
+      fcAudio.play().catch(function () {}); haptic('light');
+    } catch (e) {}
+  }
   function saveEdit(id, front, back) {
     front = (front || '').trim(); back = (back || '').trim();
     if (!front || !back) { alert('Front and back can’t be empty.'); return; }
@@ -359,6 +381,7 @@
 
     var card = live[queue[0]];
     if (!card) { queue.shift(); return render(); }
+    if (fcAudioId && fcAudioId !== card.id) stopAudio(); // stop audio when moving to a different card
     var p = parentMap[card.parentId];
     var sub = card.subarea || (p && p.card.subarea) || '';
     var mnemonicMode = custom && custom.mnemonicMode;
@@ -369,6 +392,7 @@
     if (state.readAloud) html += '<button class="fc-tts-btn" data-act="tts" aria-label="Read aloud" title="Read aloud">🔊</button>';
     if (showBack && !editing) {
       html += '<div class="fc-actions">' +
+        (AUDIO[card.id] ? '<button class="fc-act fc-audio-act' + (fcAudioId === card.id && fcAudio && !fcAudio.paused ? ' playing' : '') + '" data-act="audio" title="Play spoken explanation">' + (fcAudioId === card.id && fcAudio && !fcAudio.paused ? '⏸' : '▶') + '</button>' : '') +
         '<button class="fc-act ' + (state.starred[card.id] ? 'is-star' : '') + '" data-act="star">' + (state.starred[card.id] ? '★' : '☆') + '</button>' +
         '<button class="fc-act" data-act="edit">✎</button>' +
         (isLeech(card.id) ? '<button class="fc-act" data-act="suspend">Suspend</button>' : '') +
@@ -440,6 +464,7 @@
         else if (a === 'edit') { editing = true; render(); }
         else if (a === 'del') deleteCard(id);
         else if (a === 'suspend') suspendCard(id);
+        else if (a === 'audio') toggleAudio(id);
       });
     });
     stage.querySelectorAll('.fc-cloze').forEach(function (sp) {
