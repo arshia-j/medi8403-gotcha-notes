@@ -795,6 +795,7 @@
     if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openCmd(); return; }
     if (editing) return;
     if ((e.metaKey || e.ctrlKey) && (e.key === 'd' || e.key === 'D')) { e.preventDefault(); if (queue.length) deleteCard(queue[0], true); return; }
+    if ((e.metaKey || e.ctrlKey) && (e.key === 'z' || e.key === 'Z')) { e.preventDefault(); undo(); return; }
     if (e.key === '?') { e.preventDefault(); openShortcuts(); return; }
     if (e.key === 'b' || e.key === 'B') { e.preventDefault(); openBrowser(); return; }
     if (e.key === 'e' || e.key === 'E') { e.preventDefault(); openExam(); return; }
