@@ -20,7 +20,7 @@
   'use strict';
 
   var LWW_MAPS = ['enabled', 'starred', 'deleted', 'edits', 'confidence'];
-  var LWW_PREFS = ['theme', 'examDate', 'intervalMult', 'timerSecs', 'fontSize', 'swipeEnabled', 'clozeMode'];
+  var LWW_PREFS = ['theme', 'examDate', 'intervalMult', 'timerSecs', 'fontSize', 'swipeEnabled', 'clozeMode', 'readAloud', 'reminder'];
 
   function num(x, dflt) { var n = +x; return isFinite(n) ? n : (dflt === undefined ? 0 : dflt); }
 

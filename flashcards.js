@@ -360,6 +360,7 @@
     html += '<div class="fc-meta"><span class="fc-chip">' + esc(card.module) + '</span>' + (sub ? '<span class="fc-chip sub">' + esc(sub) + '</span>' : '');
     if (isLeech(card.id)) html += '<span class="fc-leech">Leech</span>';
     if (state.confidence[card.id]) html += '<span class="conf-dot conf-' + state.confidence[card.id] + '"></span>';
+    if (state.readAloud) html += '<button class="fc-tts-btn" data-act="tts" aria-label="Read aloud" title="Read aloud">🔊</button>';
     if (showBack && !editing) {
       html += '<div class="fc-actions">' +
         '<button class="fc-act ' + (state.starred[card.id] ? 'is-star' : '') + '" data-act="star">' + (state.starred[card.id] ? '★' : '☆') + '</button>' +
@@ -418,6 +419,7 @@
     stage.innerHTML = html;
     wireCard(card.id);
     if (!showBack && !blitz && state.timerSecs > 0) startTimer();
+    maybeSpeak(card);
   }
 
   function wireCard(id) {
@@ -447,6 +449,8 @@
     if (es) es.addEventListener('click', function () { saveEdit(id, document.getElementById('edit-front').value, document.getElementById('edit-back').value); });
     var ec = document.getElementById('edit-cancel');
     if (ec) ec.addEventListener('click', function () { editing = false; render(); });
+    var tts = stage.querySelector('[data-act="tts"]');
+    if (tts) tts.addEventListener('click', function (e) { e.stopPropagation(); ttsLast = ''; ttsSpeak(currentSideText(live[id])); });
     var bb = document.getElementById('bury-btn');
     if (bb) bb.addEventListener('click', markKnown);
     var by = document.getElementById('blitz-yes'), bn = document.getElementById('blitz-no');
@@ -779,9 +783,11 @@
 
   // ---------- keyboard ----------
   document.addEventListener('keydown', function (e) {
-    var modals = [decksModal, setsModal, statsModal, settingsModal];
+    var modals = [decksModal, setsModal, statsModal, settingsModal, examModal, browserModal];
     if (modals.some(function (m) { return !m.hidden; })) { if (e.key === 'Escape') { modals.forEach(function (m) { m.hidden = true; }); buildQueue(); } return; }
     if (editing) return;
+    if (e.key === 'b' || e.key === 'B') { e.preventDefault(); openBrowser(); return; }
+    if (e.key === 'e' || e.key === 'E') { e.preventDefault(); openExam(); return; }
     if (e.key === ' ' || e.key === 'Spacebar') { e.preventDefault(); flip(); }
     else if (e.key === 'ArrowLeft' || e.key === 'u' || e.key === 'U') { e.preventDefault(); undo(); }
     else if (e.key === 's' || e.key === 'S') { if (showBack && queue.length) { e.preventDefault(); toggleStar(queue[0]); } }
@@ -934,9 +940,227 @@
     var sBtn = document.getElementById('settings-btn'); if (sBtn) sBtn.addEventListener('click', refreshSyncUI);
   })();
 
+  // ---------- read-aloud (TTS) ----------
+  var ttsLast = '';
+  function ttsStrip(s) { var d = document.createElement('div'); d.innerHTML = String(s || ''); return (d.textContent || d.innerText || '').replace(/\s+/g, ' ').trim(); }
+  function ttsSpeak(text) {
+    try {
+      var sy = window.speechSynthesis; if (!sy || !text) return;
+      sy.cancel();
+      var u = new SpeechSynthesisUtterance(text); u.rate = 1; u.pitch = 1; u.lang = 'en-US';
+      sy.speak(u);
+    } catch (e) {}
+  }
+  function currentSideText(card) { if (!card) return ''; return (showBack && !editing) ? ttsStrip(card.back) : ttsStrip(card.front); }
+  function maybeSpeak(card) {
+    if (!state.readAloud || !card || editing) return;
+    var key = card.id + '|' + (showBack ? 'b' : 'f');
+    if (key === ttsLast) return;
+    ttsLast = key; ttsSpeak(currentSideText(card));
+  }
+
+  // ---------- exam readiness dashboard ----------
+  var examModal = document.getElementById('exam-modal');
+  function moduleReadiness() {
+    var rows = [];
+    moduleOrder.forEach(function (mid) {
+      if (!state.enabled[mid]) return;
+      var ids = liveIds().filter(function (id) { return live[id].moduleId === mid; });
+      if (!ids.length) return;
+      var mature = ids.filter(function (id) { var s = state.sched[id]; return s && (s.ivl >= 7 || s.known); }).length;
+      rows.push({ id: mid, name: moduleMeta[mid].name, total: ids.length, mature: mature, pct: Math.round(mature / ids.length * 100) });
+    });
+    rows.sort(function (a, b) { return a.pct - b.pct; });
+    return rows;
+  }
+  function examData() {
+    var t = todayNum(), ids = enabledIds(), nw = 0, learning = 0, mature = 0, due = 0;
+    ids.forEach(function (id) {
+      var s = state.sched[id];
+      if (!s) { nw++; } else if (s.known || s.ivl >= 7) { mature++; } else { learning++; }
+      if (!s || s.due <= t) due++;
+    });
+    var total = ids.length;
+    var readiness = total ? Math.round((mature + 0.4 * learning) / total * 100) : 0;
+    var hist = state.history || {}, hk = Object.keys(hist).sort().slice(-7);
+    var pace = hk.length ? Math.round(hk.reduce(function (a, k) { return a + (hist[k] || 0); }, 0) / hk.length) : 0;
+    var days = state.examDate ? Math.ceil((Date.parse(state.examDate + 'T23:59:59') - Date.now()) / 86400000) : null;
+    return { total: total, nw: nw, learning: learning, mature: mature, due: due, readiness: readiness, pace: pace, days: days, modules: moduleReadiness() };
+  }
+  function planIds() {
+    var t = todayNum(), ids = enabledIds();
+    var due = ids.filter(function (id) { var s = state.sched[id]; return s && s.due <= t && !s.known; });
+    var news = ids.filter(function (id) { return !state.sched[id]; }).slice(0, 15);
+    var weak = moduleReadiness()[0];
+    var weakIds = weak ? ids.filter(function (id) { return live[id].moduleId === weak.id; })
+      .filter(function (id) { var s = state.sched[id]; return !(s && (s.ivl >= 7 || s.known)); }).slice(0, 15) : [];
+    var seen = {}, out = [];
+    due.concat(news, weakIds).forEach(function (id) { if (!seen[id]) { seen[id] = 1; out.push(id); } });
+    return out;
+  }
+  function renderExam() {
+    var d = examData();
+    var ring = '<div class="ex-ring" style="--p:' + d.readiness + '"><i><b>' + d.readiness + '%</b><span>ready</span></i></div>';
+    var examLine = d.days == null ? 'Set an exam date in Settings to see your countdown.'
+      : (d.days > 0 ? '<b>' + d.days + ' day' + (d.days === 1 ? '' : 's') + '</b> to your exam' : (d.days === 0 ? 'Exam is <b>today</b>' : 'Exam date has passed'));
+    var paceLine = d.pace ? ('~' + d.pace + ' cards/day lately' + (d.days && d.days > 0 ? ' · ' + (d.pace * d.days) + ' reviews before the exam at this pace' : '')) : 'No reviews logged in the last week.';
+    var html = '<div class="ex-hero">' + ring + '<div class="ex-hero-meta"><h3>' + (d.readiness >= 80 ? 'On track' : d.readiness >= 50 ? 'Getting there' : 'Lots to lock in') + '</h3><p>' + examLine + '<br>' + paceLine + '</p></div></div>';
+    html += '<div class="ex-stats">' +
+      '<div class="ex-stat"><b>' + d.mature + '</b><span>Mature</span></div>' +
+      '<div class="ex-stat"><b>' + d.learning + '</b><span>Learning</span></div>' +
+      '<div class="ex-stat"><b>' + d.nw + '</b><span>New</span></div>' +
+      '<div class="ex-stat"><b>' + d.due + '</b><span>Due</span></div></div>';
+    var weak = d.modules[0];
+    html += '<div class="ex-plan"><h4>Today’s plan</h4><p>' +
+      (d.due ? '<b>' + d.due + '</b> due' : 'Nothing overdue') +
+      ' · pull in some new cards' + (weak ? ' · weakest area: <b>' + esc(weak.name) + '</b> (' + weak.pct + '%)' : '') +
+      '.</p><button class="fc-primary ex-go" id="exam-start" type="button">Start today’s plan</button></div>';
+    html += '<h4 class="fc-sub-h">Readiness by module</h4><div class="ex-modules">' +
+      d.modules.map(function (m) {
+        return '<div class="ex-mod"><span class="ex-mod-name">' + esc(m.name) + '</span><span class="ex-mod-pct">' + m.mature + '/' + m.total + ' · ' + m.pct + '%</span>' +
+          '<div class="ex-mod-bar"><i style="width:' + m.pct + '%"></i></div></div>';
+      }).join('') + '</div>';
+    document.getElementById('exam-body').innerHTML = html;
+    var go = document.getElementById('exam-start');
+    if (go) go.addEventListener('click', function () {
+      var ids = planIds();
+      if (!ids.length) { go.textContent = 'Nothing to drill — all caught up!'; return; }
+      blitz = false; custom = { source: 'ids', ids: ids, cram: true, label: 'Today’s plan' };
+      examModal.hidden = true; buildQueue();
+    });
+  }
+  function openExam() { renderExam(); examModal.hidden = false; }
+  document.getElementById('exam-btn').addEventListener('click', openExam);
+  document.getElementById('exam-close').addEventListener('click', function () { examModal.hidden = true; });
+  examModal.addEventListener('click', function (e) { if (e.target === examModal) examModal.hidden = true; });
+  attachSheetSwipe(examModal.querySelector('.fc-panel'), function () { examModal.hidden = true; });
+
+  // ---------- card browser / library ----------
+  var browserModal = document.getElementById('browser-modal');
+  var bFilter = 'all', bModule = '', bQuery = '', bOpen = {};
+  document.getElementById('browser-module').innerHTML = '<option value="">All modules</option>' +
+    moduleOrder.map(function (id) { return '<option value="' + id + '">' + esc(moduleMeta[id].name) + '</option>'; }).join('');
+  function browserState(id) {
+    var s = state.sched[id];
+    if (s && s.suspended) return 'suspended';
+    if (!s) return 'new';
+    if (isLeech(id)) return 'leech';
+    if (s.known || s.ivl >= 7) return 'mature';
+    return 'learning';
+  }
+  function dueLabel(id) {
+    var s = state.sched[id]; if (!s) return 'new'; if (s.known) return 'retired';
+    var d = s.due - todayNum(); return d <= 0 ? 'due' : 'in ' + d + 'd';
+  }
+  function browserMatches() {
+    var t = todayNum();
+    return liveIds().filter(function (id) {
+      if (bModule && live[id].moduleId !== bModule) return false;
+      if (bQuery) { var hay = (live[id].front + ' ' + live[id].back).toLowerCase(); if (hay.indexOf(bQuery) < 0) return false; }
+      var s = state.sched[id], st = browserState(id);
+      switch (bFilter) {
+        case 'all': return true;
+        case 'due': return (!s || s.due <= t) && !(s && s.suspended) && !(s && s.known);
+        case 'starred': return !!state.starred[id];
+        case 'edited': return !!state.edits[id];
+        case 'suspended': return st === 'suspended';
+        default: return st === bFilter; // new / learning / mature / leech
+      }
+    });
+  }
+  function renderBrowser() {
+    document.querySelectorAll('#browser-filters .bf-chip').forEach(function (b) { b.classList.toggle('is-on', b.getAttribute('data-bf') === bFilter); });
+    var ids = browserMatches();
+    document.getElementById('browser-count').textContent = ids.length + ' card' + (ids.length === 1 ? '' : 's') + (ids.length > 400 ? ' · showing first 400' : '');
+    var show = ids.slice(0, 400);
+    var list = document.getElementById('browser-list');
+    if (!show.length) { list.innerHTML = '<div class="br-empty">No cards match.</div>'; return; }
+    list.innerHTML = show.map(function (id) {
+      var st = browserState(id), open = bOpen[id];
+      var badge = { 'new': 'br-new', learning: 'br-learning', mature: 'br-mature', leech: 'br-leech', suspended: 'br-susp' }[st];
+      var row = '<div class="br-row" data-id="' + id + '">' +
+        '<div class="br-head"><button class="br-star ' + (state.starred[id] ? 'on' : '') + '" data-bact="star">' + (state.starred[id] ? '★' : '☆') + '</button>' +
+        '<span class="br-q">' + esc(live[id].front) + '</span>' +
+        '<span class="br-state ' + badge + '">' + st + '</span>' +
+        '<span class="br-due">' + dueLabel(id) + '</span></div>';
+      if (open) {
+        var suspended = state.sched[id] && state.sched[id].suspended;
+        row += '<div class="br-body"><div class="br-back">' + esc(live[id].back) + '</div>' +
+          '<div class="br-acts"><button data-bact="study">Study now</button>' +
+          '<button data-bact="suspend">' + (suspended ? 'Unsuspend' : 'Suspend') + '</button>' +
+          '<span class="fc-chip sub">' + esc(live[id].module) + '</span></div></div>';
+      }
+      return row + '</div>';
+    }).join('');
+  }
+  document.getElementById('browser-list').addEventListener('click', function (e) {
+    var row = e.target.closest('.br-row'); if (!row) return;
+    var id = row.getAttribute('data-id');
+    var act = e.target.getAttribute('data-bact');
+    if (act === 'star') { e.stopPropagation(); toggleStar(id); renderBrowser(); return; }
+    if (act === 'study') { blitz = false; custom = { source: 'ids', ids: [id], cram: true, label: 'One card' }; browserModal.hidden = true; buildQueue(); return; }
+    if (act === 'suspend') {
+      if (!state.sched[id]) state.sched[id] = { ease: 2.5, ivl: 0, reps: 0, lapses: 0, due: todayNum(), last: 0 };
+      state.sched[id].suspended = !state.sched[id].suspended; save(); renderBrowser(); return;
+    }
+    bOpen[id] = !bOpen[id]; renderBrowser();
+  });
+  document.getElementById('browser-search').addEventListener('input', function () { bQuery = this.value.trim().toLowerCase(); renderBrowser(); });
+  document.getElementById('browser-module').addEventListener('change', function () { bModule = this.value; renderBrowser(); });
+  document.getElementById('browser-filters').addEventListener('click', function (e) { var b = e.target.closest('.bf-chip'); if (!b) return; bFilter = b.getAttribute('data-bf'); renderBrowser(); });
+  document.getElementById('browser-study').addEventListener('click', function () {
+    var ids = browserMatches(); if (!ids.length) return;
+    blitz = false; custom = { source: 'ids', ids: ids.slice(0, 200), cram: true, label: 'Browsed set' };
+    browserModal.hidden = true; buildQueue();
+  });
+  function openBrowser() { bOpen = {}; renderBrowser(); browserModal.hidden = false; setTimeout(function () { var s = document.getElementById('browser-search'); if (s && window.matchMedia('(min-width:900px)').matches) s.focus(); }, 60); }
+  document.getElementById('browser-btn').addEventListener('click', openBrowser);
+  document.getElementById('browser-close').addEventListener('click', function () { browserModal.hidden = true; });
+  browserModal.addEventListener('click', function (e) { if (e.target === browserModal) browserModal.hidden = true; });
+  attachSheetSwipe(browserModal.querySelector('.fc-panel'), function () { browserModal.hidden = true; });
+
+  // ---------- daily reminder (iPhone/Mac native local notification) ----------
+  function hasNotify() { try { return !!(window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.notify); } catch (e) { return false; } }
+  function notifyNative(msg) { try { window.webkit.messageHandlers.notify.postMessage(msg); return true; } catch (e) { return false; } }
+  function scheduleReminder() {
+    var r = state.reminder; if (!r || !r.on || !hasNotify()) return;
+    var parts = (r.time || '19:00').split(':');
+    notifyNative({ action: 'schedule', hour: parseInt(parts[0], 10) || 19, minute: parseInt(parts[1], 10) || 0, count: counts().due, streak: (state.streak && state.streak.count) || 0 });
+  }
+  function refreshExtraSettings() {
+    document.getElementById('tts-toggle').checked = !!state.readAloud;
+    var rf = document.getElementById('reminder-field');
+    if (!hasNotify()) { rf.hidden = true; return; }
+    rf.hidden = false;
+    var r = state.reminder || { on: false, time: '19:00' };
+    document.getElementById('reminder-toggle').checked = !!r.on;
+    document.getElementById('reminder-time').value = r.time || '19:00';
+    document.getElementById('reminder-time-row').hidden = !r.on;
+  }
+  document.getElementById('tts-toggle').addEventListener('change', function () {
+    state.readAloud = this.checked; save();
+    if (this.checked) ttsSpeak('Read aloud is on.'); else { try { window.speechSynthesis.cancel(); } catch (e) {} }
+    if (queue.length) render();
+  });
+  document.getElementById('reminder-toggle').addEventListener('change', function () {
+    state.reminder = state.reminder || { time: '19:00' };
+    state.reminder.on = this.checked;
+    document.getElementById('reminder-time-row').hidden = !this.checked;
+    save();
+    if (this.checked) { scheduleReminder(); document.getElementById('reminder-msg').textContent = 'You’ll get a daily nudge with your due count.'; }
+    else { notifyNative({ action: 'cancel' }); document.getElementById('reminder-msg').textContent = 'Reminder off.'; }
+  });
+  document.getElementById('reminder-time').addEventListener('change', function () {
+    state.reminder = state.reminder || { on: false };
+    state.reminder.time = this.value || '19:00'; save();
+    if (state.reminder.on) scheduleReminder();
+  });
+  document.getElementById('settings-btn').addEventListener('click', refreshExtraSettings);
+
   // ---------- go ----------
   applyPrefs();
   document.getElementById('theme-btn').textContent = state.theme === 'dark' ? '☀' : '☽';
   buildQueue();
   Sync.init();
+  scheduleReminder();
 })();
