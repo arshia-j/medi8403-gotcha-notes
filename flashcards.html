@@ -83,7 +83,6 @@
           <label><input type="radio" name="set-src" value="mnemonic" /> Mnemonics (hook → answer)</label>
           <label><input type="radio" name="set-src" value="ahead" /> Due in next N days…</label>
           <label><input type="radio" name="set-src" value="starred" /> ★ Starred <span id="set-star-n" class="fc-field-n"></span></label>
-          <label><input type="radio" name="set-src" value="shaky" /> Shaky / Blank (self-rated)</label>
           <label><input type="radio" name="set-src" value="leech" /> Leeches <span id="set-leech-n" class="fc-field-n"></span></label>
           <label><input type="radio" name="set-src" value="due" /> Only due</label>
           <label><input type="radio" name="set-src" value="new" /> Only new (unseen)</label>
@@ -132,7 +131,7 @@
       </div>
 
       <label class="fc-switch"><input type="checkbox" id="cloze-toggle" /> <span>Cloze mode — blank the key term in the answer</span></label>
-      <label class="fc-switch"><input type="checkbox" id="swipe-toggle" /> <span>Swipe to grade (← Again · → Easy · ↑ Good)</span></label>
+      <label class="fc-switch"><input type="checkbox" id="swipe-toggle" /> <span>Swipe to grade (← Again · → Easy)</span></label>
       <label class="fc-switch"><input type="checkbox" id="tts-toggle" /> <span>Read cards aloud (tap 🔊 to replay)</span></label>
 
       <div class="fc-field" id="reminder-field">
@@ -226,7 +225,8 @@
         <div class="kg-row"><span>Easy</span><kbd>m</kbd></div>
         <div class="kg-row"><span>Retire card (got it)</span><kbd>Enter</kbd></div>
         <div class="kg-row"><span>Star card</span><kbd>s</kbd></div>
-        <div class="kg-row"><span>Undo</span><kbd>←</kbd></div>
+        <div class="kg-row"><span>Delete card (undoable)</span><span><kbd>⌘</kbd><kbd>D</kbd></span></div>
+        <div class="kg-row"><span>Undo (incl. delete)</span><kbd>←</kbd></div>
         <div class="kg-row"><span>Command palette</span><span><kbd>⌘</kbd><kbd>K</kbd></span></div>
         <div class="kg-row"><span>Browse cards</span><kbd>b</kbd></div>
         <div class="kg-row"><span>Exam readiness</span><kbd>e</kbd></div>

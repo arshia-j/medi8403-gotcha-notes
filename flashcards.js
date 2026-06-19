@@ -150,7 +150,6 @@
       case 'hardest': ids = enabledIds().slice().sort(function (a, b) { return (state.sched[b] ? state.sched[b].lapses : 0) - (state.sched[a] ? state.sched[a].lapses : 0); }); break;
       case 'mcqtrap': ids = enabledIds().filter(function (id) { return mcqTrapIds.has(id); }); break;
       case 'mnemonic': ids = enabledIds().filter(function (id) { var p = parentMap[live[id].parentId]; return p && p.card.mnemonic; }); break;
-      case 'shaky':   ids = enabledIds().filter(function (id) { return state.confidence[id] === 'shaky' || state.confidence[id] === 'blank'; }); break;
       case 'leech':   ids = liveIds().filter(isLeech); break;
       case 'weakest': {
         var rates = {};
@@ -246,6 +245,12 @@
   }
   function undo() {
     if (!undoSnap) return;
+    if (undoSnap.type === 'delete') {
+      delete state.deleted[undoSnap.id]; rebuild();
+      queue = undoSnap.queue; session.done = undoSnap.done; if (undoSnap.total != null) session.total = undoSnap.total;
+      haptic('light'); showBack = false; editing = false; undoSnap = null; save(); render();
+      return;
+    }
     if (undoSnap.prev) state.sched[undoSnap.id] = undoSnap.prev; else delete state.sched[undoSnap.id];
     queue = undoSnap.queue; session.done = undoSnap.done; sessionLog = undoSnap.log || sessionLog;
     if (state.studied.n > 0) state.studied.n--;
@@ -267,11 +272,13 @@
 
   // ---------- card actions ----------
   function toggleStar(id) { if (state.starred[id]) delete state.starred[id]; else state.starred[id] = true; haptic('light'); save(); render(); }
-  function deleteCard(id) {
-    if (!confirm('Remove this card from your deck? You can restore removed cards from the Decks panel.')) return;
+  function deleteCard(id, skipConfirm) {
+    if (!skipConfirm && !confirm('Remove this card from your deck? You can restore removed cards from the Decks panel.')) return;
+    undoSnap = { type: 'delete', id: id, queue: queue.slice(), done: session.done, total: session.total };
     state.deleted[id] = true; save(); rebuild();
     queue = queue.filter(function (q) { return q !== id; });
     if (session.total > 0) session.total--;
+    haptic('medium');
     showBack = false; editing = false; render();
   }
   function suspendCard(id) {
@@ -359,7 +366,6 @@
     var html = '<article class="fc-card">';
     html += '<div class="fc-meta"><span class="fc-chip">' + esc(card.module) + '</span>' + (sub ? '<span class="fc-chip sub">' + esc(sub) + '</span>' : '');
     if (isLeech(card.id)) html += '<span class="fc-leech">Leech</span>';
-    if (state.confidence[card.id]) html += '<span class="conf-dot conf-' + state.confidence[card.id] + '"></span>';
     if (state.readAloud) html += '<button class="fc-tts-btn" data-act="tts" aria-label="Read aloud" title="Read aloud">🔊</button>';
     if (showBack && !editing) {
       html += '<div class="fc-actions">' +
@@ -398,14 +404,11 @@
       var clozeUsed = state.clozeMode && !mnemonicMode;
       html += '<div class="fc-a">' + (clozeUsed ? makeCloze(card.back).html : esc(card.back)) + '</div>';
       if (card.image) html += imageFig(card.image);
-      html += '<div class="fc-conf-row">' +
-        ['know', 'shaky', 'blank'].map(function (k) {
-          return '<button class="fc-conf ' + k + (state.confidence[card.id] === k ? ' active' : '') + '" data-conf="' + k + '">' + (k === 'know' ? 'Know' : k === 'shaky' ? 'Shaky' : 'Blank') + '</button>';
-        }).join('') + '</div>';
       var mcqT = p && p.card.mcqTrap;
       if (mcqT) html += '<div class="fc-mcq-trap"><strong>MCQ trap.</strong> ' + esc(mcqT).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\n+/g, ' · ') + '</div>';
-      html += '<details class="fc-more"><summary class="fc-more-toggle"><span class="caret">▸</span> Confused? — full explanation</summary>' +
-        '<div class="fc-more-body">' + explanation(card) + '</div></details>';
+      var expl = explanation(card);
+      if (expl) html += '<details class="fc-more"' + (custom && custom.openExpl ? ' open' : '') + '><summary class="fc-more-toggle"><span class="caret">▸</span> Full explanation</summary>' +
+        '<div class="fc-more-body">' + expl + '</div></details>';
       html += '<div class="fc-grades">';
       var keyFor = { 0: 'k', 3: 'm' };
       [['0', 'Again'], ['1', 'Hard'], ['2', 'Good'], ['3', 'Easy']].forEach(function (g) {
@@ -439,9 +442,6 @@
         else if (a === 'suspend') suspendCard(id);
       });
     });
-    stage.querySelectorAll('.fc-conf').forEach(function (b) {
-      b.addEventListener('click', function (e) { e.stopPropagation(); var k = b.getAttribute('data-conf'); if (state.confidence[id] === k) delete state.confidence[id]; else state.confidence[id] = k; save(); render(); });
-    });
     stage.querySelectorAll('.fc-cloze').forEach(function (sp) {
       sp.addEventListener('click', function (e) { e.stopPropagation(); sp.textContent = sp.getAttribute('data-ans'); sp.classList.add('open'); });
     });
@@ -468,10 +468,12 @@
     }, { passive: true });
     el.addEventListener('touchend', function () {
       active = false; el.style.transition = 'transform .18s ease, opacity .18s ease'; el.style.transform = ''; el.style.opacity = '';
-      if (!showBack) { if (dx > 70) flip(); dx = dy = 0; return; }
-      if (dy < -70 && Math.abs(dy) > Math.abs(dx)) grade(2);
-      else if (dx > 70) grade(3);
-      else if (dx < -70) grade(0);
+      // Only act on a clearly horizontal swipe — vertical/up swipes are for scrolling
+      // (and the iOS home gesture), so they must never grade a card.
+      var horizontal = Math.abs(dx) > Math.abs(dy) * 1.6;
+      if (!showBack) { if (horizontal && dx > 80) flip(); dx = dy = 0; return; }
+      if (horizontal && dx > 95) grade(3);        // swipe right → Easy
+      else if (horizontal && dx < -95) grade(0);  // swipe left → Again
       dx = dy = 0;
     });
   }
@@ -662,7 +664,7 @@
   }
   function startSet() {
     var c = buildCustomFromUI();
-    var labels = { enabled: 'All enabled', module: moduleMeta[setModuleSel.value].name, starred: '★ Starred', due: 'Only due', 'new': 'Only new', hardest: 'Hardest', mcqtrap: 'MCQ traps', mnemonic: 'Mnemonics', shaky: 'Shaky/Blank', weakest: 'Weakest modules', leech: 'Leeches', ahead: 'Due next ' + c.aheadDays + 'd' };
+    var labels = { enabled: 'All enabled', module: moduleMeta[setModuleSel.value].name, starred: '★ Starred', due: 'Only due', 'new': 'Only new', hardest: 'Hardest', mcqtrap: 'MCQ traps', mnemonic: 'Mnemonics', weakest: 'Weakest modules', leech: 'Leeches', ahead: 'Due next ' + c.aheadDays + 'd' };
     c.label = labels[c.source] || 'Set';
     if (c.source === 'module' && c.subarea) c.label = moduleMeta[setModuleSel.value].name + ' → ' + c.subarea;
     blitz = false; custom = c; setsModal.hidden = true; buildQueue();
@@ -792,6 +794,7 @@
     if (modals.some(function (m) { return !m.hidden; })) { if (e.key === 'Escape') { modals.forEach(function (m) { m.hidden = true; }); buildQueue(); } return; }
     if ((e.metaKey || e.ctrlKey) && (e.key === 'k' || e.key === 'K')) { e.preventDefault(); openCmd(); return; }
     if (editing) return;
+    if ((e.metaKey || e.ctrlKey) && (e.key === 'd' || e.key === 'D')) { e.preventDefault(); if (queue.length) deleteCard(queue[0], true); return; }
     if (e.key === '?') { e.preventDefault(); openShortcuts(); return; }
     if (e.key === 'b' || e.key === 'B') { e.preventDefault(); openBrowser(); return; }
     if (e.key === 'e' || e.key === 'E') { e.preventDefault(); openExam(); return; }
