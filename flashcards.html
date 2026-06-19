@@ -133,6 +133,28 @@
         <span class="fc-hint" id="settings-msg"></span>
       </div>
 
+      <div class="fc-field">
+        <span class="fc-field-lbl">Sync across devices</span>
+        <div id="sync-summary" class="fc-hint">Off — set up to sync this device with your others.</div>
+        <div class="fc-field-row">
+          <button id="sync-now" class="fc-mini" type="button">Sync now</button>
+          <button id="sync-qr-btn" class="fc-mini" type="button">Show QR</button>
+          <button id="sync-setup" class="fc-mini" type="button">Set up…</button>
+        </div>
+        <div id="sync-qr" class="fc-sync-qr" hidden></div>
+        <div id="sync-setup-fields" hidden>
+          <input id="sync-url" class="fc-sync-in" type="url" placeholder="Sync server URL" autocomplete="off" autocapitalize="off" spellcheck="false" />
+          <input id="sync-code" class="fc-sync-in" type="text" placeholder="Sync code (same on every device)" autocomplete="off" autocapitalize="off" spellcheck="false" />
+          <input id="sync-secret" class="fc-sync-in" type="text" placeholder="Shared secret (optional)" autocomplete="off" autocapitalize="off" spellcheck="false" />
+          <div class="fc-field-row">
+            <button id="sync-save" class="fc-mini" type="button">Save &amp; sync</button>
+            <button id="sync-gen" class="fc-mini" type="button">Generate code</button>
+            <button id="sync-off" class="fc-mini" type="button">Turn off</button>
+          </div>
+        </div>
+        <span class="fc-hint" id="sync-status"></span>
+      </div>
+
       <button id="reset-btn" class="fc-danger-btn" type="button">Reset progress</button>
     </div>
   </div>
@@ -185,6 +207,9 @@
   <script src="data/flashcards/surg-breast-endocrine.js"></script>
   <script src="data/flashcards/surg-safety.js"></script>
 
+  <!-- sync: pure merge (shared) + vendored QR generator (offline, MIT) -->
+  <script src="vendor/qrcode.js"></script>
+  <script src="flashcards-sync.js"></script>
   <script src="flashcards.js"></script>
 </body>
 </html>

@@ -28,6 +28,7 @@
   // ---------- state ----------
   var KEY = 'gn_fc_v1';
   var state = load();
+  var applyingRemote = false; // true while a synced state is being applied (suppresses re-push)
 
   function load() {
     var def = {
@@ -46,7 +47,28 @@
     moduleOrder.forEach(function (id) { if (!(id in def.enabled)) def.enabled[id] = true; });
     return def;
   }
-  function save() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+  function persistRaw() { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch (e) {} }
+  function save() {
+    state.mutatedAt = Date.now();
+    persistRaw();
+    if (typeof Sync !== 'undefined' && Sync && !applyingRemote) Sync.scheduleAfterChange();
+  }
+
+  // Replace the running state with a synced/merged blob and refresh the UI,
+  // without bumping mutatedAt or re-triggering a push.
+  function applyMergedState(newState) {
+    applyingRemote = true;
+    try {
+      if (!newState.enabled) newState.enabled = {};
+      moduleOrder.forEach(function (id) { if (!(id in newState.enabled)) newState.enabled[id] = true; });
+      state = newState;
+      persistRaw();
+      rebuild();
+      applyPrefs();
+      var tb = document.getElementById('theme-btn'); if (tb) tb.textContent = state.theme === 'dark' ? '☀' : '☽';
+      if (!editing) buildQueue();
+    } finally { applyingRemote = false; }
+  }
 
   function applyPrefs() {
     document.documentElement.classList.toggle('dark', state.theme === 'dark');
@@ -770,8 +792,151 @@
     else if (['1', '2', '3', '4'].indexOf(e.key) >= 0) { e.preventDefault(); grade(parseInt(e.key, 10) - 1); }
   });
 
+  // ---------- cross-device sync ----------
+  var SYNC_CFG_KEY = 'gn_fc_sync';
+  var DEFAULT_SYNC_URL = 'https://recall-sync-production.up.railway.app';
+  var Sync = (function () {
+    var cfg = loadCfg();
+    var pushTimer = null;
+
+    function loadCfg() {
+      try { var c = JSON.parse(localStorage.getItem(SYNC_CFG_KEY)); if (c && c.url && c.code) return c; } catch (e) {}
+      var d = (typeof window !== 'undefined') && window.RECALL_SYNC_DEFAULTS; // native shell pre-pairing
+      if (d && d.url && d.code) { var c2 = { url: d.url, code: d.code, secret: d.secret || '', rev: 0 }; persistCfg(c2); return c2; }
+      return null;
+    }
+    function persistCfg(c) { cfg = c; try { localStorage.setItem(SYNC_CFG_KEY, JSON.stringify(c)); } catch (e) {} }
+    function configured() { return !!(cfg && cfg.url && cfg.code); }
+    function endpoint() { return cfg.url.replace(/\/+$/, '') + '/v1/state/' + encodeURIComponent(cfg.code); }
+    function headers() { var h = { 'content-type': 'application/json' }; if (cfg.secret) h['x-sync-secret'] = cfg.secret; return h; }
+    function now() { try { return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }); } catch (e) { return ''; } }
+    function setStatus(s) { var el = document.getElementById('sync-status'); if (el) el.textContent = s; }
+    function localState() { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch (e) { return {}; } }
+    function canon(s) { return JSON.stringify(window.RecallMerge.mergeStates(s, s)); }
+
+    // merge a server blob into local, apply only if it actually changes anything; return merged
+    function absorb(serverState) {
+      var cur = localState();
+      var merged = window.RecallMerge.mergeStates(cur, serverState);
+      if (JSON.stringify(merged) !== canon(cur)) applyMergedState(merged);
+      return merged;
+    }
+
+    function pull() {
+      if (!configured()) return Promise.resolve();
+      setStatus('Syncing…');
+      return fetch(endpoint(), { headers: headers() }).then(function (r) {
+        if (r.status === 404) return null;
+        if (r.status === 401) { setStatus('Sync: check secret'); throw new Error('401'); }
+        if (!r.ok) throw new Error('GET ' + r.status);
+        return r.json();
+      }).then(function (data) {
+        if (!data) return push();                       // nothing on server yet -> upload local
+        cfg.rev = data.rev; persistCfg(cfg);
+        var merged = absorb(data.state);
+        if (JSON.stringify(merged) !== canon(data.state)) return push(); // local had extra -> push
+        setStatus('Synced ' + now());
+      }).catch(function (e) { if (String(e.message) !== '401') setStatus('Offline — will retry'); });
+    }
+
+    function push(depth) {
+      if (!configured()) return Promise.resolve();
+      if (depth == null) depth = 0;
+      if (depth > 5) { setStatus('Sync: too many conflicts'); return Promise.resolve(); }
+      setStatus('Syncing…');
+      var body = JSON.stringify({ rev: cfg.rev || 0, state: localState() });
+      return fetch(endpoint(), { method: 'PUT', headers: headers(), body: body }).then(function (r) {
+        if (r.status === 409) return r.json().then(function (cur) { cfg.rev = cur.rev; persistCfg(cfg); absorb(cur.state); return push(depth + 1); });
+        if (r.status === 401) { setStatus('Sync: check secret'); throw new Error('401'); }
+        if (!r.ok) throw new Error('PUT ' + r.status);
+        return r.json().then(function (res) { cfg.rev = res.rev; persistCfg(cfg); setStatus('Synced ' + now()); });
+      }).catch(function (e) { if (String(e.message) !== '401') setStatus('Offline — will retry'); });
+    }
+
+    function scheduleAfterChange() {
+      if (!configured()) return;
+      if (pushTimer) clearTimeout(pushTimer);
+      pushTimer = setTimeout(function () { push(); }, 3500);
+    }
+
+    return {
+      pull: pull, push: push, scheduleAfterChange: scheduleAfterChange, configured: configured,
+      getCfg: function () { return cfg ? { url: cfg.url, code: cfg.code, secret: cfg.secret || '' } : null; },
+      setCfg: function (url, code, secret) { persistCfg({ url: url, code: code, secret: secret || '', rev: 0 }); },
+      clear: function () { cfg = null; try { localStorage.removeItem(SYNC_CFG_KEY); } catch (e) {} },
+      applyPairing: function (p) { // called by the native deep-link handler or a web #pair= link
+        if (!p || !p.url || !p.code) return false;
+        persistCfg({ url: p.url, code: p.code, secret: p.secret || '', rev: 0 });
+        setStatus('Paired — syncing…'); pull(); refreshSyncUI(); return true;
+      },
+      init: function () {
+        // accept a web pairing link: flashcards.html#pair?u=..&c=..&s=..
+        if (location.hash.indexOf('pair') >= 0) {
+          var q = new URLSearchParams(location.hash.replace(/^#?pair\??/, ''));
+          if (q.get('u') && q.get('c')) { this.applyPairing({ url: q.get('u'), code: q.get('c'), secret: q.get('s') || '' }); }
+          try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+        }
+        if (!configured()) return;
+        pull();
+        window.addEventListener('focus', pull);
+        document.addEventListener('visibilitychange', function () { if (!document.hidden) pull(); });
+      }
+    };
+  })();
+  window.RecallSync = Sync;
+
+  // ---------- sync settings UI ----------
+  function genCode() {
+    var a = new Uint8Array(12);
+    (window.crypto || window.msCrypto).getRandomValues(a);
+    return Array.prototype.map.call(a, function (b) { return ('0' + b.toString(16)).slice(-2); }).join('');
+  }
+  function refreshSyncUI() {
+    var cfg = Sync.getCfg();
+    var sum = document.getElementById('sync-summary');
+    if (sum) {
+      if (cfg) {
+        var host = cfg.url.replace(/^https?:\/\//, '').replace(/\/.*$/, '');
+        sum.textContent = 'On · code ' + cfg.code.slice(0, 6) + '… · ' + host;
+      } else { sum.textContent = 'Off — set up to sync this device with your others.'; }
+    }
+    var u = document.getElementById('sync-url'), c = document.getElementById('sync-code'), s = document.getElementById('sync-secret');
+    if (u) u.value = cfg ? cfg.url : DEFAULT_SYNC_URL;
+    if (c) c.value = cfg ? cfg.code : '';
+    if (s) s.value = cfg ? cfg.secret : '';
+    var qr = document.getElementById('sync-qr'); if (qr) { qr.hidden = true; qr.innerHTML = ''; }
+  }
+  function renderSyncQR() {
+    var cfg = Sync.getCfg(); var box = document.getElementById('sync-qr'); if (!box) return;
+    if (!cfg) { box.textContent = 'Set up sync first.'; box.hidden = false; return; }
+    var payload = 'recall://pair?u=' + encodeURIComponent(cfg.url) + '&c=' + encodeURIComponent(cfg.code) + (cfg.secret ? '&s=' + encodeURIComponent(cfg.secret) : '');
+    try {
+      var qr = qrcode(0, 'M'); qr.addData(payload); qr.make();
+      box.innerHTML = qr.createImgTag(4, 10) + '<div class="fc-hint">Scan with your other device’s camera to pair it.</div>';
+    } catch (e) { box.textContent = 'QR unavailable.'; }
+    box.hidden = false;
+  }
+  (function wireSyncUI() {
+    var setupBtn = document.getElementById('sync-setup'), fields = document.getElementById('sync-setup-fields');
+    if (setupBtn) setupBtn.addEventListener('click', function () { fields.hidden = !fields.hidden; });
+    var nowBtn = document.getElementById('sync-now'); if (nowBtn) nowBtn.addEventListener('click', function () { Sync.pull(); });
+    var qrBtn = document.getElementById('sync-qr-btn'); if (qrBtn) qrBtn.addEventListener('click', renderSyncQR);
+    var gen = document.getElementById('sync-gen'); if (gen) gen.addEventListener('click', function () { document.getElementById('sync-code').value = genCode(); });
+    var saveBtn = document.getElementById('sync-save');
+    if (saveBtn) saveBtn.addEventListener('click', function () {
+      var url = document.getElementById('sync-url').value.trim();
+      var code = document.getElementById('sync-code').value.trim();
+      var secret = document.getElementById('sync-secret').value.trim();
+      if (!url || !code) { document.getElementById('sync-status').textContent = 'Enter a URL and a code.'; return; }
+      Sync.setCfg(url, code, secret); refreshSyncUI(); Sync.pull();
+    });
+    var off = document.getElementById('sync-off'); if (off) off.addEventListener('click', function () { Sync.clear(); refreshSyncUI(); document.getElementById('sync-status').textContent = 'Sync turned off.'; });
+    var sBtn = document.getElementById('settings-btn'); if (sBtn) sBtn.addEventListener('click', refreshSyncUI);
+  })();
+
   // ---------- go ----------
   applyPrefs();
   document.getElementById('theme-btn').textContent = state.theme === 'dark' ? '☀' : '☽';
   buildQueue();
+  Sync.init();
 })();
